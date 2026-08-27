@@ -1,0 +1,445 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/invoice.schema.json",
+  "title": "Canonical Invoice",
+  "description": "Normalized business representation of an invoice extracted from a canonical OCR document.",
+  "$comment": "Arithmetic and business consistency checks are performed by the validation layer, not by this schema.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "document_id",
+    "document_type",
+    "invoice_number",
+    "issue_date",
+    "due_date",
+    "currency",
+    "references",
+    "supplier",
+    "customer",
+    "line_items",
+    "tax_breakdown",
+    "totals",
+    "payment",
+    "notes",
+    "provenance",
+    "extraction_metadata"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "document_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "document_type": {
+      "enum": ["invoice", "credit_note", "proforma", "unknown"]
+    },
+    "invoice_number": {
+      "$ref": "#/$defs/nullable_non_empty_string"
+    },
+    "issue_date": {
+      "$ref": "#/$defs/nullable_date"
+    },
+    "due_date": {
+      "$ref": "#/$defs/nullable_date"
+    },
+    "currency": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[A-Z]{3}$",
+          "description": "ISO 4217 currency code, for example MAD, EUR or USD."
+        },
+        {"type": "null"}
+      ]
+    },
+    "references": {
+      "$ref": "#/$defs/references"
+    },
+    "supplier": {
+      "$ref": "#/$defs/party"
+    },
+    "customer": {
+      "$ref": "#/$defs/party"
+    },
+    "line_items": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/line_item"
+      }
+    },
+    "tax_breakdown": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/tax_line"
+      }
+    },
+    "totals": {
+      "$ref": "#/$defs/totals"
+    },
+    "payment": {
+      "$ref": "#/$defs/payment"
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "provenance": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/evidence"
+      }
+    },
+    "extraction_metadata": {
+      "$ref": "#/$defs/extraction_metadata"
+    }
+  },
+  "$defs": {
+    "references": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "purchase_order_number",
+        "delivery_note_number",
+        "contract_number"
+      ],
+      "properties": {
+        "purchase_order_number": {
+          "$ref": "#/$defs/nullable_non_empty_string"
+        },
+        "delivery_note_number": {
+          "$ref": "#/$defs/nullable_non_empty_string"
+        },
+        "contract_number": {
+          "$ref": "#/$defs/nullable_non_empty_string"
+        }
+      }
+    },
+    "party": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "address",
+        "city",
+        "postal_code",
+        "country",
+        "ice",
+        "tax_id",
+        "rc",
+        "patente",
+        "phone",
+        "email"
+      ],
+      "properties": {
+        "name": {
+          "$ref": "#/$defs/nullable_non_empty_string"
+        },
+        "address": {
+          "$ref": "#/$defs/nullable_non_empty_string"
+        },
+        "city": {
+          "$ref": "#/$defs/nullable_non_empty_string"
+        },
+        "postal_code": {
+          "$ref": "#/$defs/nullable_non_empty_string"
+        },
+        "country": {
+          "$ref": "#/$defs/nullable_non_empty_string"
+        },
+        "ice": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[0-9]{15}$",
+              "description": "Moroccan Common Company Identifier (ICE)."
+            },
+            {"type": "null"}
+          ]
+        },
+        "tax_id": {
+          "$ref": "#/$defs/nullable_non_empty_string"
+        },
+        "rc": {
+          "$ref": "#/$defs/nullable_non_empty_string"
+        },
+        "patente": {
+          "$ref": "#/$defs/nullable_non_empty_string"
+        },
+        "phone": {
+          "$ref": "#/$defs/nullable_non_empty_string"
+        },
+        "email": {
+          "$ref": "#/$defs/nullable_non_empty_string"
+        }
+      }
+    },
+    "line_item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "line_number",
+        "reference",
+        "description",
+        "quantity",
+        "unit",
+        "unit_price_excl_tax",
+        "gross_amount_excl_tax",
+        "discount_rate",
+        "discount_amount",
+        "tax_rate",
+        "tax_amount",
+        "net_amount_excl_tax",
+        "amount_incl_tax"
+      ],
+      "properties": {
+        "line_number": {
+          "anyOf": [
+            {"type": "integer", "minimum": 1},
+            {"type": "null"}
+          ]
+        },
+        "reference": {
+          "$ref": "#/$defs/nullable_non_empty_string"
+        },
+        "description": {
+          "$ref": "#/$defs/nullable_non_empty_string"
+        },
+        "quantity": {
+          "$ref": "#/$defs/nullable_number"
+        },
+        "unit": {
+          "$ref": "#/$defs/nullable_non_empty_string"
+        },
+        "unit_price_excl_tax": {
+          "$ref": "#/$defs/nullable_number"
+        },
+        "gross_amount_excl_tax": {
+          "$ref": "#/$defs/nullable_number"
+        },
+        "discount_rate": {
+          "$ref": "#/$defs/nullable_percentage"
+        },
+        "discount_amount": {
+          "$ref": "#/$defs/nullable_number"
+        },
+        "tax_rate": {
+          "$ref": "#/$defs/nullable_percentage"
+        },
+        "tax_amount": {
+          "$ref": "#/$defs/nullable_number"
+        },
+        "net_amount_excl_tax": {
+          "$ref": "#/$defs/nullable_number"
+        },
+        "amount_incl_tax": {
+          "$ref": "#/$defs/nullable_number"
+        }
+      }
+    },
+    "tax_line": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tax_type", "tax_rate", "taxable_base", "tax_amount"],
+      "properties": {
+        "tax_type": {
+          "$ref": "#/$defs/nullable_non_empty_string"
+        },
+        "tax_rate": {
+          "$ref": "#/$defs/nullable_percentage"
+        },
+        "taxable_base": {
+          "$ref": "#/$defs/nullable_number"
+        },
+        "tax_amount": {
+          "$ref": "#/$defs/nullable_number"
+        }
+      }
+    },
+    "totals": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "gross_amount_excl_tax",
+        "line_discount_amount",
+        "invoice_discount_amount",
+        "subtotal_excl_tax",
+        "shipping_amount",
+        "other_charges",
+        "tax_amount",
+        "stamp_duty",
+        "total_incl_tax",
+        "amount_paid",
+        "amount_due"
+      ],
+      "properties": {
+        "gross_amount_excl_tax": {
+          "$ref": "#/$defs/nullable_number"
+        },
+        "line_discount_amount": {
+          "$ref": "#/$defs/nullable_number"
+        },
+        "invoice_discount_amount": {
+          "$ref": "#/$defs/nullable_number"
+        },
+        "subtotal_excl_tax": {
+          "$ref": "#/$defs/nullable_number"
+        },
+        "shipping_amount": {
+          "$ref": "#/$defs/nullable_number"
+        },
+        "other_charges": {
+          "$ref": "#/$defs/nullable_number"
+        },
+        "tax_amount": {
+          "$ref": "#/$defs/nullable_number"
+        },
+        "stamp_duty": {
+          "$ref": "#/$defs/nullable_number"
+        },
+        "total_incl_tax": {
+          "$ref": "#/$defs/nullable_number"
+        },
+        "amount_paid": {
+          "$ref": "#/$defs/nullable_number"
+        },
+        "amount_due": {
+          "$ref": "#/$defs/nullable_number"
+        }
+      }
+    },
+    "payment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "method",
+        "terms",
+        "bank_name",
+        "iban",
+        "rib",
+        "swift"
+      ],
+      "properties": {
+        "method": {
+          "$ref": "#/$defs/nullable_non_empty_string"
+        },
+        "terms": {
+          "$ref": "#/$defs/nullable_non_empty_string"
+        },
+        "bank_name": {
+          "$ref": "#/$defs/nullable_non_empty_string"
+        },
+        "iban": {
+          "$ref": "#/$defs/nullable_non_empty_string"
+        },
+        "rib": {
+          "$ref": "#/$defs/nullable_non_empty_string"
+        },
+        "swift": {
+          "$ref": "#/$defs/nullable_non_empty_string"
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "field_path",
+        "page_number",
+        "source_block_ids",
+        "raw_text"
+      ],
+      "properties": {
+        "field_path": {
+          "type": "string",
+          "pattern": "^/",
+          "description": "JSON Pointer-like path to the extracted business field."
+        },
+        "page_number": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "source_block_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^p[1-9][0-9]*_b[0-9]+$"
+          }
+        },
+        "raw_text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ocr_confidence": {
+          "$ref": "#/$defs/nullable_confidence"
+        }
+      }
+    },
+    "extraction_metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["provider", "model", "prompt_version", "generated_at"],
+      "properties": {
+        "provider": {
+          "type": "string",
+          "minLength": 1
+        },
+        "model": {
+          "type": "string",
+          "minLength": 1
+        },
+        "prompt_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "generated_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "duration_ms": {
+          "anyOf": [
+            {"type": "integer", "minimum": 0},
+            {"type": "null"}
+          ]
+        }
+      }
+    },
+    "nullable_non_empty_string": {
+      "anyOf": [
+        {"type": "string", "minLength": 1},
+        {"type": "null"}
+      ]
+    },
+    "nullable_date": {
+      "anyOf": [
+        {"type": "string", "format": "date"},
+        {"type": "null"}
+      ]
+    },
+    "nullable_number": {
+      "anyOf": [
+        {"type": "number"},
+        {"type": "null"}
+      ]
+    },
+    "nullable_percentage": {
+      "anyOf": [
+        {"type": "number", "minimum": 0, "maximum": 100},
+        {"type": "null"}
+      ]
+    },
+    "nullable_confidence": {
+      "anyOf": [
+        {"type": "number", "minimum": 0, "maximum": 1},
+        {"type": "null"}
+      ]
+    }
+  }
+}
