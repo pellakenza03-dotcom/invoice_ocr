@@ -106,7 +106,9 @@
       "required": [
         "purchase_order_number",
         "delivery_note_number",
-        "contract_number"
+        "contract_number",
+        "commercial_proposal_number",
+        "commercial_proposal_date"
       ],
       "properties": {
         "purchase_order_number": {
@@ -117,6 +119,12 @@
         },
         "contract_number": {
           "$ref": "#/$defs/nullable_non_empty_string"
+        },
+        "commercial_proposal_number": {
+          "$ref": "#/$defs/nullable_non_empty_string"
+        },
+        "commercial_proposal_date": {
+          "$ref": "#/$defs/nullable_date"
         }
       }
     },
@@ -125,6 +133,7 @@
       "additionalProperties": false,
       "required": [
         "name",
+        "account_code",
         "address",
         "city",
         "postal_code",
@@ -138,6 +147,9 @@
       ],
       "properties": {
         "name": {
+          "$ref": "#/$defs/nullable_non_empty_string"
+        },
+        "account_code": {
           "$ref": "#/$defs/nullable_non_empty_string"
         },
         "address": {
@@ -322,7 +334,8 @@
         "bank_name",
         "iban",
         "rib",
-        "swift"
+        "swift",
+        "transactions"
       ],
       "properties": {
         "method": {
@@ -341,6 +354,31 @@
           "$ref": "#/$defs/nullable_non_empty_string"
         },
         "swift": {
+          "$ref": "#/$defs/nullable_non_empty_string"
+        },
+        "transactions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/payment_transaction"
+          }
+        }
+      }
+    },
+    "payment_transaction": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["payment_date", "amount", "method", "reference"],
+      "properties": {
+        "payment_date": {
+          "$ref": "#/$defs/nullable_date"
+        },
+        "amount": {
+          "$ref": "#/$defs/nullable_number"
+        },
+        "method": {
+          "$ref": "#/$defs/nullable_non_empty_string"
+        },
+        "reference": {
           "$ref": "#/$defs/nullable_non_empty_string"
         }
       }
