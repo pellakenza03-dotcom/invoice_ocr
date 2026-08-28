@@ -1,0 +1,15 @@
+{
+  "device": "cpu",
+  "text_detection_model_name": "PP-OCRv5_server_det",
+  "text_recognition_model_name": "latin_PP-OCRv5_mobile_rec",
+  "use_doc_orientation_classify": false,
+  "use_doc_unwarping": false,
+  "use_textline_orientation": false,
+  "use_seal_recognition": false,
+  "use_table_recognition": true,
+  "use_formula_recognition": false,
+  "use_chart_recognition": false,
+  "use_region_detection": false,
+  "enable_mkldnn": false,
+  "cpu_threads": 4
+}
