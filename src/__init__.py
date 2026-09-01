@@ -1,1 +1,0 @@
-"""Invoice extraction service."""

@@ -1,0 +1,8 @@
+{
+  "default": {},
+  "low_threshold": {
+    "layout_threshold": 0.3,
+    "layout_nms": true,
+    "layout_merge_bboxes_mode": "union"
+  }
+}

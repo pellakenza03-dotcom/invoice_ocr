@@ -1,5 +1,6 @@
 {
   "device": "cpu",
+  "layout_detection_model_name": "PP-DocLayout_plus-L",
   "text_detection_model_name": "PP-OCRv5_server_det",
   "text_recognition_model_name": "latin_PP-OCRv5_mobile_rec",
   "use_doc_orientation_classify": false,
@@ -10,6 +11,9 @@
   "use_formula_recognition": false,
   "use_chart_recognition": false,
   "use_region_detection": false,
+  "layout_threshold": 0.5,
+  "layout_nms": true,
+  "layout_merge_bboxes_mode": "large",
   "enable_mkldnn": false,
   "cpu_threads": 4
 }

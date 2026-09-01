@@ -6,7 +6,7 @@ instance and serializes inference because this project targets a CPU-only host.
 from __future__ import annotations
 
 import json
-from dataclasses import asdict, dataclass, fields
+from dataclasses import asdict, dataclass, fields, replace
 from functools import lru_cache
 from pathlib import Path
 from threading import Lock
@@ -30,6 +30,7 @@ class OCRConfig:
     """Typed representation of values whose single source is ``ocr.json``."""
 
     device: str
+    layout_detection_model_name: str
     text_detection_model_name: str
     text_recognition_model_name: str
     use_doc_orientation_classify: bool
@@ -40,6 +41,9 @@ class OCRConfig:
     use_formula_recognition: bool
     use_chart_recognition: bool
     use_region_detection: bool
+    layout_threshold: float
+    layout_nms: bool
+    layout_merge_bboxes_mode: str
     enable_mkldnn: bool
     cpu_threads: int
 
@@ -50,6 +54,14 @@ class OCRConfig:
             )
         if self.cpu_threads < 1:
             raise OCRConfigurationError("cpu_threads must be greater than zero.")
+        if not 0 <= self.layout_threshold <= 1:
+            raise OCRConfigurationError("layout_threshold must be between 0 and 1.")
+        if not isinstance(self.layout_nms, bool):
+            raise OCRConfigurationError("layout_nms must be a boolean.")
+        if self.layout_merge_bboxes_mode not in {"large", "small", "union"}:
+            raise OCRConfigurationError(
+                "layout_merge_bboxes_mode must be 'large', 'small', or 'union'."
+            )
 
     @classmethod
     def from_json(cls, path: str | Path = DEFAULT_CONFIG_PATH) -> "OCRConfig":
@@ -82,6 +94,20 @@ class OCRConfig:
 
     def to_pipeline_kwargs(self) -> dict[str, Any]:
         return asdict(self)
+
+    def with_overrides(self, overrides: dict[str, Any]) -> "OCRConfig":
+        """Return a validated copy with values overridden by an audit profile."""
+
+        allowed = {field.name for field in fields(type(self))}
+        unknown = sorted(set(overrides) - allowed)
+        if unknown:
+            raise OCRConfigurationError(
+                f"Unknown OCR override field(s): {', '.join(unknown)}"
+            )
+        try:
+            return replace(self, **overrides)
+        except TypeError as exc:
+            raise OCRConfigurationError(f"Invalid OCR overrides: {exc}") from exc
 
 
 class PaddleOCRService:

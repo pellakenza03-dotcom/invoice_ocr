@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=84"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "invoice-ocr"
+version = "0.1.0"
+description = "CPU invoice OCR service using PP-StructureV3"
+requires-python = ">=3.11"
+
+[project.scripts]
+invoice-ocr = "ocr.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,4 +1,4 @@
-"""Allow ``python -m src.ocr`` to run the OCR CLI."""
+"""Allow ``python -m ocr`` to run the OCR CLI."""
 
 from .cli import main
 

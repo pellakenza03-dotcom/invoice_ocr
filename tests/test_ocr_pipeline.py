@@ -5,7 +5,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from src.ocr.pipeline import (
+from ocr.pipeline import (
     OCRConfig,
     OCRConfigurationError,
     OCRInputError,
@@ -46,6 +46,11 @@ class OCRPipelineTests(unittest.TestCase):
         self.assertEqual(second, first)
         self.assertEqual(service._pipeline.kwargs["device"], "cpu")
         self.assertFalse(service._pipeline.kwargs["enable_mkldnn"])
+        self.assertEqual(service._pipeline.kwargs["layout_threshold"], 0.5)
+        self.assertTrue(service._pipeline.kwargs["layout_nms"])
+        self.assertEqual(
+            service._pipeline.kwargs["layout_merge_bboxes_mode"], "large"
+        )
 
     def test_rejects_missing_and_unsupported_inputs(self):
         service = PaddleOCRService(
@@ -73,6 +78,13 @@ class OCRPipelineTests(unittest.TestCase):
             config_path.write_text(json.dumps({"device": "cpu"}), encoding="utf-8")
             with self.assertRaises(OCRConfigurationError):
                 OCRConfig.from_json(config_path)
+
+    def test_rejects_invalid_layout_overrides(self):
+        config = OCRConfig.from_json()
+        with self.assertRaises(OCRConfigurationError):
+            config.with_overrides({"layout_threshold": 1.5})
+        with self.assertRaises(OCRConfigurationError):
+            config.with_overrides({"layout_merge_bboxes_mode": "invalid"})
 
 
 if __name__ == "__main__":
