@@ -1,0 +1,51 @@
+{
+    "version": "1.0.0",
+    "categories": [
+        {
+            "id": 1,
+            "name": "doc_title"
+        },
+        {
+            "id": 2,
+            "name": "header"
+        },
+        {
+            "id": 3,
+            "name": "footer"
+        },
+        {
+            "id": 4,
+            "name": "text"
+        },
+        {
+            "id": 5,
+            "name": "table"
+        },
+        {
+            "id": 6,
+            "name": "image"
+        }
+    ],
+    "source_label_mapping": {
+        "paragraph_title": "text",
+        "image": "image",
+        "text": "text",
+        "number": "text",
+        "abstract": "text",
+        "content": "text",
+        "figure_title": "text",
+        "formula": "text",
+        "table": "table",
+        "reference": "text",
+        "doc_title": "doc_title",
+        "footnote": "text",
+        "header": "header",
+        "algorithm": "text",
+        "footer": "footer",
+        "seal": "image",
+        "chart": "image",
+        "formula_number": "text",
+        "aside_text": "text",
+        "reference_content": "text"
+    }
+}

@@ -4,7 +4,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from ocr.cli import discover_documents, main
+from ocr.cli import discover_documents, load_audit_overrides, main
 
 
 class FakeLayoutResult:
@@ -95,7 +95,10 @@ class OCRCLITests(unittest.TestCase):
 
         self.assertEqual(exit_code, 0)
         self.assertEqual(len(received_configs), 1)
-        self.assertEqual(received_configs[0].layout_threshold, 0.3)
+        self.assertEqual(
+            received_configs[0].layout_threshold,
+            load_audit_overrides("low_threshold")["layout_threshold"],
+        )
         self.assertEqual(received_configs[0].layout_merge_bboxes_mode, "union")
         self.assertEqual(
             [path.name for path in service.input_paths], ["a.pdf", "b.png"]

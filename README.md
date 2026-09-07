@@ -80,6 +80,19 @@ Le dossier `data/layout_training/images` contient une image par page et
 document source et son numéro de page. Par sécurité, la commande refuse de
 remplacer un dataset de sortie déjà rempli.
 
+Le même manifeste contient aussi le SHA-256, le ratio de contenu, les groupes
+de doublons exacts et les colonnes d'audit. Une page multipage valide n'est
+jamais supprimée automatiquement : les anomalies ont `audit_status=review` et
+restent incluses jusqu'à ce que `include_in_training` soit changé de `yes` à
+`no` après vérification humaine.
+
+Pour enrichir un manifeste déjà créé sans reconvertir les PDF ni recopier les
+images :
+
+```powershell
+python -m prepare_layout_data --refresh-manifest
+```
+
 ## Générer les pré-annotations de layout
 
 Cette commande charge uniquement `PP-DocLayout_plus-L` sur CPU. Elle ne lance
@@ -99,6 +112,17 @@ python -m layout_detect ".\data\layout_training\images" --profile low_threshold
 
 Les JSON contenant les boîtes/classes/scores et les images annotées sont
 enregistrés dans `data/layout_training/preannotations/low_threshold`.
+
+Une fois les résultats natifs générés, construire le COCO validé sans recharger
+le modèle ni relancer l'inférence :
+
+```powershell
+python -m layout_detect ".\data\layout_training\images" --profile low_threshold --build-coco
+```
+
+La commande vérifie le manifeste, les images, les dimensions, les classes, les
+coordonnées et l'unicité des IDs, puis écrit
+`data/layout_training/annotations/preannotations.coco.json`.
 
 ## Tests
 

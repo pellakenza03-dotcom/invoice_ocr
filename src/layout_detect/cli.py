@@ -8,6 +8,7 @@ import sys
 from pathlib import Path
 from typing import Callable, Sequence
 
+from .coco import COCOValidationError, build_coco_preannotations
 from .pipeline import (
     DEFAULT_OCR_CONFIG_PATH,
     SUPPORTED_IMAGE_SUFFIXES,
@@ -19,6 +20,7 @@ from .pipeline import (
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 PROFILES_PATH = PROJECT_ROOT / "config" / "layout_audit_profiles.json"
+LABELS_PATH = PROJECT_ROOT / "config" / "layout_labels.json"
 DEFAULT_OUTPUT_ROOT = Path("data/layout_training/preannotations")
 PROFILE_NAMES = ("default", "low_threshold")
 
@@ -27,8 +29,8 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="python -m layout_detect",
         description=(
-            "Run only PP-DocLayout_plus-L and save JSON pre-annotations plus "
-            "layout visualizations."
+            "Run only PP-DocLayout_plus-L, or convert existing native layout "
+            "results into validated COCO pre-annotations."
         ),
     )
     parser.add_argument("input", type=Path, help="Training image or image directory")
@@ -50,6 +52,25 @@ def build_parser() -> argparse.ArgumentParser:
         help=(
             "Output directory (default: "
             "data/layout_training/preannotations/<profile>)"
+        ),
+    )
+    parser.add_argument(
+        "--build-coco",
+        action="store_true",
+        help="Build COCO from existing native JSON without loading the model",
+    )
+    parser.add_argument(
+        "--labels-config",
+        type=Path,
+        default=LABELS_PATH,
+        help="Target layout labels and source-label mapping JSON",
+    )
+    parser.add_argument(
+        "--coco-output",
+        type=Path,
+        help=(
+            "COCO output file (default: "
+            "<dataset>/annotations/preannotations.coco.json)"
         ),
     )
     return parser
@@ -115,14 +136,42 @@ def main(
 ) -> int:
     args = build_parser().parse_args(argv)
     try:
-        config = LayoutConfig.from_ocr_json(args.config).with_profile(
-            load_profile(args.profile)
-        )
         images = discover_images(args.input)
         output_dir = (
             output_dir_override
             or args.output
             or DEFAULT_OUTPUT_ROOT / args.profile
+        )
+
+        if args.build_coco:
+            input_path = args.input.expanduser().resolve()
+            if not input_path.is_dir():
+                raise COCOValidationError(
+                    "--build-coco requires the complete training images directory."
+                )
+            dataset_root = input_path.parent
+            coco_output = (
+                args.coco_output
+                or dataset_root / "annotations" / "preannotations.coco.json"
+            )
+            summary = build_coco_preannotations(
+                images_dir=input_path,
+                manifest_path=dataset_root / "manifest.csv",
+                preannotations_dir=output_dir,
+                labels_path=args.labels_config,
+                output_path=coco_output,
+            )
+            print("COCO pre-annotations created")
+            print(f"Images: {summary['image_count']}")
+            print(f"Annotations: {summary['annotation_count']}")
+            print(f"Categories: {summary['category_count']}")
+            for name, count in summary["class_counts"].items():
+                print(f"  {name}: {count}")
+            print(f"Output: {summary['output_path']}")
+            return 0
+
+        config = LayoutConfig.from_ocr_json(args.config).with_profile(
+            load_profile(args.profile)
         )
         output_dir.mkdir(parents=True, exist_ok=True)
         print(
@@ -153,7 +202,12 @@ def main(
             f"image(s), {detection_count} region(s) -> {output_dir.resolve()}"
         )
         return 1 if failures else 0
-    except (LayoutConfigurationError, LayoutInputError, RuntimeError) as exc:
+    except (
+        COCOValidationError,
+        LayoutConfigurationError,
+        LayoutInputError,
+        RuntimeError,
+    ) as exc:
         print(f"Layout detection error: {exc}", file=sys.stderr)
         return 1
 

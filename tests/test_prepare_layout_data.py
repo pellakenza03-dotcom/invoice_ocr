@@ -6,7 +6,11 @@ from pathlib import Path
 import pymupdf
 from PIL import Image
 
-from prepare_layout_data.cli import PreparationError, prepare_dataset
+from prepare_layout_data.cli import (
+    PreparationError,
+    prepare_dataset,
+    refresh_manifest,
+)
 
 
 class PrepareLayoutDataTests(unittest.TestCase):
@@ -41,7 +45,53 @@ class PrepareLayoutDataTests(unittest.TestCase):
                 manifest_rows = list(csv.DictReader(file))
             self.assertEqual(len(manifest_rows), 3)
             self.assertEqual(manifest_rows[1]["page"], "2")
-            self.assertEqual(manifest_rows[2]["source_document"], "Facture été.jpg")
+            self.assertEqual(len(manifest_rows[0]["sha256"]), 64)
+            self.assertEqual(manifest_rows[0]["include_in_training"], "yes")
+            self.assertIn(manifest_rows[0]["audit_status"], {"keep", "review"})
+            self.assertEqual(
+                manifest_rows[2]["source_document"], rows[2]["source_document"]
+            )
+
+    def test_flags_exact_duplicates_without_excluding_them(self):
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            root = Path(temporary_directory)
+            input_dir = root / "input"
+            output_dir = root / "output"
+            input_dir.mkdir()
+            image = Image.new("RGB", (20, 20), "white")
+            image.save(input_dir / "a.png")
+            image.save(input_dir / "b.png")
+
+            rows = prepare_dataset(input_dir, output_dir)
+
+            self.assertEqual(rows[0]["duplicate_group"], "dup_001")
+            self.assertEqual(rows[1]["duplicate_group"], "dup_001")
+            self.assertIn("exact_duplicate", rows[0]["audit_flags"])
+            self.assertEqual(rows[0]["audit_status"], "review")
+            self.assertEqual(rows[0]["include_in_training"], "yes")
+
+    def test_refreshes_existing_manifest_without_recopying_images(self):
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            root = Path(temporary_directory)
+            input_dir = root / "input"
+            output_dir = root / "output"
+            input_dir.mkdir()
+            Image.new("RGB", (10, 10), "black").save(input_dir / "invoice.png")
+            prepare_dataset(input_dir, output_dir)
+            image_path = output_dir / "images" / "invoice.png"
+            original_mtime = image_path.stat().st_mtime_ns
+            manifest_path = output_dir / "manifest.csv"
+            manifest_text = manifest_path.read_text(encoding="utf-8")
+            manifest_path.write_text(
+                manifest_text.replace(",yes\n", ",no\n"), encoding="utf-8"
+            )
+
+            rows = refresh_manifest(output_dir)
+
+            self.assertEqual(len(rows), 1)
+            self.assertEqual(image_path.stat().st_mtime_ns, original_mtime)
+            self.assertEqual(rows[0]["audit_status"], "keep")
+            self.assertEqual(rows[0]["include_in_training"], "no")
 
     def test_refuses_to_overwrite_an_existing_dataset(self):
         with tempfile.TemporaryDirectory() as temporary_directory:

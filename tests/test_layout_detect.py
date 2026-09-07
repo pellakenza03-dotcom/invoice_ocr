@@ -5,7 +5,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from layout_detect.cli import discover_images, main
+from layout_detect.cli import discover_images, load_profile, main
 from layout_detect.pipeline import LayoutConfig, LayoutConfigurationError
 
 
@@ -85,7 +85,10 @@ class LayoutDetectTests(unittest.TestCase):
 
             self.assertEqual(exit_code, 0)
             self.assertEqual(len(received_configs), 1)
-            self.assertEqual(received_configs[0].threshold, 0.3)
+            self.assertEqual(
+                received_configs[0].threshold,
+                load_profile("low_threshold")["layout_threshold"],
+            )
             self.assertEqual(received_configs[0].layout_merge_bboxes_mode, "union")
             self.assertEqual([path.name for path in service.paths], ["a.png", "b.jpg"])
             self.assertEqual(
