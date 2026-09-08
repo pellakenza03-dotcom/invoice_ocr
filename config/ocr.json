@@ -26,5 +26,5 @@
   "layout_nms": true,
   "layout_merge_bboxes_mode": "large",
   "enable_mkldnn": false,
-  "cpu_threads": 4
+  "cpu_threads": 2
 }

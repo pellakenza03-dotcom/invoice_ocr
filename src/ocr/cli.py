@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+from time import perf_counter
 from pathlib import Path
 from typing import Callable, Sequence
 
@@ -209,19 +210,40 @@ def main(
         page_count = 0
         failures = 0
         for index, document in enumerate(documents, start=1):
-            print(f"[{index}/{len(documents)}] {document.name}")
+            started_at = perf_counter()
+            print(
+                f"[{index}/{len(documents)}] Starting: {document.name}",
+                flush=True,
+            )
             if args.resume and _page_outputs_are_complete(document, output_dir):
                 page_count += 1
-                print("  Already complete; skipped")
+                print(
+                    f"[{index}/{len(documents)}] Skipped: {document.name} "
+                    "(already complete)",
+                    flush=True,
+                )
                 continue
             try:
                 if service is None:
                     service = service_factory(config)
                 results = service.predict(document)
-                page_count += save_page_results(results, document, output_dir)
+                saved_pages = save_page_results(results, document, output_dir)
+                page_count += saved_pages
+                elapsed = perf_counter() - started_at
+                print(
+                    f"[{index}/{len(documents)}] Finished: {document.name} "
+                    f"({saved_pages} page(s), {elapsed:.1f}s)",
+                    flush=True,
+                )
             except Exception as exc:
                 failures += 1
-                print(f"  Failed: {exc}", file=sys.stderr)
+                elapsed = perf_counter() - started_at
+                print(
+                    f"[{index}/{len(documents)}] Failed: {document.name} "
+                    f"after {elapsed:.1f}s: {exc}",
+                    file=sys.stderr,
+                    flush=True,
+                )
 
         print(
             f"OCR completed: {len(documents) - failures}/{len(documents)} document(s), "

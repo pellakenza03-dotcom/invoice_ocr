@@ -2,6 +2,8 @@ from __future__ import annotations
 
 import tempfile
 import unittest
+from contextlib import redirect_stdout
+from io import StringIO
 from pathlib import Path
 
 from ocr.cli import (
@@ -98,11 +100,13 @@ class OCRCLITests(unittest.TestCase):
             document = root / "invoice.pdf"
             output_dir = root / "output"
             document.touch()
-            exit_code = main(
-                [str(document)],
-                service_factory=lambda _config: service,
-                output_dir_override=output_dir,
-            )
+            stdout = StringIO()
+            with redirect_stdout(stdout):
+                exit_code = main(
+                    [str(document)],
+                    service_factory=lambda _config: service,
+                    output_dir_override=output_dir,
+                )
 
         self.assertEqual(exit_code, 0)
         self.assertEqual(service.input_path, document.resolve())
@@ -118,6 +122,8 @@ class OCRCLITests(unittest.TestCase):
             result.layout_result.image_saved_to,
             str(output_dir / "invoice__p001.layout.png"),
         )
+        self.assertIn("[1/1] Starting: invoice.pdf", stdout.getvalue())
+        self.assertIn("[1/1] Finished: invoice.pdf", stdout.getvalue())
 
     def test_discovers_supported_documents_in_stable_order(self):
         with tempfile.TemporaryDirectory() as directory:
