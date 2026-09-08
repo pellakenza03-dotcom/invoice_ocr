@@ -1,15 +1,14 @@
 from __future__ import annotations
 
-import json
 import tempfile
 import unittest
 from pathlib import Path
 
 from layout_detect.cli import discover_images, load_profile, main
-from layout_detect.pipeline import LayoutConfig, LayoutConfigurationError
+from ocr.pipeline import DEFAULT_CONFIG_PATH, OCRConfig, OCRConfigurationError
 
 
-class FakeResult(dict):
+class FakeLayoutResult(dict):
     def __init__(self):
         super().__init__(boxes=[{"label": "table"}, {"label": "text"}])
         self.json_path = None
@@ -29,26 +28,13 @@ class FakeService:
 
     def predict(self, path):
         self.paths.append(path)
-        result = FakeResult()
-        self.results.append(result)
-        return [result]
+        layout_result = FakeLayoutResult()
+        self.results.append(layout_result)
+        return [{"layout_det_res": layout_result}]
 
 
 def write_config(path: Path) -> None:
-    path.write_text(
-        json.dumps(
-            {
-                "layout_detection_model_name": "PP-DocLayout_plus-L",
-                "device": "cpu",
-                "layout_threshold": 0.5,
-                "layout_nms": True,
-                "layout_merge_bboxes_mode": "large",
-                "enable_mkldnn": False,
-                "cpu_threads": 4,
-            }
-        ),
-        encoding="utf-8",
-    )
+    path.write_text(DEFAULT_CONFIG_PATH.read_text(encoding="utf-8"), encoding="utf-8")
 
 
 class LayoutDetectTests(unittest.TestCase):
@@ -86,7 +72,7 @@ class LayoutDetectTests(unittest.TestCase):
             self.assertEqual(exit_code, 0)
             self.assertEqual(len(received_configs), 1)
             self.assertEqual(
-                received_configs[0].threshold,
+                received_configs[0].layout_threshold,
                 load_profile("low_threshold")["layout_threshold"],
             )
             self.assertEqual(received_configs[0].layout_merge_bboxes_mode, "union")
@@ -102,8 +88,8 @@ class LayoutDetectTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "ocr.json"
             path.write_text("{}", encoding="utf-8")
-            with self.assertRaisesRegex(LayoutConfigurationError, "Missing"):
-                LayoutConfig.from_ocr_json(path)
+            with self.assertRaisesRegex(OCRConfigurationError, "missing"):
+                OCRConfig.from_json(path)
 
 
 if __name__ == "__main__":

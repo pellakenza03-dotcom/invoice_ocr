@@ -6,17 +6,18 @@ import argparse
 import csv
 import hashlib
 import re
-import shutil
 import sys
 import unicodedata
 from pathlib import Path
 from typing import Sequence
 
 import pymupdf
-from PIL import Image
+from PIL import Image, ImageOps
+
+from preprocessing import DocumentOrientationService, normalize_image
 
 DEFAULT_INPUT_DIR = Path("data/layout_audit/input")
-DEFAULT_OUTPUT_DIR = Path("data/layout_training/images")
+DEFAULT_OUTPUT_DIR = Path("data/layout_training")
 IMAGE_SUFFIXES = frozenset({".bmp", ".jpeg", ".jpg", ".png", ".tif", ".tiff", ".webp"})
 SUPPORTED_SUFFIXES = IMAGE_SUFFIXES | {".pdf"}
 MANIFEST_FIELDS = (
@@ -26,6 +27,21 @@ MANIFEST_FIELDS = (
     "source_type",
     "width",
     "height",
+    "orientation_angle",
+    "orientation_confidence",
+    "orientation_applied",
+    "perspective_confidence",
+    "perspective_corrected",
+    "crop_applied",
+    "blur_score",
+    "brightness",
+    "contrast",
+    "skew_angle",
+    "skew_confidence",
+    "deskew_applied",
+    "contrast_enhanced",
+    "quality_status",
+    "quality_flags",
     "sha256",
     "content_ratio",
     "duplicate_group",
@@ -33,7 +49,7 @@ MANIFEST_FIELDS = (
     "audit_flags",
     "include_in_training",
 )
-BASE_MANIFEST_FIELDS = MANIFEST_FIELDS[:6]
+CORE_MANIFEST_FIELDS = MANIFEST_FIELDS[:6]
 LOW_CONTENT_THRESHOLD = 0.01
 
 
@@ -45,8 +61,8 @@ def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="python -m prepare_layout_data",
         description=(
-            "Render every PDF page as PNG, copy existing images, and create "
-            "a manifest.csv for layout annotation."
+            "Render every document page as normalized PNG and create an "
+            "auditable manifest.csv for layout annotation."
         ),
     )
     parser.add_argument(
@@ -68,11 +84,32 @@ def build_parser() -> argparse.ArgumentParser:
         help="PDF rendering resolution (default: 200)",
     )
     parser.add_argument(
+        "--no-preprocess",
+        action="store_true",
+        help="Only render/copy pages; skip OpenCV quality normalization",
+    )
+    parser.add_argument(
         "--refresh-manifest",
         action="store_true",
         help=(
             "Recompute audit columns in an existing manifest without rendering "
             "or copying the images again"
+        ),
+    )
+    parser.add_argument(
+        "--resume-preprocessing",
+        action="store_true",
+        help=(
+            "Rebuild a missing manifest from already rendered images, then "
+            "resume OpenCV preprocessing without rendering PDFs again"
+        ),
+    )
+    parser.add_argument(
+        "--force-reprocess",
+        action="store_true",
+        help=(
+            "With --resume-preprocessing, rerun normalization on every image "
+            "instead of skipping pages already present in the manifest"
         ),
     )
     return parser
@@ -167,14 +204,14 @@ def _copy_image(
     output_stem: str,
     images_dir: Path,
 ) -> dict[str, str | int]:
-    suffix = document.suffix.lower()
-    filename = f"{output_stem}{suffix}"
+    filename = f"{output_stem}.png"
     destination = images_dir / filename
     try:
         with Image.open(document) as image:
-            width, height = image.size
-            image.verify()
-        shutil.copy2(document, destination)
+            # Apply camera/phone EXIF orientation before discarding metadata.
+            normalized = ImageOps.exif_transpose(image).convert("RGB")
+            width, height = normalized.size
+            normalized.save(destination, format="PNG")
     except Exception as exc:
         raise PreparationError(f"Cannot copy image {document}: {exc}") from exc
     return {
@@ -185,6 +222,82 @@ def _copy_image(
         "width": width,
         "height": height,
     }
+
+
+def _empty_quality_fields() -> dict[str, str]:
+    return {
+        "orientation_angle": "",
+        "orientation_confidence": "",
+        "orientation_applied": "no",
+        "perspective_confidence": "",
+        "perspective_corrected": "no",
+        "crop_applied": "no",
+        "blur_score": "",
+        "brightness": "",
+        "contrast": "",
+        "skew_angle": "",
+        "skew_confidence": "",
+        "deskew_applied": "no",
+        "contrast_enhanced": "no",
+        "quality_status": "not_run",
+        "quality_flags": "",
+    }
+
+
+def _initialize_quality_fields(rows: list[dict[str, object]]) -> None:
+    for row in rows:
+        for name, value in _empty_quality_fields().items():
+            row.setdefault(name, value)
+
+
+def _normalize_rows(
+    rows: list[dict[str, object]],
+    output_dir: Path,
+    *,
+    preprocess: bool,
+    checkpoint_path: Path | None = None,
+    resume: bool = False,
+    orientation_classifier=None,
+) -> None:
+    """Normalize final images and attach quality information to each row."""
+
+    total = len(rows)
+    for index, row in enumerate(rows, start=1):
+        image_path = _resolve_manifest_image(output_dir, row.get("image"))
+        has_current_geometric_audit = bool(row.get("orientation_confidence")) and bool(
+            row.get("perspective_confidence")
+        )
+        if (
+            resume
+            and has_current_geometric_audit
+            and row.get("quality_status") in {"accepted", "corrected", "review"}
+        ):
+            continue
+        if preprocess:
+            try:
+                quality = normalize_image(
+                    image_path,
+                    orientation_classifier=orientation_classifier,
+                )
+            except Exception as exc:
+                raise PreparationError(
+                    f"Cannot preprocess image {image_path}: {exc}"
+                ) from exc
+            row.update(quality.to_manifest_fields())
+        else:
+            row.update(_empty_quality_fields())
+        with Image.open(image_path) as image:
+            row["width"], row["height"] = image.size
+        if preprocess:
+            print(
+                f"  Normalize [{index}/{total}] {image_path.name}: "
+                f"{row['quality_status']}"
+            )
+        if checkpoint_path is not None and index % 25 == 0:
+            _write_manifest(rows, checkpoint_path)
+
+    if checkpoint_path is not None:
+        _write_manifest(rows, checkpoint_path)
 
 
 def _sha256(path: Path) -> str:
@@ -260,7 +373,8 @@ def _audit_rows(
         if float(row["content_ratio"]) < LOW_CONTENT_THRESHOLD:
             flags.append("low_content")
         row["duplicate_group"] = duplicate_group
-        row["audit_status"] = "review" if flags else "keep"
+        quality_requires_review = row.get("quality_status") == "review"
+        row["audit_status"] = "review" if flags or quality_requires_review else "keep"
         row["audit_flags"] = ";".join(flags)
         # Valid multipage documents are never excluded automatically, and an
         # existing human decision survives a later manifest refresh.
@@ -286,41 +400,160 @@ def _write_manifest(rows: list[dict[str, object]], manifest_path: Path) -> None:
         raise
 
 
+def _read_manifest(manifest_path: Path) -> list[dict[str, object]]:
+    try:
+        with manifest_path.open(encoding="utf-8", newline="") as manifest_file:
+            reader = csv.DictReader(manifest_file)
+            fieldnames = set(reader.fieldnames or ())
+            missing = [
+                name for name in CORE_MANIFEST_FIELDS if name not in fieldnames
+            ]
+            if missing:
+                raise PreparationError(
+                    f"Manifest is missing field(s): {', '.join(missing)}"
+                )
+            rows = [
+                {name: row.get(name, "") for name in MANIFEST_FIELDS}
+                for row in reader
+            ]
+    except FileNotFoundError as exc:
+        raise PreparationError(f"Manifest does not exist: {manifest_path}") from exc
+    if not rows:
+        raise PreparationError(f"Manifest contains no image: {manifest_path}")
+    _initialize_quality_fields(rows)
+    return rows
+
+
+def _recover_rows_from_rendered_images(
+    input_dir: Path, output_dir: Path
+) -> list[dict[str, object]]:
+    """Reconstruct manifest rows without rendering source documents again."""
+
+    source_root = input_dir.expanduser().resolve()
+    destination_root = output_dir.expanduser().resolve()
+    images_dir = destination_root / "images"
+    if not images_dir.is_dir():
+        raise PreparationError(
+            f"Rendered images directory does not exist: {images_dir}"
+        )
+
+    documents = _discover_documents(source_root)
+    rows: list[dict[str, object]] = []
+    expected_paths: set[Path] = set()
+    used_stems: set[str] = set()
+    for document in documents:
+        relative_source = document.relative_to(source_root).as_posix()
+        output_stem = _unique_stem(document, source_root, used_stems)
+        if document.suffix.lower() == ".pdf":
+            try:
+                with pymupdf.open(document) as pdf:
+                    page_count = pdf.page_count
+            except Exception as exc:
+                raise PreparationError(
+                    f"Cannot inspect PDF {document}: {exc}"
+                ) from exc
+            filenames = [
+                f"{output_stem}__p{page_number:03d}.png"
+                for page_number in range(1, page_count + 1)
+            ]
+            source_type = "pdf"
+        else:
+            filenames = [f"{output_stem}.png"]
+            source_type = "image"
+
+        for page_number, filename in enumerate(filenames, start=1):
+            image_path = (images_dir / filename).resolve()
+            if not image_path.is_file():
+                raise PreparationError(
+                    f"Cannot resume; expected rendered image is missing: {image_path}"
+                )
+            expected_paths.add(image_path)
+            try:
+                with Image.open(image_path) as image:
+                    width, height = image.size
+                    image.verify()
+            except Exception as exc:
+                raise PreparationError(
+                    f"Cannot inspect rendered image {image_path}: {exc}"
+                ) from exc
+            row: dict[str, object] = {
+                "image": f"images/{filename}",
+                "source_document": relative_source,
+                "page": page_number,
+                "source_type": source_type,
+                "width": width,
+                "height": height,
+                "include_in_training": "yes",
+            }
+            row.update(_empty_quality_fields())
+            rows.append(row)
+
+    discovered_paths = {
+        path.resolve()
+        for path in images_dir.iterdir()
+        if path.is_file() and path.suffix.lower() in IMAGE_SUFFIXES
+    }
+    if discovered_paths != expected_paths:
+        unexpected = sorted(path.name for path in discovered_paths - expected_paths)
+        details = (
+            f"; unexpected: {', '.join(unexpected[:10])}" if unexpected else ""
+        )
+        raise PreparationError(
+            "Cannot resume because rendered images do not match source documents"
+            + details
+        )
+    return rows
+
+
+def resume_preprocessing(
+    input_dir: Path,
+    output_dir: Path,
+    *,
+    orientation_classifier=None,
+    force_reprocess: bool = False,
+) -> list[dict[str, object]]:
+    """Resume normalization from a checkpoint or reconstruct its manifest."""
+
+    destination_root = output_dir.expanduser().resolve()
+    manifest_path = destination_root / "manifest.csv"
+    if manifest_path.is_file():
+        rows = _read_manifest(manifest_path)
+    else:
+        print("Manifest missing; rebuilding it from source documents and images...")
+        rows = _recover_rows_from_rendered_images(input_dir, destination_root)
+        _write_manifest(rows, manifest_path)
+
+    _normalize_rows(
+        rows,
+        destination_root,
+        preprocess=True,
+        checkpoint_path=manifest_path,
+        resume=not force_reprocess,
+        orientation_classifier=orientation_classifier,
+    )
+    _audit_rows(rows, destination_root)
+    _write_manifest(rows, manifest_path)
+    return rows
+
+
 def refresh_manifest(output_dir: Path) -> list[dict[str, object]]:
     """Audit existing images and update their manifest without reconversion."""
 
     destination_root = output_dir.expanduser().resolve()
     manifest_path = destination_root / "manifest.csv"
-    try:
-        with manifest_path.open(encoding="utf-8", newline="") as manifest_file:
-            reader = csv.DictReader(manifest_file)
-            fieldnames = set(reader.fieldnames or ())
-            missing = [name for name in BASE_MANIFEST_FIELDS if name not in fieldnames]
-            if missing:
-                raise PreparationError(
-                    f"Manifest is missing field(s): {', '.join(missing)}"
-                )
-            rows: list[dict[str, object]] = []
-            for row in reader:
-                manifest_row: dict[str, object] = {
-                    name: row[name] for name in BASE_MANIFEST_FIELDS
-                }
-                if "include_in_training" in fieldnames:
-                    manifest_row["include_in_training"] = row[
-                        "include_in_training"
-                    ]
-                rows.append(manifest_row)
-    except FileNotFoundError as exc:
-        raise PreparationError(f"Manifest does not exist: {manifest_path}") from exc
-    if not rows:
-        raise PreparationError(f"Manifest contains no image: {manifest_path}")
+    rows = _read_manifest(manifest_path)
     _audit_rows(rows, destination_root)
     _write_manifest(rows, manifest_path)
     return rows
 
 
 def prepare_dataset(
-    input_dir: Path, output_dir: Path, dpi: int = 200
+    input_dir: Path,
+    output_dir: Path,
+    dpi: int = 200,
+    *,
+    preprocess: bool = True,
+    orientation_classifier=None,
 ) -> list[dict[str, object]]:
     """Prepare page images without modifying any source document."""
 
@@ -357,8 +590,18 @@ def prepare_dataset(
                     images_dir,
                 )
             )
-            print("  Image copied")
+            print("  Image converted")
 
+    _initialize_quality_fields(rows)
+    # Write a recoverable checkpoint before the potentially long OpenCV pass.
+    _write_manifest(rows, manifest_path)
+    _normalize_rows(
+        rows,
+        destination_root,
+        preprocess=preprocess,
+        checkpoint_path=manifest_path,
+        orientation_classifier=orientation_classifier,
+    )
     _audit_rows(rows, destination_root)
     _write_manifest(rows, manifest_path)
     return rows
@@ -367,6 +610,30 @@ def prepare_dataset(
 def main(argv: Sequence[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     try:
+        if args.force_reprocess and not args.resume_preprocessing:
+            raise PreparationError(
+                "--force-reprocess must be used with --resume-preprocessing."
+            )
+        if args.resume_preprocessing:
+            if args.refresh_manifest or args.no_preprocess:
+                raise PreparationError(
+                    "--resume-preprocessing cannot be combined with "
+                    "--refresh-manifest or --no-preprocess."
+                )
+            orientation_service = DocumentOrientationService()
+            rows = resume_preprocessing(
+                args.input,
+                args.output,
+                orientation_classifier=orientation_service.predict,
+                force_reprocess=args.force_reprocess,
+            )
+            review_count = sum(row["audit_status"] == "review" for row in rows)
+            print(
+                f"Preprocessing complete: {len(rows)} image(s), "
+                f"{review_count} page(s) to review -> "
+                f"{(args.output / 'manifest.csv').resolve()}"
+            )
+            return 0
         if args.refresh_manifest:
             rows = refresh_manifest(args.output)
             review_count = sum(row["audit_status"] == "review" for row in rows)
@@ -377,14 +644,24 @@ def main(argv: Sequence[str] | None = None) -> int:
             )
             return 0
 
-        rows = prepare_dataset(args.input, args.output, args.dpi)
+        orientation_classifier = None
+        if not args.no_preprocess:
+            orientation_classifier = DocumentOrientationService().predict
+        rows = prepare_dataset(
+            args.input,
+            args.output,
+            args.dpi,
+            preprocess=not args.no_preprocess,
+            orientation_classifier=orientation_classifier,
+        )
         pdf_pages = sum(row["source_type"] == "pdf" for row in rows)
         copied_images = len(rows) - pdf_pages
         review_count = sum(row["audit_status"] == "review" for row in rows)
+        corrected_count = sum(row["quality_status"] == "corrected" for row in rows)
         print(
             f"Dataset ready: {len(rows)} image(s) "
             f"({pdf_pages} PDF page(s), {copied_images} copied image(s)), "
-            f"{review_count} page(s) to review "
+            f"{corrected_count} corrected, {review_count} page(s) to review "
             f"-> {args.output.resolve()}"
         )
         return 0

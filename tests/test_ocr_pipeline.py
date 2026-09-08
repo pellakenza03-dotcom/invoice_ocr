@@ -21,8 +21,9 @@ class FakePipeline:
         self.kwargs = kwargs
         self.inputs: list[str] = []
 
-    def predict(self, document_path: str):
+    def predict(self, document_path: str, **kwargs):
         self.inputs.append(document_path)
+        self.predict_kwargs = kwargs
         return [{"page_index": 0}]
 
 
@@ -50,6 +51,23 @@ class OCRPipelineTests(unittest.TestCase):
         self.assertTrue(service._pipeline.kwargs["layout_nms"])
         self.assertEqual(
             service._pipeline.kwargs["layout_merge_bboxes_mode"], "large"
+        )
+        self.assertEqual(
+            service._pipeline.kwargs["table_classification_model_name"],
+            "PP-LCNet_x1_0_table_cls",
+        )
+        self.assertEqual(
+            service._pipeline.kwargs["wireless_table_structure_recognition_model_name"],
+            "SLANet_plus",
+        )
+        self.assertFalse(
+            service._pipeline.predict_kwargs["use_e2e_wireless_table_rec_model"]
+        )
+        self.assertTrue(
+            service._pipeline.predict_kwargs["use_ocr_results_with_table_cells"]
+        )
+        self.assertNotIn(
+            "use_e2e_wireless_table_rec_model", service._pipeline.kwargs
         )
 
     def test_rejects_missing_and_unsupported_inputs(self):
@@ -85,6 +103,14 @@ class OCRPipelineTests(unittest.TestCase):
             config.with_overrides({"layout_threshold": 1.5})
         with self.assertRaises(OCRConfigurationError):
             config.with_overrides({"layout_merge_bboxes_mode": "invalid"})
+
+    def test_accepts_gpu_device_override(self):
+        config = OCRConfig.from_json().with_overrides({"device": "gpu:0"})
+        self.assertEqual(config.to_pipeline_kwargs()["device"], "gpu:0")
+
+    def test_rejects_invalid_device(self):
+        with self.assertRaises(OCRConfigurationError):
+            OCRConfig.from_json().with_overrides({"device": "cuda"})
 
 
 if __name__ == "__main__":

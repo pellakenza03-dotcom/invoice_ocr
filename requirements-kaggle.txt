@@ -1,0 +1,7 @@
+jsonschema==4.26.0
+paddleocr[doc-parser]==3.7.0
+Pillow==12.1.0
+PyMuPDF==1.28.2
+pypdf==6.16.2
+python-docx==1.2.0
+opencv-python==5.0.0.93

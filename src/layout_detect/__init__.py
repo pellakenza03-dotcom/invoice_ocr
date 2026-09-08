@@ -1,5 +1,5 @@
-"""Standalone PP-DocLayout_plus-L inference service."""
+"""Layout export and COCO conversion backed by shared PP-StructureV3."""
 
-from .pipeline import LayoutConfig, LayoutDetectionService
+from ocr.pipeline import OCRConfig, PaddleOCRService
 
-__all__ = ["LayoutConfig", "LayoutDetectionService"]
+__all__ = ["OCRConfig", "PaddleOCRService"]

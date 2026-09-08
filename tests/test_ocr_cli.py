@@ -4,12 +4,21 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from ocr.cli import discover_documents, load_audit_overrides, main
+from ocr.cli import (
+    _page_outputs_are_complete,
+    discover_documents,
+    load_audit_overrides,
+    main,
+)
 
 
 class FakeLayoutResult:
     def __init__(self):
         self.image_saved_to: str | None = None
+        self.json_saved_to: str | None = None
+
+    def save_to_json(self, output_path: str):
+        self.json_saved_to = output_path
 
     def save_to_img(self, output_path: str):
         self.image_saved_to = output_path
@@ -38,6 +47,48 @@ class FakeService:
 
 
 class OCRCLITests(unittest.TestCase):
+    def test_resume_requires_all_valid_page_outputs(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            image = root / "invoice.png"
+            image.touch()
+            (root / "invoice.structure.json").write_text(
+                '{"layout_det_res": {}}', encoding="utf-8"
+            )
+            (root / "invoice.layout.json").write_text(
+                '{"boxes": []}', encoding="utf-8"
+            )
+            (root / "invoice.layout.png").write_bytes(b"png")
+
+            self.assertTrue(_page_outputs_are_complete(image, root))
+            (root / "invoice.layout.json").write_text("invalid", encoding="utf-8")
+            self.assertFalse(_page_outputs_are_complete(image, root))
+
+    def test_resume_skips_completed_page_without_loading_pipeline(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            input_dir = root / "images"
+            output_dir = root / "output"
+            input_dir.mkdir()
+            output_dir.mkdir()
+            image = input_dir / "invoice.png"
+            image.touch()
+            (output_dir / "invoice.structure.json").write_text(
+                '{"layout_det_res": {}}', encoding="utf-8"
+            )
+            (output_dir / "invoice.layout.json").write_text(
+                '{"boxes": []}', encoding="utf-8"
+            )
+            (output_dir / "invoice.layout.png").write_bytes(b"png")
+
+            exit_code = main(
+                [str(input_dir), "--resume"],
+                service_factory=lambda _config: self.fail("pipeline was loaded"),
+                output_dir_override=output_dir,
+            )
+
+            self.assertEqual(exit_code, 0)
+
     def test_runs_ocr_and_saves_native_json(self):
         result = FakeResult()
         service = FakeService(result)
@@ -55,10 +106,17 @@ class OCRCLITests(unittest.TestCase):
 
         self.assertEqual(exit_code, 0)
         self.assertEqual(service.input_path, document.resolve())
-        self.assertEqual(result.json_saved_to, str(output_dir))
+        self.assertEqual(
+            result.json_saved_to,
+            str(output_dir / "invoice__p001.structure.json"),
+        )
+        self.assertEqual(
+            result.layout_result.json_saved_to,
+            str(output_dir / "invoice__p001.layout.json"),
+        )
         self.assertEqual(
             result.layout_result.image_saved_to,
-            str(output_dir / "invoice_0_layout_det_res.png"),
+            str(output_dir / "invoice__p001.layout.png"),
         )
 
     def test_discovers_supported_documents_in_stable_order(self):

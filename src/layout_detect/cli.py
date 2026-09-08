@@ -1,4 +1,4 @@
-"""CLI for standalone layout pre-annotation."""
+"""Compatibility CLI exporting layout from the shared PP-StructureV3 pipeline."""
 
 from __future__ import annotations
 
@@ -8,29 +8,32 @@ import sys
 from pathlib import Path
 from typing import Callable, Sequence
 
-from .coco import COCOValidationError, build_coco_preannotations
-from .pipeline import (
-    DEFAULT_OCR_CONFIG_PATH,
-    SUPPORTED_IMAGE_SUFFIXES,
-    LayoutConfig,
-    LayoutConfigurationError,
-    LayoutDetectionService,
-    LayoutInputError,
+from ocr.pipeline import (
+    DEFAULT_CONFIG_PATH,
+    OCRConfig,
+    OCRConfigurationError,
+    OCRInputError,
+    PaddleOCRService,
 )
+
+from .coco import COCOValidationError, build_coco_preannotations
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 PROFILES_PATH = PROJECT_ROOT / "config" / "layout_audit_profiles.json"
 LABELS_PATH = PROJECT_ROOT / "config" / "layout_labels.json"
 DEFAULT_OUTPUT_ROOT = Path("data/layout_training/preannotations")
 PROFILE_NAMES = ("default", "low_threshold")
+SUPPORTED_IMAGE_SUFFIXES = frozenset(
+    {".bmp", ".jpeg", ".jpg", ".png", ".tif", ".tiff", ".webp"}
+)
 
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="python -m layout_detect",
         description=(
-            "Run only PP-DocLayout_plus-L, or convert existing native layout "
-            "results into validated COCO pre-annotations."
+            "Run the shared PP-StructureV3 pipeline and export its layout "
+            "result, or build validated COCO pre-annotations."
         ),
     )
     parser.add_argument("input", type=Path, help="Training image or image directory")
@@ -43,7 +46,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--config",
         type=Path,
-        default=DEFAULT_OCR_CONFIG_PATH,
+        default=DEFAULT_CONFIG_PATH,
         help="Shared OCR JSON configuration",
     )
     parser.add_argument(
@@ -80,13 +83,13 @@ def discover_images(input_path: Path) -> list[Path]:
     path = input_path.expanduser().resolve()
     if path.is_file():
         if path.suffix.lower() not in SUPPORTED_IMAGE_SUFFIXES:
-            raise LayoutInputError(
-                "Standalone layout detection accepts images only, not PDFs. "
+            raise OCRInputError(
+                "Layout pre-annotation accepts prepared page images only, not PDFs. "
                 "Run prepare_layout_data first."
             )
         return [path]
     if not path.is_dir():
-        raise LayoutInputError(f"Layout input does not exist: {path}")
+        raise OCRInputError(f"Layout input does not exist: {path}")
     images = sorted(
         (
             item
@@ -96,7 +99,7 @@ def discover_images(input_path: Path) -> list[Path]:
         key=lambda item: item.name.casefold(),
     )
     if not images:
-        raise LayoutInputError(f"No supported training image found in: {path}")
+        raise OCRInputError(f"No supported training image found in: {path}")
     return images
 
 
@@ -104,26 +107,32 @@ def load_profile(name: str) -> dict[str, object]:
     try:
         profiles = json.loads(PROFILES_PATH.read_text(encoding="utf-8"))
     except FileNotFoundError as exc:
-        raise LayoutConfigurationError(
+        raise OCRConfigurationError(
             f"Layout profiles file not found: {PROFILES_PATH}"
         ) from exc
     except json.JSONDecodeError as exc:
-        raise LayoutConfigurationError(f"Invalid layout profiles JSON: {exc}") from exc
+        raise OCRConfigurationError(f"Invalid layout profiles JSON: {exc}") from exc
     profile = profiles.get(name) if isinstance(profiles, dict) else None
     if not isinstance(profile, dict):
-        raise LayoutConfigurationError(f"Layout profile not found: {name}")
+        raise OCRConfigurationError(f"Layout profile not found: {name}")
     return profile
 
 
 def save_result(result: object, image: Path, output_dir: Path) -> int:
-    if not hasattr(result, "save_to_json") or not hasattr(result, "save_to_img"):
-        raise RuntimeError("PaddleX returned a non-exportable layout result.")
+    try:
+        layout_result = result["layout_det_res"]
+    except (KeyError, TypeError) as exc:
+        raise RuntimeError("PP-StructureV3 returned no layout result.") from exc
+    if not hasattr(layout_result, "save_to_json") or not hasattr(
+        layout_result, "save_to_img"
+    ):
+        raise RuntimeError("PP-StructureV3 returned a non-exportable layout result.")
     json_path = output_dir / f"{image.stem}.layout.json"
     visualization_path = output_dir / f"{image.stem}.layout.png"
-    result.save_to_json(str(json_path))
-    result.save_to_img(str(visualization_path))
+    layout_result.save_to_json(str(json_path))
+    layout_result.save_to_img(str(visualization_path))
     try:
-        return len(result["boxes"])
+        return len(layout_result["boxes"])
     except (KeyError, TypeError):
         return 0
 
@@ -131,7 +140,7 @@ def save_result(result: object, image: Path, output_dir: Path) -> int:
 def main(
     argv: Sequence[str] | None = None,
     *,
-    service_factory: Callable[[LayoutConfig], LayoutDetectionService] = LayoutDetectionService,
+    service_factory: Callable[[OCRConfig], PaddleOCRService] = PaddleOCRService,
     output_dir_override: Path | None = None,
 ) -> int:
     args = build_parser().parse_args(argv)
@@ -170,13 +179,14 @@ def main(
             print(f"Output: {summary['output_path']}")
             return 0
 
-        config = LayoutConfig.from_ocr_json(args.config).with_profile(
+        config = OCRConfig.from_json(args.config).with_overrides(
             load_profile(args.profile)
         )
         output_dir.mkdir(parents=True, exist_ok=True)
         print(
-            f"Loading {config.model_name} only on {config.device} "
-            f"(threshold={config.threshold})..."
+            f"Loading PP-StructureV3 once on {config.device} with "
+            f"{config.layout_detection_model_name} "
+            f"(threshold={config.layout_threshold})..."
         )
         service = service_factory(config)
 
@@ -204,8 +214,8 @@ def main(
         return 1 if failures else 0
     except (
         COCOValidationError,
-        LayoutConfigurationError,
-        LayoutInputError,
+        OCRConfigurationError,
+        OCRInputError,
         RuntimeError,
     ) as exc:
         print(f"Layout detection error: {exc}", file=sys.stderr)

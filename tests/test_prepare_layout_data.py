@@ -10,6 +10,7 @@ from prepare_layout_data.cli import (
     PreparationError,
     prepare_dataset,
     refresh_manifest,
+    resume_preprocessing,
 )
 
 
@@ -33,7 +34,7 @@ class PrepareLayoutDataTests(unittest.TestCase):
             self.assertEqual(len(rows), 3)
             self.assertEqual(
                 sorted(path.name for path in (output_dir / "images").iterdir()),
-                ["deux-pages__p001.png", "deux-pages__p002.png", "facture-ete.jpg"],
+                ["deux-pages__p001.png", "deux-pages__p002.png", "facture-ete.png"],
             )
             self.assertEqual(rows[0]["source_type"], "pdf")
             self.assertEqual(rows[0]["width"], 200)
@@ -47,6 +48,12 @@ class PrepareLayoutDataTests(unittest.TestCase):
             self.assertEqual(manifest_rows[1]["page"], "2")
             self.assertEqual(len(manifest_rows[0]["sha256"]), 64)
             self.assertEqual(manifest_rows[0]["include_in_training"], "yes")
+            self.assertIn(
+                manifest_rows[0]["quality_status"],
+                {"accepted", "corrected", "review"},
+            )
+            self.assertEqual(manifest_rows[0]["deskew_applied"], "no")
+            self.assertNotEqual(manifest_rows[0]["blur_score"], "")
             self.assertIn(manifest_rows[0]["audit_status"], {"keep", "review"})
             self.assertEqual(
                 manifest_rows[2]["source_document"], rows[2]["source_document"]
@@ -90,8 +97,61 @@ class PrepareLayoutDataTests(unittest.TestCase):
 
             self.assertEqual(len(rows), 1)
             self.assertEqual(image_path.stat().st_mtime_ns, original_mtime)
-            self.assertEqual(rows[0]["audit_status"], "keep")
+            self.assertEqual(rows[0]["audit_status"], "review")
+            self.assertEqual(rows[0]["quality_status"], "review")
             self.assertEqual(rows[0]["include_in_training"], "no")
+
+    def test_can_skip_preprocessing_but_still_writes_normalized_png(self):
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            root = Path(temporary_directory)
+            input_dir = root / "input"
+            output_dir = root / "output"
+            input_dir.mkdir()
+            Image.new("L", (30, 20), 128).save(input_dir / "invoice.jpg")
+
+            rows = prepare_dataset(input_dir, output_dir, preprocess=False)
+
+            self.assertEqual(rows[0]["image"], "images/invoice.png")
+            self.assertEqual(rows[0]["quality_status"], "not_run")
+            with Image.open(output_dir / "images" / "invoice.png") as image:
+                self.assertEqual(image.mode, "RGB")
+
+    def test_resumes_preprocessing_without_rendering_documents_again(self):
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            root = Path(temporary_directory)
+            input_dir = root / "input"
+            output_dir = root / "output"
+            input_dir.mkdir()
+            Image.new("RGB", (80, 40), "white").save(input_dir / "invoice.jpg")
+            prepare_dataset(input_dir, output_dir, preprocess=False)
+            image_path = output_dir / "images" / "invoice.png"
+            original_mtime = image_path.stat().st_mtime_ns
+            (output_dir / "manifest.csv").unlink()
+
+            rows = resume_preprocessing(input_dir, output_dir)
+
+            self.assertEqual(len(rows), 1)
+            self.assertNotEqual(rows[0]["quality_status"], "not_run")
+            self.assertGreaterEqual(image_path.stat().st_mtime_ns, original_mtime)
+            self.assertTrue((output_dir / "manifest.csv").is_file())
+
+    def test_force_reprocess_does_not_skip_completed_rows(self):
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            root = Path(temporary_directory)
+            input_dir = root / "input"
+            output_dir = root / "output"
+            input_dir.mkdir()
+            Image.new("RGB", (80, 40), "white").save(input_dir / "invoice.jpg")
+            prepare_dataset(input_dir, output_dir, preprocess=False)
+
+            rows = resume_preprocessing(
+                input_dir,
+                output_dir,
+                force_reprocess=True,
+            )
+
+            self.assertEqual(len(rows), 1)
+            self.assertNotEqual(rows[0]["quality_status"], "not_run")
 
     def test_refuses_to_overwrite_an_existing_dataset(self):
         with tempfile.TemporaryDirectory() as temporary_directory:
