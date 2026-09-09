@@ -14,7 +14,7 @@
   "use_seal_recognition": false,
   "use_table_recognition": true,
   "use_table_orientation_classify": false,
-  "use_ocr_results_with_table_cells": true,
+  "use_ocr_results_with_table_cells": false,
   "use_e2e_wired_table_rec_model": false,
   "use_e2e_wireless_table_rec_model": false,
   "use_wired_table_cells_trans_to_html": false,
