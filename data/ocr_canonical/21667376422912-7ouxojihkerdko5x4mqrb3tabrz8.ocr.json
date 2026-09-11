@@ -1,0 +1,1585 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "21667376422912-7ouxojihkerdko5x4mqrb3tabrz8",
+  "source_file": "21667376422912-7ouxojihkerdko5x4mqrb3tabrz8__p001.png",
+  "generated_at": "2026-09-11T09:21:56.596067Z",
+  "ocr_engine": {
+    "name": "PP-StructureV3",
+    "version": "3.7.0"
+  },
+  "page_count": 1,
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 1653,
+      "height": 2339,
+      "orientation": 0,
+      "blocks": [
+        {
+          "block_id": "p1_b0",
+          "type": "text",
+          "text": "Vroomly",
+          "bbox": [
+            103.0,
+            160.0,
+            410.0,
+            237.0
+          ],
+          "ocr_confidence": 0.9998663663864136,
+          "reading_order": 0,
+          "polygon": [
+            [
+              104.0,
+              160.0
+            ],
+            [
+              410.0,
+              163.0
+            ],
+            [
+              409.0,
+              237.0
+            ],
+            [
+              103.0,
+              233.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b1",
+          "type": "text",
+          "text": "SAS Docauto",
+          "bbox": [
+            107.0,
+            270.0,
+            302.0,
+            305.0
+          ],
+          "ocr_confidence": 0.9946655631065369,
+          "reading_order": 1,
+          "polygon": [
+            [
+              107.0,
+              270.0
+            ],
+            [
+              302.0,
+              270.0
+            ],
+            [
+              302.0,
+              305.0
+            ],
+            [
+              107.0,
+              305.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b2",
+          "type": "text",
+          "text": "23 rue Taitbout",
+          "bbox": [
+            105.0,
+            314.0,
+            336.0,
+            352.0
+          ],
+          "ocr_confidence": 0.9414569735527039,
+          "reading_order": 2,
+          "polygon": [
+            [
+              106.0,
+              314.0
+            ],
+            [
+              336.0,
+              317.0
+            ],
+            [
+              336.0,
+              352.0
+            ],
+            [
+              105.0,
+              349.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b3",
+          "type": "text",
+          "text": "75009 Paris",
+          "bbox": [
+            106.0,
+            359.0,
+            285.0,
+            397.0
+          ],
+          "ocr_confidence": 0.9995564818382263,
+          "reading_order": 3,
+          "polygon": [
+            [
+              107.0,
+              359.0
+            ],
+            [
+              285.0,
+              362.0
+            ],
+            [
+              285.0,
+              397.0
+            ],
+            [
+              106.0,
+              394.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b4",
+          "type": "text",
+          "text": "France",
+          "bbox": [
+            104.0,
+            402.0,
+            213.0,
+            443.0
+          ],
+          "ocr_confidence": 0.9999814033508301,
+          "reading_order": 4,
+          "polygon": [
+            [
+              105.0,
+              402.0
+            ],
+            [
+              213.0,
+              407.0
+            ],
+            [
+              211.0,
+              443.0
+            ],
+            [
+              104.0,
+              438.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b5",
+          "type": "text",
+          "text": "Destinataire",
+          "bbox": [
+            1282.0,
+            486.0,
+            1492.0,
+            523.0
+          ],
+          "ocr_confidence": 0.9999771118164062,
+          "reading_order": 5,
+          "polygon": [
+            [
+              1283.0,
+              486.0
+            ],
+            [
+              1492.0,
+              488.0
+            ],
+            [
+              1492.0,
+              523.0
+            ],
+            [
+              1282.0,
+              521.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b6",
+          "type": "text",
+          "text": "CAC AOD AUTO",
+          "bbox": [
+            1261.0,
+            532.0,
+            1492.0,
+            566.0
+          ],
+          "ocr_confidence": 0.994688093662262,
+          "reading_order": 6,
+          "polygon": [
+            [
+              1261.0,
+              532.0
+            ],
+            [
+              1492.0,
+              532.0
+            ],
+            [
+              1492.0,
+              566.0
+            ],
+            [
+              1261.0,
+              566.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b7",
+          "type": "text",
+          "text": "490b Rue du Tubœuf",
+          "bbox": [
+            1183.0,
+            575.0,
+            1494.0,
+            611.0
+          ],
+          "ocr_confidence": 0.949809730052948,
+          "reading_order": 7,
+          "polygon": [
+            [
+              1183.0,
+              575.0
+            ],
+            [
+              1494.0,
+              577.0
+            ],
+            [
+              1494.0,
+              611.0
+            ],
+            [
+              1183.0,
+              609.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b8",
+          "type": "text",
+          "text": "77170 Brie-Comte-Robert",
+          "bbox": [
+            1113.0,
+            619.0,
+            1493.0,
+            655.0
+          ],
+          "ocr_confidence": 0.9845722913742065,
+          "reading_order": 8,
+          "polygon": [
+            [
+              1113.0,
+              619.0
+            ],
+            [
+              1493.0,
+              621.0
+            ],
+            [
+              1493.0,
+              655.0
+            ],
+            [
+              1113.0,
+              653.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b9",
+          "type": "text",
+          "text": "France",
+          "bbox": [
+            1385.0,
+            665.0,
+            1493.0,
+            702.0
+          ],
+          "ocr_confidence": 0.9999849796295166,
+          "reading_order": 9,
+          "polygon": [
+            [
+              1385.0,
+              665.0
+            ],
+            [
+              1493.0,
+              667.0
+            ],
+            [
+              1493.0,
+              702.0
+            ],
+            [
+              1385.0,
+              700.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b10",
+          "type": "text",
+          "text": "SIRET : 88941690500012",
+          "bbox": [
+            1115.0,
+            710.0,
+            1489.0,
+            743.0
+          ],
+          "ocr_confidence": 0.9612588882446289,
+          "reading_order": 10,
+          "polygon": [
+            [
+              1115.0,
+              710.0
+            ],
+            [
+              1489.0,
+              712.0
+            ],
+            [
+              1489.0,
+              743.0
+            ],
+            [
+              1115.0,
+              741.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b11",
+          "type": "text",
+          "text": "N° TVA : FR44889416905",
+          "bbox": [
+            1115.0,
+            754.0,
+            1488.0,
+            788.0
+          ],
+          "ocr_confidence": 0.9774551391601562,
+          "reading_order": 11,
+          "polygon": [
+            [
+              1115.0,
+              754.0
+            ],
+            [
+              1488.0,
+              757.0
+            ],
+            [
+              1488.0,
+              788.0
+            ],
+            [
+              1115.0,
+              785.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b12",
+          "type": "text",
+          "text": "FACTURE N20260413-M-2278314",
+          "bbox": [
+            104.0,
+            874.0,
+            683.0,
+            916.0
+          ],
+          "ocr_confidence": 0.9889007210731506,
+          "reading_order": 12,
+          "polygon": [
+            [
+              105.0,
+              874.0
+            ],
+            [
+              683.0,
+              879.0
+            ],
+            [
+              682.0,
+              916.0
+            ],
+            [
+              104.0,
+              911.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b13",
+          "type": "text",
+          "text": "En date du 13 avril 2026",
+          "bbox": [
+            105.0,
+            926.0,
+            470.0,
+            957.0
+          ],
+          "ocr_confidence": 0.9825670719146729,
+          "reading_order": 13,
+          "polygon": [
+            [
+              105.0,
+              926.0
+            ],
+            [
+              470.0,
+              927.0
+            ],
+            [
+              470.0,
+              957.0
+            ],
+            [
+              105.0,
+              956.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b14",
+          "type": "text",
+          "text": "COMMANDE N°CMD-161237-2224",
+          "bbox": [
+            106.0,
+            970.0,
+            606.0,
+            1003.0
+          ],
+          "ocr_confidence": 0.9898504018783569,
+          "reading_order": 14,
+          "polygon": [
+            [
+              106.0,
+              970.0
+            ],
+            [
+              606.0,
+              973.0
+            ],
+            [
+              606.0,
+              1003.0
+            ],
+            [
+              106.0,
+              1000.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b15",
+          "type": "table",
+          "text": "Description",
+          "bbox": [
+            118.0,
+            1087.0,
+            292.0,
+            1122.0
+          ],
+          "ocr_confidence": 0.9999435544013977,
+          "reading_order": 15,
+          "polygon": [
+            [
+              118.0,
+              1087.0
+            ],
+            [
+              292.0,
+              1087.0
+            ],
+            [
+              292.0,
+              1122.0
+            ],
+            [
+              118.0,
+              1122.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b16",
+          "type": "table",
+          "text": "Qté",
+          "bbox": [
+            664.0,
+            1089.0,
+            728.0,
+            1129.0
+          ],
+          "ocr_confidence": 0.9966189861297607,
+          "reading_order": 16,
+          "polygon": [
+            [
+              664.0,
+              1089.0
+            ],
+            [
+              728.0,
+              1089.0
+            ],
+            [
+              728.0,
+              1129.0
+            ],
+            [
+              664.0,
+              1129.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b17",
+          "type": "table",
+          "text": "Prix unitaire HT",
+          "bbox": [
+            808.0,
+            1092.0,
+            1041.0,
+            1126.0
+          ],
+          "ocr_confidence": 0.9802693128585815,
+          "reading_order": 17,
+          "polygon": [
+            [
+              808.0,
+              1092.0
+            ],
+            [
+              1041.0,
+              1092.0
+            ],
+            [
+              1041.0,
+              1126.0
+            ],
+            [
+              808.0,
+              1126.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b18",
+          "type": "table",
+          "text": "TVA",
+          "bbox": [
+            1126.0,
+            1095.0,
+            1195.0,
+            1128.0
+          ],
+          "ocr_confidence": 0.9998791813850403,
+          "reading_order": 18,
+          "polygon": [
+            [
+              1126.0,
+              1095.0
+            ],
+            [
+              1195.0,
+              1095.0
+            ],
+            [
+              1195.0,
+              1128.0
+            ],
+            [
+              1126.0,
+              1128.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b19",
+          "type": "table",
+          "text": "TOTAL HT",
+          "bbox": [
+            1321.0,
+            1094.0,
+            1474.0,
+            1132.0
+          ],
+          "ocr_confidence": 0.9991381764411926,
+          "reading_order": 19,
+          "polygon": [
+            [
+              1322.0,
+              1094.0
+            ],
+            [
+              1474.0,
+              1097.0
+            ],
+            [
+              1474.0,
+              1132.0
+            ],
+            [
+              1321.0,
+              1129.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b20",
+          "type": "table",
+          "text": "Pneus",
+          "bbox": [
+            117.0,
+            1188.0,
+            215.0,
+            1224.0
+          ],
+          "ocr_confidence": 0.9999412298202515,
+          "reading_order": 20,
+          "polygon": [
+            [
+              118.0,
+              1188.0
+            ],
+            [
+              215.0,
+              1191.0
+            ],
+            [
+              214.0,
+              1224.0
+            ],
+            [
+              117.0,
+              1221.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b21",
+          "type": "table",
+          "text": "LING LONG $port Master 4S",
+          "bbox": [
+            117.0,
+            1232.0,
+            530.0,
+            1270.0
+          ],
+          "ocr_confidence": 0.9852507710456848,
+          "reading_order": 21,
+          "polygon": [
+            [
+              117.0,
+              1232.0
+            ],
+            [
+              530.0,
+              1236.0
+            ],
+            [
+              529.0,
+              1270.0
+            ],
+            [
+              117.0,
+              1267.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b22",
+          "type": "table",
+          "text": "4",
+          "bbox": [
+            678.0,
+            1239.0,
+            709.0,
+            1273.0
+          ],
+          "ocr_confidence": 0.9999964237213135,
+          "reading_order": 22,
+          "polygon": [
+            [
+              678.0,
+              1239.0
+            ],
+            [
+              709.0,
+              1239.0
+            ],
+            [
+              709.0,
+              1273.0
+            ],
+            [
+              678.0,
+              1273.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b23",
+          "type": "table",
+          "text": "58,30",
+          "bbox": [
+            876.0,
+            1240.0,
+            970.0,
+            1273.0
+          ],
+          "ocr_confidence": 0.999798595905304,
+          "reading_order": 23,
+          "polygon": [
+            [
+              876.0,
+              1240.0
+            ],
+            [
+              970.0,
+              1240.0
+            ],
+            [
+              970.0,
+              1273.0
+            ],
+            [
+              876.0,
+              1273.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b24",
+          "type": "table",
+          "text": "20%",
+          "bbox": [
+            1122.0,
+            1241.0,
+            1196.0,
+            1274.0
+          ],
+          "ocr_confidence": 0.9999356865882874,
+          "reading_order": 24,
+          "polygon": [
+            [
+              1122.0,
+              1241.0
+            ],
+            [
+              1196.0,
+              1241.0
+            ],
+            [
+              1196.0,
+              1274.0
+            ],
+            [
+              1122.0,
+              1274.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b25",
+          "type": "table",
+          "text": "233,20",
+          "bbox": [
+            1361.0,
+            1243.0,
+            1472.0,
+            1278.0
+          ],
+          "ocr_confidence": 0.9999480247497559,
+          "reading_order": 25,
+          "polygon": [
+            [
+              1361.0,
+              1243.0
+            ],
+            [
+              1472.0,
+              1243.0
+            ],
+            [
+              1472.0,
+              1278.0
+            ],
+            [
+              1361.0,
+              1278.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b26",
+          "type": "table",
+          "text": "235/65R17 108V",
+          "bbox": [
+            118.0,
+            1269.0,
+            369.0,
+            1302.0
+          ],
+          "ocr_confidence": 0.9896636605262756,
+          "reading_order": 26,
+          "polygon": [
+            [
+              118.0,
+              1269.0
+            ],
+            [
+              369.0,
+              1271.0
+            ],
+            [
+              368.0,
+              1302.0
+            ],
+            [
+              118.0,
+              1300.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b27",
+          "type": "table",
+          "text": "Frais de port (HT)",
+          "bbox": [
+            958.0,
+            1396.0,
+            1215.0,
+            1429.0
+          ],
+          "ocr_confidence": 0.9975012540817261,
+          "reading_order": 27,
+          "polygon": [
+            [
+              958.0,
+              1396.0
+            ],
+            [
+              1215.0,
+              1399.0
+            ],
+            [
+              1215.0,
+              1429.0
+            ],
+            [
+              958.0,
+              1426.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b28",
+          "type": "table",
+          "text": "Offerts",
+          "bbox": [
+            1363.0,
+            1397.0,
+            1471.0,
+            1432.0
+          ],
+          "ocr_confidence": 0.9997333884239197,
+          "reading_order": 28,
+          "polygon": [
+            [
+              1363.0,
+              1397.0
+            ],
+            [
+              1471.0,
+              1397.0
+            ],
+            [
+              1471.0,
+              1432.0
+            ],
+            [
+              1363.0,
+              1432.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b29",
+          "type": "table",
+          "text": "Total HT",
+          "bbox": [
+            1092.0,
+            1438.0,
+            1217.0,
+            1471.0
+          ],
+          "ocr_confidence": 0.9997684955596924,
+          "reading_order": 29,
+          "polygon": [
+            [
+              1092.0,
+              1438.0
+            ],
+            [
+              1217.0,
+              1440.0
+            ],
+            [
+              1217.0,
+              1471.0
+            ],
+            [
+              1092.0,
+              1469.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b30",
+          "type": "table",
+          "text": "233,20 €",
+          "bbox": [
+            1333.0,
+            1443.0,
+            1470.0,
+            1474.0
+          ],
+          "ocr_confidence": 0.998465895652771,
+          "reading_order": 30,
+          "polygon": [
+            [
+              1333.0,
+              1443.0
+            ],
+            [
+              1470.0,
+              1443.0
+            ],
+            [
+              1470.0,
+              1474.0
+            ],
+            [
+              1333.0,
+              1474.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b31",
+          "type": "table",
+          "text": "TVA",
+          "bbox": [
+            1150.0,
+            1484.0,
+            1218.0,
+            1517.0
+          ],
+          "ocr_confidence": 0.9998958706855774,
+          "reading_order": 31,
+          "polygon": [
+            [
+              1150.0,
+              1484.0
+            ],
+            [
+              1218.0,
+              1484.0
+            ],
+            [
+              1218.0,
+              1517.0
+            ],
+            [
+              1150.0,
+              1517.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b32",
+          "type": "table",
+          "text": "46,64 €",
+          "bbox": [
+            1351.0,
+            1485.0,
+            1470.0,
+            1519.0
+          ],
+          "ocr_confidence": 0.9985390305519104,
+          "reading_order": 32,
+          "polygon": [
+            [
+              1351.0,
+              1485.0
+            ],
+            [
+              1470.0,
+              1487.0
+            ],
+            [
+              1470.0,
+              1519.0
+            ],
+            [
+              1351.0,
+              1517.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b33",
+          "type": "table",
+          "text": "Total TTC",
+          "bbox": [
+            1059.0,
+            1594.0,
+            1214.0,
+            1622.0
+          ],
+          "ocr_confidence": 0.9993441104888916,
+          "reading_order": 33,
+          "polygon": [
+            [
+              1059.0,
+              1594.0
+            ],
+            [
+              1214.0,
+              1594.0
+            ],
+            [
+              1214.0,
+              1622.0
+            ],
+            [
+              1059.0,
+              1622.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b34",
+          "type": "table",
+          "text": "279,84 €",
+          "bbox": [
+            1318.0,
+            1592.0,
+            1470.0,
+            1628.0
+          ],
+          "ocr_confidence": 0.9993560314178467,
+          "reading_order": 34,
+          "polygon": [
+            [
+              1319.0,
+              1592.0
+            ],
+            [
+              1470.0,
+              1594.0
+            ],
+            [
+              1470.0,
+              1628.0
+            ],
+            [
+              1318.0,
+              1626.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b35",
+          "type": "table",
+          "text": "Mode de paiement :",
+          "bbox": [
+            116.0,
+            1703.0,
+            412.0,
+            1740.0
+          ],
+          "ocr_confidence": 0.959970235824585,
+          "reading_order": 35,
+          "polygon": [
+            [
+              116.0,
+              1703.0
+            ],
+            [
+              412.0,
+              1706.0
+            ],
+            [
+              412.0,
+              1740.0
+            ],
+            [
+              116.0,
+              1737.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b36",
+          "type": "table",
+          "text": "Prélèvement SEPA",
+          "bbox": [
+            1196.0,
+            1696.0,
+            1466.0,
+            1731.0
+          ],
+          "ocr_confidence": 0.991725742816925,
+          "reading_order": 36,
+          "polygon": [
+            [
+              1196.0,
+              1696.0
+            ],
+            [
+              1466.0,
+              1700.0
+            ],
+            [
+              1466.0,
+              1731.0
+            ],
+            [
+              1196.0,
+              1727.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b37",
+          "type": "table",
+          "text": "FRXX 1820 6001 00XX XXXX XXX4 489",
+          "bbox": [
+            830.0,
+            1727.0,
+            1465.0,
+            1765.0
+          ],
+          "ocr_confidence": 0.9877541065216064,
+          "reading_order": 37,
+          "polygon": [
+            [
+              831.0,
+              1727.0
+            ],
+            [
+              1465.0,
+              1734.0
+            ],
+            [
+              1465.0,
+              1765.0
+            ],
+            [
+              830.0,
+              1758.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b38",
+          "type": "text",
+          "text": "SAS Docauto - 23 rue Taitbout - 75009 Paris",
+          "bbox": [
+            512.0,
+            2000.0,
+            1064.0,
+            2038.0
+          ],
+          "ocr_confidence": 0.9841738939285278,
+          "reading_order": 38,
+          "polygon": [
+            [
+              513.0,
+              2000.0
+            ],
+            [
+              1064.0,
+              2008.0
+            ],
+            [
+              1064.0,
+              2038.0
+            ],
+            [
+              512.0,
+              2030.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b39",
+          "type": "text",
+          "text": "Siret : 82901607000056",
+          "bbox": [
+            635.0,
+            2043.0,
+            943.0,
+            2075.0
+          ],
+          "ocr_confidence": 0.9761119484901428,
+          "reading_order": 39,
+          "polygon": [
+            [
+              635.0,
+              2043.0
+            ],
+            [
+              943.0,
+              2047.0
+            ],
+            [
+              942.0,
+              2075.0
+            ],
+            [
+              635.0,
+              2071.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b40",
+          "type": "text",
+          "text": "N°TVA Intra-communautaire : FR 38 829 016 070",
+          "bbox": [
+            479.0,
+            2080.0,
+            1097.0,
+            2117.0
+          ],
+          "ocr_confidence": 0.9864427447319031,
+          "reading_order": 40,
+          "polygon": [
+            [
+              479.0,
+              2080.0
+            ],
+            [
+              1097.0,
+              2087.0
+            ],
+            [
+              1096.0,
+              2117.0
+            ],
+            [
+              479.0,
+              2110.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b41",
+          "type": "text",
+          "text": "RCS : 829 016 070 R.C.S. Paris",
+          "bbox": [
+            596.0,
+            2122.0,
+            980.0,
+            2155.0
+          ],
+          "ocr_confidence": 0.9830015897750854,
+          "reading_order": 41,
+          "polygon": [
+            [
+              596.0,
+              2122.0
+            ],
+            [
+              980.0,
+              2127.0
+            ],
+            [
+              979.0,
+              2155.0
+            ],
+            [
+              596.0,
+              2150.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b42",
+          "type": "text",
+          "text": "Tél : 01 87 66 46 44 - Email : pieces@vroomly.com",
+          "bbox": [
+            471.0,
+            2160.0,
+            1104.0,
+            2199.0
+          ],
+          "ocr_confidence": 0.968207597732544,
+          "reading_order": 42,
+          "polygon": [
+            [
+              471.0,
+              2160.0
+            ],
+            [
+              1104.0,
+              2169.0
+            ],
+            [
+              1103.0,
+              2199.0
+            ],
+            [
+              471.0,
+              2190.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b43",
+          "type": "text",
+          "text": "Site internet : www.vroomly.com",
+          "bbox": [
+            585.0,
+            2202.0,
+            990.0,
+            2236.0
+          ],
+          "ocr_confidence": 0.9971714019775391,
+          "reading_order": 43,
+          "polygon": [
+            [
+              585.0,
+              2202.0
+            ],
+            [
+              990.0,
+              2208.0
+            ],
+            [
+              989.0,
+              2236.0
+            ],
+            [
+              585.0,
+              2230.0
+            ]
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "table_id": "p1_t0",
+          "bbox": [
+            102.31646728515625,
+            1044.3011474609375,
+            1485.644287109375,
+            1773.6568603515625
+          ],
+          "structure_confidence": 0.44138777256011963,
+          "cells": [
+            {
+              "row": 0,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Destinataire CAC AOD AUTO 490b Rue du Tubœuf 77170 Brie-Comte-Robert France SIRET : 88941690500012 N° TVA : FR44889416905",
+              "bbox": [
+                299.0242004394531,
+                15.098992109298706,
+                1500.0528564453125,
+                1058.5048828125
+              ],
+              "ocr_confidence": 0.9829441507657369,
+              "source_block_ids": [
+                "p1_b5",
+                "p1_b6",
+                "p1_b7",
+                "p1_b8",
+                "p1_b9",
+                "p1_b10",
+                "p1_b11",
+                "p1_b12",
+                "p1_b14"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Vroomly SAS Docauto 23 rue Taitbout 75009 Paris France",
+              "bbox": [
+                103.0,
+                160.0,
+                410.0,
+                443.0
+              ],
+              "ocr_confidence": 0.9871053576469422,
+              "source_block_ids": [
+                "p1_b0",
+                "p1_b1",
+                "p1_b2",
+                "p1_b3",
+                "p1_b4"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "En date du 13 avril 2026 COMMANDE N°CMD-161237-2224 Description Pneus",
+              "bbox": [
+                105.0,
+                926.0,
+                470.0,
+                1224.0
+              ],
+              "ocr_confidence": 0.9930755645036697,
+              "source_block_ids": [
+                "p1_b13",
+                "p1_b14",
+                "p1_b15",
+                "p1_b20"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "",
+              "bbox": [
+                299.3563690185547,
+                1089.0,
+                1495.6866455078125,
+                1358.30810546875
+              ],
+              "ocr_confidence": 0.9956483509805467,
+              "source_block_ids": [
+                "p1_b16",
+                "p1_b17",
+                "p1_b18",
+                "p1_b19",
+                "p1_b21",
+                "p1_b22",
+                "p1_b23",
+                "p1_b24",
+                "p1_b25"
+              ]
+            },
+            {
+              "row": 2,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Qté Prix unitaire HT TVA TOTAL HT 4 58,30 20% 233,20",
+              "bbox": [
+                1126.0,
+                1094.0,
+                1474.0,
+                1132.0
+              ],
+              "ocr_confidence": 0.9995086789131165,
+              "source_block_ids": [
+                "p1_b18",
+                "p1_b19"
+              ]
+            },
+            {
+              "row": 2,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "TVA TOTAL HT",
+              "bbox": [
+                104.0517897605896,
+                1232.0,
+                530.0,
+                1548.9732666015625
+              ],
+              "ocr_confidence": 0.9874572157859802,
+              "source_block_ids": [
+                "p1_b21",
+                "p1_b26"
+              ]
+            },
+            {
+              "row": 3,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Frais de port (HT) Offerts Total HT 233,20 € TVA 46,64 € Total TTC 279,84 € Prélèvement SEPA FRXX 1820 6001 00XX XXXX XXX4 489 SAS Docauto - 23 rue Taitbout - 75009 Paris Siret : 82901607000056 N°TVA Intra-communautaire : FR 38 829 016 070 RCS : 829 016 070 R.C.S. Paris Tél : 01 87 66 46 44 - Email : pieces@vroomly.com Site internet : www.vroomly.com",
+              "bbox": [
+                299.40264892578125,
+                1348.83642578125,
+                1494.8031005859375,
+                2273.3607177734375
+              ],
+              "ocr_confidence": 0.991699568927288,
+              "source_block_ids": [
+                "p1_b27",
+                "p1_b28",
+                "p1_b29",
+                "p1_b30",
+                "p1_b31",
+                "p1_b32",
+                "p1_b33",
+                "p1_b34",
+                "p1_b36",
+                "p1_b37",
+                "p1_b38",
+                "p1_b39",
+                "p1_b40",
+                "p1_b41",
+                "p1_b42",
+                "p1_b43"
+              ]
+            },
+            {
+              "row": 3,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "",
+              "bbox": [
+                101.80105638504028,
+                1651.551025390625,
+                301.0884552001953,
+                1790.566162109375
+              ],
+              "ocr_confidence": 0.959970235824585,
+              "source_block_ids": [
+                "p1_b35"
+              ]
+            }
+          ],
+          "html": "<html><body><table><tbody><tr><td>Destinataire CAC AOD AUTO 490b Rue du Tubœuf 77170 Brie-Comte-Robert France SIRET : 88941690500012 N° TVA : FR44889416905</td><td>Vroomly SAS Docauto 23 rue Taitbout 75009 Paris France</td></tr><tr><td>En date du 13 avril 2026 COMMANDE N°CMD-161237-2224 Description Pneus</td><td></td></tr><tr><td>Qté Prix unitaire HT TVA TOTAL HT 4 58,30 20% 233,20</td><td>TVA TOTAL HT</td></tr><tr><td>Frais de port (HT) Offerts Total HT 233,20 € TVA 46,64 € Total TTC 279,84 € Prélèvement SEPA FRXX 1820 6001 00XX XXXX XXX4 489 SAS Docauto - 23 rue Taitbout - 75009 Paris Siret : 82901607000056 N°TVA Intra-communautaire : FR 38 829 016 070 RCS : 829 016 070 R.C.S. Paris Tél : 01 87 66 46 44 - Email : pieces@vroomly.com Site internet : www.vroomly.com</td><td></td></tr></tbody></table></body></html>"
+        }
+      ],
+      "warnings": [
+        "Ignored suspicious table structure covering 82.0% of the page; all OCR text was preserved.",
+        "Table result/layout count mismatch: 2 result(s), 1 trusted region(s)."
+      ]
+    }
+  ],
+  "source_mime_type": "image/png",
+  "warnings": [
+    "Page 1: Ignored suspicious table structure covering 82.0% of the page; all OCR text was preserved.",
+    "Page 1: Table result/layout count mismatch: 2 result(s), 1 trusted region(s)."
+  ]
+}

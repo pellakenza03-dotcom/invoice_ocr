@@ -1,0 +1,683 @@
+{
+    "input_path": "/kaggle/working/invoice_ocr/data/layout_training/images/22237102219264-5i6akspfn8htnu2k3jxi6ov5ik3y__p002.png",
+    "page_index": null,
+    "page_count": null,
+    "width": 1652,
+    "height": 2339,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": false,
+        "use_chart_recognition": false,
+        "use_region_detection": false,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "Total TTC ",
+            "block_bbox": [
+                1055,
+                146,
+                1210,
+                175
+            ],
+            "block_id": 0,
+            "block_order": null
+        },
+        {
+            "block_label": "header",
+            "block_content": "96,84 €",
+            "block_bbox": [
+                1376,
+                148,
+                1501,
+                175
+            ],
+            "block_id": 1,
+            "block_order": null
+        },
+        {
+            "block_label": "text",
+            "block_content": "Mode de paiement :",
+            "block_bbox": [
+                151,
+                248,
+                445,
+                279
+            ],
+            "block_id": 2,
+            "block_order": 1
+        },
+        {
+            "block_label": "text",
+            "block_content": "Prélèvement SEPA FRXX 1820 6001 00XX XXXX XXX4489",
+            "block_bbox": [
+                590,
+                248,
+                1500,
+                279
+            ],
+            "block_id": 3,
+            "block_order": 2
+        },
+        {
+            "block_label": "text",
+            "block_content": "SAS Docauto - 23 rue Taitbout - 75009 Paris Siret : 82901607000056N°TVA Intra-communautaire : FR 38 829 016 070RCS : 829 016 070 R.C.S. Paris Tél : 01 87 66 46 44 - Email : pieces@vroomly.com Site internet : www.vroomly.com ",
+            "block_bbox": [
+                510,
+                1993,
+                1142,
+                2218
+            ],
+            "block_id": 4,
+            "block_order": 3
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": false
+        },
+        "angle": -1
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.9407207369804382,
+                "coordinate": [
+                    510.3348388671875,
+                    1993.349609375,
+                    1142.5506591796875,
+                    2218.4267578125
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.7381493449211121,
+                "coordinate": [
+                    151.1680908203125,
+                    248.57725524902344,
+                    445.664306640625,
+                    279.341064453125
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.6082603931427002,
+                "coordinate": [
+                    1055.89697265625,
+                    146.9267120361328,
+                    1210.427001953125,
+                    175.7244415283203
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.5441638827323914,
+                "coordinate": [
+                    590.1580810546875,
+                    248.5211944580078,
+                    1500.7330322265625,
+                    279.05572509765625
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.5230838060379028,
+                "coordinate": [
+                    1376.77001953125,
+                    148.1358184814453,
+                    1501.31884765625,
+                    175.1736602783203
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": false
+        },
+        "dt_polys": [
+            [
+                [
+                    1054,
+                    145
+                ],
+                [
+                    1215,
+                    145
+                ],
+                [
+                    1215,
+                    179
+                ],
+                [
+                    1054,
+                    179
+                ]
+            ],
+            [
+                [
+                    1375,
+                    145
+                ],
+                [
+                    1506,
+                    145
+                ],
+                [
+                    1506,
+                    180
+                ],
+                [
+                    1375,
+                    180
+                ]
+            ],
+            [
+                [
+                    153,
+                    248
+                ],
+                [
+                    448,
+                    248
+                ],
+                [
+                    448,
+                    279
+                ],
+                [
+                    153,
+                    279
+                ]
+            ],
+            [
+                [
+                    591,
+                    245
+                ],
+                [
+                    1503,
+                    248
+                ],
+                [
+                    1503,
+                    282
+                ],
+                [
+                    591,
+                    279
+                ]
+            ],
+            [
+                [
+                    1553,
+                    1474
+                ],
+                [
+                    1598,
+                    1474
+                ],
+                [
+                    1598,
+                    1520
+                ],
+                [
+                    1553,
+                    1520
+                ]
+            ],
+            [
+                [
+                    553,
+                    1993
+                ],
+                [
+                    1103,
+                    1993
+                ],
+                [
+                    1103,
+                    2023
+                ],
+                [
+                    553,
+                    2023
+                ]
+            ],
+            [
+                [
+                    675,
+                    2033
+                ],
+                [
+                    981,
+                    2033
+                ],
+                [
+                    981,
+                    2060
+                ],
+                [
+                    675,
+                    2060
+                ]
+            ],
+            [
+                [
+                    520,
+                    2073
+                ],
+                [
+                    1136,
+                    2073
+                ],
+                [
+                    1136,
+                    2100
+                ],
+                [
+                    520,
+                    2100
+                ]
+            ],
+            [
+                [
+                    637,
+                    2113
+                ],
+                [
+                    1019,
+                    2113
+                ],
+                [
+                    1019,
+                    2140
+                ],
+                [
+                    637,
+                    2140
+                ]
+            ],
+            [
+                [
+                    512,
+                    2151
+                ],
+                [
+                    1143,
+                    2153
+                ],
+                [
+                    1143,
+                    2181
+                ],
+                [
+                    512,
+                    2179
+                ]
+            ],
+            [
+                [
+                    625,
+                    2191
+                ],
+                [
+                    1031,
+                    2192
+                ],
+                [
+                    1030,
+                    2219
+                ],
+                [
+                    624,
+                    2218
+                ]
+            ]
+        ],
+        "text_det_params": {
+            "limit_side_len": 736,
+            "limit_type": "min",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+            "Total TTC",
+            "96,84 €",
+            "Mode de paiement :",
+            "Prélèvement SEPA FRXX 1820 6001 00XX XXXX XXX4489",
+            "J",
+            "SAS Docauto - 23 rue Taitbout - 75009 Paris",
+            "Siret : 82901607000056",
+            "N°TVA Intra-communautaire : FR 38 829 016 070",
+            "RCS : 829 016 070 R.C.S. Paris",
+            "Tél : 01 87 66 46 44 - Email : pieces@vroomly.com",
+            "Site internet : www.vroomly.com"
+        ],
+        "rec_scores": [
+            0.9956040978431702,
+            0.9993706941604614,
+            0.9914210438728333,
+            0.9738022089004517,
+            0.2839779555797577,
+            0.9921655654907227,
+            0.9906763434410095,
+            0.9906688928604126,
+            0.9924816489219666,
+            0.9841392636299133,
+            0.9854967594146729
+        ],
+        "rec_polys": [
+            [
+                [
+                    1054,
+                    145
+                ],
+                [
+                    1215,
+                    145
+                ],
+                [
+                    1215,
+                    179
+                ],
+                [
+                    1054,
+                    179
+                ]
+            ],
+            [
+                [
+                    1375,
+                    145
+                ],
+                [
+                    1506,
+                    145
+                ],
+                [
+                    1506,
+                    180
+                ],
+                [
+                    1375,
+                    180
+                ]
+            ],
+            [
+                [
+                    153,
+                    248
+                ],
+                [
+                    448,
+                    248
+                ],
+                [
+                    448,
+                    279
+                ],
+                [
+                    153,
+                    279
+                ]
+            ],
+            [
+                [
+                    591,
+                    245
+                ],
+                [
+                    1503,
+                    248
+                ],
+                [
+                    1503,
+                    282
+                ],
+                [
+                    591,
+                    279
+                ]
+            ],
+            [
+                [
+                    1553,
+                    1474
+                ],
+                [
+                    1598,
+                    1474
+                ],
+                [
+                    1598,
+                    1520
+                ],
+                [
+                    1553,
+                    1520
+                ]
+            ],
+            [
+                [
+                    553,
+                    1993
+                ],
+                [
+                    1103,
+                    1993
+                ],
+                [
+                    1103,
+                    2023
+                ],
+                [
+                    553,
+                    2023
+                ]
+            ],
+            [
+                [
+                    675,
+                    2033
+                ],
+                [
+                    981,
+                    2033
+                ],
+                [
+                    981,
+                    2060
+                ],
+                [
+                    675,
+                    2060
+                ]
+            ],
+            [
+                [
+                    520,
+                    2073
+                ],
+                [
+                    1136,
+                    2073
+                ],
+                [
+                    1136,
+                    2100
+                ],
+                [
+                    520,
+                    2100
+                ]
+            ],
+            [
+                [
+                    637,
+                    2113
+                ],
+                [
+                    1019,
+                    2113
+                ],
+                [
+                    1019,
+                    2140
+                ],
+                [
+                    637,
+                    2140
+                ]
+            ],
+            [
+                [
+                    512,
+                    2151
+                ],
+                [
+                    1143,
+                    2153
+                ],
+                [
+                    1143,
+                    2181
+                ],
+                [
+                    512,
+                    2179
+                ]
+            ],
+            [
+                [
+                    625,
+                    2191
+                ],
+                [
+                    1031,
+                    2192
+                ],
+                [
+                    1030,
+                    2219
+                ],
+                [
+                    624,
+                    2218
+                ]
+            ]
+        ],
+        "rec_boxes": [
+            [
+                1054,
+                145,
+                1215,
+                179
+            ],
+            [
+                1375,
+                145,
+                1506,
+                180
+            ],
+            [
+                153,
+                248,
+                448,
+                279
+            ],
+            [
+                591,
+                245,
+                1503,
+                282
+            ],
+            [
+                1553,
+                1474,
+                1598,
+                1520
+            ],
+            [
+                553,
+                1993,
+                1103,
+                2023
+            ],
+            [
+                675,
+                2033,
+                981,
+                2060
+            ],
+            [
+                520,
+                2073,
+                1136,
+                2100
+            ],
+            [
+                637,
+                2113,
+                1019,
+                2140
+            ],
+            [
+                512,
+                2151,
+                1143,
+                2181
+            ],
+            [
+                624,
+                2191,
+                1031,
+                2219
+            ]
+        ]
+    }
+}

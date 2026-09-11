@@ -63,7 +63,7 @@ class OCRPipelineTests(unittest.TestCase):
         self.assertFalse(
             service._pipeline.predict_kwargs["use_e2e_wireless_table_rec_model"]
         )
-        self.assertTrue(
+        self.assertFalse(
             service._pipeline.predict_kwargs["use_ocr_results_with_table_cells"]
         )
         self.assertNotIn(

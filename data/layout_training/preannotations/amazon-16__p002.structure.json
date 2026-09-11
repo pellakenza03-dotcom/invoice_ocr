@@ -1,0 +1,344 @@
+{
+    "input_path": "/kaggle/working/invoice_ocr/data/layout_training/images/amazon-16__p002.png",
+    "page_index": null,
+    "page_count": null,
+    "width": 1654,
+    "height": 2339,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": false,
+        "use_chart_recognition": false,
+        "use_region_detection": false,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "Facture Numéro de la facture INV-DE-309397805-2023-2736",
+            "block_bbox": [
+                1077,
+                67,
+                1566,
+                134
+            ],
+            "block_id": 0,
+            "block_order": null
+        },
+        {
+            "block_label": "footer",
+            "block_content": "Produits expédiés à partir de : Allemagne ",
+            "block_bbox": [
+                77,
+                2105,
+                382,
+                2122
+            ],
+            "block_id": 1,
+            "block_order": null
+        },
+        {
+            "block_label": "number",
+            "block_content": "Page 2 de 2",
+            "block_bbox": [
+                1436,
+                2126,
+                1573,
+                2150
+            ],
+            "block_id": 2,
+            "block_order": null
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": false
+        },
+        "angle": -1
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 3,
+                "label": "number",
+                "score": 0.9055066108703613,
+                "coordinate": [
+                    1436.5797119140625,
+                    2126.326171875,
+                    1573.0435791015625,
+                    2150.4853515625
+                ]
+            },
+            {
+                "cls_id": 14,
+                "label": "footer",
+                "score": 0.8900188207626343,
+                "coordinate": [
+                    77.29402160644531,
+                    2105.14990234375,
+                    382.6102294921875,
+                    2122.61572265625
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.48002997040748596,
+                "coordinate": [
+                    1426.9189453125,
+                    66.80149841308594,
+                    1562.52783203125,
+                    99.01301574707031
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.43840491771698,
+                "coordinate": [
+                    1077.8779296875,
+                    114.95677185058594,
+                    1567.8115234375,
+                    133.86070251464844
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.4028159976005554,
+                "coordinate": [
+                    1077.190185546875,
+                    67.11346435546875,
+                    1566.884521484375,
+                    134.359375
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": false
+        },
+        "dt_polys": [
+            [
+                [
+                    1423,
+                    61
+                ],
+                [
+                    1566,
+                    64
+                ],
+                [
+                    1565,
+                    104
+                ],
+                [
+                    1422,
+                    101
+                ]
+            ],
+            [
+                [
+                    1076,
+                    115
+                ],
+                [
+                    1569,
+                    115
+                ],
+                [
+                    1569,
+                    138
+                ],
+                [
+                    1076,
+                    138
+                ]
+            ],
+            [
+                [
+                    79,
+                    2107
+                ],
+                [
+                    383,
+                    2107
+                ],
+                [
+                    383,
+                    2124
+                ],
+                [
+                    79,
+                    2124
+                ]
+            ],
+            [
+                [
+                    1435,
+                    2123
+                ],
+                [
+                    1579,
+                    2123
+                ],
+                [
+                    1579,
+                    2155
+                ],
+                [
+                    1435,
+                    2155
+                ]
+            ]
+        ],
+        "text_det_params": {
+            "limit_side_len": 736,
+            "limit_type": "min",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+            -1,
+            -1,
+            -1,
+            -1
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+            "Facture",
+            "Numéro de la facture INV-DE-309397805-2023-2736",
+            "Produits expédiés à partir de : Allemagne",
+            "Page 2 de 2"
+        ],
+        "rec_scores": [
+            0.9999533891677856,
+            0.9937888383865356,
+            0.9970865249633789,
+            0.9991320967674255
+        ],
+        "rec_polys": [
+            [
+                [
+                    1423,
+                    61
+                ],
+                [
+                    1566,
+                    64
+                ],
+                [
+                    1565,
+                    104
+                ],
+                [
+                    1422,
+                    101
+                ]
+            ],
+            [
+                [
+                    1076,
+                    115
+                ],
+                [
+                    1569,
+                    115
+                ],
+                [
+                    1569,
+                    138
+                ],
+                [
+                    1076,
+                    138
+                ]
+            ],
+            [
+                [
+                    79,
+                    2107
+                ],
+                [
+                    383,
+                    2107
+                ],
+                [
+                    383,
+                    2124
+                ],
+                [
+                    79,
+                    2124
+                ]
+            ],
+            [
+                [
+                    1435,
+                    2123
+                ],
+                [
+                    1579,
+                    2123
+                ],
+                [
+                    1579,
+                    2155
+                ],
+                [
+                    1435,
+                    2155
+                ]
+            ]
+        ],
+        "rec_boxes": [
+            [
+                1422,
+                61,
+                1566,
+                104
+            ],
+            [
+                1076,
+                115,
+                1569,
+                138
+            ],
+            [
+                79,
+                2107,
+                383,
+                2124
+            ],
+            [
+                1435,
+                2123,
+                1579,
+                2155
+            ]
+        ]
+    }
+}

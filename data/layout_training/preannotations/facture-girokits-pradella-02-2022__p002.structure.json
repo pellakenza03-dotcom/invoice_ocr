@@ -1,0 +1,458 @@
+{
+    "input_path": "/kaggle/working/invoice_ocr/data/layout_training/images/facture-girokits-pradella-02-2022__p002.png",
+    "page_index": null,
+    "page_count": null,
+    "width": 1653,
+    "height": 2339,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": false,
+        "use_chart_recognition": false,
+        "use_region_detection": false,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "doc_title",
+            "block_content": "GirOkits ",
+            "block_bbox": [
+                622,
+                51,
+                1023,
+                154
+            ],
+            "block_id": 0,
+            "block_order": 1
+        },
+        {
+            "block_label": "text",
+            "block_content": "Virement Bancaire: Banque: BBVA IBAN: ES70 0182 0199 90 0201572679 SWIFT: BBVAESMMXX Indiquer le número de la facture ou le nom du client au moment de realiser le paiement. Merci.",
+            "block_bbox": [
+                73,
+                321,
+                1477,
+                392
+            ],
+            "block_id": 1,
+            "block_order": 2
+        },
+        {
+            "block_label": "text",
+            "block_content": "Carton de 9o kits ",
+            "block_bbox": [
+                76,
+                435,
+                305,
+                462
+            ],
+            "block_id": 2,
+            "block_order": 3
+        },
+        {
+            "block_label": "footer",
+            "block_content": "Take Your Week, SL - Nif: ESB55181325 - C/ Oms, 10 - 17111 Forallac - GIRONA ",
+            "block_bbox": [
+                307,
+                2096,
+                1339,
+                2124
+            ],
+            "block_id": 3,
+            "block_order": null
+        },
+        {
+            "block_label": "footer",
+            "block_content": "Página: 2/2",
+            "block_bbox": [
+                748,
+                2167,
+                899,
+                2197
+            ],
+            "block_id": 4,
+            "block_order": null
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": false
+        },
+        "angle": -1
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.9521350860595703,
+                "coordinate": [
+                    73.63665771484375,
+                    321.0564270019531,
+                    1477.724365234375,
+                    392.5685119628906
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.8837530612945557,
+                "coordinate": [
+                    76.03608703613281,
+                    435.6393737792969,
+                    305.0755615234375,
+                    462.8298034667969
+                ]
+            },
+            {
+                "cls_id": 14,
+                "label": "footer",
+                "score": 0.8649256825447083,
+                "coordinate": [
+                    307.13507080078125,
+                    2096.31640625,
+                    1339.330078125,
+                    2124.74609375
+                ]
+            },
+            {
+                "cls_id": 14,
+                "label": "footer",
+                "score": 0.6027520895004272,
+                "coordinate": [
+                    748.9213256835938,
+                    2167.976806640625,
+                    899.6972045898438,
+                    2197.555908203125
+                ]
+            },
+            {
+                "cls_id": 10,
+                "label": "doc_title",
+                "score": 0.6002289056777954,
+                "coordinate": [
+                    622.57177734375,
+                    51.220123291015625,
+                    1023.5595703125,
+                    154.0842742919922
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": false
+        },
+        "dt_polys": [
+            [
+                [
+                    619,
+                    51
+                ],
+                [
+                    1038,
+                    57
+                ],
+                [
+                    1036,
+                    170
+                ],
+                [
+                    617,
+                    164
+                ]
+            ],
+            [
+                [
+                    78,
+                    321
+                ],
+                [
+                    1481,
+                    322
+                ],
+                [
+                    1481,
+                    353
+                ],
+                [
+                    78,
+                    352
+                ]
+            ],
+            [
+                [
+                    81,
+                    366
+                ],
+                [
+                    1178,
+                    366
+                ],
+                [
+                    1178,
+                    394
+                ],
+                [
+                    81,
+                    394
+                ]
+            ],
+            [
+                [
+                    78,
+                    436
+                ],
+                [
+                    306,
+                    436
+                ],
+                [
+                    306,
+                    466
+                ],
+                [
+                    78,
+                    466
+                ]
+            ],
+            [
+                [
+                    309,
+                    2097
+                ],
+                [
+                    1343,
+                    2097
+                ],
+                [
+                    1343,
+                    2130
+                ],
+                [
+                    309,
+                    2130
+                ]
+            ],
+            [
+                [
+                    750,
+                    2167
+                ],
+                [
+                    904,
+                    2167
+                ],
+                [
+                    904,
+                    2201
+                ],
+                [
+                    750,
+                    2201
+                ]
+            ]
+        ],
+        "text_det_params": {
+            "limit_side_len": 736,
+            "limit_type": "min",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+            "GirOkits",
+            "Virement Bancaire: Banque: BBVA IBAN: ES70 0182 0199 90 0201572679 SWIFT: BBVAESMMXX Indiquer le",
+            "número de la facture ou le nom du client au moment de realiser le paiement. Merci.",
+            "Carton de 9o kits",
+            "Take Your Week, SL - Nif: ESB55181325 - C/ Oms, 10 - 17111 Forallac - GIRONA",
+            "Página: 2/2"
+        ],
+        "rec_scores": [
+            0.979499101638794,
+            0.9824491143226624,
+            0.9842439889907837,
+            0.9896559715270996,
+            0.9871324300765991,
+            0.9484889507293701
+        ],
+        "rec_polys": [
+            [
+                [
+                    619,
+                    51
+                ],
+                [
+                    1038,
+                    57
+                ],
+                [
+                    1036,
+                    170
+                ],
+                [
+                    617,
+                    164
+                ]
+            ],
+            [
+                [
+                    78,
+                    321
+                ],
+                [
+                    1481,
+                    322
+                ],
+                [
+                    1481,
+                    353
+                ],
+                [
+                    78,
+                    352
+                ]
+            ],
+            [
+                [
+                    81,
+                    366
+                ],
+                [
+                    1178,
+                    366
+                ],
+                [
+                    1178,
+                    394
+                ],
+                [
+                    81,
+                    394
+                ]
+            ],
+            [
+                [
+                    78,
+                    436
+                ],
+                [
+                    306,
+                    436
+                ],
+                [
+                    306,
+                    466
+                ],
+                [
+                    78,
+                    466
+                ]
+            ],
+            [
+                [
+                    309,
+                    2097
+                ],
+                [
+                    1343,
+                    2097
+                ],
+                [
+                    1343,
+                    2130
+                ],
+                [
+                    309,
+                    2130
+                ]
+            ],
+            [
+                [
+                    750,
+                    2167
+                ],
+                [
+                    904,
+                    2167
+                ],
+                [
+                    904,
+                    2201
+                ],
+                [
+                    750,
+                    2201
+                ]
+            ]
+        ],
+        "rec_boxes": [
+            [
+                617,
+                51,
+                1038,
+                170
+            ],
+            [
+                78,
+                321,
+                1481,
+                353
+            ],
+            [
+                81,
+                366,
+                1178,
+                394
+            ],
+            [
+                78,
+                436,
+                306,
+                466
+            ],
+            [
+                309,
+                2097,
+                1343,
+                2130
+            ],
+            [
+                750,
+                2167,
+                904,
+                2201
+            ]
+        ]
+    }
+}

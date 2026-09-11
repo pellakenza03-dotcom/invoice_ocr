@@ -1,0 +1,1851 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "4415513253-pj47m8pu1r9oab7q2x8t9gls8kew",
+  "source_file": "4415513253-pj47m8pu1r9oab7q2x8t9gls8kew__p001.png",
+  "generated_at": "2026-09-11T09:24:44.500277Z",
+  "ocr_engine": {
+    "name": "PP-StructureV3",
+    "version": "3.7.0"
+  },
+  "page_count": 1,
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 1653,
+      "height": 2339,
+      "orientation": 0,
+      "blocks": [
+        {
+          "block_id": "p1_b0",
+          "type": "header",
+          "text": "NBB Lease",
+          "bbox": [
+            83.0,
+            61.0,
+            371.0,
+            123.0
+          ],
+          "ocr_confidence": 0.9986885786056519,
+          "reading_order": 0,
+          "polygon": [
+            [
+              83.0,
+              61.0
+            ],
+            [
+              371.0,
+              61.0
+            ],
+            [
+              371.0,
+              123.0
+            ],
+            [
+              83.0,
+              123.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b1",
+          "type": "text",
+          "text": "Tél : 05-40-08-32-40",
+          "bbox": [
+            86.0,
+            210.0,
+            347.0,
+            243.0
+          ],
+          "ocr_confidence": 0.9981104731559753,
+          "reading_order": 1,
+          "polygon": [
+            [
+              87.0,
+              210.0
+            ],
+            [
+              347.0,
+              212.0
+            ],
+            [
+              347.0,
+              243.0
+            ],
+            [
+              86.0,
+              241.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b2",
+          "type": "text",
+          "text": "PHARMACIE FROIDEVAUX",
+          "bbox": [
+            831.0,
+            309.0,
+            1192.0,
+            336.0
+          ],
+          "ocr_confidence": 0.9997310638427734,
+          "reading_order": 2,
+          "polygon": [
+            [
+              831.0,
+              309.0
+            ],
+            [
+              1192.0,
+              309.0
+            ],
+            [
+              1192.0,
+              336.0
+            ],
+            [
+              831.0,
+              336.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b3",
+          "type": "text",
+          "text": "DU SOLEIL",
+          "bbox": [
+            828.0,
+            340.0,
+            984.0,
+            374.0
+          ],
+          "ocr_confidence": 0.9996861219406128,
+          "reading_order": 3,
+          "polygon": [
+            [
+              828.0,
+              343.0
+            ],
+            [
+              983.0,
+              340.0
+            ],
+            [
+              984.0,
+              371.0
+            ],
+            [
+              829.0,
+              374.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b4",
+          "type": "text",
+          "text": "91421 MONTGERON",
+          "bbox": [
+            830.0,
+            379.0,
+            1103.0,
+            407.0
+          ],
+          "ocr_confidence": 0.998081386089325,
+          "reading_order": 4,
+          "polygon": [
+            [
+              830.0,
+              379.0
+            ],
+            [
+              1103.0,
+              379.0
+            ],
+            [
+              1103.0,
+              407.0
+            ],
+            [
+              830.0,
+              407.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b5",
+          "type": "text",
+          "text": "FRANCE",
+          "bbox": [
+            828.0,
+            410.0,
+            952.0,
+            444.0
+          ],
+          "ocr_confidence": 0.9999263882637024,
+          "reading_order": 5,
+          "polygon": [
+            [
+              829.0,
+              410.0
+            ],
+            [
+              952.0,
+              413.0
+            ],
+            [
+              951.0,
+              444.0
+            ],
+            [
+              828.0,
+              441.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b6",
+          "type": "text",
+          "text": "Mérignac, le 02 janvier 2025",
+          "bbox": [
+            994.0,
+            533.0,
+            1343.0,
+            563.0
+          ],
+          "ocr_confidence": 0.99924236536026,
+          "reading_order": 6,
+          "polygon": [
+            [
+              994.0,
+              533.0
+            ],
+            [
+              1343.0,
+              533.0
+            ],
+            [
+              1343.0,
+              563.0
+            ],
+            [
+              994.0,
+              563.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b7",
+          "type": "text",
+          "text": "FACTURE N° F25/0078723",
+          "bbox": [
+            619.0,
+            606.0,
+            1033.0,
+            637.0
+          ],
+          "ocr_confidence": 0.9823360443115234,
+          "reading_order": 7,
+          "polygon": [
+            [
+              619.0,
+              606.0
+            ],
+            [
+              1033.0,
+              606.0
+            ],
+            [
+              1033.0,
+              637.0
+            ],
+            [
+              619.0,
+              637.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b8",
+          "type": "text",
+          "text": "Contrat :",
+          "bbox": [
+            53.0,
+            701.0,
+            168.0,
+            732.0
+          ],
+          "ocr_confidence": 0.9894351959228516,
+          "reading_order": 8,
+          "polygon": [
+            [
+              53.0,
+              701.0
+            ],
+            [
+              168.0,
+              701.0
+            ],
+            [
+              168.0,
+              732.0
+            ],
+            [
+              53.0,
+              732.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b9",
+          "type": "text",
+          "text": "CONTRAT : 23-BU2-165500",
+          "bbox": [
+            220.0,
+            701.0,
+            582.0,
+            731.0
+          ],
+          "ocr_confidence": 0.9982351064682007,
+          "reading_order": 9,
+          "polygon": [
+            [
+              220.0,
+              701.0
+            ],
+            [
+              582.0,
+              701.0
+            ],
+            [
+              582.0,
+              731.0
+            ],
+            [
+              220.0,
+              731.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b10",
+          "type": "text",
+          "text": "FourniSSeur : A M I AUDIT MANAGEMENT INTEGRATION",
+          "bbox": [
+            55.0,
+            759.0,
+            790.0,
+            783.0
+          ],
+          "ocr_confidence": 0.9701178669929504,
+          "reading_order": 10,
+          "polygon": [
+            [
+              55.0,
+              759.0
+            ],
+            [
+              790.0,
+              759.0
+            ],
+            [
+              790.0,
+              783.0
+            ],
+            [
+              55.0,
+              783.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b11",
+          "type": "text",
+          "text": "SIREN :",
+          "bbox": [
+            52.0,
+            811.0,
+            160.0,
+            842.0
+          ],
+          "ocr_confidence": 0.9981573224067688,
+          "reading_order": 11,
+          "polygon": [
+            [
+              52.0,
+              811.0
+            ],
+            [
+              160.0,
+              811.0
+            ],
+            [
+              160.0,
+              842.0
+            ],
+            [
+              52.0,
+              842.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b12",
+          "type": "text",
+          "text": "832533129",
+          "bbox": [
+            219.0,
+            813.0,
+            363.0,
+            841.0
+          ],
+          "ocr_confidence": 0.9999958872795105,
+          "reading_order": 12,
+          "polygon": [
+            [
+              219.0,
+              813.0
+            ],
+            [
+              363.0,
+              813.0
+            ],
+            [
+              363.0,
+              841.0
+            ],
+            [
+              219.0,
+              841.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b13",
+          "type": "text",
+          "text": "Description des biens :",
+          "bbox": [
+            53.0,
+            867.0,
+            340.0,
+            897.0
+          ],
+          "ocr_confidence": 0.99852454662323,
+          "reading_order": 13,
+          "polygon": [
+            [
+              53.0,
+              867.0
+            ],
+            [
+              340.0,
+              867.0
+            ],
+            [
+              340.0,
+              897.0
+            ],
+            [
+              53.0,
+              897.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b14",
+          "type": "text",
+          "text": "Matériel informatique",
+          "bbox": [
+            412.0,
+            865.0,
+            699.0,
+            898.0
+          ],
+          "ocr_confidence": 0.9998763203620911,
+          "reading_order": 14,
+          "polygon": [
+            [
+              412.0,
+              865.0
+            ],
+            [
+              699.0,
+              867.0
+            ],
+            [
+              699.0,
+              898.0
+            ],
+            [
+              412.0,
+              896.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b15",
+          "type": "table",
+          "text": "Période",
+          "bbox": [
+            215.0,
+            1090.0,
+            324.0,
+            1122.0
+          ],
+          "ocr_confidence": 0.9999219179153442,
+          "reading_order": 15,
+          "polygon": [
+            [
+              215.0,
+              1090.0
+            ],
+            [
+              324.0,
+              1090.0
+            ],
+            [
+              324.0,
+              1122.0
+            ],
+            [
+              215.0,
+              1122.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b16",
+          "type": "table",
+          "text": "Type de rubrique",
+          "bbox": [
+            663.0,
+            1089.0,
+            897.0,
+            1126.0
+          ],
+          "ocr_confidence": 0.999151885509491,
+          "reading_order": 16,
+          "polygon": [
+            [
+              663.0,
+              1089.0
+            ],
+            [
+              897.0,
+              1089.0
+            ],
+            [
+              897.0,
+              1126.0
+            ],
+            [
+              663.0,
+              1126.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b17",
+          "type": "table",
+          "text": "Taux de T.V.A",
+          "bbox": [
+            1101.0,
+            1090.0,
+            1292.0,
+            1121.0
+          ],
+          "ocr_confidence": 0.9484495520591736,
+          "reading_order": 17,
+          "polygon": [
+            [
+              1101.0,
+              1090.0
+            ],
+            [
+              1292.0,
+              1090.0
+            ],
+            [
+              1292.0,
+              1121.0
+            ],
+            [
+              1101.0,
+              1121.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b18",
+          "type": "table",
+          "text": "Montant HT en €",
+          "bbox": [
+            1340.0,
+            1088.0,
+            1567.0,
+            1122.0
+          ],
+          "ocr_confidence": 0.9997501969337463,
+          "reading_order": 18,
+          "polygon": [
+            [
+              1340.0,
+              1088.0
+            ],
+            [
+              1567.0,
+              1088.0
+            ],
+            [
+              1567.0,
+              1122.0
+            ],
+            [
+              1340.0,
+              1122.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b19",
+          "type": "table",
+          "text": "du 10/01/25 au 09/02/25",
+          "bbox": [
+            116.0,
+            1140.0,
+            421.0,
+            1172.0
+          ],
+          "ocr_confidence": 0.9981682896614075,
+          "reading_order": 19,
+          "polygon": [
+            [
+              116.0,
+              1140.0
+            ],
+            [
+              421.0,
+              1140.0
+            ],
+            [
+              421.0,
+              1172.0
+            ],
+            [
+              116.0,
+              1172.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b20",
+          "type": "table",
+          "text": "Loyer",
+          "bbox": [
+            739.0,
+            1136.0,
+            823.0,
+            1179.0
+          ],
+          "ocr_confidence": 0.9999502897262573,
+          "reading_order": 20,
+          "polygon": [
+            [
+              739.0,
+              1136.0
+            ],
+            [
+              823.0,
+              1136.0
+            ],
+            [
+              823.0,
+              1179.0
+            ],
+            [
+              739.0,
+              1179.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b21",
+          "type": "table",
+          "text": "20 %",
+          "bbox": [
+            1159.0,
+            1138.0,
+            1234.0,
+            1173.0
+          ],
+          "ocr_confidence": 0.8577773571014404,
+          "reading_order": 21,
+          "polygon": [
+            [
+              1159.0,
+              1138.0
+            ],
+            [
+              1234.0,
+              1138.0
+            ],
+            [
+              1234.0,
+              1173.0
+            ],
+            [
+              1159.0,
+              1173.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b22",
+          "type": "table",
+          "text": "697,21",
+          "bbox": [
+            1405.0,
+            1137.0,
+            1498.0,
+            1174.0
+          ],
+          "ocr_confidence": 0.9999575614929199,
+          "reading_order": 22,
+          "polygon": [
+            [
+              1405.0,
+              1137.0
+            ],
+            [
+              1498.0,
+              1137.0
+            ],
+            [
+              1498.0,
+              1174.0
+            ],
+            [
+              1405.0,
+              1174.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b23",
+          "type": "table",
+          "text": "Total HT",
+          "bbox": [
+            1078.0,
+            1210.0,
+            1193.0,
+            1242.0
+          ],
+          "ocr_confidence": 0.9998773336410522,
+          "reading_order": 23,
+          "polygon": [
+            [
+              1078.0,
+              1213.0
+            ],
+            [
+              1193.0,
+              1210.0
+            ],
+            [
+              1193.0,
+              1239.0
+            ],
+            [
+              1078.0,
+              1242.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b24",
+          "type": "table",
+          "text": "697,21 €",
+          "bbox": [
+            1469.0,
+            1211.0,
+            1589.0,
+            1246.0
+          ],
+          "ocr_confidence": 0.9997838139533997,
+          "reading_order": 24,
+          "polygon": [
+            [
+              1469.0,
+              1211.0
+            ],
+            [
+              1589.0,
+              1211.0
+            ],
+            [
+              1589.0,
+              1246.0
+            ],
+            [
+              1469.0,
+              1246.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b25",
+          "type": "table",
+          "text": "Facture exigible le : 10/01/2025",
+          "bbox": [
+            60.0,
+            1253.0,
+            377.0,
+            1276.0
+          ],
+          "ocr_confidence": 0.9926048517227173,
+          "reading_order": 25,
+          "polygon": [
+            [
+              60.0,
+              1253.0
+            ],
+            [
+              377.0,
+              1253.0
+            ],
+            [
+              377.0,
+              1276.0
+            ],
+            [
+              60.0,
+              1276.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b26",
+          "type": "text",
+          "text": "Total TVA",
+          "bbox": [
+            1079.0,
+            1257.0,
+            1210.0,
+            1288.0
+          ],
+          "ocr_confidence": 0.9997445344924927,
+          "reading_order": 26,
+          "polygon": [
+            [
+              1079.0,
+              1257.0
+            ],
+            [
+              1210.0,
+              1257.0
+            ],
+            [
+              1210.0,
+              1288.0
+            ],
+            [
+              1079.0,
+              1288.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b27",
+          "type": "table",
+          "text": "139,44 €",
+          "bbox": [
+            1471.0,
+            1257.0,
+            1588.0,
+            1289.0
+          ],
+          "ocr_confidence": 0.9988293647766113,
+          "reading_order": 27,
+          "polygon": [
+            [
+              1471.0,
+              1257.0
+            ],
+            [
+              1588.0,
+              1257.0
+            ],
+            [
+              1588.0,
+              1289.0
+            ],
+            [
+              1471.0,
+              1289.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b28",
+          "type": "table",
+          "text": "Total TTC",
+          "bbox": [
+            1078.0,
+            1299.0,
+            1215.0,
+            1330.0
+          ],
+          "ocr_confidence": 0.9995099306106567,
+          "reading_order": 28,
+          "polygon": [
+            [
+              1078.0,
+              1299.0
+            ],
+            [
+              1215.0,
+              1299.0
+            ],
+            [
+              1215.0,
+              1330.0
+            ],
+            [
+              1078.0,
+              1330.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b29",
+          "type": "table",
+          "text": "836,65 €",
+          "bbox": [
+            1468.0,
+            1298.0,
+            1590.0,
+            1336.0
+          ],
+          "ocr_confidence": 0.9879102110862732,
+          "reading_order": 29,
+          "polygon": [
+            [
+              1468.0,
+              1301.0
+            ],
+            [
+              1589.0,
+              1298.0
+            ],
+            [
+              1590.0,
+              1334.0
+            ],
+            [
+              1469.0,
+              1336.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b30",
+          "type": "text",
+          "text": "Le règlement se fera par prélèvement sur le compte :",
+          "bbox": [
+            58.0,
+            1477.0,
+            584.0,
+            1502.0
+          ],
+          "ocr_confidence": 0.9844586849212646,
+          "reading_order": 30,
+          "polygon": [
+            [
+              58.0,
+              1477.0
+            ],
+            [
+              584.0,
+              1478.0
+            ],
+            [
+              584.0,
+              1502.0
+            ],
+            [
+              58.0,
+              1501.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b31",
+          "type": "text",
+          "text": "IBAN : FR7630004009410001013215638",
+          "bbox": [
+            58.0,
+            1523.0,
+            497.0,
+            1548.0
+          ],
+          "ocr_confidence": 0.9947398900985718,
+          "reading_order": 31,
+          "polygon": [
+            [
+              58.0,
+              1523.0
+            ],
+            [
+              497.0,
+              1524.0
+            ],
+            [
+              497.0,
+              1548.0
+            ],
+            [
+              58.0,
+              1547.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b32",
+          "type": "text",
+          "text": "BIC",
+          "bbox": [
+            56.0,
+            1562.0,
+            102.0,
+            1588.0
+          ],
+          "ocr_confidence": 0.9993917346000671,
+          "reading_order": 32,
+          "polygon": [
+            [
+              56.0,
+              1562.0
+            ],
+            [
+              102.0,
+              1562.0
+            ],
+            [
+              102.0,
+              1588.0
+            ],
+            [
+              56.0,
+              1588.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b33",
+          "type": "text",
+          "text": ": BNPAFRPPXXX",
+          "bbox": [
+            135.0,
+            1564.0,
+            322.0,
+            1585.0
+          ],
+          "ocr_confidence": 0.9828688502311707,
+          "reading_order": 33,
+          "polygon": [
+            [
+              135.0,
+              1564.0
+            ],
+            [
+              322.0,
+              1564.0
+            ],
+            [
+              322.0,
+              1585.0
+            ],
+            [
+              135.0,
+              1585.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b34",
+          "type": "text",
+          "text": "Le paiement anticipé de la facture ne donne droit à aucun escompte.",
+          "bbox": [
+            56.0,
+            1628.0,
+            732.0,
+            1652.0
+          ],
+          "ocr_confidence": 0.9955438375473022,
+          "reading_order": 34,
+          "polygon": [
+            [
+              56.0,
+              1628.0
+            ],
+            [
+              732.0,
+              1628.0
+            ],
+            [
+              732.0,
+              1652.0
+            ],
+            [
+              56.0,
+              1652.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b35",
+          "type": "text",
+          "text": "Pour toute demande administrative (double de contrat, changement de coordonnées bancaires, d’adresse, etc.) nous vous remercions d’appeler",
+          "bbox": [
+            55.0,
+            1683.0,
+            1476.0,
+            1708.0
+          ],
+          "ocr_confidence": 0.9913598895072937,
+          "reading_order": 35,
+          "polygon": [
+            [
+              55.0,
+              1683.0
+            ],
+            [
+              1476.0,
+              1684.0
+            ],
+            [
+              1476.0,
+              1708.0
+            ],
+            [
+              55.0,
+              1707.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b36",
+          "type": "text",
+          "text": "le service client (05-40-08-32-40) ou d'envoyer un courriel à : service-client@nbb-lease.fr",
+          "bbox": [
+            56.0,
+            1712.0,
+            935.0,
+            1736.0
+          ],
+          "ocr_confidence": 0.9918045401573181,
+          "reading_order": 36,
+          "polygon": [
+            [
+              56.0,
+              1712.0
+            ],
+            [
+              935.0,
+              1712.0
+            ],
+            [
+              935.0,
+              1736.0
+            ],
+            [
+              56.0,
+              1736.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b37",
+          "type": "text",
+          "text": "Pénalités de retard : Conformément à la loi n° 2008-776 du 4 août 2008 de modernisation de l'économie, toute prestation impayée entrainera le versement",
+          "bbox": [
+            54.0,
+            1765.0,
+            1601.0,
+            1793.0
+          ],
+          "ocr_confidence": 0.9892470836639404,
+          "reading_order": 37,
+          "polygon": [
+            [
+              54.0,
+              1765.0
+            ],
+            [
+              1601.0,
+              1767.0
+            ],
+            [
+              1601.0,
+              1793.0
+            ],
+            [
+              54.0,
+              1791.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b38",
+          "type": "text",
+          "text": "d'un intérêt de retard calculé au taux légal majoré. Se reporter aux Conditions Générales de votre contrat.",
+          "bbox": [
+            55.0,
+            1794.0,
+            1113.0,
+            1819.0
+          ],
+          "ocr_confidence": 0.9947790503501892,
+          "reading_order": 38,
+          "polygon": [
+            [
+              55.0,
+              1794.0
+            ],
+            [
+              1113.0,
+              1795.0
+            ],
+            [
+              1113.0,
+              1819.0
+            ],
+            [
+              55.0,
+              1818.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b39",
+          "type": "text",
+          "text": "Conformément aux articles L441-6 & D441-5 du code de commerce, une indemnité forfaitaire pour frais de recouvrement sera appliquée pour chaque",
+          "bbox": [
+            55.0,
+            1850.0,
+            1599.0,
+            1876.0
+          ],
+          "ocr_confidence": 0.9901453852653503,
+          "reading_order": 39,
+          "polygon": [
+            [
+              55.0,
+              1850.0
+            ],
+            [
+              1599.0,
+              1852.0
+            ],
+            [
+              1599.0,
+              1876.0
+            ],
+            [
+              55.0,
+              1874.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b40",
+          "type": "text",
+          "text": "facture impayée à terme échu, et ce, sans aucune notification préalable.",
+          "bbox": [
+            56.0,
+            1880.0,
+            802.0,
+            1904.0
+          ],
+          "ocr_confidence": 0.9925268888473511,
+          "reading_order": 40,
+          "polygon": [
+            [
+              56.0,
+              1880.0
+            ],
+            [
+              802.0,
+              1880.0
+            ],
+            [
+              802.0,
+              1904.0
+            ],
+            [
+              56.0,
+              1904.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b41",
+          "type": "footer",
+          "text": "LEASECOM SAS",
+          "bbox": [
+            53.0,
+            2159.0,
+            231.0,
+            2183.0
+          ],
+          "ocr_confidence": 0.9999150633811951,
+          "reading_order": 41,
+          "polygon": [
+            [
+              53.0,
+              2159.0
+            ],
+            [
+              231.0,
+              2159.0
+            ],
+            [
+              231.0,
+              2183.0
+            ],
+            [
+              53.0,
+              2183.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b42",
+          "type": "footer",
+          "text": "Société par actions simplifiée au capital de 15 194 526 €",
+          "bbox": [
+            1039.0,
+            2157.0,
+            1600.0,
+            2185.0
+          ],
+          "ocr_confidence": 0.9962217807769775,
+          "reading_order": 42,
+          "polygon": [
+            [
+              1039.0,
+              2157.0
+            ],
+            [
+              1600.0,
+              2158.0
+            ],
+            [
+              1600.0,
+              2185.0
+            ],
+            [
+              1039.0,
+              2184.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b43",
+          "type": "footer",
+          "text": "19 RUE LEBLANC IMMEUBLE LE PONANT",
+          "bbox": [
+            52.0,
+            2191.0,
+            497.0,
+            2216.0
+          ],
+          "ocr_confidence": 0.9882534146308899,
+          "reading_order": 43,
+          "polygon": [
+            [
+              52.0,
+              2192.0
+            ],
+            [
+              497.0,
+              2191.0
+            ],
+            [
+              497.0,
+              2215.0
+            ],
+            [
+              52.0,
+              2216.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b44",
+          "type": "footer",
+          "text": "RCS PARIS : 331 554 071",
+          "bbox": [
+            1329.0,
+            2191.0,
+            1593.0,
+            2215.0
+          ],
+          "ocr_confidence": 0.9934130311012268,
+          "reading_order": 44,
+          "polygon": [
+            [
+              1329.0,
+              2191.0
+            ],
+            [
+              1593.0,
+              2191.0
+            ],
+            [
+              1593.0,
+              2215.0
+            ],
+            [
+              1329.0,
+              2215.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b45",
+          "type": "footer",
+          "text": "75015 PARIS",
+          "bbox": [
+            53.0,
+            2220.0,
+            192.0,
+            2244.0
+          ],
+          "ocr_confidence": 0.9970574975013733,
+          "reading_order": 45,
+          "polygon": [
+            [
+              53.0,
+              2220.0
+            ],
+            [
+              192.0,
+              2220.0
+            ],
+            [
+              192.0,
+              2244.0
+            ],
+            [
+              53.0,
+              2244.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b46",
+          "type": "footer",
+          "text": "N° TVA : FR72331554071",
+          "bbox": [
+            1332.0,
+            2219.0,
+            1593.0,
+            2244.0
+          ],
+          "ocr_confidence": 0.9955601096153259,
+          "reading_order": 46,
+          "polygon": [
+            [
+              1332.0,
+              2219.0
+            ],
+            [
+              1593.0,
+              2220.0
+            ],
+            [
+              1593.0,
+              2244.0
+            ],
+            [
+              1332.0,
+              2243.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b47",
+          "type": "image",
+          "bbox": [
+            1352.673583984375,
+            12.438453674316406,
+            1486.8916015625,
+            146.37960815429688
+          ],
+          "reading_order": 47
+        }
+      ],
+      "tables": [
+        {
+          "table_id": "p1_t0",
+          "bbox": [
+            51.73968505859375,
+            1080.864013671875,
+            1587.904296875,
+            1178.489501953125
+          ],
+          "structure_confidence": 0.8938139081001282,
+          "cells": [
+            {
+              "row": 0,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Période",
+              "bbox": [
+                61.82799530029297,
+                1082.0656445026398,
+                482.1585693359375,
+                1129.5428047180176
+              ],
+              "ocr_confidence": 0.9999219179153442,
+              "source_block_ids": [
+                "p1_b15"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Type de rubrique",
+              "bbox": [
+                479.43890380859375,
+                1082.3653155565262,
+                1058.1909790039062,
+                1129.5923881530762
+              ],
+              "ocr_confidence": 0.999151885509491,
+              "source_block_ids": [
+                "p1_b16"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Taux de T.V.A",
+              "bbox": [
+                1072.6934814453125,
+                1082.9679141044617,
+                1310.0302124023438,
+                1129.889305114746
+              ],
+              "ocr_confidence": 0.9484495520591736,
+              "source_block_ids": [
+                "p1_b17"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 3,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Montant HT en €",
+              "bbox": [
+                1308.9277954101562,
+                1083.5419211387634,
+                1580.1727905273438,
+                1129.4886894226074
+              ],
+              "ocr_confidence": 0.9997501969337463,
+              "source_block_ids": [
+                "p1_b18"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "du 10/01/25 au 09/02/25",
+              "bbox": [
+                71.59246063232422,
+                1129.410026550293,
+                481.08428955078125,
+                1175.561637878418
+              ],
+              "ocr_confidence": 0.9981682896614075,
+              "source_block_ids": [
+                "p1_b19"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Loyer",
+              "bbox": [
+                480.5376281738281,
+                1129.6289749145508,
+                1023.601806640625,
+                1176.3086395263672
+              ],
+              "ocr_confidence": 0.9999502897262573,
+              "source_block_ids": [
+                "p1_b20"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "20 %",
+              "bbox": [
+                1073.0847778320312,
+                1129.7501754760742,
+                1309.4960327148438,
+                1175.1492919921875
+              ],
+              "ocr_confidence": 0.8577773571014404,
+              "source_block_ids": [
+                "p1_b21"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 3,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "697,21",
+              "bbox": [
+                1309.3655395507812,
+                1129.555477142334,
+                1571.7673950195312,
+                1174.0275955200195
+              ],
+              "ocr_confidence": 0.9999575614929199,
+              "source_block_ids": [
+                "p1_b22"
+              ]
+            }
+          ],
+          "html": "<html><body><table><tr><td>Période</td><td>Type de rubrique</td><td>Taux de T.V.A</td><td>Montant HT en €</td></tr><tr><td>du 10/01/25 au 09/02/25</td><td>Loyer</td><td>20 %</td><td>697,21</td></tr></table></body></html>"
+        },
+        {
+          "table_id": "p1_t1",
+          "bbox": [
+            51.49267578125,
+            1078.7197265625,
+            1589.1890869140625,
+            1333.99853515625
+          ],
+          "structure_confidence": 0.578291654586792,
+          "cells": [
+            {
+              "row": 0,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Période",
+              "bbox": [
+                52.64231073856354,
+                1082.5940992832184,
+                475.7150573730469,
+                1130.0269889831543
+              ],
+              "ocr_confidence": 0.9999219179153442,
+              "source_block_ids": [
+                "p1_b15"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Type de rubrique",
+              "bbox": [
+                475.91827392578125,
+                1082.5598061084747,
+                1075.5689697265625,
+                1129.883918762207
+              ],
+              "ocr_confidence": 0.999151885509491,
+              "source_block_ids": [
+                "p1_b16"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Taux de T.V.A",
+              "bbox": [
+                1075.0638427734375,
+                1082.6035704612732,
+                1309.55517578125,
+                1129.8524932861328
+              ],
+              "ocr_confidence": 0.9484495520591736,
+              "source_block_ids": [
+                "p1_b17"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 3,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Montant HT en €",
+              "bbox": [
+                1308.7000732421875,
+                1082.4381291866302,
+                1586.5782470703125,
+                1129.7734451293945
+              ],
+              "ocr_confidence": 0.9997501969337463,
+              "source_block_ids": [
+                "p1_b18"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "du 10/01/25 au 09/02/25",
+              "bbox": [
+                52.73524308204651,
+                1129.7715950012207,
+                475.4749450683594,
+                1180.0836334228516
+              ],
+              "ocr_confidence": 0.9981682896614075,
+              "source_block_ids": [
+                "p1_b19"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Loyer",
+              "bbox": [
+                475.5975341796875,
+                1129.7969970703125,
+                1075.3637084960938,
+                1180.1249923706055
+              ],
+              "ocr_confidence": 0.9999502897262573,
+              "source_block_ids": [
+                "p1_b20"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "20 %",
+              "bbox": [
+                1075.275146484375,
+                1129.7945976257324,
+                1308.9736328125,
+                1180.1024780273438
+              ],
+              "ocr_confidence": 0.8577773571014404,
+              "source_block_ids": [
+                "p1_b21"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 3,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "697,21",
+              "bbox": [
+                1308.9161376953125,
+                1129.742748260498,
+                1587.056640625,
+                1179.861312866211
+              ],
+              "ocr_confidence": 0.9999575614929199,
+              "source_block_ids": [
+                "p1_b22"
+              ]
+            },
+            {
+              "row": 2,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 2,
+              "text": "Facture exigible le : 10/01/2025",
+              "bbox": [
+                51.49267578125,
+                1181.5452270507812,
+                478.74755859375,
+                1332.946792602539
+              ],
+              "ocr_confidence": 0.9926048517227173,
+              "source_block_ids": [
+                "p1_b25"
+              ]
+            },
+            {
+              "row": 2,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Total HT Total TVA Total TTC",
+              "bbox": [
+                476.9560546875,
+                1180.3209228515625,
+                1310.0650634765625,
+                1332.7289276123047
+              ],
+              "ocr_confidence": 0.9997105995814005,
+              "source_block_ids": [
+                "p1_b23",
+                "p1_b26",
+                "p1_b28"
+              ]
+            },
+            {
+              "row": 2,
+              "column": 3,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "697,21 € 139,44 € 836,65 €",
+              "bbox": [
+                1309.9970703125,
+                1181.374755859375,
+                1587.6787109375,
+                1333.2148132324219
+              ],
+              "ocr_confidence": 0.9955077966054281,
+              "source_block_ids": [
+                "p1_b24",
+                "p1_b27",
+                "p1_b29"
+              ]
+            }
+          ],
+          "html": "<html><body><table><tr><td>Période</td><td>Type de rubrique</td><td>Taux de T.V.A</td><td>Montant HT en €</td></tr><tr><td>du 10/01/25 au 09/02/25</td><td>Loyer</td><td>20 %</td><td>697,21</td></tr><tr><td colspan=\"2\">Facture exigible le : 10/01/2025</td><td>Total HT Total TVA Total TTC</td><td>697,21 € 139,44 € 836,65 €</td></tr></table></body></html>"
+        }
+      ],
+      "warnings": [
+        "Ignored invalid OCR entry at index 1."
+      ]
+    }
+  ],
+  "source_mime_type": "image/png",
+  "warnings": [
+    "Page 1: Ignored invalid OCR entry at index 1."
+  ]
+}

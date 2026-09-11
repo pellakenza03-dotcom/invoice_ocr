@@ -1,0 +1,1078 @@
+{
+    "input_path": "/kaggle/working/invoice_ocr/data/layout_training/images/21667376291840-8dw232c87o3icpotooh7s9n17k7e__p001.png",
+    "page_index": null,
+    "page_count": null,
+    "width": 1653,
+    "height": 2339,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": false,
+        "use_chart_recognition": false,
+        "use_region_detection": false,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "text",
+            "block_content": ".FFature ",
+            "block_bbox": [
+                1292,
+                49,
+                1565,
+                165
+            ],
+            "block_id": 0,
+            "block_order": 1
+        },
+        {
+            "block_label": "table",
+            "block_content": "<html><body><table><tbody><tr><td></td><td colspan=\"4\"></td></tr><tr><td>Échéance : 17/04/2026</td><td>TOTAL NET HT</td><td>TVA</td><td>TOTAL TTC</td><td></td></tr><tr><td>Paiement :</td><td>220,50 €</td><td>44,10 €</td><td>264,60 €</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td colspan=\"3\"></td></tr><tr><td></td><td></td><td></td><td colspan=\"3\"></td></tr><tr><td></td><td></td><td></td><td colspan=\"3\"></td></tr><tr><td></td><td></td><td></td><td colspan=\"3\"></td></tr><tr><td></td><td></td><td></td><td colspan=\"3\"></td></tr></tbody></table></body></html>",
+            "block_bbox": [
+                56,
+                201,
+                1575,
+                2192
+            ],
+            "block_id": 1,
+            "block_order": null
+        },
+        {
+            "block_label": "text",
+            "block_content": "Reaerve de propriété : Noua nous résevona ls propriété des marchandses jusqu'au palement complet du prtx par l'achateur Notre droit de revendication porte ausai bien sur les marchandises que sur leur prix a elles ont déjà été revendues. Tout incident de paiement est passible de ponalités de retard calculées sur la base de trois fois le taux dintérêt légal en vigueur, avec un montant d'indemnite forfaitaire de 40 euros pour les frais de recouvrement encourus. Distrie France, SARl au capital de 12.000 EUR - RCS Paris 87B143502 - APE 4532Z - SIREN 878 143 502 - TVA Intracommunautaire FR49878143502",
+            "block_bbox": [
+                56,
+                2174,
+                1569,
+                2223
+            ],
+            "block_id": 2,
+            "block_order": 2
+        },
+        {
+            "block_label": "number",
+            "block_content": "Dase 1/1",
+            "block_bbox": [
+                1511,
+                2302,
+                1576,
+                2315
+            ],
+            "block_id": 3,
+            "block_order": null
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": false
+        },
+        "angle": -1
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.8580771088600159,
+                "coordinate": [
+                    1004.292724609375,
+                    213.32522583007812,
+                    1571.300048828125,
+                    380.5884094238281
+                ]
+            },
+            {
+                "cls_id": 8,
+                "label": "table",
+                "score": 0.8529881834983826,
+                "coordinate": [
+                    56.71893310546875,
+                    201.67681884765625,
+                    1575.989501953125,
+                    2192.7421875
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.8466686010360718,
+                "coordinate": [
+                    59.411956787109375,
+                    217.42359924316406,
+                    468.9426574707031,
+                    386.4454345703125
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.8035220503807068,
+                "coordinate": [
+                    1292.95751953125,
+                    49.3740234375,
+                    1565.58154296875,
+                    165.85891723632812
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.802355945110321,
+                "coordinate": [
+                    56.05548095703125,
+                    2174.493896484375,
+                    1569.723388671875,
+                    2223.490478515625
+                ]
+            },
+            {
+                "cls_id": 3,
+                "label": "number",
+                "score": 0.6386107206344604,
+                "coordinate": [
+                    1511.41650390625,
+                    2302.119140625,
+                    1576.85595703125,
+                    2315.5107421875
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": false
+        },
+        "dt_polys": [
+            [
+                [
+                    71,
+                    2084
+                ],
+                [
+                    304,
+                    2086
+                ],
+                [
+                    304,
+                    2113
+                ],
+                [
+                    70,
+                    2111
+                ]
+            ],
+            [
+                [
+                    736,
+                    2086
+                ],
+                [
+                    903,
+                    2086
+                ],
+                [
+                    903,
+                    2114
+                ],
+                [
+                    736,
+                    2114
+                ]
+            ],
+            [
+                [
+                    1095,
+                    2087
+                ],
+                [
+                    1147,
+                    2087
+                ],
+                [
+                    1147,
+                    2114
+                ],
+                [
+                    1095,
+                    2114
+                ]
+            ],
+            [
+                [
+                    1357,
+                    2085
+                ],
+                [
+                    1489,
+                    2085
+                ],
+                [
+                    1489,
+                    2116
+                ],
+                [
+                    1357,
+                    2116
+                ]
+            ],
+            [
+                [
+                    69,
+                    2124
+                ],
+                [
+                    183,
+                    2126
+                ],
+                [
+                    182,
+                    2154
+                ],
+                [
+                    68,
+                    2152
+                ]
+            ],
+            [
+                [
+                    769,
+                    2122
+                ],
+                [
+                    867,
+                    2125
+                ],
+                [
+                    867,
+                    2157
+                ],
+                [
+                    769,
+                    2155
+                ]
+            ],
+            [
+                [
+                    1079,
+                    2126
+                ],
+                [
+                    1162,
+                    2126
+                ],
+                [
+                    1162,
+                    2155
+                ],
+                [
+                    1079,
+                    2155
+                ]
+            ],
+            [
+                [
+                    1375,
+                    2126
+                ],
+                [
+                    1469,
+                    2126
+                ],
+                [
+                    1469,
+                    2155
+                ],
+                [
+                    1375,
+                    2155
+                ]
+            ],
+            [
+                [
+                    59,
+                    2172
+                ],
+                [
+                    1571,
+                    2174
+                ],
+                [
+                    1571,
+                    2195
+                ],
+                [
+                    59,
+                    2193
+                ]
+            ],
+            [
+                [
+                    59,
+                    2188
+                ],
+                [
+                    1555,
+                    2191
+                ],
+                [
+                    1555,
+                    2212
+                ],
+                [
+                    59,
+                    2209
+                ]
+            ],
+            [
+                [
+                    60,
+                    2207
+                ],
+                [
+                    848,
+                    2206
+                ],
+                [
+                    848,
+                    2226
+                ],
+                [
+                    60,
+                    2227
+                ]
+            ],
+            [
+                [
+                    1511,
+                    2303
+                ],
+                [
+                    1579,
+                    2303
+                ],
+                [
+                    1579,
+                    2317
+                ],
+                [
+                    1511,
+                    2317
+                ]
+            ]
+        ],
+        "text_det_params": {
+            "limit_side_len": 736,
+            "limit_type": "min",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+            "Échéance : 17/04/2026",
+            "TOTAL NET HT",
+            "TVA",
+            "TOTAL TTC",
+            "Paiement :",
+            "220,50 €",
+            "44,10 €",
+            "264,60 €",
+            "Reaerve de propriété : Noua nous résevona ls propriété des marchandses jusqu'au palement complet du prtx par l'achateur Notre droit de revendication porte ausai bien sur les marchandises que sur leur prix a elles ont déjà été revendues. Tout",
+            "incident de paiement est passible de ponalités de retard calculées sur la base de trois fois le taux dintérêt légal en vigueur, avec un montant d'indemnite forfaitaire de 40 euros pour les frais de recouvrement encourus. Distrie France, SARl au",
+            "capital de 12.000 EUR - RCS Paris 87B143502 - APE 4532Z - SIREN 878 143 502 - TVA Intracommunautaire FR49878143502",
+            "Dase 1/1",
+            ".FFature"
+        ],
+        "rec_scores": [
+            0.995742917060852,
+            0.9752805829048157,
+            0.9997451901435852,
+            0.9927127361297607,
+            0.9623311161994934,
+            0.9995350241661072,
+            0.9331960678100586,
+            0.9981812238693237,
+            0.9540273547172546,
+            0.8842952251434326,
+            0.9648532271385193,
+            0.7634445428848267,
+            0.6560503244400024
+        ],
+        "rec_polys": [
+            [
+                [
+                    71,
+                    2084
+                ],
+                [
+                    304,
+                    2086
+                ],
+                [
+                    304,
+                    2113
+                ],
+                [
+                    70,
+                    2111
+                ]
+            ],
+            [
+                [
+                    736,
+                    2086
+                ],
+                [
+                    903,
+                    2086
+                ],
+                [
+                    903,
+                    2114
+                ],
+                [
+                    736,
+                    2114
+                ]
+            ],
+            [
+                [
+                    1095,
+                    2087
+                ],
+                [
+                    1147,
+                    2087
+                ],
+                [
+                    1147,
+                    2114
+                ],
+                [
+                    1095,
+                    2114
+                ]
+            ],
+            [
+                [
+                    1357,
+                    2085
+                ],
+                [
+                    1489,
+                    2085
+                ],
+                [
+                    1489,
+                    2116
+                ],
+                [
+                    1357,
+                    2116
+                ]
+            ],
+            [
+                [
+                    69,
+                    2124
+                ],
+                [
+                    183,
+                    2126
+                ],
+                [
+                    182,
+                    2154
+                ],
+                [
+                    68,
+                    2152
+                ]
+            ],
+            [
+                [
+                    769,
+                    2122
+                ],
+                [
+                    867,
+                    2125
+                ],
+                [
+                    867,
+                    2157
+                ],
+                [
+                    769,
+                    2155
+                ]
+            ],
+            [
+                [
+                    1079,
+                    2126
+                ],
+                [
+                    1162,
+                    2126
+                ],
+                [
+                    1162,
+                    2155
+                ],
+                [
+                    1079,
+                    2155
+                ]
+            ],
+            [
+                [
+                    1375,
+                    2126
+                ],
+                [
+                    1469,
+                    2126
+                ],
+                [
+                    1469,
+                    2155
+                ],
+                [
+                    1375,
+                    2155
+                ]
+            ],
+            [
+                [
+                    59,
+                    2172
+                ],
+                [
+                    1571,
+                    2174
+                ],
+                [
+                    1571,
+                    2195
+                ],
+                [
+                    59,
+                    2193
+                ]
+            ],
+            [
+                [
+                    59,
+                    2188
+                ],
+                [
+                    1555,
+                    2191
+                ],
+                [
+                    1555,
+                    2212
+                ],
+                [
+                    59,
+                    2209
+                ]
+            ],
+            [
+                [
+                    60,
+                    2207
+                ],
+                [
+                    848,
+                    2206
+                ],
+                [
+                    848,
+                    2226
+                ],
+                [
+                    60,
+                    2227
+                ]
+            ],
+            [
+                [
+                    1511,
+                    2303
+                ],
+                [
+                    1579,
+                    2303
+                ],
+                [
+                    1579,
+                    2317
+                ],
+                [
+                    1511,
+                    2317
+                ]
+            ],
+            [
+                [
+                    1292,
+                    49
+                ],
+                [
+                    1565,
+                    49
+                ],
+                [
+                    1565,
+                    165
+                ],
+                [
+                    1292,
+                    165
+                ]
+            ]
+        ],
+        "rec_boxes": [
+            [
+                70.0,
+                2084.0,
+                304.0,
+                2113.0
+            ],
+            [
+                736.0,
+                2086.0,
+                903.0,
+                2114.0
+            ],
+            [
+                1095.0,
+                2087.0,
+                1147.0,
+                2114.0
+            ],
+            [
+                1357.0,
+                2085.0,
+                1489.0,
+                2116.0
+            ],
+            [
+                68.0,
+                2124.0,
+                183.0,
+                2154.0
+            ],
+            [
+                769.0,
+                2122.0,
+                867.0,
+                2157.0
+            ],
+            [
+                1079.0,
+                2126.0,
+                1162.0,
+                2155.0
+            ],
+            [
+                1375.0,
+                2126.0,
+                1469.0,
+                2155.0
+            ],
+            [
+                59.0,
+                2172.0,
+                1571.0,
+                2195.0
+            ],
+            [
+                59.0,
+                2188.0,
+                1555.0,
+                2212.0
+            ],
+            [
+                60.0,
+                2206.0,
+                848.0,
+                2227.0
+            ],
+            [
+                1511.0,
+                2303.0,
+                1579.0,
+                2317.0
+            ],
+            [
+                1292.95751953125,
+                49.3740234375,
+                1565.58154296875,
+                165.85891723632812
+            ]
+        ]
+    },
+    "table_res_list": [
+        {
+            "cell_box_list": [
+                [
+                    70.0,
+                    2084.0,
+                    304.0,
+                    2113.0
+                ],
+                [
+                    736.0,
+                    2086.0,
+                    903.0,
+                    2114.0
+                ],
+                [
+                    1095.0,
+                    2087.0,
+                    1147.0,
+                    2114.0
+                ],
+                [
+                    1357.0,
+                    2085.0,
+                    1489.0,
+                    2116.0
+                ],
+                [
+                    68.0,
+                    2124.0,
+                    183.0,
+                    2154.0
+                ],
+                [
+                    769.0,
+                    2122.0,
+                    867.0,
+                    2157.0
+                ],
+                [
+                    1079.0,
+                    2126.0,
+                    1162.0,
+                    2155.0
+                ],
+                [
+                    1375.0,
+                    2126.0,
+                    1469.0,
+                    2155.0
+                ]
+            ],
+            "pred_html": "<html><body><table><tbody><tr><td></td><td colspan=\"4\"></td></tr><tr><td>Échéance : 17/04/2026</td><td>TOTAL NET HT</td><td>TVA</td><td>TOTAL TTC</td><td></td></tr><tr><td>Paiement :</td><td>220,50 €</td><td>44,10 €</td><td>264,60 €</td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td><td colspan=\"3\"></td></tr><tr><td></td><td></td><td></td><td colspan=\"3\"></td></tr><tr><td></td><td></td><td></td><td colspan=\"3\"></td></tr><tr><td></td><td></td><td></td><td colspan=\"3\"></td></tr><tr><td></td><td></td><td></td><td colspan=\"3\"></td></tr></tbody></table></body></html>",
+            "table_ocr_pred": {
+                "rec_polys": [
+                    [
+                        [
+                            71,
+                            2084
+                        ],
+                        [
+                            304,
+                            2086
+                        ],
+                        [
+                            304,
+                            2113
+                        ],
+                        [
+                            70,
+                            2111
+                        ]
+                    ],
+                    [
+                        [
+                            736,
+                            2086
+                        ],
+                        [
+                            903,
+                            2086
+                        ],
+                        [
+                            903,
+                            2114
+                        ],
+                        [
+                            736,
+                            2114
+                        ]
+                    ],
+                    [
+                        [
+                            1095,
+                            2087
+                        ],
+                        [
+                            1147,
+                            2087
+                        ],
+                        [
+                            1147,
+                            2114
+                        ],
+                        [
+                            1095,
+                            2114
+                        ]
+                    ],
+                    [
+                        [
+                            1357,
+                            2085
+                        ],
+                        [
+                            1489,
+                            2085
+                        ],
+                        [
+                            1489,
+                            2116
+                        ],
+                        [
+                            1357,
+                            2116
+                        ]
+                    ],
+                    [
+                        [
+                            69,
+                            2124
+                        ],
+                        [
+                            183,
+                            2126
+                        ],
+                        [
+                            182,
+                            2154
+                        ],
+                        [
+                            68,
+                            2152
+                        ]
+                    ],
+                    [
+                        [
+                            769,
+                            2122
+                        ],
+                        [
+                            867,
+                            2125
+                        ],
+                        [
+                            867,
+                            2157
+                        ],
+                        [
+                            769,
+                            2155
+                        ]
+                    ],
+                    [
+                        [
+                            1079,
+                            2126
+                        ],
+                        [
+                            1162,
+                            2126
+                        ],
+                        [
+                            1162,
+                            2155
+                        ],
+                        [
+                            1079,
+                            2155
+                        ]
+                    ],
+                    [
+                        [
+                            1375,
+                            2126
+                        ],
+                        [
+                            1469,
+                            2126
+                        ],
+                        [
+                            1469,
+                            2155
+                        ],
+                        [
+                            1375,
+                            2155
+                        ]
+                    ],
+                    [
+                        [
+                            59,
+                            2172
+                        ],
+                        [
+                            1571,
+                            2174
+                        ],
+                        [
+                            1571,
+                            2195
+                        ],
+                        [
+                            59,
+                            2193
+                        ]
+                    ],
+                    [
+                        [
+                            59,
+                            2188
+                        ],
+                        [
+                            1555,
+                            2191
+                        ],
+                        [
+                            1555,
+                            2212
+                        ],
+                        [
+                            59,
+                            2209
+                        ]
+                    ]
+                ],
+                "rec_texts": [
+                    "Échéance : 17/04/2026",
+                    "TOTAL NET HT",
+                    "TVA",
+                    "TOTAL TTC",
+                    "Paiement :",
+                    "220,50 €",
+                    "44,10 €",
+                    "264,60 €",
+                    "Reaerve de propriété : Noua nous résevona ls propriété des marchandses jusqu'au palement complet du prtx par l'achateur Notre droit de revendication porte ausai bien sur les marchandises que sur leur prix a elles ont déjà été revendues. Tout",
+                    "incident de paiement est passible de ponalités de retard calculées sur la base de trois fois le taux dintérêt légal en vigueur, avec un montant d'indemnite forfaitaire de 40 euros pour les frais de recouvrement encourus. Distrie France, SARl au"
+                ],
+                "rec_scores": [
+                    0.995742917060852,
+                    0.9752805829048157,
+                    0.9997451901435852,
+                    0.9927127361297607,
+                    0.9623311161994934,
+                    0.9995350241661072,
+                    0.9331960678100586,
+                    0.9981812238693237,
+                    0.9540273547172546,
+                    0.8842952251434326
+                ],
+                "rec_boxes": [
+                    [
+                        70,
+                        2084,
+                        304,
+                        2113
+                    ],
+                    [
+                        736,
+                        2086,
+                        903,
+                        2114
+                    ],
+                    [
+                        1095,
+                        2087,
+                        1147,
+                        2114
+                    ],
+                    [
+                        1357,
+                        2085,
+                        1489,
+                        2116
+                    ],
+                    [
+                        68,
+                        2124,
+                        183,
+                        2154
+                    ],
+                    [
+                        769,
+                        2122,
+                        867,
+                        2157
+                    ],
+                    [
+                        1079,
+                        2126,
+                        1162,
+                        2155
+                    ],
+                    [
+                        1375,
+                        2126,
+                        1469,
+                        2155
+                    ],
+                    [
+                        59,
+                        2172,
+                        1571,
+                        2195
+                    ],
+                    [
+                        59,
+                        2188,
+                        1555,
+                        2212
+                    ]
+                ]
+            }
+        }
+    ]
+}

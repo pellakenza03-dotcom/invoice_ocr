@@ -1,0 +1,1193 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "1744975609-64pchbz57okh2hexqsk4a2t56jfn",
+  "source_file": "1744975609-64pchbz57okh2hexqsk4a2t56jfn__p001.png",
+  "generated_at": "2026-09-11T09:19:46.673391Z",
+  "ocr_engine": {
+    "name": "PP-StructureV3",
+    "version": "3.7.0"
+  },
+  "page_count": 1,
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 1654,
+      "height": 2339,
+      "orientation": 0,
+      "blocks": [
+        {
+          "block_id": "p1_b0",
+          "type": "text",
+          "text": "Corhofi SAS",
+          "bbox": [
+            342.0,
+            122.0,
+            530.0,
+            156.0
+          ],
+          "ocr_confidence": 0.9677789211273193,
+          "reading_order": 0,
+          "polygon": [
+            [
+              342.0,
+              122.0
+            ],
+            [
+              530.0,
+              122.0
+            ],
+            [
+              530.0,
+              156.0
+            ],
+            [
+              342.0,
+              156.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b1",
+          "type": "text",
+          "text": "1 rue des Rivières",
+          "bbox": [
+            344.0,
+            160.0,
+            595.0,
+            193.0
+          ],
+          "ocr_confidence": 0.9679478406906128,
+          "reading_order": 1,
+          "polygon": [
+            [
+              344.0,
+              160.0
+            ],
+            [
+              595.0,
+              162.0
+            ],
+            [
+              595.0,
+              193.0
+            ],
+            [
+              344.0,
+              191.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b2",
+          "type": "text",
+          "text": "CP117",
+          "bbox": [
+            343.0,
+            193.0,
+            445.0,
+            228.0
+          ],
+          "ocr_confidence": 0.9999949336051941,
+          "reading_order": 2,
+          "polygon": [
+            [
+              343.0,
+              193.0
+            ],
+            [
+              445.0,
+              193.0
+            ],
+            [
+              445.0,
+              228.0
+            ],
+            [
+              343.0,
+              228.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b3",
+          "type": "text",
+          "text": "CORHOFI",
+          "bbox": [
+            77.0,
+            210.0,
+            326.0,
+            247.0
+          ],
+          "ocr_confidence": 0.9995520710945129,
+          "reading_order": 3,
+          "polygon": [
+            [
+              77.0,
+              210.0
+            ],
+            [
+              326.0,
+              210.0
+            ],
+            [
+              326.0,
+              247.0
+            ],
+            [
+              77.0,
+              247.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b4",
+          "type": "text",
+          "text": "69266 Lyon Cedex 09",
+          "bbox": [
+            343.0,
+            230.0,
+            648.0,
+            264.0
+          ],
+          "ocr_confidence": 0.9997552633285522,
+          "reading_order": 4,
+          "polygon": [
+            [
+              343.0,
+              230.0
+            ],
+            [
+              648.0,
+              230.0
+            ],
+            [
+              648.0,
+              264.0
+            ],
+            [
+              343.0,
+              264.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b5",
+          "type": "text",
+          "text": "PHARMACIE FROIDEVAUX",
+          "bbox": [
+            859.0,
+            346.0,
+            1258.0,
+            379.0
+          ],
+          "ocr_confidence": 0.9997910261154175,
+          "reading_order": 5,
+          "polygon": [
+            [
+              859.0,
+              346.0
+            ],
+            [
+              1258.0,
+              347.0
+            ],
+            [
+              1258.0,
+              379.0
+            ],
+            [
+              859.0,
+              377.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b6",
+          "type": "text",
+          "text": "Place du Soleil",
+          "bbox": [
+            860.0,
+            383.0,
+            1068.0,
+            415.0
+          ],
+          "ocr_confidence": 0.9992853403091431,
+          "reading_order": 6,
+          "polygon": [
+            [
+              860.0,
+              383.0
+            ],
+            [
+              1068.0,
+              383.0
+            ],
+            [
+              1068.0,
+              415.0
+            ],
+            [
+              860.0,
+              415.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b7",
+          "type": "text",
+          "text": "Ctre Commercial Prairie de l'Oly",
+          "bbox": [
+            858.0,
+            416.0,
+            1300.0,
+            453.0
+          ],
+          "ocr_confidence": 0.9863823652267456,
+          "reading_order": 7,
+          "polygon": [
+            [
+              858.0,
+              416.0
+            ],
+            [
+              1300.0,
+              419.0
+            ],
+            [
+              1300.0,
+              453.0
+            ],
+            [
+              858.0,
+              451.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b8",
+          "type": "text",
+          "text": "91230 MONTGERON",
+          "bbox": [
+            860.0,
+            454.0,
+            1159.0,
+            484.0
+          ],
+          "ocr_confidence": 0.9998986721038818,
+          "reading_order": 8,
+          "polygon": [
+            [
+              860.0,
+              454.0
+            ],
+            [
+              1159.0,
+              454.0
+            ],
+            [
+              1159.0,
+              484.0
+            ],
+            [
+              860.0,
+              484.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b9",
+          "type": "title",
+          "text": "FACTURE N° FAU1363567F/139577F",
+          "bbox": [
+            547.0,
+            716.0,
+            1125.0,
+            750.0
+          ],
+          "ocr_confidence": 0.999613344669342,
+          "reading_order": 9,
+          "polygon": [
+            [
+              547.0,
+              716.0
+            ],
+            [
+              1125.0,
+              716.0
+            ],
+            [
+              1125.0,
+              750.0
+            ],
+            [
+              547.0,
+              750.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b10",
+          "type": "text",
+          "text": "Lyon, le 21/01/2025",
+          "bbox": [
+            94.0,
+            827.0,
+            370.0,
+            864.0
+          ],
+          "ocr_confidence": 0.9997966289520264,
+          "reading_order": 10,
+          "polygon": [
+            [
+              94.0,
+              829.0
+            ],
+            [
+              370.0,
+              827.0
+            ],
+            [
+              370.0,
+              862.0
+            ],
+            [
+              95.0,
+              864.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b11",
+          "type": "text",
+          "text": "Contrat : 23/0524/FRCO-139577F",
+          "bbox": [
+            95.0,
+            899.0,
+            561.0,
+            931.0
+          ],
+          "ocr_confidence": 0.9954608678817749,
+          "reading_order": 11,
+          "polygon": [
+            [
+              95.0,
+              900.0
+            ],
+            [
+              561.0,
+              899.0
+            ],
+            [
+              561.0,
+              930.0
+            ],
+            [
+              95.0,
+              931.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b12",
+          "type": "text",
+          "text": "Période de location du 01/02/2025 au 28/02/2025",
+          "bbox": [
+            94.0,
+            969.0,
+            770.0,
+            1001.0
+          ],
+          "ocr_confidence": 0.9867683053016663,
+          "reading_order": 12,
+          "polygon": [
+            [
+              94.0,
+              970.0
+            ],
+            [
+              770.0,
+              969.0
+            ],
+            [
+              770.0,
+              1000.0
+            ],
+            [
+              94.0,
+              1001.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b13",
+          "type": "text",
+          "text": "Concerne le(s) matériel(s) fourni(s) par CITYCARE.",
+          "bbox": [
+            93.0,
+            1036.0,
+            797.0,
+            1075.0
+          ],
+          "ocr_confidence": 0.9928767681121826,
+          "reading_order": 13,
+          "polygon": [
+            [
+              93.0,
+              1038.0
+            ],
+            [
+              797.0,
+              1036.0
+            ],
+            [
+              797.0,
+              1073.0
+            ],
+            [
+              94.0,
+              1075.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b14",
+          "type": "table",
+          "text": "Total H.T.",
+          "bbox": [
+            467.0,
+            1116.0,
+            610.0,
+            1151.0
+          ],
+          "ocr_confidence": 0.9998136758804321,
+          "reading_order": 14,
+          "polygon": [
+            [
+              467.0,
+              1116.0
+            ],
+            [
+              610.0,
+              1116.0
+            ],
+            [
+              610.0,
+              1151.0
+            ],
+            [
+              467.0,
+              1151.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b15",
+          "type": "table",
+          "text": "119.00 €",
+          "bbox": [
+            932.0,
+            1115.0,
+            1061.0,
+            1151.0
+          ],
+          "ocr_confidence": 0.9989901781082153,
+          "reading_order": 15,
+          "polygon": [
+            [
+              932.0,
+              1115.0
+            ],
+            [
+              1061.0,
+              1115.0
+            ],
+            [
+              1061.0,
+              1151.0
+            ],
+            [
+              932.0,
+              1151.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b16",
+          "type": "table",
+          "text": "TVA 20.00 %",
+          "bbox": [
+            468.0,
+            1165.0,
+            656.0,
+            1201.0
+          ],
+          "ocr_confidence": 0.997191846370697,
+          "reading_order": 16,
+          "polygon": [
+            [
+              468.0,
+              1165.0
+            ],
+            [
+              656.0,
+              1165.0
+            ],
+            [
+              656.0,
+              1201.0
+            ],
+            [
+              468.0,
+              1201.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b17",
+          "type": "table",
+          "text": "23.80 €",
+          "bbox": [
+            947.0,
+            1164.0,
+            1060.0,
+            1201.0
+          ],
+          "ocr_confidence": 0.9991746544837952,
+          "reading_order": 17,
+          "polygon": [
+            [
+              947.0,
+              1164.0
+            ],
+            [
+              1060.0,
+              1164.0
+            ],
+            [
+              1060.0,
+              1201.0
+            ],
+            [
+              947.0,
+              1201.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b18",
+          "type": "table",
+          "text": "TOTAL TTC",
+          "bbox": [
+            466.0,
+            1211.0,
+            643.0,
+            1249.0
+          ],
+          "ocr_confidence": 0.9998049139976501,
+          "reading_order": 18,
+          "polygon": [
+            [
+              466.0,
+              1211.0
+            ],
+            [
+              643.0,
+              1214.0
+            ],
+            [
+              643.0,
+              1249.0
+            ],
+            [
+              466.0,
+              1246.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b19",
+          "type": "table",
+          "text": "142.80 €",
+          "bbox": [
+            931.0,
+            1214.0,
+            1060.0,
+            1249.0
+          ],
+          "ocr_confidence": 0.9930185675621033,
+          "reading_order": 19,
+          "polygon": [
+            [
+              931.0,
+              1214.0
+            ],
+            [
+              1060.0,
+              1214.0
+            ],
+            [
+              1060.0,
+              1249.0
+            ],
+            [
+              931.0,
+              1249.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b20",
+          "type": "text",
+          "text": "Valeur en votre aimable règlement par prélèvement.",
+          "bbox": [
+            94.0,
+            1295.0,
+            802.0,
+            1325.0
+          ],
+          "ocr_confidence": 0.9969040751457214,
+          "reading_order": 20,
+          "polygon": [
+            [
+              94.0,
+              1295.0
+            ],
+            [
+              802.0,
+              1295.0
+            ],
+            [
+              802.0,
+              1325.0
+            ],
+            [
+              94.0,
+              1325.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b21",
+          "type": "text",
+          "text": "Prélèvement SEPA, le 01/02/2025, montant : 142.80 €",
+          "bbox": [
+            95.0,
+            1363.0,
+            836.0,
+            1393.0
+          ],
+          "ocr_confidence": 0.9920262098312378,
+          "reading_order": 21,
+          "polygon": [
+            [
+              95.0,
+              1363.0
+            ],
+            [
+              836.0,
+              1363.0
+            ],
+            [
+              836.0,
+              1393.0
+            ],
+            [
+              95.0,
+              1393.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b22",
+          "type": "text",
+          "text": "Identifiant Créancier Sepa (ICS) : FR28ZZZ392647",
+          "bbox": [
+            94.0,
+            1397.0,
+            790.0,
+            1431.0
+          ],
+          "ocr_confidence": 0.9990194439888,
+          "reading_order": 22,
+          "polygon": [
+            [
+              94.0,
+              1398.0
+            ],
+            [
+              790.0,
+              1397.0
+            ],
+            [
+              790.0,
+              1430.0
+            ],
+            [
+              94.0,
+              1431.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b23",
+          "type": "text",
+          "text": "Votre Référence Unique du Mandat (RUM) : 139577-20230524-70830",
+          "bbox": [
+            92.0,
+            1432.0,
+            1048.0,
+            1467.0
+          ],
+          "ocr_confidence": 0.9777341485023499,
+          "reading_order": 23,
+          "polygon": [
+            [
+              92.0,
+              1433.0
+            ],
+            [
+              1048.0,
+              1432.0
+            ],
+            [
+              1048.0,
+              1466.0
+            ],
+            [
+              92.0,
+              1467.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b24",
+          "type": "text",
+          "text": "Les loyers (T. T. C.) et les redevances de mise à disposition (T. T. C.) non payées à leur échéance porteront intérêt au profit du bailleur, de plein droit",
+          "bbox": [
+            96.0,
+            1503.0,
+            1575.0,
+            1527.0
+          ],
+          "ocr_confidence": 0.9930392503738403,
+          "reading_order": 24,
+          "polygon": [
+            [
+              96.0,
+              1503.0
+            ],
+            [
+              1575.0,
+              1503.0
+            ],
+            [
+              1575.0,
+              1527.0
+            ],
+            [
+              96.0,
+              1527.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b25",
+          "type": "text",
+          "text": "et sans qu'il soit besoin d'une quelconque mise en demeure, au taux conventionnel de 1,5 % H. T. par mois à compter de leur date d'exigibilité, outre",
+          "bbox": [
+            96.0,
+            1530.0,
+            1575.0,
+            1553.0
+          ],
+          "ocr_confidence": 0.9945178031921387,
+          "reading_order": 25,
+          "polygon": [
+            [
+              96.0,
+              1530.0
+            ],
+            [
+              1575.0,
+              1530.0
+            ],
+            [
+              1575.0,
+              1553.0
+            ],
+            [
+              96.0,
+              1553.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b26",
+          "type": "text",
+          "text": "une indemnité de frais de recouvrement de 40 euros H.T. par échéance impayée à son terme ainsi qu’une pénalité équivalent à 10 % du montant de",
+          "bbox": [
+            95.0,
+            1555.0,
+            1575.0,
+            1579.0
+          ],
+          "ocr_confidence": 0.9916433691978455,
+          "reading_order": 26,
+          "polygon": [
+            [
+              95.0,
+              1555.0
+            ],
+            [
+              1575.0,
+              1555.0
+            ],
+            [
+              1575.0,
+              1579.0
+            ],
+            [
+              95.0,
+              1579.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b27",
+          "type": "text",
+          "text": "l’impayé avec un minimun de 50 € H.T. Ces conditions de règlement ne remettent pas en cause les autres conditions du contrat.",
+          "bbox": [
+            95.0,
+            1581.0,
+            1359.0,
+            1605.0
+          ],
+          "ocr_confidence": 0.9947462677955627,
+          "reading_order": 27,
+          "polygon": [
+            [
+              95.0,
+              1581.0
+            ],
+            [
+              1359.0,
+              1581.0
+            ],
+            [
+              1359.0,
+              1605.0
+            ],
+            [
+              95.0,
+              1605.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b28",
+          "type": "text",
+          "text": "Pour toute demande de duplicata de facture, merci de nous adresser une demande par email à",
+          "bbox": [
+            94.0,
+            1632.0,
+            1346.0,
+            1662.0
+          ],
+          "ocr_confidence": 0.9823493957519531,
+          "reading_order": 28,
+          "polygon": [
+            [
+              94.0,
+              1632.0
+            ],
+            [
+              1346.0,
+              1632.0
+            ],
+            [
+              1346.0,
+              1662.0
+            ],
+            [
+              94.0,
+              1662.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b29",
+          "type": "text",
+          "text": "l'adresse : service-clients@corhofi.comen nous indiquant la référence de votre contrat CoRHOFl ainsi que",
+          "bbox": [
+            91.0,
+            1666.0,
+            1517.0,
+            1701.0
+          ],
+          "ocr_confidence": 0.9819551706314087,
+          "reading_order": 29,
+          "polygon": [
+            [
+              91.0,
+              1666.0
+            ],
+            [
+              1517.0,
+              1667.0
+            ],
+            [
+              1517.0,
+              1701.0
+            ],
+            [
+              91.0,
+              1700.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b30",
+          "type": "text",
+          "text": "l’échéance concernée.",
+          "bbox": [
+            93.0,
+            1704.0,
+            396.0,
+            1734.0
+          ],
+          "ocr_confidence": 0.9938780665397644,
+          "reading_order": 30,
+          "polygon": [
+            [
+              93.0,
+              1704.0
+            ],
+            [
+              396.0,
+              1704.0
+            ],
+            [
+              396.0,
+              1734.0
+            ],
+            [
+              93.0,
+              1734.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b31",
+          "type": "text",
+          "text": "1, Rue des Rivières - CP117 - 69266 - LYON Cedex 09- Tél. : 04 26 29 62 00 - Fax : 04 26 29 62 20",
+          "bbox": [
+            331.0,
+            2110.0,
+            1342.0,
+            2137.0
+          ],
+          "ocr_confidence": 0.966346025466919,
+          "reading_order": 31,
+          "polygon": [
+            [
+              331.0,
+              2110.0
+            ],
+            [
+              1342.0,
+              2110.0
+            ],
+            [
+              1342.0,
+              2137.0
+            ],
+            [
+              331.0,
+              2137.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b32",
+          "type": "text",
+          "text": "SAS au capital de 15 000 000 Euros - RCS Lyon 343 174 660 - Siret 343 174 660 00054 - Code APE 7739Z  TVA FR39 343 174 660",
+          "bbox": [
+            158.0,
+            2143.0,
+            1515.0,
+            2170.0
+          ],
+          "ocr_confidence": 0.9941401481628418,
+          "reading_order": 32,
+          "polygon": [
+            [
+              158.0,
+              2143.0
+            ],
+            [
+              1515.0,
+              2143.0
+            ],
+            [
+              1515.0,
+              2170.0
+            ],
+            [
+              158.0,
+              2170.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b33",
+          "type": "text",
+          "text": "Besançon - Bordeaux - Paris - Strasbourg - Toulouse - Nantes - Aix en Provence - Lille",
+          "bbox": [
+            396.0,
+            2173.0,
+            1276.0,
+            2204.0
+          ],
+          "ocr_confidence": 0.9814928770065308,
+          "reading_order": 33,
+          "polygon": [
+            [
+              396.0,
+              2174.0
+            ],
+            [
+              1276.0,
+              2173.0
+            ],
+            [
+              1276.0,
+              2203.0
+            ],
+            [
+              396.0,
+              2204.0
+            ]
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "table_id": "p1_t0",
+          "bbox": [
+            461.31585693359375,
+            1106.10400390625,
+            1073.349609375,
+            1252.8173828125
+          ],
+          "structure_confidence": 0.9663601517677307,
+          "cells": [
+            {
+              "row": 0,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Total H.T.",
+              "bbox": [
+                462.292419731617,
+                1109.2002787590027,
+                757.2564392089844,
+                1157.674488067627
+              ],
+              "ocr_confidence": 0.9998136758804321,
+              "source_block_ids": [
+                "p1_b14"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "119.00 €",
+              "bbox": [
+                757.5861511230469,
+                1109.086698770523,
+                1069.8880004882812,
+                1157.5273323059082
+              ],
+              "ocr_confidence": 0.9989901781082153,
+              "source_block_ids": [
+                "p1_b15"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "TVA 20.00 %",
+              "bbox": [
+                462.4929394721985,
+                1157.4687042236328,
+                757.3889465332031,
+                1206.4573822021484
+              ],
+              "ocr_confidence": 0.997191846370697,
+              "source_block_ids": [
+                "p1_b16"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "23.80 €",
+              "bbox": [
+                757.4861450195312,
+                1157.4421195983887,
+                1069.7437744140625,
+                1206.3968200683594
+              ],
+              "ocr_confidence": 0.9991746544837952,
+              "source_block_ids": [
+                "p1_b17"
+              ]
+            },
+            {
+              "row": 2,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "TOTAL TTC",
+              "bbox": [
+                462.5435801744461,
+                1206.3799514770508,
+                757.3095092773438,
+                1249.6954498291016
+              ],
+              "ocr_confidence": 0.9998049139976501,
+              "source_block_ids": [
+                "p1_b18"
+              ]
+            },
+            {
+              "row": 2,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "142.80 €",
+              "bbox": [
+                757.6596069335938,
+                1206.4723892211914,
+                1069.671875,
+                1249.5465240478516
+              ],
+              "ocr_confidence": 0.9930185675621033,
+              "source_block_ids": [
+                "p1_b19"
+              ]
+            }
+          ],
+          "html": "<html><body><table><tr><td>Total H.T.</td><td>119.00 €</td></tr><tr><td>TVA 20.00 %</td><td>23.80 €</td></tr><tr><td>TOTAL TTC</td><td>142.80 €</td></tr></table></body></html>"
+        }
+      ]
+    }
+  ],
+  "source_mime_type": "image/png"
+}

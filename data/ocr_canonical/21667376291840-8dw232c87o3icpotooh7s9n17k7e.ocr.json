@@ -1,0 +1,434 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "21667376291840-8dw232c87o3icpotooh7s9n17k7e",
+  "source_file": "21667376291840-8dw232c87o3icpotooh7s9n17k7e__p001.png",
+  "generated_at": "2026-09-11T09:21:55.526537Z",
+  "ocr_engine": {
+    "name": "PP-StructureV3",
+    "version": "3.7.0"
+  },
+  "page_count": 1,
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 1653,
+      "height": 2339,
+      "orientation": 0,
+      "blocks": [
+        {
+          "block_id": "p1_b0",
+          "type": "text",
+          "text": "Échéance : 17/04/2026",
+          "bbox": [
+            70.0,
+            2084.0,
+            304.0,
+            2113.0
+          ],
+          "ocr_confidence": 0.995742917060852,
+          "reading_order": 0,
+          "polygon": [
+            [
+              71.0,
+              2084.0
+            ],
+            [
+              304.0,
+              2086.0
+            ],
+            [
+              304.0,
+              2113.0
+            ],
+            [
+              70.0,
+              2111.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b1",
+          "type": "text",
+          "text": "TOTAL NET HT",
+          "bbox": [
+            736.0,
+            2086.0,
+            903.0,
+            2114.0
+          ],
+          "ocr_confidence": 0.9752805829048157,
+          "reading_order": 1,
+          "polygon": [
+            [
+              736.0,
+              2086.0
+            ],
+            [
+              903.0,
+              2086.0
+            ],
+            [
+              903.0,
+              2114.0
+            ],
+            [
+              736.0,
+              2114.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b2",
+          "type": "text",
+          "text": "TVA",
+          "bbox": [
+            1095.0,
+            2087.0,
+            1147.0,
+            2114.0
+          ],
+          "ocr_confidence": 0.9997451901435852,
+          "reading_order": 2,
+          "polygon": [
+            [
+              1095.0,
+              2087.0
+            ],
+            [
+              1147.0,
+              2087.0
+            ],
+            [
+              1147.0,
+              2114.0
+            ],
+            [
+              1095.0,
+              2114.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b3",
+          "type": "text",
+          "text": "TOTAL TTC",
+          "bbox": [
+            1357.0,
+            2085.0,
+            1489.0,
+            2116.0
+          ],
+          "ocr_confidence": 0.9927127361297607,
+          "reading_order": 3,
+          "polygon": [
+            [
+              1357.0,
+              2085.0
+            ],
+            [
+              1489.0,
+              2085.0
+            ],
+            [
+              1489.0,
+              2116.0
+            ],
+            [
+              1357.0,
+              2116.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b4",
+          "type": "text",
+          "text": "Paiement :",
+          "bbox": [
+            68.0,
+            2124.0,
+            183.0,
+            2154.0
+          ],
+          "ocr_confidence": 0.9623311161994934,
+          "reading_order": 4,
+          "polygon": [
+            [
+              69.0,
+              2124.0
+            ],
+            [
+              183.0,
+              2126.0
+            ],
+            [
+              182.0,
+              2154.0
+            ],
+            [
+              68.0,
+              2152.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b5",
+          "type": "text",
+          "text": "220,50 €",
+          "bbox": [
+            769.0,
+            2122.0,
+            867.0,
+            2157.0
+          ],
+          "ocr_confidence": 0.9995350241661072,
+          "reading_order": 5,
+          "polygon": [
+            [
+              769.0,
+              2122.0
+            ],
+            [
+              867.0,
+              2125.0
+            ],
+            [
+              867.0,
+              2157.0
+            ],
+            [
+              769.0,
+              2155.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b6",
+          "type": "text",
+          "text": "44,10 €",
+          "bbox": [
+            1079.0,
+            2126.0,
+            1162.0,
+            2155.0
+          ],
+          "ocr_confidence": 0.9331960678100586,
+          "reading_order": 6,
+          "polygon": [
+            [
+              1079.0,
+              2126.0
+            ],
+            [
+              1162.0,
+              2126.0
+            ],
+            [
+              1162.0,
+              2155.0
+            ],
+            [
+              1079.0,
+              2155.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b7",
+          "type": "text",
+          "text": "264,60 €",
+          "bbox": [
+            1375.0,
+            2126.0,
+            1469.0,
+            2155.0
+          ],
+          "ocr_confidence": 0.9981812238693237,
+          "reading_order": 7,
+          "polygon": [
+            [
+              1375.0,
+              2126.0
+            ],
+            [
+              1469.0,
+              2126.0
+            ],
+            [
+              1469.0,
+              2155.0
+            ],
+            [
+              1375.0,
+              2155.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b8",
+          "type": "text",
+          "text": "Reaerve de propriété : Noua nous résevona ls propriété des marchandses jusqu'au palement complet du prtx par l'achateur Notre droit de revendication porte ausai bien sur les marchandises que sur leur prix a elles ont déjà été revendues. Tout",
+          "bbox": [
+            59.0,
+            2172.0,
+            1571.0,
+            2195.0
+          ],
+          "ocr_confidence": 0.9540273547172546,
+          "reading_order": 8,
+          "polygon": [
+            [
+              59.0,
+              2172.0
+            ],
+            [
+              1571.0,
+              2174.0
+            ],
+            [
+              1571.0,
+              2195.0
+            ],
+            [
+              59.0,
+              2193.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b9",
+          "type": "text",
+          "text": "incident de paiement est passible de ponalités de retard calculées sur la base de trois fois le taux dintérêt légal en vigueur, avec un montant d'indemnite forfaitaire de 40 euros pour les frais de recouvrement encourus. Distrie France, SARl au",
+          "bbox": [
+            59.0,
+            2188.0,
+            1555.0,
+            2212.0
+          ],
+          "ocr_confidence": 0.8842952251434326,
+          "reading_order": 9,
+          "polygon": [
+            [
+              59.0,
+              2188.0
+            ],
+            [
+              1555.0,
+              2191.0
+            ],
+            [
+              1555.0,
+              2212.0
+            ],
+            [
+              59.0,
+              2209.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b10",
+          "type": "text",
+          "text": "capital de 12.000 EUR - RCS Paris 87B143502 - APE 4532Z - SIREN 878 143 502 - TVA Intracommunautaire FR49878143502",
+          "bbox": [
+            60.0,
+            2206.0,
+            848.0,
+            2227.0
+          ],
+          "ocr_confidence": 0.9648532271385193,
+          "reading_order": 10,
+          "polygon": [
+            [
+              60.0,
+              2207.0
+            ],
+            [
+              848.0,
+              2206.0
+            ],
+            [
+              848.0,
+              2226.0
+            ],
+            [
+              60.0,
+              2227.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b11",
+          "type": "text",
+          "text": "Dase 1/1",
+          "bbox": [
+            1511.0,
+            2303.0,
+            1579.0,
+            2317.0
+          ],
+          "ocr_confidence": 0.7634445428848267,
+          "reading_order": 11,
+          "polygon": [
+            [
+              1511.0,
+              2303.0
+            ],
+            [
+              1579.0,
+              2303.0
+            ],
+            [
+              1579.0,
+              2317.0
+            ],
+            [
+              1511.0,
+              2317.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b12",
+          "type": "text",
+          "text": ".FFature",
+          "bbox": [
+            1292.95751953125,
+            49.3740234375,
+            1565.58154296875,
+            165.85891723632812
+          ],
+          "ocr_confidence": 0.6560503244400024,
+          "reading_order": 12,
+          "polygon": [
+            [
+              1292.0,
+              49.0
+            ],
+            [
+              1565.0,
+              49.0
+            ],
+            [
+              1565.0,
+              165.0
+            ],
+            [
+              1292.0,
+              165.0
+            ]
+          ]
+        }
+      ],
+      "tables": [],
+      "warnings": [
+        "Ignored suspicious table structure covering 78.2% of the page; all OCR text was preserved.",
+        "Table result/layout count mismatch: 1 result(s), 0 trusted region(s)."
+      ]
+    }
+  ],
+  "source_mime_type": "image/png",
+  "warnings": [
+    "Page 1: Ignored suspicious table structure covering 78.2% of the page; all OCR text was preserved.",
+    "Page 1: Table result/layout count mismatch: 1 result(s), 0 trusted region(s)."
+  ]
+}

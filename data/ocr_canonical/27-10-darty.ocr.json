@@ -1,0 +1,1731 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "27-10-darty",
+  "source_file": "27-10-darty__p001.png",
+  "generated_at": "2026-09-11T09:24:20.008474Z",
+  "ocr_engine": {
+    "name": "PP-StructureV3",
+    "version": "3.7.0"
+  },
+  "page_count": 1,
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 1654,
+      "height": 2339,
+      "orientation": 0,
+      "blocks": [
+        {
+          "block_id": "p1_b0",
+          "type": "header",
+          "text": "Facture établie au nom et pour le compte de",
+          "bbox": [
+            910.0,
+            92.0,
+            1420.0,
+            116.0
+          ],
+          "ocr_confidence": 0.9879451394081116,
+          "reading_order": 0,
+          "polygon": [
+            [
+              910.0,
+              92.0
+            ],
+            [
+              1420.0,
+              92.0
+            ],
+            [
+              1420.0,
+              116.0
+            ],
+            [
+              910.0,
+              116.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b1",
+          "type": "text",
+          "text": "Assurant France",
+          "bbox": [
+            937.0,
+            131.0,
+            1098.0,
+            152.0
+          ],
+          "ocr_confidence": 0.9983961582183838,
+          "reading_order": 1,
+          "polygon": [
+            [
+              937.0,
+              131.0
+            ],
+            [
+              1098.0,
+              131.0
+            ],
+            [
+              1098.0,
+              152.0
+            ],
+            [
+              937.0,
+              152.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b2",
+          "type": "text",
+          "text": "45 Rue Denis Papin",
+          "bbox": [
+            936.0,
+            153.0,
+            1132.0,
+            179.0
+          ],
+          "ocr_confidence": 0.9820732474327087,
+          "reading_order": 2,
+          "polygon": [
+            [
+              937.0,
+              153.0
+            ],
+            [
+              1132.0,
+              155.0
+            ],
+            [
+              1132.0,
+              179.0
+            ],
+            [
+              936.0,
+              177.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b3",
+          "type": "text",
+          "text": "13100 Aix-En-Provence",
+          "bbox": [
+            937.0,
+            177.0,
+            1169.0,
+            202.0
+          ],
+          "ocr_confidence": 0.9871975183486938,
+          "reading_order": 3,
+          "polygon": [
+            [
+              937.0,
+              177.0
+            ],
+            [
+              1169.0,
+              178.0
+            ],
+            [
+              1169.0,
+              202.0
+            ],
+            [
+              937.0,
+              201.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b4",
+          "type": "image",
+          "text": "DARTY",
+          "bbox": [
+            70.0,
+            215.0,
+            299.0,
+            294.0
+          ],
+          "ocr_confidence": 0.9996317028999329,
+          "reading_order": 4,
+          "polygon": [
+            [
+              70.0,
+              215.0
+            ],
+            [
+              299.0,
+              215.0
+            ],
+            [
+              299.0,
+              294.0
+            ],
+            [
+              70.0,
+              294.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b5",
+          "type": "text",
+          "text": "Votre Facture DARTY d'Octobre 2025",
+          "bbox": [
+            367.0,
+            275.0,
+            938.0,
+            302.0
+          ],
+          "ocr_confidence": 0.9955208897590637,
+          "reading_order": 5,
+          "polygon": [
+            [
+              367.0,
+              275.0
+            ],
+            [
+              938.0,
+              275.0
+            ],
+            [
+              938.0,
+              302.0
+            ],
+            [
+              367.0,
+              302.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b6",
+          "type": "text",
+          "text": "Opérations d'assurance exonérées de TVA en application de l'article 261 C 2° du Code général des impôts",
+          "bbox": [
+            369.0,
+            318.0,
+            1388.0,
+            341.0
+          ],
+          "ocr_confidence": 0.9889112114906311,
+          "reading_order": 6,
+          "polygon": [
+            [
+              369.0,
+              318.0
+            ],
+            [
+              1388.0,
+              318.0
+            ],
+            [
+              1388.0,
+              341.0
+            ],
+            [
+              369.0,
+              341.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b7",
+          "type": "text",
+          "text": "27/10",
+          "bbox": [
+            635.0,
+            389.0,
+            758.0,
+            438.0
+          ],
+          "ocr_confidence": 0.999934196472168,
+          "reading_order": 7,
+          "polygon": [
+            [
+              635.0,
+              389.0
+            ],
+            [
+              758.0,
+              389.0
+            ],
+            [
+              758.0,
+              438.0
+            ],
+            [
+              635.0,
+              438.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b8",
+          "type": "text",
+          "text": "ETS AMBULANCE PARIS BERCY",
+          "bbox": [
+            872.0,
+            419.0,
+            1383.0,
+            449.0
+          ],
+          "ocr_confidence": 0.998608410358429,
+          "reading_order": 8,
+          "polygon": [
+            [
+              872.0,
+              419.0
+            ],
+            [
+              1383.0,
+              419.0
+            ],
+            [
+              1383.0,
+              449.0
+            ],
+            [
+              872.0,
+              449.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b9",
+          "type": "text",
+          "text": "14 RUE DES BOULETS",
+          "bbox": [
+            872.0,
+            457.0,
+            1192.0,
+            487.0
+          ],
+          "ocr_confidence": 0.9996283054351807,
+          "reading_order": 9,
+          "polygon": [
+            [
+              872.0,
+              457.0
+            ],
+            [
+              1192.0,
+              457.0
+            ],
+            [
+              1192.0,
+              487.0
+            ],
+            [
+              872.0,
+              487.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b10",
+          "type": "text",
+          "text": "Vos références",
+          "bbox": [
+            72.0,
+            495.0,
+            215.0,
+            521.0
+          ],
+          "ocr_confidence": 0.9981243014335632,
+          "reading_order": 10,
+          "polygon": [
+            [
+              73.0,
+              495.0
+            ],
+            [
+              215.0,
+              497.0
+            ],
+            [
+              214.0,
+              521.0
+            ],
+            [
+              72.0,
+              519.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b11",
+          "type": "text",
+          "text": "75011 PARIS 11",
+          "bbox": [
+            870.0,
+            497.0,
+            1093.0,
+            527.0
+          ],
+          "ocr_confidence": 0.9993420243263245,
+          "reading_order": 11,
+          "polygon": [
+            [
+              870.0,
+              497.0
+            ],
+            [
+              1093.0,
+              497.0
+            ],
+            [
+              1093.0,
+              527.0
+            ],
+            [
+              870.0,
+              527.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b12",
+          "type": "text",
+          "text": "N° Contrat :",
+          "bbox": [
+            76.0,
+            523.0,
+            199.0,
+            544.0
+          ],
+          "ocr_confidence": 0.9136384129524231,
+          "reading_order": 12,
+          "polygon": [
+            [
+              76.0,
+              523.0
+            ],
+            [
+              199.0,
+              523.0
+            ],
+            [
+              199.0,
+              544.0
+            ],
+            [
+              76.0,
+              544.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b13",
+          "type": "text",
+          "text": "CTRAMBUL6773150174",
+          "bbox": [
+            76.0,
+            548.0,
+            315.0,
+            569.0
+          ],
+          "ocr_confidence": 0.9890817999839783,
+          "reading_order": 13,
+          "polygon": [
+            [
+              76.0,
+              548.0
+            ],
+            [
+              315.0,
+              548.0
+            ],
+            [
+              315.0,
+              569.0
+            ],
+            [
+              76.0,
+              569.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b14",
+          "type": "text",
+          "text": "N° Facture :",
+          "bbox": [
+            76.0,
+            576.0,
+            200.0,
+            597.0
+          ],
+          "ocr_confidence": 0.9822648167610168,
+          "reading_order": 14,
+          "polygon": [
+            [
+              76.0,
+              576.0
+            ],
+            [
+              200.0,
+              576.0
+            ],
+            [
+              200.0,
+              597.0
+            ],
+            [
+              76.0,
+              597.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b15",
+          "type": "text",
+          "text": "907_0004734978",
+          "bbox": [
+            74.0,
+            600.0,
+            247.0,
+            626.0
+          ],
+          "ocr_confidence": 0.9999076128005981,
+          "reading_order": 15,
+          "polygon": [
+            [
+              74.0,
+              602.0
+            ],
+            [
+              246.0,
+              600.0
+            ],
+            [
+              247.0,
+              624.0
+            ],
+            [
+              75.0,
+              626.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b16",
+          "type": "text",
+          "text": "Emise le :",
+          "bbox": [
+            77.0,
+            629.0,
+            180.0,
+            650.0
+          ],
+          "ocr_confidence": 0.9986631274223328,
+          "reading_order": 16,
+          "polygon": [
+            [
+              77.0,
+              629.0
+            ],
+            [
+              180.0,
+              629.0
+            ],
+            [
+              180.0,
+              650.0
+            ],
+            [
+              77.0,
+              650.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b17",
+          "type": "text",
+          "text": "23/10/2025",
+          "bbox": [
+            75.0,
+            654.0,
+            186.0,
+            675.0
+          ],
+          "ocr_confidence": 0.9999664425849915,
+          "reading_order": 17,
+          "polygon": [
+            [
+              75.0,
+              654.0
+            ],
+            [
+              186.0,
+              654.0
+            ],
+            [
+              186.0,
+              675.0
+            ],
+            [
+              75.0,
+              675.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b18",
+          "type": "text",
+          "text": "période de facturation :",
+          "bbox": [
+            73.0,
+            679.0,
+            318.0,
+            706.0
+          ],
+          "ocr_confidence": 0.9899203181266785,
+          "reading_order": 18,
+          "polygon": [
+            [
+              73.0,
+              681.0
+            ],
+            [
+              318.0,
+              679.0
+            ],
+            [
+              318.0,
+              704.0
+            ],
+            [
+              74.0,
+              706.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b19",
+          "type": "text",
+          "text": "du 23/10/2025 au 22/11/2025",
+          "bbox": [
+            75.0,
+            706.0,
+            360.0,
+            729.0
+          ],
+          "ocr_confidence": 0.9991722702980042,
+          "reading_order": 19,
+          "polygon": [
+            [
+              75.0,
+              706.0
+            ],
+            [
+              360.0,
+              706.0
+            ],
+            [
+              360.0,
+              729.0
+            ],
+            [
+              75.0,
+              729.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b20",
+          "type": "text",
+          "text": "Date d'activation :",
+          "bbox": [
+            76.0,
+            734.0,
+            263.0,
+            755.0
+          ],
+          "ocr_confidence": 0.9979646801948547,
+          "reading_order": 20,
+          "polygon": [
+            [
+              76.0,
+              734.0
+            ],
+            [
+              263.0,
+              734.0
+            ],
+            [
+              263.0,
+              755.0
+            ],
+            [
+              76.0,
+              755.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b21",
+          "type": "table",
+          "text": "€ HT",
+          "bbox": [
+            1310.0,
+            728.0,
+            1371.0,
+            757.0
+          ],
+          "ocr_confidence": 0.9935470819473267,
+          "reading_order": 21,
+          "polygon": [
+            [
+              1310.0,
+              728.0
+            ],
+            [
+              1371.0,
+              728.0
+            ],
+            [
+              1371.0,
+              757.0
+            ],
+            [
+              1310.0,
+              757.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b22",
+          "type": "table",
+          "text": "€ TTC",
+          "bbox": [
+            1457.0,
+            728.0,
+            1529.0,
+            757.0
+          ],
+          "ocr_confidence": 0.9917486906051636,
+          "reading_order": 22,
+          "polygon": [
+            [
+              1457.0,
+              728.0
+            ],
+            [
+              1529.0,
+              728.0
+            ],
+            [
+              1529.0,
+              757.0
+            ],
+            [
+              1457.0,
+              757.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b23",
+          "type": "text",
+          "text": "06/01/2025",
+          "bbox": [
+            75.0,
+            759.0,
+            187.0,
+            783.0
+          ],
+          "ocr_confidence": 0.9999489784240723,
+          "reading_order": 23,
+          "polygon": [
+            [
+              75.0,
+              759.0
+            ],
+            [
+              187.0,
+              759.0
+            ],
+            [
+              187.0,
+              783.0
+            ],
+            [
+              75.0,
+              783.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b24",
+          "type": "table",
+          "text": "Vos abonnements et options",
+          "bbox": [
+            524.0,
+            772.0,
+            801.0,
+            797.0
+          ],
+          "ocr_confidence": 0.9992879629135132,
+          "reading_order": 24,
+          "polygon": [
+            [
+              524.0,
+              772.0
+            ],
+            [
+              801.0,
+              773.0
+            ],
+            [
+              801.0,
+              797.0
+            ],
+            [
+              524.0,
+              796.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b25",
+          "type": "table",
+          "text": "17,99",
+          "bbox": [
+            1308.0,
+            771.0,
+            1369.0,
+            797.0
+          ],
+          "ocr_confidence": 0.9999505877494812,
+          "reading_order": 25,
+          "polygon": [
+            [
+              1308.0,
+              771.0
+            ],
+            [
+              1369.0,
+              771.0
+            ],
+            [
+              1369.0,
+              797.0
+            ],
+            [
+              1308.0,
+              797.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b26",
+          "type": "table",
+          "text": "17,99",
+          "bbox": [
+            1465.0,
+            768.0,
+            1529.0,
+            800.0
+          ],
+          "ocr_confidence": 0.9997528195381165,
+          "reading_order": 26,
+          "polygon": [
+            [
+              1466.0,
+              768.0
+            ],
+            [
+              1529.0,
+              770.0
+            ],
+            [
+              1528.0,
+              800.0
+            ],
+            [
+              1465.0,
+              798.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b27",
+          "type": "text",
+          "text": "période d'engagement :",
+          "bbox": [
+            75.0,
+            786.0,
+            320.0,
+            810.0
+          ],
+          "ocr_confidence": 0.9981052279472351,
+          "reading_order": 27,
+          "polygon": [
+            [
+              75.0,
+              786.0
+            ],
+            [
+              320.0,
+              786.0
+            ],
+            [
+              320.0,
+              810.0
+            ],
+            [
+              75.0,
+              810.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b28",
+          "type": "text",
+          "text": "du 06/01/2025 au 06/01/2026",
+          "bbox": [
+            76.0,
+            811.0,
+            360.0,
+            834.0
+          ],
+          "ocr_confidence": 0.9877071380615234,
+          "reading_order": 28,
+          "polygon": [
+            [
+              76.0,
+              811.0
+            ],
+            [
+              360.0,
+              811.0
+            ],
+            [
+              360.0,
+              834.0
+            ],
+            [
+              76.0,
+              834.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b29",
+          "type": "table",
+          "text": "Période du 23/10/2025 au 22/11/2025",
+          "bbox": [
+            525.0,
+            813.0,
+            890.0,
+            836.0
+          ],
+          "ocr_confidence": 0.9732639789581299,
+          "reading_order": 29,
+          "polygon": [
+            [
+              525.0,
+              813.0
+            ],
+            [
+              890.0,
+              813.0
+            ],
+            [
+              890.0,
+              836.0
+            ],
+            [
+              525.0,
+              836.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b30",
+          "type": "table",
+          "text": "Assurance Mobile avec AppleCare Services - Essentielle",
+          "bbox": [
+            573.0,
+            849.0,
+            1122.0,
+            874.0
+          ],
+          "ocr_confidence": 0.9840717315673828,
+          "reading_order": 30,
+          "polygon": [
+            [
+              573.0,
+              849.0
+            ],
+            [
+              1122.0,
+              850.0
+            ],
+            [
+              1122.0,
+              874.0
+            ],
+            [
+              573.0,
+              873.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b31",
+          "type": "table",
+          "text": "17,99",
+          "bbox": [
+            1305.0,
+            848.0,
+            1370.0,
+            877.0
+          ],
+          "ocr_confidence": 0.999775767326355,
+          "reading_order": 31,
+          "polygon": [
+            [
+              1305.0,
+              848.0
+            ],
+            [
+              1370.0,
+              848.0
+            ],
+            [
+              1370.0,
+              877.0
+            ],
+            [
+              1305.0,
+              877.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b32",
+          "type": "table",
+          "text": "17,99",
+          "bbox": [
+            1465.0,
+            848.0,
+            1529.0,
+            878.0
+          ],
+          "ocr_confidence": 0.9998525381088257,
+          "reading_order": 32,
+          "polygon": [
+            [
+              1465.0,
+              848.0
+            ],
+            [
+              1529.0,
+              848.0
+            ],
+            [
+              1529.0,
+              878.0
+            ],
+            [
+              1465.0,
+              878.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b33",
+          "type": "text",
+          "text": "Montant total facturé",
+          "bbox": [
+            553.0,
+            963.0,
+            803.0,
+            992.0
+          ],
+          "ocr_confidence": 0.9996237754821777,
+          "reading_order": 33,
+          "polygon": [
+            [
+              553.0,
+              965.0
+            ],
+            [
+              803.0,
+              963.0
+            ],
+            [
+              803.0,
+              990.0
+            ],
+            [
+              553.0,
+              992.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b34",
+          "type": "text",
+          "text": "17,99",
+          "bbox": [
+            1303.0,
+            956.0,
+            1367.0,
+            986.0
+          ],
+          "ocr_confidence": 0.9997197389602661,
+          "reading_order": 34,
+          "polygon": [
+            [
+              1303.0,
+              956.0
+            ],
+            [
+              1367.0,
+              956.0
+            ],
+            [
+              1367.0,
+              986.0
+            ],
+            [
+              1303.0,
+              986.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b35",
+          "type": "text",
+          "text": "17,99",
+          "bbox": [
+            1463.0,
+            956.0,
+            1525.0,
+            986.0
+          ],
+          "ocr_confidence": 0.9994574785232544,
+          "reading_order": 35,
+          "polygon": [
+            [
+              1463.0,
+              956.0
+            ],
+            [
+              1525.0,
+              956.0
+            ],
+            [
+              1525.0,
+              986.0
+            ],
+            [
+              1463.0,
+              986.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b36",
+          "type": "text",
+          "text": "TVA à 0.00% =",
+          "bbox": [
+            552.0,
+            1004.0,
+            706.0,
+            1031.0
+          ],
+          "ocr_confidence": 0.9753296375274658,
+          "reading_order": 36,
+          "polygon": [
+            [
+              552.0,
+              1004.0
+            ],
+            [
+              706.0,
+              1004.0
+            ],
+            [
+              706.0,
+              1031.0
+            ],
+            [
+              552.0,
+              1031.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b37",
+          "type": "text",
+          "text": "0.00€",
+          "bbox": [
+            792.0,
+            1003.0,
+            858.0,
+            1032.0
+          ],
+          "ocr_confidence": 0.9999338388442993,
+          "reading_order": 37,
+          "polygon": [
+            [
+              792.0,
+              1003.0
+            ],
+            [
+              858.0,
+              1003.0
+            ],
+            [
+              858.0,
+              1032.0
+            ],
+            [
+              792.0,
+              1032.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b38",
+          "type": "text",
+          "text": "Nous contacter",
+          "bbox": [
+            74.0,
+            1015.0,
+            238.0,
+            1039.0
+          ],
+          "ocr_confidence": 0.9982731938362122,
+          "reading_order": 38,
+          "polygon": [
+            [
+              74.0,
+              1015.0
+            ],
+            [
+              238.0,
+              1015.0
+            ],
+            [
+              238.0,
+              1039.0
+            ],
+            [
+              74.0,
+              1039.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b39",
+          "type": "text",
+          "text": "www.dartyassurance.com",
+          "bbox": [
+            74.0,
+            1047.0,
+            324.0,
+            1071.0
+          ],
+          "ocr_confidence": 0.999951958656311,
+          "reading_order": 39,
+          "polygon": [
+            [
+              74.0,
+              1047.0
+            ],
+            [
+              324.0,
+              1047.0
+            ],
+            [
+              324.0,
+              1071.0
+            ],
+            [
+              74.0,
+              1071.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b40",
+          "type": "text",
+          "text": "Les montants unitaires sont arrondis. Leur somme peut différer du montant total.",
+          "bbox": [
+            524.0,
+            1052.0,
+            1293.0,
+            1075.0
+          ],
+          "ocr_confidence": 0.9922685623168945,
+          "reading_order": 40,
+          "polygon": [
+            [
+              524.0,
+              1052.0
+            ],
+            [
+              1293.0,
+              1052.0
+            ],
+            [
+              1293.0,
+              1075.0
+            ],
+            [
+              524.0,
+              1075.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b41",
+          "type": "text",
+          "text": "0978 970 970 (tarif local) - Du lundi au",
+          "bbox": [
+            74.0,
+            1069.0,
+            444.0,
+            1095.0
+          ],
+          "ocr_confidence": 0.9786368608474731,
+          "reading_order": 41,
+          "polygon": [
+            [
+              74.0,
+              1069.0
+            ],
+            [
+              444.0,
+              1071.0
+            ],
+            [
+              444.0,
+              1095.0
+            ],
+            [
+              74.0,
+              1093.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b42",
+          "type": "text",
+          "text": "dimanche de 8H à 20H.",
+          "bbox": [
+            76.0,
+            1096.0,
+            303.0,
+            1117.0
+          ],
+          "ocr_confidence": 0.9962608814239502,
+          "reading_order": 42,
+          "polygon": [
+            [
+              76.0,
+              1096.0
+            ],
+            [
+              303.0,
+              1096.0
+            ],
+            [
+              303.0,
+              1117.0
+            ],
+            [
+              76.0,
+              1117.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b43",
+          "type": "text",
+          "text": "Service Abonnement Darty",
+          "bbox": [
+            74.0,
+            1119.0,
+            336.0,
+            1146.0
+          ],
+          "ocr_confidence": 0.969099223613739,
+          "reading_order": 43,
+          "polygon": [
+            [
+              74.0,
+              1119.0
+            ],
+            [
+              336.0,
+              1119.0
+            ],
+            [
+              336.0,
+              1146.0
+            ],
+            [
+              74.0,
+              1146.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b44",
+          "type": "text",
+          "text": "Ce montant sera prélevé sur votre compte à partir du 10/11/2025",
+          "bbox": [
+            527.0,
+            1124.0,
+            1150.0,
+            1149.0
+          ],
+          "ocr_confidence": 0.9933673739433289,
+          "reading_order": 44,
+          "polygon": [
+            [
+              527.0,
+              1125.0
+            ],
+            [
+              1150.0,
+              1124.0
+            ],
+            [
+              1150.0,
+              1148.0
+            ],
+            [
+              527.0,
+              1149.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b45",
+          "type": "text",
+          "text": "TSA 10507",
+          "bbox": [
+            74.0,
+            1144.0,
+            187.0,
+            1168.0
+          ],
+          "ocr_confidence": 0.9993220567703247,
+          "reading_order": 45,
+          "polygon": [
+            [
+              74.0,
+              1144.0
+            ],
+            [
+              187.0,
+              1144.0
+            ],
+            [
+              187.0,
+              1168.0
+            ],
+            [
+              74.0,
+              1168.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b46",
+          "type": "text",
+          "text": "94858 IVRY SUR SEINE CEDEX",
+          "bbox": [
+            75.0,
+            1170.0,
+            397.0,
+            1193.0
+          ],
+          "ocr_confidence": 0.9905837178230286,
+          "reading_order": 46,
+          "polygon": [
+            [
+              75.0,
+              1170.0
+            ],
+            [
+              397.0,
+              1170.0
+            ],
+            [
+              397.0,
+              1193.0
+            ],
+            [
+              75.0,
+              1193.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b47",
+          "type": "footer",
+          "text": "ETABLISSEMENT DARTY ET FILS SASU au capital de 23 470 382 € - RCS CRETEIL B 542 086 616",
+          "bbox": [
+            76.0,
+            2175.0,
+            817.0,
+            2192.0
+          ],
+          "ocr_confidence": 0.9727518558502197,
+          "reading_order": 47,
+          "polygon": [
+            [
+              76.0,
+              2175.0
+            ],
+            [
+              817.0,
+              2175.0
+            ],
+            [
+              817.0,
+              2192.0
+            ],
+            [
+              76.0,
+              2192.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b48",
+          "type": "text",
+          "text": "Page 1/1",
+          "bbox": [
+            1429.0,
+            2166.0,
+            1547.0,
+            2208.0
+          ],
+          "ocr_confidence": 0.9408454895019531,
+          "reading_order": 48,
+          "polygon": [
+            [
+              1430.0,
+              2166.0
+            ],
+            [
+              1547.0,
+              2168.0
+            ],
+            [
+              1546.0,
+              2208.0
+            ],
+            [
+              1429.0,
+              2206.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b49",
+          "type": "footer",
+          "text": "Siège Social : 9 Rue des Bateaux-Lavoirs ZAC Port d'lvry - 94200 Ivry-sur-Seine France - Identifiant TVA : FR 55 542 086 616",
+          "bbox": [
+            75.0,
+            2196.0,
+            981.0,
+            2216.0
+          ],
+          "ocr_confidence": 0.986025333404541,
+          "reading_order": 49,
+          "polygon": [
+            [
+              75.0,
+              2196.0
+            ],
+            [
+              981.0,
+              2196.0
+            ],
+            [
+              981.0,
+              2216.0
+            ],
+            [
+              75.0,
+              2216.0
+            ]
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "table_id": "p1_t0",
+          "bbox": [
+            521.1460571289062,
+            727.4898071289062,
+            1533.4990234375,
+            878.0158081054688
+          ],
+          "structure_confidence": 0.4245925545692444,
+          "cells": [
+            {
+              "row": 0,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Vos abonnements et options",
+              "bbox": [
+                521.1460571289062,
+                727.7374774217606,
+                1130.6161499023438,
+                804.2677536010742
+              ],
+              "ocr_confidence": 0.9992879629135132,
+              "source_block_ids": [
+                "p1_b24"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "€ HT",
+              "bbox": [
+                1129.3438720703125,
+                727.5406768321991,
+                1413.3806762695312,
+                762.399471282959
+              ],
+              "ocr_confidence": 0.9935470819473267,
+              "source_block_ids": [
+                "p1_b21"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "€ TTC",
+              "bbox": [
+                1408.3501586914062,
+                727.561301022768,
+                1532.8960571289062,
+                761.9365577697754
+              ],
+              "ocr_confidence": 0.9917486906051636,
+              "source_block_ids": [
+                "p1_b22"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "17,99",
+              "bbox": [
+                1131.3187255859375,
+                761.6500396728516,
+                1415.9547119140625,
+                803.9003677368164
+              ],
+              "ocr_confidence": 0.9999505877494812,
+              "source_block_ids": [
+                "p1_b25"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "17,99",
+              "bbox": [
+                1410.330078125,
+                762.375072479248,
+                1532.5078125,
+                804.0081100463867
+              ],
+              "ocr_confidence": 0.9997528195381165,
+              "source_block_ids": [
+                "p1_b26"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "",
+              "bbox": [
+                521.3457763195038,
+                803.9589767456055,
+                1137.1072998046875,
+                878.4719696044922
+              ],
+              "ocr_confidence": 0.9786678552627563,
+              "source_block_ids": [
+                "p1_b29",
+                "p1_b30"
+              ]
+            },
+            {
+              "row": 2,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Période du 23/10/2025 au 22/11/2025 Assurance Mobile avec AppleCare Services - Essentielle",
+              "bbox": [
+                1137.798583984375,
+                803.7134170532227,
+                1533.14306640625,
+                878.3684692382812
+              ],
+              "ocr_confidence": 0.9998141527175903,
+              "source_block_ids": [
+                "p1_b31",
+                "p1_b32"
+              ]
+            },
+            {
+              "row": 2,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "17,99 17,99",
+              "bbox": [
+                1407.843505859375,
+                841.205680847168,
+                1532.5889282226562,
+                878.0772094726562
+              ],
+              "ocr_confidence": 0.9998525381088257,
+              "source_block_ids": [
+                "p1_b32"
+              ]
+            }
+          ],
+          "html": "<html><body><table><tbody><tr><td>Vos abonnements et options</td><td>€ HT</td><td>€ TTC</td></tr><tr><td>17,99</td><td>17,99</td><td></td></tr><tr><td>Période du 23/10/2025 au 22/11/2025 Assurance Mobile avec AppleCare Services - Essentielle</td><td>17,99 17,99</td><td>17,99</td></tr><tr><td></td><td></td><td></td></tr></tbody></table></body></html>"
+        }
+      ],
+      "warnings": [
+        "Table 1 has 12 HTML cell(s) but 8 valid cell box(es); only matched cells were kept."
+      ]
+    }
+  ],
+  "source_mime_type": "image/png",
+  "warnings": [
+    "Page 1: Table 1 has 12 HTML cell(s) but 8 valid cell box(es); only matched cells were kept."
+  ]
+}

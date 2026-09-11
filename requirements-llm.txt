@@ -1,0 +1,5 @@
+# Install in a dedicated extraction environment with a CUDA-enabled PyTorch.
+jsonschema==4.26.0
+transformers>=4.51.0
+accelerate>=1.6.0
+bitsandbytes>=0.45.0

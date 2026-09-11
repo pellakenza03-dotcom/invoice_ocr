@@ -164,6 +164,75 @@ La commande vérifie le manifeste, les images, les dimensions, les classes, les
 coordonnées et l'unicité des IDs, puis écrit
 `data/layout_training/annotations/preannotations.coco.json`.
 
+## Convertir les exports Paddle vers le document OCR canonique
+
+L'adaptateur conserve chaque ligne OCR et sa geometrie, associe les lignes aux
+regions de layout fiables et convertit les tables vers
+`schemas/ocr_document.schema.json`. Les tables couvrant plus de 75 % d'une page
+sont ignorees comme structure suspecte, sans supprimer leur texte OCR :
+
+```powershell
+python -m ocr_adapter .\data\layout_training\preannotations `
+  --output .\data\ocr_canonical
+```
+
+Les pages nommees `document__p001.structure.json`, `document__p002...` sont
+regroupees dans un seul `document.ocr.json`. Chaque sortie est validee contre
+le schema canonique avant son ecriture.
+
+Le contrat de sortie métier de la première phase est défini dans
+`schemas/invoice_summary.schema.json`. Il couvre l'en-tête de facture, le
+vendeur, l'acheteur, les montants, la ventilation TVA et leurs preuves OCR,
+sans inclure les lignes de facture.
+
+## Extraire le résumé métier avec Qwen
+
+Le pipeline sémantique valide le JSON OCR, construit un contexte compact avec
+les coordonnées normalisées, appelle Qwen, normalise les dates et montants,
+valide les preuves OCR et applique les contrôles comptables. Tester d'abord la
+préparation du contexte, sans modèle et sans GPU :
+
+```powershell
+python -m invoice_extract `
+  .\data\ocr_canonical\1-1-invoice-35.ocr.json `
+  --output .\data\invoice_contexts `
+  --context-only
+```
+
+Pour une machine NVIDIA avec 8 Go de VRAM, utiliser un environnement séparé
+du pipeline PaddleOCR. Installer d'abord une version CUDA de PyTorch adaptée au
+pilote de la machine, puis :
+
+```powershell
+py -3.11 -m venv .venv-extract
+.\.venv-extract\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -r requirements-llm.txt
+python -m pip install -e .
+python -c "import torch; print(torch.cuda.is_available(), torch.cuda.get_device_name(0))"
+```
+
+La configuration par défaut charge `Qwen/Qwen3-4B` en 4 bits via
+bitsandbytes, sans clé API. Le premier lancement télécharge le modèle. Lancer
+ensuite une seule facture :
+
+```powershell
+python -m invoice_extract `
+  .\data\ocr_canonical\1-1-invoice-35.ocr.json `
+  --output .\data\invoice_results
+```
+
+En cas de mémoire GPU insuffisante, réduire `context.max_characters`,
+`model.max_input_tokens` et `model.max_new_tokens` dans
+`config/extraction.json`. Une fois le test unitaire validé, un dossier complet
+peut être traité avec `--resume` :
+
+```powershell
+python -m invoice_extract .\data\ocr_canonical `
+  --output .\data\invoice_results `
+  --resume
+```
+
 ## Tests
 
 ```powershell

@@ -1,0 +1,491 @@
+{
+    "input_path": "/kaggle/working/invoice_ocr/data/layout_training/images/4117055991-i3fcs7mxzi3b8j68p6ddwal1fbsx__p007.png",
+    "page_index": null,
+    "page_count": null,
+    "width": 1653,
+    "height": 2339,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": false,
+        "use_chart_recognition": false,
+        "use_region_detection": false,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "FRANS BONNHOME ",
+            "block_bbox": [
+                495,
+                29,
+                1160,
+                208
+            ],
+            "block_id": 0,
+            "block_order": null
+        },
+        {
+            "block_label": "image",
+            "block_content": "",
+            "block_bbox": [
+                1546,
+                330,
+                1632,
+                420
+            ],
+            "block_id": 1,
+            "block_order": null
+        },
+        {
+            "block_label": "text",
+            "block_content": "No:001189",
+            "block_bbox": [
+                1100,
+                812,
+                1269,
+                849
+            ],
+            "block_id": 2,
+            "block_order": 1
+        },
+        {
+            "block_label": "text",
+            "block_content": "15 e ",
+            "block_bbox": [
+                655,
+                895,
+                891,
+                984
+            ],
+            "block_id": 3,
+            "block_order": 2
+        },
+        {
+            "block_label": "number",
+            "block_content": "/ 2",
+            "block_bbox": [
+                1387,
+                2253,
+                1411,
+                2270
+            ],
+            "block_id": 4,
+            "block_order": null
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": false
+        },
+        "angle": -1
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 3,
+                "label": "number",
+                "score": 0.7835788130760193,
+                "coordinate": [
+                    1387.499267578125,
+                    2253.016845703125,
+                    1411.782958984375,
+                    2270.816162109375
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.5623824596405029,
+                "coordinate": [
+                    1100.443359375,
+                    812.51416015625,
+                    1269.739501953125,
+                    849.995361328125
+                ]
+            },
+            {
+                "cls_id": 1,
+                "label": "image",
+                "score": 0.5417088270187378,
+                "coordinate": [
+                    1546.952880859375,
+                    330.9597473144531,
+                    1632.935302734375,
+                    420.2168884277344
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.5096014738082886,
+                "coordinate": [
+                    655.5768432617188,
+                    895.0806884765625,
+                    891.3087768554688,
+                    984.3377685546875
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.47826504707336426,
+                "coordinate": [
+                    495.6710205078125,
+                    29.71015167236328,
+                    1160.4205322265625,
+                    208.93524169921875
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": false
+        },
+        "dt_polys": [
+            [
+                [
+                    973,
+                    1211
+                ],
+                [
+                    990,
+                    1211
+                ],
+                [
+                    990,
+                    1218
+                ],
+                [
+                    973,
+                    1218
+                ]
+            ],
+            [
+                [
+                    739,
+                    1595
+                ],
+                [
+                    1012,
+                    1583
+                ],
+                [
+                    1017,
+                    1687
+                ],
+                [
+                    743,
+                    1699
+                ]
+            ],
+            [
+                [
+                    1147,
+                    2254
+                ],
+                [
+                    1180,
+                    2254
+                ],
+                [
+                    1180,
+                    2280
+                ],
+                [
+                    1147,
+                    2280
+                ]
+            ],
+            [
+                [
+                    1214,
+                    2254
+                ],
+                [
+                    1253,
+                    2254
+                ],
+                [
+                    1253,
+                    2280
+                ],
+                [
+                    1214,
+                    2280
+                ]
+            ],
+            [
+                [
+                    1382,
+                    2251
+                ],
+                [
+                    1418,
+                    2251
+                ],
+                [
+                    1418,
+                    2280
+                ],
+                [
+                    1382,
+                    2280
+                ]
+            ]
+        ],
+        "text_det_params": {
+            "limit_side_len": 736,
+            "limit_type": "min",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+            "",
+            "Q",
+            "49",
+            "O D",
+            "/ 2",
+            "No:001189",
+            "15 e ",
+            "FRANS BONNHOME"
+        ],
+        "rec_scores": [
+            0.0,
+            0.3815522789955139,
+            0.999972939491272,
+            0.9151759743690491,
+            0.8927926421165466,
+            0.9994152784347534,
+            0.4201601445674896,
+            0.7867656350135803
+        ],
+        "rec_polys": [
+            [
+                [
+                    973,
+                    1211
+                ],
+                [
+                    990,
+                    1211
+                ],
+                [
+                    990,
+                    1218
+                ],
+                [
+                    973,
+                    1218
+                ]
+            ],
+            [
+                [
+                    739,
+                    1595
+                ],
+                [
+                    1012,
+                    1583
+                ],
+                [
+                    1017,
+                    1687
+                ],
+                [
+                    743,
+                    1699
+                ]
+            ],
+            [
+                [
+                    1147,
+                    2254
+                ],
+                [
+                    1180,
+                    2254
+                ],
+                [
+                    1180,
+                    2280
+                ],
+                [
+                    1147,
+                    2280
+                ]
+            ],
+            [
+                [
+                    1214,
+                    2254
+                ],
+                [
+                    1253,
+                    2254
+                ],
+                [
+                    1253,
+                    2280
+                ],
+                [
+                    1214,
+                    2280
+                ]
+            ],
+            [
+                [
+                    1382,
+                    2251
+                ],
+                [
+                    1418,
+                    2251
+                ],
+                [
+                    1418,
+                    2280
+                ],
+                [
+                    1382,
+                    2280
+                ]
+            ],
+            [
+                [
+                    1100,
+                    812
+                ],
+                [
+                    1269,
+                    812
+                ],
+                [
+                    1269,
+                    849
+                ],
+                [
+                    1100,
+                    849
+                ]
+            ],
+            [
+                [
+                    655,
+                    895
+                ],
+                [
+                    891,
+                    895
+                ],
+                [
+                    891,
+                    984
+                ],
+                [
+                    655,
+                    984
+                ]
+            ],
+            [
+                [
+                    495,
+                    29
+                ],
+                [
+                    1160,
+                    29
+                ],
+                [
+                    1160,
+                    208
+                ],
+                [
+                    495,
+                    208
+                ]
+            ]
+        ],
+        "rec_boxes": [
+            [
+                973.0,
+                1211.0,
+                990.0,
+                1218.0
+            ],
+            [
+                739.0,
+                1583.0,
+                1017.0,
+                1699.0
+            ],
+            [
+                1147.0,
+                2254.0,
+                1180.0,
+                2280.0
+            ],
+            [
+                1214.0,
+                2254.0,
+                1253.0,
+                2280.0
+            ],
+            [
+                1382.0,
+                2251.0,
+                1418.0,
+                2280.0
+            ],
+            [
+                1100.443359375,
+                812.51416015625,
+                1269.739501953125,
+                849.995361328125
+            ],
+            [
+                655.5768432617188,
+                895.0806884765625,
+                891.3087768554688,
+                984.3377685546875
+            ],
+            [
+                495.6710205078125,
+                29.71015167236328,
+                1160.4205322265625,
+                208.93524169921875
+            ]
+        ]
+    }
+}

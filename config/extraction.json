@@ -1,0 +1,33 @@
+{
+  "ocr_schema_path": "schemas/ocr_document.schema.json",
+  "summary_schema_path": "schemas/invoice_summary.schema.json",
+  "prompt_path": "prompts/invoice_summary_v1.txt",
+  "prompt_version": "invoice-summary-v1",
+  "model": {
+    "backend": "transformers",
+    "model_id": "Qwen/Qwen3-4B",
+    "device_map": "auto",
+    "quantization": "bitsandbytes-4bit",
+    "compute_dtype": "float16",
+    "bnb_4bit_quant_type": "nf4",
+    "bnb_4bit_use_double_quant": true,
+    "require_cuda": true,
+    "trust_remote_code": false,
+    "local_files_only": false,
+    "offload_folder": "data/model_offload",
+    "enable_thinking": false,
+    "max_input_tokens": 12288,
+    "max_new_tokens": 2048,
+    "do_sample": false,
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20
+  },
+  "context": {
+    "coordinate_scale": 1000,
+    "max_characters": 32000
+  },
+  "validation": {
+    "amount_tolerance": 0.02
+  }
+}

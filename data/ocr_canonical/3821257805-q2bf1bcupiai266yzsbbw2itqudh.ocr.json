@@ -1,0 +1,1718 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "3821257805-q2bf1bcupiai266yzsbbw2itqudh",
+  "source_file": "3821257805-q2bf1bcupiai266yzsbbw2itqudh.png",
+  "generated_at": "2026-09-11T09:24:21.538107Z",
+  "ocr_engine": {
+    "name": "PP-StructureV3",
+    "version": "3.7.0"
+  },
+  "page_count": 1,
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 1284,
+      "height": 1765,
+      "orientation": 0,
+      "blocks": [
+        {
+          "block_id": "p1_b0",
+          "type": "header",
+          "text": "CANAL+",
+          "bbox": [
+            85.0,
+            68.0,
+            348.0,
+            135.0
+          ],
+          "ocr_confidence": 0.9969044327735901,
+          "reading_order": 0,
+          "polygon": [
+            [
+              86.0,
+              68.0
+            ],
+            [
+              348.0,
+              71.0
+            ],
+            [
+              347.0,
+              135.0
+            ],
+            [
+              85.0,
+              131.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b1",
+          "type": "header",
+          "text": "BUSINESS",
+          "bbox": [
+            350.0,
+            70.0,
+            609.0,
+            129.0
+          ],
+          "ocr_confidence": 0.9995256662368774,
+          "reading_order": 1,
+          "polygon": [
+            [
+              350.0,
+              70.0
+            ],
+            [
+              609.0,
+              70.0
+            ],
+            [
+              609.0,
+              129.0
+            ],
+            [
+              350.0,
+              129.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b2",
+          "type": "text",
+          "text": "FACTURE",
+          "bbox": [
+            82.0,
+            253.0,
+            166.0,
+            277.0
+          ],
+          "ocr_confidence": 0.9998705983161926,
+          "reading_order": 2,
+          "polygon": [
+            [
+              82.0,
+              253.0
+            ],
+            [
+              166.0,
+              253.0
+            ],
+            [
+              166.0,
+              277.0
+            ],
+            [
+              82.0,
+              277.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b3",
+          "type": "text",
+          "text": "Date facture : 01/01/2026",
+          "bbox": [
+            83.0,
+            277.0,
+            318.0,
+            298.0
+          ],
+          "ocr_confidence": 0.9986700415611267,
+          "reading_order": 3,
+          "polygon": [
+            [
+              83.0,
+              277.0
+            ],
+            [
+              318.0,
+              277.0
+            ],
+            [
+              318.0,
+              298.0
+            ],
+            [
+              83.0,
+              298.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b4",
+          "type": "text",
+          "text": "N° de facture : 26-CSP5138",
+          "bbox": [
+            84.0,
+            300.0,
+            330.0,
+            321.0
+          ],
+          "ocr_confidence": 0.9719220399856567,
+          "reading_order": 4,
+          "polygon": [
+            [
+              84.0,
+              300.0
+            ],
+            [
+              330.0,
+              300.0
+            ],
+            [
+              330.0,
+              321.0
+            ],
+            [
+              84.0,
+              321.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b5",
+          "type": "text",
+          "text": "Référence client : G 90178744",
+          "bbox": [
+            83.0,
+            323.0,
+            351.0,
+            345.0
+          ],
+          "ocr_confidence": 0.9978866577148438,
+          "reading_order": 5,
+          "polygon": [
+            [
+              83.0,
+              324.0
+            ],
+            [
+              351.0,
+              323.0
+            ],
+            [
+              351.0,
+              344.0
+            ],
+            [
+              83.0,
+              345.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b6",
+          "type": "text",
+          "text": "Raison sociale abonné : BILEL ET YASMINE",
+          "bbox": [
+            83.0,
+            346.0,
+            429.0,
+            368.0
+          ],
+          "ocr_confidence": 0.9893586039543152,
+          "reading_order": 6,
+          "polygon": [
+            [
+              83.0,
+              347.0
+            ],
+            [
+              429.0,
+              346.0
+            ],
+            [
+              429.0,
+              367.0
+            ],
+            [
+              83.0,
+              368.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b7",
+          "type": "text",
+          "text": "N° contrat : 1",
+          "bbox": [
+            83.0,
+            369.0,
+            203.0,
+            390.0
+          ],
+          "ocr_confidence": 0.964583694934845,
+          "reading_order": 7,
+          "polygon": [
+            [
+              83.0,
+              369.0
+            ],
+            [
+              203.0,
+              369.0
+            ],
+            [
+              203.0,
+              390.0
+            ],
+            [
+              83.0,
+              390.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b8",
+          "type": "text",
+          "text": "Nº SIRET : 48960186400015",
+          "bbox": [
+            84.0,
+            391.0,
+            360.0,
+            411.0
+          ],
+          "ocr_confidence": 0.9463407397270203,
+          "reading_order": 8,
+          "polygon": [
+            [
+              84.0,
+              391.0
+            ],
+            [
+              360.0,
+              391.0
+            ],
+            [
+              360.0,
+              411.0
+            ],
+            [
+              84.0,
+              411.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b9",
+          "type": "text",
+          "text": "BILEL ET YASMINE",
+          "bbox": [
+            675.0,
+            418.0,
+            865.0,
+            438.0
+          ],
+          "ocr_confidence": 0.9991937875747681,
+          "reading_order": 9,
+          "polygon": [
+            [
+              675.0,
+              418.0
+            ],
+            [
+              865.0,
+              418.0
+            ],
+            [
+              865.0,
+              438.0
+            ],
+            [
+              675.0,
+              438.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b10",
+          "type": "text",
+          "text": "M NAJI BOUGUERBA",
+          "bbox": [
+            675.0,
+            446.0,
+            884.0,
+            467.0
+          ],
+          "ocr_confidence": 0.9992004632949829,
+          "reading_order": 10,
+          "polygon": [
+            [
+              675.0,
+              446.0
+            ],
+            [
+              884.0,
+              446.0
+            ],
+            [
+              884.0,
+              467.0
+            ],
+            [
+              675.0,
+              467.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b11",
+          "type": "text",
+          "text": "17 PLACE DES LIBERTES",
+          "bbox": [
+            675.0,
+            472.0,
+            929.0,
+            495.0
+          ],
+          "ocr_confidence": 0.9980465769767761,
+          "reading_order": 11,
+          "polygon": [
+            [
+              675.0,
+              472.0
+            ],
+            [
+              929.0,
+              472.0
+            ],
+            [
+              929.0,
+              495.0
+            ],
+            [
+              675.0,
+              495.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b12",
+          "type": "text",
+          "text": "94380 BONNEUIL-SUR-MARNE",
+          "bbox": [
+            674.0,
+            500.0,
+            979.0,
+            523.0
+          ],
+          "ocr_confidence": 0.9998934268951416,
+          "reading_order": 12,
+          "polygon": [
+            [
+              674.0,
+              500.0
+            ],
+            [
+              979.0,
+              500.0
+            ],
+            [
+              979.0,
+              523.0
+            ],
+            [
+              674.0,
+              523.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b13",
+          "type": "text",
+          "text": "FACTUREdu 01/01/2026 au 31/01/2026",
+          "bbox": [
+            85.0,
+            589.0,
+            504.0,
+            612.0
+          ],
+          "ocr_confidence": 0.9915823340415955,
+          "reading_order": 13,
+          "polygon": [
+            [
+              85.0,
+              589.0
+            ],
+            [
+              504.0,
+              589.0
+            ],
+            [
+              504.0,
+              612.0
+            ],
+            [
+              85.0,
+              612.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b14",
+          "type": "text",
+          "text": "Nombre de prises : 1",
+          "bbox": [
+            85.0,
+            632.0,
+            275.0,
+            653.0
+          ],
+          "ocr_confidence": 0.9832356572151184,
+          "reading_order": 14,
+          "polygon": [
+            [
+              85.0,
+              632.0
+            ],
+            [
+              275.0,
+              632.0
+            ],
+            [
+              275.0,
+              653.0
+            ],
+            [
+              85.0,
+              653.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b15",
+          "type": "table",
+          "text": "LIBELLE",
+          "bbox": [
+            87.0,
+            673.0,
+            159.0,
+            699.0
+          ],
+          "ocr_confidence": 0.9999346137046814,
+          "reading_order": 15,
+          "polygon": [
+            [
+              87.0,
+              673.0
+            ],
+            [
+              159.0,
+              673.0
+            ],
+            [
+              159.0,
+              699.0
+            ],
+            [
+              87.0,
+              699.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b16",
+          "type": "table",
+          "text": "Qté",
+          "bbox": [
+            593.0,
+            673.0,
+            637.0,
+            700.0
+          ],
+          "ocr_confidence": 0.9988727569580078,
+          "reading_order": 16,
+          "polygon": [
+            [
+              593.0,
+              673.0
+            ],
+            [
+              637.0,
+              673.0
+            ],
+            [
+              637.0,
+              700.0
+            ],
+            [
+              593.0,
+              700.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b17",
+          "type": "table",
+          "text": "Montant HT UNITAIRE",
+          "bbox": [
+            652.0,
+            674.0,
+            853.0,
+            698.0
+          ],
+          "ocr_confidence": 0.9816705584526062,
+          "reading_order": 17,
+          "polygon": [
+            [
+              652.0,
+              674.0
+            ],
+            [
+              853.0,
+              674.0
+            ],
+            [
+              853.0,
+              698.0
+            ],
+            [
+              652.0,
+              698.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b18",
+          "type": "table",
+          "text": "Taux TVA",
+          "bbox": [
+            873.0,
+            674.0,
+            965.0,
+            699.0
+          ],
+          "ocr_confidence": 0.9990298748016357,
+          "reading_order": 18,
+          "polygon": [
+            [
+              873.0,
+              674.0
+            ],
+            [
+              965.0,
+              674.0
+            ],
+            [
+              965.0,
+              699.0
+            ],
+            [
+              873.0,
+              699.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b19",
+          "type": "table",
+          "text": "MONTANT TTC",
+          "bbox": [
+            1009.0,
+            673.0,
+            1162.0,
+            700.0
+          ],
+          "ocr_confidence": 0.9991077780723572,
+          "reading_order": 19,
+          "polygon": [
+            [
+              1009.0,
+              673.0
+            ],
+            [
+              1162.0,
+              673.0
+            ],
+            [
+              1162.0,
+              700.0
+            ],
+            [
+              1009.0,
+              700.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b20",
+          "type": "table",
+          "text": "SPORT EVENEMENT",
+          "bbox": [
+            89.0,
+            706.0,
+            279.0,
+            730.0
+          ],
+          "ocr_confidence": 0.9951080083847046,
+          "reading_order": 20,
+          "polygon": [
+            [
+              89.0,
+              706.0
+            ],
+            [
+              279.0,
+              706.0
+            ],
+            [
+              279.0,
+              730.0
+            ],
+            [
+              89.0,
+              730.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b21",
+          "type": "table",
+          "text": "1",
+          "bbox": [
+            605.0,
+            705.0,
+            625.0,
+            731.0
+          ],
+          "ocr_confidence": 0.964827835559845,
+          "reading_order": 21,
+          "polygon": [
+            [
+              605.0,
+              705.0
+            ],
+            [
+              625.0,
+              705.0
+            ],
+            [
+              625.0,
+              731.0
+            ],
+            [
+              605.0,
+              731.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b22",
+          "type": "table",
+          "text": "139,99 €",
+          "bbox": [
+            760.0,
+            705.0,
+            863.0,
+            733.0
+          ],
+          "ocr_confidence": 0.9995439052581787,
+          "reading_order": 22,
+          "polygon": [
+            [
+              760.0,
+              705.0
+            ],
+            [
+              863.0,
+              705.0
+            ],
+            [
+              863.0,
+              733.0
+            ],
+            [
+              760.0,
+              733.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b23",
+          "type": "table",
+          "text": "10,00%",
+          "bbox": [
+            890.0,
+            705.0,
+            972.0,
+            734.0
+          ],
+          "ocr_confidence": 0.9990727305412292,
+          "reading_order": 23,
+          "polygon": [
+            [
+              890.0,
+              705.0
+            ],
+            [
+              972.0,
+              705.0
+            ],
+            [
+              972.0,
+              734.0
+            ],
+            [
+              890.0,
+              734.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b24",
+          "type": "table",
+          "text": "153,99 €",
+          "bbox": [
+            1090.0,
+            705.0,
+            1195.0,
+            733.0
+          ],
+          "ocr_confidence": 0.9991778135299683,
+          "reading_order": 24,
+          "polygon": [
+            [
+              1090.0,
+              705.0
+            ],
+            [
+              1195.0,
+              705.0
+            ],
+            [
+              1195.0,
+              733.0
+            ],
+            [
+              1090.0,
+              733.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b25",
+          "type": "table",
+          "text": "Montant total HT de votre facture",
+          "bbox": [
+            89.0,
+            762.0,
+            386.0,
+            785.0
+          ],
+          "ocr_confidence": 0.9996529817581177,
+          "reading_order": 25,
+          "polygon": [
+            [
+              89.0,
+              762.0
+            ],
+            [
+              386.0,
+              762.0
+            ],
+            [
+              386.0,
+              785.0
+            ],
+            [
+              89.0,
+              785.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b26",
+          "type": "table",
+          "text": "139,99 €",
+          "bbox": [
+            1091.0,
+            759.0,
+            1195.0,
+            788.0
+          ],
+          "ocr_confidence": 0.9986173510551453,
+          "reading_order": 26,
+          "polygon": [
+            [
+              1091.0,
+              759.0
+            ],
+            [
+              1195.0,
+              759.0
+            ],
+            [
+              1195.0,
+              788.0
+            ],
+            [
+              1091.0,
+              788.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b27",
+          "type": "table",
+          "text": "Montant total TVA de votre facture",
+          "bbox": [
+            88.0,
+            794.0,
+            399.0,
+            819.0
+          ],
+          "ocr_confidence": 0.986145555973053,
+          "reading_order": 27,
+          "polygon": [
+            [
+              88.0,
+              794.0
+            ],
+            [
+              399.0,
+              795.0
+            ],
+            [
+              399.0,
+              819.0
+            ],
+            [
+              88.0,
+              818.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b28",
+          "type": "table",
+          "text": "14,00 €",
+          "bbox": [
+            1103.0,
+            792.0,
+            1195.0,
+            821.0
+          ],
+          "ocr_confidence": 0.9992270469665527,
+          "reading_order": 28,
+          "polygon": [
+            [
+              1103.0,
+              792.0
+            ],
+            [
+              1195.0,
+              792.0
+            ],
+            [
+              1195.0,
+              821.0
+            ],
+            [
+              1103.0,
+              821.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b29",
+          "type": "table",
+          "text": "Montant total TTC de votre facture",
+          "bbox": [
+            88.0,
+            826.0,
+            396.0,
+            851.0
+          ],
+          "ocr_confidence": 0.9984471797943115,
+          "reading_order": 29,
+          "polygon": [
+            [
+              88.0,
+              826.0
+            ],
+            [
+              396.0,
+              827.0
+            ],
+            [
+              396.0,
+              851.0
+            ],
+            [
+              88.0,
+              850.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b30",
+          "type": "table",
+          "text": "153,99 €",
+          "bbox": [
+            1090.0,
+            824.0,
+            1195.0,
+            852.0
+          ],
+          "ocr_confidence": 0.99925696849823,
+          "reading_order": 30,
+          "polygon": [
+            [
+              1090.0,
+              824.0
+            ],
+            [
+              1195.0,
+              824.0
+            ],
+            [
+              1195.0,
+              852.0
+            ],
+            [
+              1090.0,
+              852.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b31",
+          "type": "text",
+          "text": "Date d'échéance : 31/01/2026",
+          "bbox": [
+            84.0,
+            877.0,
+            356.0,
+            901.0
+          ],
+          "ocr_confidence": 0.9910106062889099,
+          "reading_order": 31,
+          "polygon": [
+            [
+              84.0,
+              877.0
+            ],
+            [
+              356.0,
+              877.0
+            ],
+            [
+              356.0,
+              901.0
+            ],
+            [
+              84.0,
+              901.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b32",
+          "type": "text",
+          "text": "En cas de litiges ou de contestations, seul le Tribunal de Commerce de Paris sera compétent.",
+          "bbox": [
+            85.0,
+            917.0,
+            811.0,
+            937.0
+          ],
+          "ocr_confidence": 0.9868130087852478,
+          "reading_order": 32,
+          "polygon": [
+            [
+              85.0,
+              917.0
+            ],
+            [
+              811.0,
+              917.0
+            ],
+            [
+              811.0,
+              937.0
+            ],
+            [
+              85.0,
+              937.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b33",
+          "type": "text",
+          "text": "TVA acquittée sur les débits. N° TVA intracommunautaire FR 21 812 514 586 SIREN : 812 514 586.",
+          "bbox": [
+            84.0,
+            954.0,
+            926.0,
+            974.0
+          ],
+          "ocr_confidence": 0.9681273698806763,
+          "reading_order": 33,
+          "polygon": [
+            [
+              84.0,
+              954.0
+            ],
+            [
+              926.0,
+              954.0
+            ],
+            [
+              926.0,
+              974.0
+            ],
+            [
+              84.0,
+              974.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b34",
+          "type": "text",
+          "text": "Il n'est pas pratiqué d'escompte pour paiement anticipé. En cas de retard de paiement, des pénalités équivalant au taux d'intérêt directeur",
+          "bbox": [
+            84.0,
+            978.0,
+            1166.0,
+            998.0
+          ],
+          "ocr_confidence": 0.9940848350524902,
+          "reading_order": 34,
+          "polygon": [
+            [
+              84.0,
+              978.0
+            ],
+            [
+              1166.0,
+              978.0
+            ],
+            [
+              1166.0,
+              998.0
+            ],
+            [
+              84.0,
+              998.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b35",
+          "type": "text",
+          "text": "de la BCE majoré de 1 0 points seront appliquées, ainsi qu'une indemnité forfaitaire pour frais de recouvrement de 40 euros.",
+          "bbox": [
+            83.0,
+            997.0,
+            1069.0,
+            1021.0
+          ],
+          "ocr_confidence": 0.9846574068069458,
+          "reading_order": 35,
+          "polygon": [
+            [
+              83.0,
+              997.0
+            ],
+            [
+              1069.0,
+              998.0
+            ],
+            [
+              1069.0,
+              1021.0
+            ],
+            [
+              83.0,
+              1020.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b36",
+          "type": "text",
+          "text": "Page 1/1",
+          "bbox": [
+            1062.0,
+            1479.0,
+            1141.0,
+            1508.0
+          ],
+          "ocr_confidence": 0.997280478477478,
+          "reading_order": 36,
+          "polygon": [
+            [
+              1062.0,
+              1479.0
+            ],
+            [
+              1141.0,
+              1479.0
+            ],
+            [
+              1141.0,
+              1508.0
+            ],
+            [
+              1062.0,
+              1508.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b37",
+          "type": "footer",
+          "text": "Les informations recueillies sont traitées par CANAL + France à des fins de gestion, statistigues, prospection commerciale et pour des services adaptés à vos besoins. Elles",
+          "bbox": [
+            116.0,
+            1554.0,
+            1157.0,
+            1568.0
+          ],
+          "ocr_confidence": 0.9886240363121033,
+          "reading_order": 37,
+          "polygon": [
+            [
+              116.0,
+              1554.0
+            ],
+            [
+              1157.0,
+              1554.0
+            ],
+            [
+              1157.0,
+              1568.0
+            ],
+            [
+              116.0,
+              1568.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b38",
+          "type": "footer",
+          "text": "sont conservées pendant toute la durée du contrat et le temps de prescription légale. Vous disposez des droits d'accès, rectification, opposition, effacement, limitation et de",
+          "bbox": [
+            113.0,
+            1568.0,
+            1161.0,
+            1590.0
+          ],
+          "ocr_confidence": 0.990700364112854,
+          "reading_order": 38,
+          "polygon": [
+            [
+              113.0,
+              1569.0
+            ],
+            [
+              1161.0,
+              1568.0
+            ],
+            [
+              1161.0,
+              1588.0
+            ],
+            [
+              113.0,
+              1590.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b39",
+          "type": "footer",
+          "text": "portabilité que vous pouvez exercer en écrivant à dpo.business@canal-plus.com ou SERVICE CLIENTS CANAL + BUSINESS - TSA 76720 - 9 590 5 CERGY PONTOISE",
+          "bbox": [
+            113.0,
+            1585.0,
+            1155.0,
+            1608.0
+          ],
+          "ocr_confidence": 0.9809059500694275,
+          "reading_order": 39,
+          "polygon": [
+            [
+              113.0,
+              1588.0
+            ],
+            [
+              1155.0,
+              1585.0
+            ],
+            [
+              1155.0,
+              1606.0
+            ],
+            [
+              113.0,
+              1608.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b40",
+          "type": "footer",
+          "text": "CEDEX 9 avec un justificatif d'identité.",
+          "bbox": [
+            115.0,
+            1606.0,
+            349.0,
+            1623.0
+          ],
+          "ocr_confidence": 0.9745702743530273,
+          "reading_order": 40,
+          "polygon": [
+            [
+              115.0,
+              1606.0
+            ],
+            [
+              349.0,
+              1606.0
+            ],
+            [
+              349.0,
+              1623.0
+            ],
+            [
+              115.0,
+              1623.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b41",
+          "type": "footer",
+          "text": "Raison sociale : CANAL+ France - Numéro de TVA Intracom : FR2181251 4586 - SIREN 812 514 586 - S.A.S au capital de 45.543.488€ - RCS NANTERRE",
+          "bbox": [
+            115.0,
+            1623.0,
+            1132.0,
+            1640.0
+          ],
+          "ocr_confidence": 0.981951117515564,
+          "reading_order": 41,
+          "polygon": [
+            [
+              115.0,
+              1623.0
+            ],
+            [
+              1132.0,
+              1623.0
+            ],
+            [
+              1132.0,
+              1640.0
+            ],
+            [
+              115.0,
+              1640.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b42",
+          "type": "footer",
+          "text": "812514 586",
+          "bbox": [
+            116.0,
+            1640.0,
+            217.0,
+            1657.0
+          ],
+          "ocr_confidence": 0.9529473185539246,
+          "reading_order": 42,
+          "polygon": [
+            [
+              116.0,
+              1640.0
+            ],
+            [
+              217.0,
+              1640.0
+            ],
+            [
+              217.0,
+              1657.0
+            ],
+            [
+              116.0,
+              1657.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b43",
+          "type": "footer",
+          "text": "Siège social : 50 rue Camille Desmoulins 9 28 63 ISSY LES MOULINEAUX CEDEX 9",
+          "bbox": [
+            115.0,
+            1657.0,
+            639.0,
+            1676.0
+          ],
+          "ocr_confidence": 0.9716383218765259,
+          "reading_order": 43,
+          "polygon": [
+            [
+              115.0,
+              1659.0
+            ],
+            [
+              639.0,
+              1657.0
+            ],
+            [
+              639.0,
+              1674.0
+            ],
+            [
+              115.0,
+              1676.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b44",
+          "type": "footer",
+          "text": "PFI028-1.21.0",
+          "bbox": [
+            115.0,
+            1675.0,
+            216.0,
+            1692.0
+          ],
+          "ocr_confidence": 0.9654502868652344,
+          "reading_order": 44,
+          "polygon": [
+            [
+              115.0,
+              1675.0
+            ],
+            [
+              216.0,
+              1675.0
+            ],
+            [
+              216.0,
+              1692.0
+            ],
+            [
+              115.0,
+              1692.0
+            ]
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "table_id": "p1_t0",
+          "bbox": [
+            84.2969970703125,
+            665.8336181640625,
+            1194.4644775390625,
+            854.3031005859375
+          ],
+          "structure_confidence": 0.9837528467178345,
+          "cells": [
+            {
+              "row": 0,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "LIBELLE",
+              "bbox": [
+                85.82859468460083,
+                669.7420794963837,
+                585.3407897949219,
+                702.6932640075684
+              ],
+              "ocr_confidence": 0.9999346137046814,
+              "source_block_ids": [
+                "p1_b15"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Qté",
+              "bbox": [
+                585.484130859375,
+                669.8622531890869,
+                640.656494140625,
+                702.7598342895508
+              ],
+              "ocr_confidence": 0.9988727569580078,
+              "source_block_ids": [
+                "p1_b16"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Montant HT UNITAIRE",
+              "bbox": [
+                640.6317138671875,
+                669.7683219909668,
+                862.784912109375,
+                702.8258171081543
+              ],
+              "ocr_confidence": 0.9816705584526062,
+              "source_block_ids": [
+                "p1_b17"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 3,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Taux TVA",
+              "bbox": [
+                862.6551513671875,
+                669.8001112937927,
+                973.5887451171875,
+                702.8484497070312
+              ],
+              "ocr_confidence": 0.9990298748016357,
+              "source_block_ids": [
+                "p1_b18"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 4,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "MONTANT TTC",
+              "bbox": [
+                973.5084838867188,
+                669.7128376960754,
+                1191.9439697265625,
+                702.8144721984863
+              ],
+              "ocr_confidence": 0.9991077780723572,
+              "source_block_ids": [
+                "p1_b19"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "SPORT EVENEMENT",
+              "bbox": [
+                85.97740769386292,
+                702.5867881774902,
+                585.068603515625,
+                735.4908905029297
+              ],
+              "ocr_confidence": 0.9951080083847046,
+              "source_block_ids": [
+                "p1_b20"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "1",
+              "bbox": [
+                585.140869140625,
+                702.7737998962402,
+                640.542236328125,
+                735.453727722168
+              ],
+              "ocr_confidence": 0.964827835559845,
+              "source_block_ids": [
+                "p1_b21"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "139,99 €",
+              "bbox": [
+                640.4847412109375,
+                702.7755393981934,
+                862.780517578125,
+                735.3538208007812
+              ],
+              "ocr_confidence": 0.9995439052581787,
+              "source_block_ids": [
+                "p1_b22"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 3,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "10,00%",
+              "bbox": [
+                862.7586669921875,
+                702.8451080322266,
+                973.5723876953125,
+                735.2416915893555
+              ],
+              "ocr_confidence": 0.9990727305412292,
+              "source_block_ids": [
+                "p1_b23"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 4,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "153,99 €",
+              "bbox": [
+                973.5780029296875,
+                702.7997703552246,
+                1192.3453369140625,
+                735.2347793579102
+              ],
+              "ocr_confidence": 0.9991778135299683,
+              "source_block_ids": [
+                "p1_b24"
+              ]
+            },
+            {
+              "row": 2,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 4,
+              "text": "",
+              "bbox": [
+                84.2969970703125,
+                734.9500427246094,
+                1193.93310546875,
+                757.5011901855469
+              ],
+              "ocr_confidence": 0.0
+            },
+            {
+              "row": 3,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 3,
+              "text": "Montant total HT de votre facture",
+              "bbox": [
+                85.78274512290955,
+                757.33251953125,
+                872.1730346679688,
+                790.1037902832031
+              ],
+              "ocr_confidence": 0.9996529817581177,
+              "source_block_ids": [
+                "p1_b25"
+              ]
+            },
+            {
+              "row": 3,
+              "column": 3,
+              "row_span": 1,
+              "column_span": 2,
+              "text": "139,99 €",
+              "bbox": [
+                872.5660400390625,
+                757.2841873168945,
+                1193.124755859375,
+                789.9439392089844
+              ],
+              "ocr_confidence": 0.9986173510551453,
+              "source_block_ids": [
+                "p1_b26"
+              ]
+            },
+            {
+              "row": 4,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 3,
+              "text": "Montant total TVA de votre facture",
+              "bbox": [
+                85.82174706459045,
+                789.8942794799805,
+                872.7496948242188,
+                822.8453826904297
+              ],
+              "ocr_confidence": 0.986145555973053,
+              "source_block_ids": [
+                "p1_b27"
+              ]
+            },
+            {
+              "row": 4,
+              "column": 3,
+              "row_span": 1,
+              "column_span": 2,
+              "text": "14,00 €",
+              "bbox": [
+                873.397705078125,
+                789.8305435180664,
+                1192.943115234375,
+                822.5191497802734
+              ],
+              "ocr_confidence": 0.9992270469665527,
+              "source_block_ids": [
+                "p1_b28"
+              ]
+            },
+            {
+              "row": 5,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 3,
+              "text": "Montant total TTC de votre facture",
+              "bbox": [
+                85.64347577095032,
+                822.6949310302734,
+                872.6411743164062,
+                853.7212829589844
+              ],
+              "ocr_confidence": 0.9984471797943115,
+              "source_block_ids": [
+                "p1_b29"
+              ]
+            },
+            {
+              "row": 5,
+              "column": 3,
+              "row_span": 1,
+              "column_span": 2,
+              "text": "153,99 €",
+              "bbox": [
+                873.3035278320312,
+                822.4037170410156,
+                1192.7698974609375,
+                853.7699279785156
+              ],
+              "ocr_confidence": 0.99925696849823,
+              "source_block_ids": [
+                "p1_b30"
+              ]
+            }
+          ],
+          "html": "<html><body><table><tr><td>LIBELLE</td><td>Qté</td><td>Montant HT UNITAIRE</td><td>Taux TVA</td><td>MONTANT TTC</td></tr><tr><td>SPORT EVENEMENT</td><td>1</td><td>139,99 €</td><td>10,00%</td><td>153,99 €</td></tr><tr><td colspan=\"4\"></td></tr><tr><td colspan=\"3\">Montant total HT de votre facture</td><td colspan=\"2\">139,99 €</td></tr><tr><td colspan=\"3\">Montant total TVA de votre facture</td><td colspan=\"2\">14,00 €</td></tr><tr><td colspan=\"3\">Montant total TTC de votre facture</td><td colspan=\"2\">153,99 €</td></tr></tbody></table></body></html>"
+        }
+      ]
+    }
+  ],
+  "source_mime_type": "image/png"
+}

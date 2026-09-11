@@ -1,0 +1,1057 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "24-10-free",
+  "source_file": "24-10-free__p001.png",
+  "generated_at": "2026-09-11T09:24:11.263388Z",
+  "ocr_engine": {
+    "name": "PP-StructureV3",
+    "version": "3.7.0"
+  },
+  "page_count": 1,
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 1654,
+      "height": 2339,
+      "orientation": 0,
+      "blocks": [
+        {
+          "block_id": "p1_b0",
+          "type": "header",
+          "text": "free",
+          "bbox": [
+            177.0,
+            114.0,
+            518.0,
+            264.0
+          ],
+          "ocr_confidence": 0.9993007183074951,
+          "reading_order": 0,
+          "polygon": [
+            [
+              177.0,
+              130.0
+            ],
+            [
+              511.0,
+              114.0
+            ],
+            [
+              518.0,
+              249.0
+            ],
+            [
+              183.0,
+              264.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b1",
+          "type": "header",
+          "text": "Site Internet : mobile.free.fr",
+          "bbox": [
+            1215.0,
+            156.0,
+            1465.0,
+            181.0
+          ],
+          "ocr_confidence": 0.9980932474136353,
+          "reading_order": 1,
+          "polygon": [
+            [
+              1215.0,
+              156.0
+            ],
+            [
+              1465.0,
+              157.0
+            ],
+            [
+              1465.0,
+              181.0
+            ],
+            [
+              1215.0,
+              180.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b2",
+          "type": "header",
+          "text": "Service abonné au 3244 (appel gratuit depuis une ligne Free)",
+          "bbox": [
+            907.0,
+            181.0,
+            1464.0,
+            207.0
+          ],
+          "ocr_confidence": 0.9902141094207764,
+          "reading_order": 2,
+          "polygon": [
+            [
+              908.0,
+              181.0
+            ],
+            [
+              1464.0,
+              183.0
+            ],
+            [
+              1464.0,
+              207.0
+            ],
+            [
+              907.0,
+              205.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b3",
+          "type": "header",
+          "text": "Horaires sur mobile.free.fr/contact.html",
+          "bbox": [
+            1111.0,
+            210.0,
+            1464.0,
+            230.0
+          ],
+          "ocr_confidence": 0.9904610514640808,
+          "reading_order": 3,
+          "polygon": [
+            [
+              1111.0,
+              210.0
+            ],
+            [
+              1464.0,
+              210.0
+            ],
+            [
+              1464.0,
+              230.0
+            ],
+            [
+              1111.0,
+              230.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b4",
+          "type": "text",
+          "text": "24/10",
+          "bbox": [
+            679.0,
+            323.0,
+            820.0,
+            381.0
+          ],
+          "ocr_confidence": 0.999950110912323,
+          "reading_order": 4,
+          "polygon": [
+            [
+              680.0,
+              323.0
+            ],
+            [
+              820.0,
+              326.0
+            ],
+            [
+              819.0,
+              381.0
+            ],
+            [
+              679.0,
+              378.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b5",
+          "type": "text",
+          "text": "Forfait Free 5G",
+          "bbox": [
+            177.0,
+            531.0,
+            428.0,
+            571.0
+          ],
+          "ocr_confidence": 0.9947980046272278,
+          "reading_order": 5,
+          "polygon": [
+            [
+              177.0,
+              531.0
+            ],
+            [
+              428.0,
+              533.0
+            ],
+            [
+              427.0,
+              571.0
+            ],
+            [
+              177.0,
+              569.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b6",
+          "type": "text",
+          "text": "AMBULANCES PARIS BERCY",
+          "bbox": [
+            834.0,
+            543.0,
+            1149.0,
+            571.0
+          ],
+          "ocr_confidence": 0.9992126226425171,
+          "reading_order": 6,
+          "polygon": [
+            [
+              834.0,
+              543.0
+            ],
+            [
+              1149.0,
+              544.0
+            ],
+            [
+              1149.0,
+              571.0
+            ],
+            [
+              834.0,
+              570.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b7",
+          "type": "text",
+          "text": "N° de ligne : 0649824623",
+          "bbox": [
+            178.0,
+            575.0,
+            499.0,
+            606.0
+          ],
+          "ocr_confidence": 0.9774160385131836,
+          "reading_order": 7,
+          "polygon": [
+            [
+              178.0,
+              575.0
+            ],
+            [
+              499.0,
+              575.0
+            ],
+            [
+              499.0,
+              606.0
+            ],
+            [
+              178.0,
+              606.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b8",
+          "type": "text",
+          "text": "AKLI AISSAT",
+          "bbox": [
+            835.0,
+            580.0,
+            994.0,
+            604.0
+          ],
+          "ocr_confidence": 0.9996195435523987,
+          "reading_order": 8,
+          "polygon": [
+            [
+              835.0,
+              580.0
+            ],
+            [
+              994.0,
+              580.0
+            ],
+            [
+              994.0,
+              604.0
+            ],
+            [
+              835.0,
+              604.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b9",
+          "type": "text",
+          "text": "Identifiant : 97149933",
+          "bbox": [
+            179.0,
+            610.0,
+            450.0,
+            640.0
+          ],
+          "ocr_confidence": 0.994047224521637,
+          "reading_order": 9,
+          "polygon": [
+            [
+              179.0,
+              610.0
+            ],
+            [
+              450.0,
+              612.0
+            ],
+            [
+              450.0,
+              640.0
+            ],
+            [
+              179.0,
+              638.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b10",
+          "type": "text",
+          "text": "ETG:0 PTE:1DRTE",
+          "bbox": [
+            834.0,
+            617.0,
+            1051.0,
+            641.0
+          ],
+          "ocr_confidence": 0.962906002998352,
+          "reading_order": 10,
+          "polygon": [
+            [
+              834.0,
+              617.0
+            ],
+            [
+              1051.0,
+              617.0
+            ],
+            [
+              1051.0,
+              641.0
+            ],
+            [
+              834.0,
+              641.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b11",
+          "type": "text",
+          "text": "14 RUE DES BOULETS",
+          "bbox": [
+            835.0,
+            653.0,
+            1091.0,
+            677.0
+          ],
+          "ocr_confidence": 0.9739261269569397,
+          "reading_order": 11,
+          "polygon": [
+            [
+              835.0,
+              653.0
+            ],
+            [
+              1091.0,
+              653.0
+            ],
+            [
+              1091.0,
+              677.0
+            ],
+            [
+              835.0,
+              677.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b12",
+          "type": "text",
+          "text": "75011 PARIS",
+          "bbox": [
+            833.0,
+            686.0,
+            993.0,
+            715.0
+          ],
+          "ocr_confidence": 0.9997555017471313,
+          "reading_order": 12,
+          "polygon": [
+            [
+              833.0,
+              686.0
+            ],
+            [
+              993.0,
+              688.0
+            ],
+            [
+              993.0,
+              715.0
+            ],
+            [
+              833.0,
+              713.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b13",
+          "type": "text",
+          "text": "Facture nº 2464420194 du 17 octobre 2025",
+          "bbox": [
+            207.0,
+            978.0,
+            1097.0,
+            1026.0
+          ],
+          "ocr_confidence": 0.9757016897201538,
+          "reading_order": 13,
+          "polygon": [
+            [
+              207.0,
+              978.0
+            ],
+            [
+              1097.0,
+              982.0
+            ],
+            [
+              1097.0,
+              1026.0
+            ],
+            [
+              207.0,
+              1022.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b14",
+          "type": "text",
+          "text": "Total de la facture HT",
+          "bbox": [
+            176.0,
+            1128.0,
+            470.0,
+            1159.0
+          ],
+          "ocr_confidence": 0.987745463848114,
+          "reading_order": 14,
+          "polygon": [
+            [
+              176.0,
+              1128.0
+            ],
+            [
+              470.0,
+              1128.0
+            ],
+            [
+              470.0,
+              1159.0
+            ],
+            [
+              176.0,
+              1159.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b15",
+          "type": "text",
+          "text": "13.79 €",
+          "bbox": [
+            1349.0,
+            1129.0,
+            1465.0,
+            1165.0
+          ],
+          "ocr_confidence": 0.9986756443977356,
+          "reading_order": 15,
+          "polygon": [
+            [
+              1349.0,
+              1129.0
+            ],
+            [
+              1465.0,
+              1129.0
+            ],
+            [
+              1465.0,
+              1165.0
+            ],
+            [
+              1349.0,
+              1165.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b16",
+          "type": "text",
+          "text": "TVA [20.00%]",
+          "bbox": [
+            174.0,
+            1162.0,
+            369.0,
+            1205.0
+          ],
+          "ocr_confidence": 0.9670645594596863,
+          "reading_order": 16,
+          "polygon": [
+            [
+              174.0,
+              1162.0
+            ],
+            [
+              369.0,
+              1166.0
+            ],
+            [
+              368.0,
+              1205.0
+            ],
+            [
+              174.0,
+              1201.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b17",
+          "type": "text",
+          "text": "2.76 €",
+          "bbox": [
+            1362.0,
+            1166.0,
+            1466.0,
+            1206.0
+          ],
+          "ocr_confidence": 0.9877031445503235,
+          "reading_order": 17,
+          "polygon": [
+            [
+              1362.0,
+              1166.0
+            ],
+            [
+              1466.0,
+              1166.0
+            ],
+            [
+              1466.0,
+              1206.0
+            ],
+            [
+              1362.0,
+              1206.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b18",
+          "type": "text",
+          "text": "Somme à payer TTC*",
+          "bbox": [
+            174.0,
+            1242.0,
+            486.0,
+            1279.0
+          ],
+          "ocr_confidence": 0.9621469974517822,
+          "reading_order": 18,
+          "polygon": [
+            [
+              174.0,
+              1242.0
+            ],
+            [
+              486.0,
+              1242.0
+            ],
+            [
+              486.0,
+              1279.0
+            ],
+            [
+              174.0,
+              1279.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b19",
+          "type": "text",
+          "text": "16.55 €",
+          "bbox": [
+            1348.0,
+            1245.0,
+            1465.0,
+            1280.0
+          ],
+          "ocr_confidence": 0.9859977960586548,
+          "reading_order": 19,
+          "polygon": [
+            [
+              1348.0,
+              1245.0
+            ],
+            [
+              1465.0,
+              1245.0
+            ],
+            [
+              1465.0,
+              1280.0
+            ],
+            [
+              1348.0,
+              1280.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b20",
+          "type": "text",
+          "text": "*Cette somme sera prélevée sur le moyen de paiement du compte principal lié à votre option multilignes.",
+          "bbox": [
+            175.0,
+            1287.0,
+            1119.0,
+            1315.0
+          ],
+          "ocr_confidence": 0.9857821464538574,
+          "reading_order": 20,
+          "polygon": [
+            [
+              175.0,
+              1287.0
+            ],
+            [
+              1119.0,
+              1291.0
+            ],
+            [
+              1119.0,
+              1315.0
+            ],
+            [
+              175.0,
+              1311.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b21",
+          "type": "text",
+          "text": "E",
+          "bbox": [
+            1496.0,
+            1843.0,
+            1514.0,
+            1916.0
+          ],
+          "ocr_confidence": 0.12166433781385422,
+          "reading_order": 21,
+          "polygon": [
+            [
+              1496.0,
+              1843.0
+            ],
+            [
+              1514.0,
+              1843.0
+            ],
+            [
+              1514.0,
+              1916.0
+            ],
+            [
+              1496.0,
+              1916.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b22",
+          "type": "text",
+          "text": "Fin d'engagement : sans engagement.",
+          "bbox": [
+            173.0,
+            1907.0,
+            524.0,
+            1934.0
+          ],
+          "ocr_confidence": 0.9757882356643677,
+          "reading_order": 22,
+          "polygon": [
+            [
+              173.0,
+              1907.0
+            ],
+            [
+              524.0,
+              1911.0
+            ],
+            [
+              524.0,
+              1934.0
+            ],
+            [
+              173.0,
+              1930.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b23",
+          "type": "text",
+          "text": "Les sommes étant arrondies, le total des sommes unitaires peut différer du montant total prélevé.",
+          "bbox": [
+            172.0,
+            1929.0,
+            1053.0,
+            1956.0
+          ],
+          "ocr_confidence": 0.9912980198860168,
+          "reading_order": 23,
+          "polygon": [
+            [
+              172.0,
+              1929.0
+            ],
+            [
+              1053.0,
+              1933.0
+            ],
+            [
+              1053.0,
+              1956.0
+            ],
+            [
+              172.0,
+              1952.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b24",
+          "type": "text",
+          "text": "Sans escompte. En cas de retard de paiement, application, pour les professionnels uniquement, d'un taux égal à trois fois le taux d'intérêt légal",
+          "bbox": [
+            172.0,
+            1951.0,
+            1475.0,
+            1980.0
+          ],
+          "ocr_confidence": 0.989669680595398,
+          "reading_order": 24,
+          "polygon": [
+            [
+              172.0,
+              1951.0
+            ],
+            [
+              1475.0,
+              1956.0
+            ],
+            [
+              1475.0,
+              1980.0
+            ],
+            [
+              172.0,
+              1976.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b25",
+          "type": "text",
+          "text": "calculé sur le montant des sommes dues TTC à compter du1er jour de retard suivant la date limite de paiement portée sur la facture et d'une",
+          "bbox": [
+            173.0,
+            1975.0,
+            1474.0,
+            2000.0
+          ],
+          "ocr_confidence": 0.9795189499855042,
+          "reading_order": 25,
+          "polygon": [
+            [
+              173.0,
+              1975.0
+            ],
+            [
+              1474.0,
+              1979.0
+            ],
+            [
+              1474.0,
+              2000.0
+            ],
+            [
+              173.0,
+              1996.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b26",
+          "type": "text",
+          "text": "indemnité forfaitaire pour frais de recouvrement de 40 €.",
+          "bbox": [
+            173.0,
+            1996.0,
+            687.0,
+            2020.0
+          ],
+          "ocr_confidence": 0.9776487946510315,
+          "reading_order": 26,
+          "polygon": [
+            [
+              173.0,
+              1996.0
+            ],
+            [
+              687.0,
+              1999.0
+            ],
+            [
+              687.0,
+              2020.0
+            ],
+            [
+              173.0,
+              2017.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b27",
+          "type": "text",
+          "text": "Pour vousinformer sur nos tarifs ou pour toute question concernant votre facture, vous pouvez contacter notre service abonné dont les coor-",
+          "bbox": [
+            172.0,
+            2033.0,
+            1475.0,
+            2061.0
+          ],
+          "ocr_confidence": 0.9880531430244446,
+          "reading_order": 27,
+          "polygon": [
+            [
+              172.0,
+              2033.0
+            ],
+            [
+              1475.0,
+              2037.0
+            ],
+            [
+              1475.0,
+              2061.0
+            ],
+            [
+              172.0,
+              2057.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b28",
+          "type": "text",
+          "text": "données figurent ci-dessus ou écrire à Free Forfait Mobile - 75371 Paris Cedex 08. En cas de réclamation : Free Forfait Mobile - 75371 Paris",
+          "bbox": [
+            173.0,
+            2055.0,
+            1474.0,
+            2082.0
+          ],
+          "ocr_confidence": 0.9839193224906921,
+          "reading_order": 28,
+          "polygon": [
+            [
+              173.0,
+              2055.0
+            ],
+            [
+              1474.0,
+              2059.0
+            ],
+            [
+              1474.0,
+              2082.0
+            ],
+            [
+              173.0,
+              2078.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b29",
+          "type": "text",
+          "text": "Cedex 08.Si vous n'êtes pas satisfait de la réponse du Service Abonné : Service National Consommateur - 75371 Paris Cedex 08",
+          "bbox": [
+            173.0,
+            2078.0,
+            1356.0,
+            2105.0
+          ],
+          "ocr_confidence": 0.9773577451705933,
+          "reading_order": 29,
+          "polygon": [
+            [
+              173.0,
+              2078.0
+            ],
+            [
+              1356.0,
+              2081.0
+            ],
+            [
+              1356.0,
+              2105.0
+            ],
+            [
+              173.0,
+              2102.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b30",
+          "type": "text",
+          "text": "1 /10",
+          "bbox": [
+            1391.0,
+            2135.0,
+            1476.0,
+            2171.0
+          ],
+          "ocr_confidence": 0.9805094003677368,
+          "reading_order": 30,
+          "polygon": [
+            [
+              1391.0,
+              2135.0
+            ],
+            [
+              1476.0,
+              2135.0
+            ],
+            [
+              1476.0,
+              2171.0
+            ],
+            [
+              1391.0,
+              2171.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b31",
+          "type": "footer",
+          "text": "Free Mobile - SAS au capital de 365 138 779 Euros - RCS PARiS 499 247 138 - Siège social : 16 rue de la Ville l'Évéque 75008 Paris",
+          "bbox": [
+            367.0,
+            2147.0,
+            1279.0,
+            2167.0
+          ],
+          "ocr_confidence": 0.9741834402084351,
+          "reading_order": 31,
+          "polygon": [
+            [
+              367.0,
+              2147.0
+            ],
+            [
+              1279.0,
+              2149.0
+            ],
+            [
+              1279.0,
+              2167.0
+            ],
+            [
+              367.0,
+              2165.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b32",
+          "type": "footer",
+          "text": "n° TVA Intracommunautaire : FR25499247138",
+          "bbox": [
+            667.0,
+            2169.0,
+            980.0,
+            2183.0
+          ],
+          "ocr_confidence": 0.9710325002670288,
+          "reading_order": 32,
+          "polygon": [
+            [
+              667.0,
+              2169.0
+            ],
+            [
+              980.0,
+              2169.0
+            ],
+            [
+              980.0,
+              2183.0
+            ],
+            [
+              667.0,
+              2183.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b33",
+          "type": "image",
+          "bbox": [
+            836.2031860351562,
+            460.418212890625,
+            902.4505004882812,
+            524.4931030273438
+          ],
+          "reading_order": 33
+        }
+      ],
+      "tables": []
+    }
+  ],
+  "source_mime_type": "image/png"
+}

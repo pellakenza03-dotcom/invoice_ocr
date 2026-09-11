@@ -1,0 +1,3808 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "3968057950-wnddvnip3rrwmd5z5e1gj18pyac0",
+  "source_file": "3968057950-wnddvnip3rrwmd5z5e1gj18pyac0",
+  "generated_at": "2026-09-11T09:24:24.128050Z",
+  "ocr_engine": {
+    "name": "PP-StructureV3",
+    "version": "3.7.0"
+  },
+  "page_count": 2,
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 1653,
+      "height": 2339,
+      "orientation": 0,
+      "blocks": [
+        {
+          "block_id": "p1_b0",
+          "type": "text",
+          "text": "MAN |Financial Services",
+          "bbox": [
+            134.0,
+            152.0,
+            580.0,
+            203.0
+          ],
+          "ocr_confidence": 0.9722999334335327,
+          "reading_order": 0,
+          "polygon": [
+            [
+              134.0,
+              152.0
+            ],
+            [
+              580.0,
+              154.0
+            ],
+            [
+              580.0,
+              203.0
+            ],
+            [
+              134.0,
+              201.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b1",
+          "type": "text",
+          "text": "Banque. Location. Assurances. Mobilité.*",
+          "bbox": [
+            250.0,
+            208.0,
+            634.0,
+            236.0
+          ],
+          "ocr_confidence": 0.9918249249458313,
+          "reading_order": 1,
+          "polygon": [
+            [
+              250.0,
+              209.0
+            ],
+            [
+              634.0,
+              208.0
+            ],
+            [
+              634.0,
+              235.0
+            ],
+            [
+              250.0,
+              236.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b2",
+          "type": "text",
+          "text": "Votre Correspondant:",
+          "bbox": [
+            138.0,
+            245.0,
+            393.0,
+            275.0
+          ],
+          "ocr_confidence": 0.9813488125801086,
+          "reading_order": 2,
+          "polygon": [
+            [
+              138.0,
+              245.0
+            ],
+            [
+              393.0,
+              247.0
+            ],
+            [
+              393.0,
+              275.0
+            ],
+            [
+              138.0,
+              273.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b3",
+          "type": "text",
+          "text": "e.mail: mfs.operations@vwfs.com",
+          "bbox": [
+            138.0,
+            278.0,
+            540.0,
+            307.0
+          ],
+          "ocr_confidence": 0.9956535696983337,
+          "reading_order": 3,
+          "polygon": [
+            [
+              138.0,
+              279.0
+            ],
+            [
+              540.0,
+              278.0
+            ],
+            [
+              540.0,
+              306.0
+            ],
+            [
+              138.0,
+              307.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b4",
+          "type": "text",
+          "text": "AEDIF",
+          "bbox": [
+            799.0,
+            403.0,
+            889.0,
+            431.0
+          ],
+          "ocr_confidence": 0.9990357160568237,
+          "reading_order": 4,
+          "polygon": [
+            [
+              799.0,
+              403.0
+            ],
+            [
+              889.0,
+              403.0
+            ],
+            [
+              889.0,
+              431.0
+            ],
+            [
+              799.0,
+              431.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b5",
+          "type": "text",
+          "text": "15 RUE PIERRE JOSSE",
+          "bbox": [
+            801.0,
+            437.0,
+            1106.0,
+            464.0
+          ],
+          "ocr_confidence": 0.9704248309135437,
+          "reading_order": 5,
+          "polygon": [
+            [
+              801.0,
+              437.0
+            ],
+            [
+              1106.0,
+              437.0
+            ],
+            [
+              1106.0,
+              464.0
+            ],
+            [
+              801.0,
+              464.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b6",
+          "type": "text",
+          "text": "91070 BONDOUFLE",
+          "bbox": [
+            800.0,
+            470.0,
+            1058.0,
+            497.0
+          ],
+          "ocr_confidence": 0.9885492324829102,
+          "reading_order": 6,
+          "polygon": [
+            [
+              800.0,
+              470.0
+            ],
+            [
+              1058.0,
+              470.0
+            ],
+            [
+              1058.0,
+              497.0
+            ],
+            [
+              800.0,
+              497.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b7",
+          "type": "text",
+          "text": "FRANCE",
+          "bbox": [
+            798.0,
+            503.0,
+            918.0,
+            531.0
+          ],
+          "ocr_confidence": 0.9998107552528381,
+          "reading_order": 7,
+          "polygon": [
+            [
+              798.0,
+              503.0
+            ],
+            [
+              918.0,
+              503.0
+            ],
+            [
+              918.0,
+              531.0
+            ],
+            [
+              798.0,
+              531.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b8",
+          "type": "table",
+          "text": "N° Client",
+          "bbox": [
+            195.0,
+            840.0,
+            317.0,
+            874.0
+          ],
+          "ocr_confidence": 0.9306380748748779,
+          "reading_order": 8,
+          "polygon": [
+            [
+              195.0,
+              840.0
+            ],
+            [
+              317.0,
+              842.0
+            ],
+            [
+              316.0,
+              874.0
+            ],
+            [
+              195.0,
+              872.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b9",
+          "type": "table",
+          "text": "N° Facture",
+          "bbox": [
+            415.0,
+            843.0,
+            555.0,
+            871.0
+          ],
+          "ocr_confidence": 0.9833461046218872,
+          "reading_order": 9,
+          "polygon": [
+            [
+              415.0,
+              843.0
+            ],
+            [
+              555.0,
+              843.0
+            ],
+            [
+              555.0,
+              871.0
+            ],
+            [
+              415.0,
+              871.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b10",
+          "type": "table",
+          "text": "Date",
+          "bbox": [
+            682.0,
+            842.0,
+            748.0,
+            872.0
+          ],
+          "ocr_confidence": 0.9999129772186279,
+          "reading_order": 10,
+          "polygon": [
+            [
+              682.0,
+              842.0
+            ],
+            [
+              748.0,
+              842.0
+            ],
+            [
+              748.0,
+              872.0
+            ],
+            [
+              682.0,
+              872.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b11",
+          "type": "table",
+          "text": "Date d'échéance",
+          "bbox": [
+            841.0,
+            843.0,
+            1049.0,
+            871.0
+          ],
+          "ocr_confidence": 0.9667883515357971,
+          "reading_order": 11,
+          "polygon": [
+            [
+              841.0,
+              843.0
+            ],
+            [
+              1049.0,
+              843.0
+            ],
+            [
+              1049.0,
+              871.0
+            ],
+            [
+              841.0,
+              871.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b12",
+          "type": "table",
+          "text": "V/Ref",
+          "bbox": [
+            1134.0,
+            841.0,
+            1218.0,
+            873.0
+          ],
+          "ocr_confidence": 0.9998354911804199,
+          "reading_order": 12,
+          "polygon": [
+            [
+              1134.0,
+              841.0
+            ],
+            [
+              1218.0,
+              841.0
+            ],
+            [
+              1218.0,
+              873.0
+            ],
+            [
+              1134.0,
+              873.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b13",
+          "type": "table",
+          "text": "N/Ref",
+          "bbox": [
+            1364.0,
+            841.0,
+            1446.0,
+            873.0
+          ],
+          "ocr_confidence": 0.9988611340522766,
+          "reading_order": 13,
+          "polygon": [
+            [
+              1364.0,
+              841.0
+            ],
+            [
+              1446.0,
+              841.0
+            ],
+            [
+              1446.0,
+              873.0
+            ],
+            [
+              1364.0,
+              873.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b14",
+          "type": "table",
+          "text": "1005496",
+          "bbox": [
+            204.0,
+            881.0,
+            310.0,
+            912.0
+          ],
+          "ocr_confidence": 0.9999869465827942,
+          "reading_order": 14,
+          "polygon": [
+            [
+              204.0,
+              881.0
+            ],
+            [
+              310.0,
+              881.0
+            ],
+            [
+              310.0,
+              912.0
+            ],
+            [
+              204.0,
+              912.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b15",
+          "type": "table",
+          "text": "2970476549",
+          "bbox": [
+            413.0,
+            883.0,
+            557.0,
+            910.0
+          ],
+          "ocr_confidence": 0.9999906420707703,
+          "reading_order": 15,
+          "polygon": [
+            [
+              413.0,
+              883.0
+            ],
+            [
+              557.0,
+              883.0
+            ],
+            [
+              557.0,
+              910.0
+            ],
+            [
+              413.0,
+              910.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b16",
+          "type": "table",
+          "text": "01.01.2026",
+          "bbox": [
+            648.0,
+            883.0,
+            784.0,
+            911.0
+          ],
+          "ocr_confidence": 0.9999082684516907,
+          "reading_order": 16,
+          "polygon": [
+            [
+              648.0,
+              883.0
+            ],
+            [
+              784.0,
+              883.0
+            ],
+            [
+              784.0,
+              911.0
+            ],
+            [
+              648.0,
+              911.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b17",
+          "type": "table",
+          "text": "01.01.2026",
+          "bbox": [
+            878.0,
+            883.0,
+            1013.0,
+            911.0
+          ],
+          "ocr_confidence": 0.9999526143074036,
+          "reading_order": 17,
+          "polygon": [
+            [
+              878.0,
+              883.0
+            ],
+            [
+              1013.0,
+              883.0
+            ],
+            [
+              1013.0,
+              911.0
+            ],
+            [
+              878.0,
+              911.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b18",
+          "type": "table",
+          "text": "BINGO",
+          "bbox": [
+            1125.0,
+            882.0,
+            1223.0,
+            911.0
+          ],
+          "ocr_confidence": 0.9995691180229187,
+          "reading_order": 18,
+          "polygon": [
+            [
+              1125.0,
+              882.0
+            ],
+            [
+              1223.0,
+              882.0
+            ],
+            [
+              1223.0,
+              911.0
+            ],
+            [
+              1125.0,
+              911.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b19",
+          "type": "table",
+          "text": "1601040444",
+          "bbox": [
+            1333.0,
+            883.0,
+            1476.0,
+            911.0
+          ],
+          "ocr_confidence": 0.9999924898147583,
+          "reading_order": 19,
+          "polygon": [
+            [
+              1333.0,
+              883.0
+            ],
+            [
+              1476.0,
+              883.0
+            ],
+            [
+              1476.0,
+              911.0
+            ],
+            [
+              1333.0,
+              911.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b20",
+          "type": "table",
+          "text": "Libellé",
+          "bbox": [
+            527.0,
+            1023.0,
+            619.0,
+            1052.0
+          ],
+          "ocr_confidence": 0.9981733560562134,
+          "reading_order": 20,
+          "polygon": [
+            [
+              527.0,
+              1023.0
+            ],
+            [
+              619.0,
+              1023.0
+            ],
+            [
+              619.0,
+              1052.0
+            ],
+            [
+              527.0,
+              1052.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b21",
+          "type": "table",
+          "text": "Montant H.T.",
+          "bbox": [
+            1053.0,
+            1022.0,
+            1236.0,
+            1053.0
+          ],
+          "ocr_confidence": 0.9971320629119873,
+          "reading_order": 21,
+          "polygon": [
+            [
+              1053.0,
+              1022.0
+            ],
+            [
+              1236.0,
+              1022.0
+            ],
+            [
+              1236.0,
+              1053.0
+            ],
+            [
+              1053.0,
+              1053.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b22",
+          "type": "table",
+          "text": "% TVA",
+          "bbox": [
+            1349.0,
+            1020.0,
+            1452.0,
+            1052.0
+          ],
+          "ocr_confidence": 0.9919300079345703,
+          "reading_order": 22,
+          "polygon": [
+            [
+              1349.0,
+              1020.0
+            ],
+            [
+              1452.0,
+              1020.0
+            ],
+            [
+              1452.0,
+              1052.0
+            ],
+            [
+              1349.0,
+              1052.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b23",
+          "type": "table",
+          "text": "TGE 5.160 L3",
+          "bbox": [
+            454.0,
+            1065.0,
+            638.0,
+            1092.0
+          ],
+          "ocr_confidence": 0.9761715531349182,
+          "reading_order": 23,
+          "polygon": [
+            [
+              454.0,
+              1065.0
+            ],
+            [
+              638.0,
+              1065.0
+            ],
+            [
+              638.0,
+              1092.0
+            ],
+            [
+              454.0,
+              1092.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b24",
+          "type": "table",
+          "text": "numéro de châssis",
+          "bbox": [
+            138.0,
+            1106.0,
+            361.0,
+            1134.0
+          ],
+          "ocr_confidence": 0.9742088317871094,
+          "reading_order": 24,
+          "polygon": [
+            [
+              138.0,
+              1108.0
+            ],
+            [
+              360.0,
+              1106.0
+            ],
+            [
+              361.0,
+              1131.0
+            ],
+            [
+              138.0,
+              1134.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b25",
+          "type": "table",
+          "text": "WMA16VUZ7R9009721",
+          "bbox": [
+            453.0,
+            1104.0,
+            743.0,
+            1132.0
+          ],
+          "ocr_confidence": 0.9999646544456482,
+          "reading_order": 25,
+          "polygon": [
+            [
+              453.0,
+              1105.0
+            ],
+            [
+              743.0,
+              1104.0
+            ],
+            [
+              743.0,
+              1131.0
+            ],
+            [
+              453.0,
+              1132.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b26",
+          "type": "table",
+          "text": "numéro d'immatriculation GT-778-WB",
+          "bbox": [
+            137.0,
+            1145.0,
+            599.0,
+            1174.0
+          ],
+          "ocr_confidence": 0.9813970923423767,
+          "reading_order": 26,
+          "polygon": [
+            [
+              137.0,
+              1146.0
+            ],
+            [
+              599.0,
+              1145.0
+            ],
+            [
+              599.0,
+              1172.0
+            ],
+            [
+              137.0,
+              1174.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b27",
+          "type": "table",
+          "text": "Période du 01.01.2026 au 31.01.2026",
+          "bbox": [
+            138.0,
+            1186.0,
+            599.0,
+            1213.0
+          ],
+          "ocr_confidence": 0.9941011667251587,
+          "reading_order": 27,
+          "polygon": [
+            [
+              138.0,
+              1186.0
+            ],
+            [
+              599.0,
+              1186.0
+            ],
+            [
+              599.0,
+              1213.0
+            ],
+            [
+              138.0,
+              1213.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b28",
+          "type": "table",
+          "text": "Loyer financier",
+          "bbox": [
+            137.0,
+            1228.0,
+            324.0,
+            1256.0
+          ],
+          "ocr_confidence": 0.9931502938270569,
+          "reading_order": 28,
+          "polygon": [
+            [
+              137.0,
+              1228.0
+            ],
+            [
+              324.0,
+              1228.0
+            ],
+            [
+              324.0,
+              1256.0
+            ],
+            [
+              137.0,
+              1256.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b29",
+          "type": "table",
+          "text": "964,07",
+          "bbox": [
+            1175.0,
+            1225.0,
+            1264.0,
+            1258.0
+          ],
+          "ocr_confidence": 0.9999808669090271,
+          "reading_order": 29,
+          "polygon": [
+            [
+              1175.0,
+              1225.0
+            ],
+            [
+              1264.0,
+              1225.0
+            ],
+            [
+              1264.0,
+              1258.0
+            ],
+            [
+              1175.0,
+              1258.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b30",
+          "type": "table",
+          "text": "20,00",
+          "bbox": [
+            1425.0,
+            1223.0,
+            1501.0,
+            1260.0
+          ],
+          "ocr_confidence": 0.9999014139175415,
+          "reading_order": 30,
+          "polygon": [
+            [
+              1425.0,
+              1223.0
+            ],
+            [
+              1501.0,
+              1223.0
+            ],
+            [
+              1501.0,
+              1260.0
+            ],
+            [
+              1425.0,
+              1260.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b31",
+          "type": "table",
+          "text": "TGE 5.160 L3",
+          "bbox": [
+            453.0,
+            1282.0,
+            638.0,
+            1309.0
+          ],
+          "ocr_confidence": 0.9696044325828552,
+          "reading_order": 31,
+          "polygon": [
+            [
+              453.0,
+              1282.0
+            ],
+            [
+              638.0,
+              1282.0
+            ],
+            [
+              638.0,
+              1309.0
+            ],
+            [
+              453.0,
+              1309.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b32",
+          "type": "table",
+          "text": "numéro de châssis",
+          "bbox": [
+            138.0,
+            1324.0,
+            362.0,
+            1351.0
+          ],
+          "ocr_confidence": 0.9942945837974548,
+          "reading_order": 32,
+          "polygon": [
+            [
+              138.0,
+              1324.0
+            ],
+            [
+              362.0,
+              1324.0
+            ],
+            [
+              362.0,
+              1351.0
+            ],
+            [
+              138.0,
+              1351.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b33",
+          "type": "table",
+          "text": "WMA16VUZ7R9009721",
+          "bbox": [
+            452.0,
+            1322.0,
+            743.0,
+            1350.0
+          ],
+          "ocr_confidence": 0.9999402165412903,
+          "reading_order": 33,
+          "polygon": [
+            [
+              452.0,
+              1323.0
+            ],
+            [
+              743.0,
+              1322.0
+            ],
+            [
+              743.0,
+              1349.0
+            ],
+            [
+              452.0,
+              1350.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b34",
+          "type": "table",
+          "text": "numéro d'immatriculation GT-778-WB",
+          "bbox": [
+            139.0,
+            1365.0,
+            598.0,
+            1389.0
+          ],
+          "ocr_confidence": 0.9890701174736023,
+          "reading_order": 34,
+          "polygon": [
+            [
+              139.0,
+              1365.0
+            ],
+            [
+              598.0,
+              1365.0
+            ],
+            [
+              598.0,
+              1389.0
+            ],
+            [
+              139.0,
+              1389.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b35",
+          "type": "table",
+          "text": "Période du 01.01.2026au 31.01.2026",
+          "bbox": [
+            139.0,
+            1406.0,
+            598.0,
+            1430.0
+          ],
+          "ocr_confidence": 0.9804752469062805,
+          "reading_order": 35,
+          "polygon": [
+            [
+              139.0,
+              1406.0
+            ],
+            [
+              598.0,
+              1406.0
+            ],
+            [
+              598.0,
+              1430.0
+            ],
+            [
+              139.0,
+              1430.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b36",
+          "type": "table",
+          "text": "Financial Loss",
+          "bbox": [
+            137.0,
+            1445.0,
+            315.0,
+            1472.0
+          ],
+          "ocr_confidence": 0.9992495775222778,
+          "reading_order": 36,
+          "polygon": [
+            [
+              137.0,
+              1445.0
+            ],
+            [
+              315.0,
+              1445.0
+            ],
+            [
+              315.0,
+              1472.0
+            ],
+            [
+              137.0,
+              1472.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b37",
+          "type": "table",
+          "text": "15,49",
+          "bbox": [
+            1190.0,
+            1441.0,
+            1264.0,
+            1476.0
+          ],
+          "ocr_confidence": 0.9999697804450989,
+          "reading_order": 37,
+          "polygon": [
+            [
+              1190.0,
+              1443.0
+            ],
+            [
+              1263.0,
+              1441.0
+            ],
+            [
+              1264.0,
+              1474.0
+            ],
+            [
+              1191.0,
+              1476.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b38",
+          "type": "text",
+          "text": "Pénalités de retard au taux de 1,5% par mois",
+          "bbox": [
+            145.0,
+            1565.0,
+            708.0,
+            1594.0
+          ],
+          "ocr_confidence": 0.9608301520347595,
+          "reading_order": 38,
+          "polygon": [
+            [
+              145.0,
+              1565.0
+            ],
+            [
+              708.0,
+              1567.0
+            ],
+            [
+              708.0,
+              1594.0
+            ],
+            [
+              145.0,
+              1592.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b39",
+          "type": "text",
+          "text": "Indemnité forfaitaire pour frais de recouvrement dus en cas de non règlement de la facture à",
+          "bbox": [
+            146.0,
+            1601.0,
+            1288.0,
+            1628.0
+          ],
+          "ocr_confidence": 0.9803684949874878,
+          "reading_order": 39,
+          "polygon": [
+            [
+              146.0,
+              1601.0
+            ],
+            [
+              1288.0,
+              1601.0
+            ],
+            [
+              1288.0,
+              1628.0
+            ],
+            [
+              146.0,
+              1628.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b40",
+          "type": "text",
+          "text": "la date d'exigibilité : 40 euros",
+          "bbox": [
+            146.0,
+            1633.0,
+            521.0,
+            1661.0
+          ],
+          "ocr_confidence": 0.9780362844467163,
+          "reading_order": 40,
+          "polygon": [
+            [
+              146.0,
+              1633.0
+            ],
+            [
+              521.0,
+              1634.0
+            ],
+            [
+              520.0,
+              1661.0
+            ],
+            [
+              146.0,
+              1660.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b41",
+          "type": "text",
+          "text": "Escompte : sans escompte pour paiement anticipé",
+          "bbox": [
+            146.0,
+            1668.0,
+            748.0,
+            1695.0
+          ],
+          "ocr_confidence": 0.987769365310669,
+          "reading_order": 41,
+          "polygon": [
+            [
+              146.0,
+              1668.0
+            ],
+            [
+              748.0,
+              1668.0
+            ],
+            [
+              748.0,
+              1695.0
+            ],
+            [
+              146.0,
+              1695.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b42",
+          "type": "text",
+          "text": "** Pour tout renseignement, munissez-vous de votre n° de facture et de votre code client **",
+          "bbox": [
+            141.0,
+            1726.0,
+            1283.0,
+            1764.0
+          ],
+          "ocr_confidence": 0.9933201670646667,
+          "reading_order": 42,
+          "polygon": [
+            [
+              141.0,
+              1727.0
+            ],
+            [
+              1283.0,
+              1726.0
+            ],
+            [
+              1283.0,
+              1763.0
+            ],
+            [
+              141.0,
+              1764.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b43",
+          "type": "text",
+          "text": "Service Client",
+          "bbox": [
+            147.0,
+            1800.0,
+            318.0,
+            1827.0
+          ],
+          "ocr_confidence": 0.9772695899009705,
+          "reading_order": 43,
+          "polygon": [
+            [
+              147.0,
+              1800.0
+            ],
+            [
+              318.0,
+              1800.0
+            ],
+            [
+              318.0,
+              1827.0
+            ],
+            [
+              147.0,
+              1827.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b44",
+          "type": "text",
+          "text": "MAN / Volkswagen Financial Services",
+          "bbox": [
+            148.0,
+            1835.0,
+            617.0,
+            1859.0
+          ],
+          "ocr_confidence": 0.9694292545318604,
+          "reading_order": 44,
+          "polygon": [
+            [
+              148.0,
+              1835.0
+            ],
+            [
+              617.0,
+              1835.0
+            ],
+            [
+              617.0,
+              1859.0
+            ],
+            [
+              148.0,
+              1859.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b45",
+          "type": "text",
+          "text": "Page: 1/2",
+          "bbox": [
+            1356.0,
+            2028.0,
+            1483.0,
+            2064.0
+          ],
+          "ocr_confidence": 0.9935222268104553,
+          "reading_order": 45,
+          "polygon": [
+            [
+              1356.0,
+              2028.0
+            ],
+            [
+              1483.0,
+              2028.0
+            ],
+            [
+              1483.0,
+              2064.0
+            ],
+            [
+              1356.0,
+              2064.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b46",
+          "type": "text",
+          "text": "MAN Financial Services, division de VOLKSWAGEN BANK GMBH - SARL de droit allemand - Capital social: € 318 279 200 - Siège social : Braunschweig",
+          "bbox": [
+            145.0,
+            2090.0,
+            1314.0,
+            2107.0
+          ],
+          "ocr_confidence": 0.9873044490814209,
+          "reading_order": 46,
+          "polygon": [
+            [
+              145.0,
+              2090.0
+            ],
+            [
+              1314.0,
+              2090.0
+            ],
+            [
+              1314.0,
+              2107.0
+            ],
+            [
+              145.0,
+              2107.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b47",
+          "type": "text",
+          "text": "(Allemagne) RC/HRB Braunschweig : 1819 - NORIAS : D-HNQM-UQ9MO-22 - Succursale France : Bâtiment Ellipse, 15 avenue de la Demi-Lune - 95700",
+          "bbox": [
+            146.0,
+            2111.0,
+            1296.0,
+            2128.0
+          ],
+          "ocr_confidence": 0.9936318397521973,
+          "reading_order": 47,
+          "polygon": [
+            [
+              146.0,
+              2111.0
+            ],
+            [
+              1296.0,
+              2111.0
+            ],
+            [
+              1296.0,
+              2128.0
+            ],
+            [
+              146.0,
+              2128.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b48",
+          "type": "text",
+          "text": "Roissy-en-France RCS Pontoise : 451 618 904 # Siret : 451 618 904 00051 - NORIAS : 08 040 267 (www.orias.fr) Code NAF : 6419 Z # CE TVA : FR 09451618904.",
+          "bbox": [
+            146.0,
+            2131.0,
+            1409.0,
+            2148.0
+          ],
+          "ocr_confidence": 0.9889231324195862,
+          "reading_order": 48,
+          "polygon": [
+            [
+              146.0,
+              2131.0
+            ],
+            [
+              1409.0,
+              2131.0
+            ],
+            [
+              1409.0,
+              2148.0
+            ],
+            [
+              146.0,
+              2148.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b49",
+          "type": "text",
+          "text": "Administration et adresse postale pour MAN Financial Services : 12, avenue du Bois de l#Epine - CP 8005 Courcouronnes - 91008 Evry Cedex.",
+          "bbox": [
+            146.0,
+            2150.0,
+            1210.0,
+            2167.0
+          ],
+          "ocr_confidence": 0.988209068775177,
+          "reading_order": 49,
+          "polygon": [
+            [
+              146.0,
+              2150.0
+            ],
+            [
+              1210.0,
+              2150.0
+            ],
+            [
+              1210.0,
+              2167.0
+            ],
+            [
+              146.0,
+              2167.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b50",
+          "type": "text",
+          "text": "* Les filiales de Volkswagen Financial Services AG ainsi que sa société soeur Volkswagen Bank GmbH proposent divers services sous l#appellation « Volkswagen",
+          "bbox": [
+            144.0,
+            2183.0,
+            1335.0,
+            2205.0
+          ],
+          "ocr_confidence": 0.9912562966346741,
+          "reading_order": 50,
+          "polygon": [
+            [
+              144.0,
+              2183.0
+            ],
+            [
+              1335.0,
+              2185.0
+            ],
+            [
+              1335.0,
+              2205.0
+            ],
+            [
+              144.0,
+              2203.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b51",
+          "type": "text",
+          "text": "Financial Services » : Des services bancaires (via Volkswagen Bank GmbH) ; de location (via MAN Location et Services SAS) ; d#assurance (via des prestataires",
+          "bbox": [
+            146.0,
+            2206.0,
+            1334.0,
+            2223.0
+          ],
+          "ocr_confidence": 0.9898382425308228,
+          "reading_order": 51,
+          "polygon": [
+            [
+              146.0,
+              2206.0
+            ],
+            [
+              1334.0,
+              2206.0
+            ],
+            [
+              1334.0,
+              2223.0
+            ],
+            [
+              146.0,
+              2223.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b52",
+          "type": "text",
+          "text": "extérieurs) ainsi que de mobilité (MAN Card via carmobility Gmbí).",
+          "bbox": [
+            147.0,
+            2228.0,
+            651.0,
+            2242.0
+          ],
+          "ocr_confidence": 0.9775766134262085,
+          "reading_order": 52,
+          "polygon": [
+            [
+              147.0,
+              2228.0
+            ],
+            [
+              651.0,
+              2228.0
+            ],
+            [
+              651.0,
+              2242.0
+            ],
+            [
+              147.0,
+              2242.0
+            ]
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "table_id": "p1_t0",
+          "bbox": [
+            138.62054443359375,
+            830.2557373046875,
+            1517.90576171875,
+            915.9088134765625
+          ],
+          "structure_confidence": 0.9672419428825378,
+          "cells": [
+            {
+              "row": 0,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "N° Client",
+              "bbox": [
+                140.18450605869293,
+                833.5631926059723,
+                370.0721435546875,
+                874.2364158630371
+              ],
+              "ocr_confidence": 0.9306380748748779,
+              "source_block_ids": [
+                "p1_b8"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "N° Facture",
+              "bbox": [
+                370.47344970703125,
+                833.7075657844543,
+                600.2209777832031,
+                874.2620468139648
+              ],
+              "ocr_confidence": 0.9833461046218872,
+              "source_block_ids": [
+                "p1_b9"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Date",
+              "bbox": [
+                600.0039367675781,
+                833.6284756660461,
+                829.4113159179688,
+                874.2679786682129
+              ],
+              "ocr_confidence": 0.9999129772186279,
+              "source_block_ids": [
+                "p1_b10"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 3,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Date d'échéance",
+              "bbox": [
+                829.5971069335938,
+                833.6746077537537,
+                1060.2123413085938,
+                874.2230758666992
+              ],
+              "ocr_confidence": 0.9667883515357971,
+              "source_block_ids": [
+                "p1_b11"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 4,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "V/Ref",
+              "bbox": [
+                1060.2694091796875,
+                833.6263654232025,
+                1289.9933471679688,
+                874.2436103820801
+              ],
+              "ocr_confidence": 0.9998354911804199,
+              "source_block_ids": [
+                "p1_b12"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 5,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "N/Ref",
+              "bbox": [
+                1289.9397583007812,
+                833.4528946876526,
+                1515.7953491210938,
+                874.1543655395508
+              ],
+              "ocr_confidence": 0.9988611340522766,
+              "source_block_ids": [
+                "p1_b13"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "1005496",
+              "bbox": [
+                140.3409947156906,
+                874.2147026062012,
+                370.1004333496094,
+                912.9182815551758
+              ],
+              "ocr_confidence": 0.9999869465827942,
+              "source_block_ids": [
+                "p1_b14"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "2970476549",
+              "bbox": [
+                370.5685729980469,
+                874.2561340332031,
+                599.9229125976562,
+                912.6792068481445
+              ],
+              "ocr_confidence": 0.9999906420707703,
+              "source_block_ids": [
+                "p1_b15"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "01.01.2026",
+              "bbox": [
+                599.783203125,
+                874.2607307434082,
+                829.7994384765625,
+                912.5607604980469
+              ],
+              "ocr_confidence": 0.9999082684516907,
+              "source_block_ids": [
+                "p1_b16"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 3,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "01.01.2026",
+              "bbox": [
+                829.8387451171875,
+                874.1950225830078,
+                1060.1216430664062,
+                912.6326599121094
+              ],
+              "ocr_confidence": 0.9999526143074036,
+              "source_block_ids": [
+                "p1_b17"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 4,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "BINGO",
+              "bbox": [
+                1060.2525634765625,
+                874.2248306274414,
+                1289.7208862304688,
+                912.6222152709961
+              ],
+              "ocr_confidence": 0.9995691180229187,
+              "source_block_ids": [
+                "p1_b18"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 5,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "1601040444",
+              "bbox": [
+                1289.8010864257812,
+                874.1420440673828,
+                1515.3108520507812,
+                912.5464324951172
+              ],
+              "ocr_confidence": 0.9999924898147583,
+              "source_block_ids": [
+                "p1_b19"
+              ]
+            }
+          ],
+          "html": "<html><body><table><tr><td>N° Client</td><td>N° Facture</td><td>Date</td><td>Date d'échéance</td><td>V/Ref</td><td>N/Ref</td></tr><tr><td>1005496</td><td>2970476549</td><td>01.01.2026</td><td>01.01.2026</td><td>BINGO</td><td>1601040444</td></tr></table></body></html>"
+        },
+        {
+          "table_id": "p1_t1",
+          "bbox": [
+            134.0823974609375,
+            1009.71630859375,
+            1521.1302490234375,
+            1489.3515625
+          ],
+          "structure_confidence": 0.9214781522750854,
+          "cells": [
+            {
+              "row": 0,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Libellé",
+              "bbox": [
+                136.2415328025818,
+                1019.7877979278564,
+                892.7537841796875,
+                1057.0923156738281
+              ],
+              "ocr_confidence": 0.9981733560562134,
+              "source_block_ids": [
+                "p1_b20"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Montant H.T.",
+              "bbox": [
+                893.8990478515625,
+                1020.0907230377197,
+                1300.601318359375,
+                1057.4343032836914
+              ],
+              "ocr_confidence": 0.9971320629119873,
+              "source_block_ids": [
+                "p1_b21"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "% TVA",
+              "bbox": [
+                1301.2322998046875,
+                1019.7248592376709,
+                1498.70458984375,
+                1056.8715515136719
+              ],
+              "ocr_confidence": 0.9919300079345703,
+              "source_block_ids": [
+                "p1_b22"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "TGE 5.160 L3",
+              "bbox": [
+                135.1956124305725,
+                1056.9092903137207,
+                893.3403930664062,
+                1097.2319717407227
+              ],
+              "ocr_confidence": 0.9761715531349182,
+              "source_block_ids": [
+                "p1_b23"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "",
+              "bbox": [
+                894.3739624023438,
+                1057.2392234802246,
+                1302.4486083984375,
+                1096.7263488769531
+              ],
+              "ocr_confidence": 0.0
+            },
+            {
+              "row": 1,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "",
+              "bbox": [
+                1303.4571533203125,
+                1057.1967811584473,
+                1497.7823486328125,
+                1096.9379043579102
+              ],
+              "ocr_confidence": 0.0
+            },
+            {
+              "row": 2,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "numéro de châssis WMA16VUZ7R9009721",
+              "bbox": [
+                134.24170571565628,
+                1097.086326599121,
+                895.41455078125,
+                1137.5506591796875
+              ],
+              "ocr_confidence": 0.9870867431163788,
+              "source_block_ids": [
+                "p1_b24",
+                "p1_b25"
+              ]
+            },
+            {
+              "row": 2,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "",
+              "bbox": [
+                894.1474609375,
+                1097.0212936401367,
+                1302.4276123046875,
+                1137.5335540771484
+              ],
+              "ocr_confidence": 0.0
+            },
+            {
+              "row": 2,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "",
+              "bbox": [
+                1302.365966796875,
+                1096.6986694335938,
+                1497.8194580078125,
+                1137.4562911987305
+              ],
+              "ocr_confidence": 0.0
+            },
+            {
+              "row": 3,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "numéro d'immatriculation GT-778-WB",
+              "bbox": [
+                134.72004383802414,
+                1137.5490036010742,
+                895.991943359375,
+                1177.7403717041016
+              ],
+              "ocr_confidence": 0.9813970923423767,
+              "source_block_ids": [
+                "p1_b26"
+              ]
+            },
+            {
+              "row": 3,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "",
+              "bbox": [
+                893.8634033203125,
+                1137.4011840820312,
+                1302.8193359375,
+                1177.927261352539
+              ],
+              "ocr_confidence": 0.0
+            },
+            {
+              "row": 3,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "",
+              "bbox": [
+                1302.7784423828125,
+                1137.5554962158203,
+                1496.8961181640625,
+                1178.2638702392578
+              ],
+              "ocr_confidence": 0.0
+            },
+            {
+              "row": 4,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Période du 01.01.2026 au 31.01.2026",
+              "bbox": [
+                134.73802495002747,
+                1177.6127166748047,
+                895.0772094726562,
+                1218.268310546875
+              ],
+              "ocr_confidence": 0.9941011667251587,
+              "source_block_ids": [
+                "p1_b27"
+              ]
+            },
+            {
+              "row": 4,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "",
+              "bbox": [
+                895.01953125,
+                1177.8100891113281,
+                1302.6934814453125,
+                1218.1549224853516
+              ],
+              "ocr_confidence": 0.0
+            },
+            {
+              "row": 4,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "",
+              "bbox": [
+                1301.4947509765625,
+                1178.1380310058594,
+                1495.97705078125,
+                1218.4632720947266
+              ],
+              "ocr_confidence": 0.0
+            },
+            {
+              "row": 5,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Loyer financier",
+              "bbox": [
+                134.23343855142593,
+                1218.4112091064453,
+                894.4086303710938,
+                1268.2908325195312
+              ],
+              "ocr_confidence": 0.9931502938270569,
+              "source_block_ids": [
+                "p1_b28"
+              ]
+            },
+            {
+              "row": 5,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "964,07",
+              "bbox": [
+                896.5758666992188,
+                1218.5992584228516,
+                1301.7423095703125,
+                1268.1558837890625
+              ],
+              "ocr_confidence": 0.9999808669090271,
+              "source_block_ids": [
+                "p1_b29"
+              ]
+            },
+            {
+              "row": 5,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "20,00",
+              "bbox": [
+                1301.3131103515625,
+                1218.4551849365234,
+                1496.38525390625,
+                1267.8993225097656
+              ],
+              "ocr_confidence": 0.9999014139175415,
+              "source_block_ids": [
+                "p1_b30"
+              ]
+            },
+            {
+              "row": 6,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "TGE 5.160 L3",
+              "bbox": [
+                134.0823974609375,
+                1268.6510314941406,
+                895.071533203125,
+                1314.1170959472656
+              ],
+              "ocr_confidence": 0.9696044325828552,
+              "source_block_ids": [
+                "p1_b31"
+              ]
+            },
+            {
+              "row": 6,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "",
+              "bbox": [
+                895.9081420898438,
+                1268.5567016601562,
+                1301.402587890625,
+                1313.8560485839844
+              ],
+              "ocr_confidence": 0.0
+            },
+            {
+              "row": 6,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "",
+              "bbox": [
+                1301.7613525390625,
+                1268.3302307128906,
+                1497.326416015625,
+                1313.8331604003906
+              ],
+              "ocr_confidence": 0.0
+            },
+            {
+              "row": 7,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "numéro de châssis WMA16VUZ7R9009721",
+              "bbox": [
+                134.0823974609375,
+                1314.0505065917969,
+                895.8564453125,
+                1354.7317199707031
+              ],
+              "ocr_confidence": 0.9971174001693726,
+              "source_block_ids": [
+                "p1_b32",
+                "p1_b33"
+              ]
+            },
+            {
+              "row": 7,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "",
+              "bbox": [
+                895.9439697265625,
+                1314.1628723144531,
+                1301.474365234375,
+                1354.6971740722656
+              ],
+              "ocr_confidence": 0.0
+            },
+            {
+              "row": 7,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "",
+              "bbox": [
+                1301.357666015625,
+                1313.8038024902344,
+                1496.5362548828125,
+                1354.7506408691406
+              ],
+              "ocr_confidence": 0.0
+            },
+            {
+              "row": 8,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "numéro d'immatriculation GT-778-WB",
+              "bbox": [
+                134.49360620975494,
+                1354.4764099121094,
+                895.3616333007812,
+                1394.7754516601562
+              ],
+              "ocr_confidence": 0.9890701174736023,
+              "source_block_ids": [
+                "p1_b34"
+              ]
+            },
+            {
+              "row": 8,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "",
+              "bbox": [
+                895.2338256835938,
+                1354.7105407714844,
+                1301.2967529296875,
+                1395.1929626464844
+              ],
+              "ocr_confidence": 0.0
+            },
+            {
+              "row": 8,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "",
+              "bbox": [
+                1301.49169921875,
+                1354.7389831542969,
+                1496.6378173828125,
+                1395.0807495117188
+              ],
+              "ocr_confidence": 0.0
+            },
+            {
+              "row": 9,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Période du 01.01.2026au 31.01.2026",
+              "bbox": [
+                135.34909236431122,
+                1394.8487243652344,
+                894.6328735351562,
+                1435.6501159667969
+              ],
+              "ocr_confidence": 0.9804752469062805,
+              "source_block_ids": [
+                "p1_b35"
+              ]
+            },
+            {
+              "row": 9,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "",
+              "bbox": [
+                894.9121704101562,
+                1395.0758666992188,
+                1300.689697265625,
+                1436.0140686035156
+              ],
+              "ocr_confidence": 0.0
+            },
+            {
+              "row": 9,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "",
+              "bbox": [
+                1301.5435791015625,
+                1395.2056274414062,
+                1496.8319091796875,
+                1436.2227172851562
+              ],
+              "ocr_confidence": 0.0
+            },
+            {
+              "row": 10,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Financial Loss",
+              "bbox": [
+                135.39038681983948,
+                1435.9788208007812,
+                896.2041625976562,
+                1473.4381408691406
+              ],
+              "ocr_confidence": 0.9992495775222778,
+              "source_block_ids": [
+                "p1_b36"
+              ]
+            },
+            {
+              "row": 10,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "15,49",
+              "bbox": [
+                895.0872802734375,
+                1435.9395751953125,
+                1301.3369140625,
+                1473.5115661621094
+              ],
+              "ocr_confidence": 0.9999697804450989,
+              "source_block_ids": [
+                "p1_b37"
+              ]
+            },
+            {
+              "row": 10,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "",
+              "bbox": [
+                1301.78076171875,
+                1435.8266906738281,
+                1496.2510986328125,
+                1472.9315185546875
+              ],
+              "ocr_confidence": 0.0
+            }
+          ],
+          "html": "<html><body><table><tr><td>Libellé</td><td>Montant H.T.</td><td>% TVA</td></tr><tr><td>TGE 5.160 L3</td><td></td><td></td></tr><tr><td>numéro de châssis WMA16VUZ7R9009721</td><td></td><td></td></tr><tr><td>numéro d'immatriculation GT-778-WB</td><td></td><td></td></tr><tr><td>Période du 01.01.2026 au 31.01.2026</td><td></td><td></td></tr><tr><td>Loyer financier</td><td>964,07</td><td>20,00</td></tr><tr><td>TGE 5.160 L3</td><td></td><td></td></tr><tr><td>numéro de châssis WMA16VUZ7R9009721</td><td></td><td></td></tr><tr><td>numéro d'immatriculation GT-778-WB</td><td></td><td></td></tr><tr><td>Période du 01.01.2026au 31.01.2026</td><td></td><td></td></tr><tr><td>Financial Loss</td><td>15,49</td><td></td></tr></table></body></html>"
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 1653,
+      "height": 2339,
+      "orientation": 0,
+      "blocks": [
+        {
+          "block_id": "p2_b0",
+          "type": "table",
+          "text": "N° Client",
+          "bbox": [
+            195.0,
+            202.0,
+            317.0,
+            234.0
+          ],
+          "ocr_confidence": 0.9226574301719666,
+          "reading_order": 0,
+          "polygon": [
+            [
+              195.0,
+              202.0
+            ],
+            [
+              317.0,
+              202.0
+            ],
+            [
+              317.0,
+              234.0
+            ],
+            [
+              195.0,
+              234.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b1",
+          "type": "table",
+          "text": "N° Facture",
+          "bbox": [
+            413.0,
+            203.0,
+            556.0,
+            234.0
+          ],
+          "ocr_confidence": 0.9743599891662598,
+          "reading_order": 1,
+          "polygon": [
+            [
+              413.0,
+              203.0
+            ],
+            [
+              556.0,
+              203.0
+            ],
+            [
+              556.0,
+              234.0
+            ],
+            [
+              413.0,
+              234.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b2",
+          "type": "table",
+          "text": "Date",
+          "bbox": [
+            681.0,
+            203.0,
+            749.0,
+            236.0
+          ],
+          "ocr_confidence": 0.9998914003372192,
+          "reading_order": 2,
+          "polygon": [
+            [
+              681.0,
+              203.0
+            ],
+            [
+              749.0,
+              203.0
+            ],
+            [
+              749.0,
+              236.0
+            ],
+            [
+              681.0,
+              236.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b3",
+          "type": "table",
+          "text": "Date d'échéance",
+          "bbox": [
+            842.0,
+            205.0,
+            1049.0,
+            233.0
+          ],
+          "ocr_confidence": 0.9804781079292297,
+          "reading_order": 3,
+          "polygon": [
+            [
+              842.0,
+              205.0
+            ],
+            [
+              1049.0,
+              205.0
+            ],
+            [
+              1049.0,
+              233.0
+            ],
+            [
+              842.0,
+              233.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b4",
+          "type": "table",
+          "text": "V/Ref",
+          "bbox": [
+            1134.0,
+            203.0,
+            1218.0,
+            235.0
+          ],
+          "ocr_confidence": 0.9998354911804199,
+          "reading_order": 4,
+          "polygon": [
+            [
+              1134.0,
+              203.0
+            ],
+            [
+              1218.0,
+              203.0
+            ],
+            [
+              1218.0,
+              235.0
+            ],
+            [
+              1134.0,
+              235.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b5",
+          "type": "table",
+          "text": "N/Ref",
+          "bbox": [
+            1364.0,
+            202.0,
+            1446.0,
+            235.0
+          ],
+          "ocr_confidence": 0.9989234209060669,
+          "reading_order": 5,
+          "polygon": [
+            [
+              1364.0,
+              202.0
+            ],
+            [
+              1446.0,
+              202.0
+            ],
+            [
+              1446.0,
+              235.0
+            ],
+            [
+              1364.0,
+              235.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b6",
+          "type": "table",
+          "text": "1005496",
+          "bbox": [
+            204.0,
+            244.0,
+            310.0,
+            275.0
+          ],
+          "ocr_confidence": 0.9999869465827942,
+          "reading_order": 6,
+          "polygon": [
+            [
+              204.0,
+              244.0
+            ],
+            [
+              310.0,
+              244.0
+            ],
+            [
+              310.0,
+              275.0
+            ],
+            [
+              204.0,
+              275.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b7",
+          "type": "table",
+          "text": "2970476549",
+          "bbox": [
+            413.0,
+            245.0,
+            558.0,
+            273.0
+          ],
+          "ocr_confidence": 0.9999944567680359,
+          "reading_order": 7,
+          "polygon": [
+            [
+              413.0,
+              245.0
+            ],
+            [
+              558.0,
+              245.0
+            ],
+            [
+              558.0,
+              273.0
+            ],
+            [
+              413.0,
+              273.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b8",
+          "type": "table",
+          "text": "01.01.2026",
+          "bbox": [
+            648.0,
+            244.0,
+            785.0,
+            275.0
+          ],
+          "ocr_confidence": 0.999923825263977,
+          "reading_order": 8,
+          "polygon": [
+            [
+              648.0,
+              244.0
+            ],
+            [
+              785.0,
+              244.0
+            ],
+            [
+              785.0,
+              275.0
+            ],
+            [
+              648.0,
+              275.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b9",
+          "type": "table",
+          "text": "01.01.2026",
+          "bbox": [
+            877.0,
+            244.0,
+            1014.0,
+            275.0
+          ],
+          "ocr_confidence": 0.9998751878738403,
+          "reading_order": 9,
+          "polygon": [
+            [
+              877.0,
+              244.0
+            ],
+            [
+              1014.0,
+              244.0
+            ],
+            [
+              1014.0,
+              275.0
+            ],
+            [
+              877.0,
+              275.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b10",
+          "type": "table",
+          "text": "BINGO",
+          "bbox": [
+            1124.0,
+            243.0,
+            1225.0,
+            275.0
+          ],
+          "ocr_confidence": 0.9997079968452454,
+          "reading_order": 10,
+          "polygon": [
+            [
+              1124.0,
+              243.0
+            ],
+            [
+              1225.0,
+              243.0
+            ],
+            [
+              1225.0,
+              275.0
+            ],
+            [
+              1124.0,
+              275.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b11",
+          "type": "table",
+          "text": "1601040444",
+          "bbox": [
+            1333.0,
+            246.0,
+            1476.0,
+            274.0
+          ],
+          "ocr_confidence": 0.9999912977218628,
+          "reading_order": 11,
+          "polygon": [
+            [
+              1333.0,
+              246.0
+            ],
+            [
+              1476.0,
+              246.0
+            ],
+            [
+              1476.0,
+              274.0
+            ],
+            [
+              1333.0,
+              274.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b12",
+          "type": "text",
+          "text": "Service comptabilité",
+          "bbox": [
+            147.0,
+            309.0,
+            387.0,
+            336.0
+          ],
+          "ocr_confidence": 0.9986768960952759,
+          "reading_order": 12,
+          "polygon": [
+            [
+              147.0,
+              309.0
+            ],
+            [
+              387.0,
+              309.0
+            ],
+            [
+              387.0,
+              336.0
+            ],
+            [
+              147.0,
+              336.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b13",
+          "type": "text",
+          "text": "11, avenue de Boursonne",
+          "bbox": [
+            147.0,
+            342.0,
+            455.0,
+            369.0
+          ],
+          "ocr_confidence": 0.9656744599342346,
+          "reading_order": 13,
+          "polygon": [
+            [
+              147.0,
+              342.0
+            ],
+            [
+              455.0,
+              342.0
+            ],
+            [
+              455.0,
+              369.0
+            ],
+            [
+              147.0,
+              369.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b14",
+          "type": "text",
+          "text": "BP 61",
+          "bbox": [
+            144.0,
+            373.0,
+            227.0,
+            403.0
+          ],
+          "ocr_confidence": 0.9939374923706055,
+          "reading_order": 14,
+          "polygon": [
+            [
+              144.0,
+              373.0
+            ],
+            [
+              227.0,
+              373.0
+            ],
+            [
+              227.0,
+              403.0
+            ],
+            [
+              144.0,
+              403.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b15",
+          "type": "text",
+          "text": "02601 VILLERS-COTTERETS CEDEX",
+          "bbox": [
+            147.0,
+            411.0,
+            626.0,
+            435.0
+          ],
+          "ocr_confidence": 0.9867584109306335,
+          "reading_order": 15,
+          "polygon": [
+            [
+              147.0,
+              411.0
+            ],
+            [
+              626.0,
+              411.0
+            ],
+            [
+              626.0,
+              435.0
+            ],
+            [
+              147.0,
+              435.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b16",
+          "type": "table",
+          "text": "Total H.T.",
+          "bbox": [
+            241.0,
+            1922.0,
+            383.0,
+            1954.0
+          ],
+          "ocr_confidence": 0.9989662170410156,
+          "reading_order": 16,
+          "polygon": [
+            [
+              241.0,
+              1922.0
+            ],
+            [
+              383.0,
+              1922.0
+            ],
+            [
+              383.0,
+              1954.0
+            ],
+            [
+              241.0,
+              1954.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b17",
+          "type": "table",
+          "text": "T.V.A.",
+          "bbox": [
+            613.0,
+            1923.0,
+            703.0,
+            1953.0
+          ],
+          "ocr_confidence": 0.9998936057090759,
+          "reading_order": 17,
+          "polygon": [
+            [
+              613.0,
+              1923.0
+            ],
+            [
+              703.0,
+              1923.0
+            ],
+            [
+              703.0,
+              1953.0
+            ],
+            [
+              613.0,
+              1953.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b18",
+          "type": "table",
+          "text": "Exonéré",
+          "bbox": [
+            949.0,
+            1922.0,
+            1056.0,
+            1954.0
+          ],
+          "ocr_confidence": 0.9986791610717773,
+          "reading_order": 18,
+          "polygon": [
+            [
+              949.0,
+              1922.0
+            ],
+            [
+              1056.0,
+              1922.0
+            ],
+            [
+              1056.0,
+              1954.0
+            ],
+            [
+              949.0,
+              1954.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b19",
+          "type": "table",
+          "text": "Total T.T.C.",
+          "bbox": [
+            1262.0,
+            1922.0,
+            1428.0,
+            1954.0
+          ],
+          "ocr_confidence": 0.9966177344322205,
+          "reading_order": 19,
+          "polygon": [
+            [
+              1262.0,
+              1922.0
+            ],
+            [
+              1428.0,
+              1922.0
+            ],
+            [
+              1428.0,
+              1954.0
+            ],
+            [
+              1262.0,
+              1954.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b20",
+          "type": "table",
+          "text": "964,07 EUR",
+          "bbox": [
+            310.0,
+            1965.0,
+            464.0,
+            1993.0
+          ],
+          "ocr_confidence": 0.9984338879585266,
+          "reading_order": 20,
+          "polygon": [
+            [
+              310.0,
+              1965.0
+            ],
+            [
+              464.0,
+              1965.0
+            ],
+            [
+              464.0,
+              1993.0
+            ],
+            [
+              310.0,
+              1993.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b21",
+          "type": "table",
+          "text": "192,81 EUR",
+          "bbox": [
+            657.0,
+            1965.0,
+            810.0,
+            1993.0
+          ],
+          "ocr_confidence": 0.9980392456054688,
+          "reading_order": 21,
+          "polygon": [
+            [
+              657.0,
+              1965.0
+            ],
+            [
+              810.0,
+              1965.0
+            ],
+            [
+              810.0,
+              1993.0
+            ],
+            [
+              657.0,
+              1993.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b22",
+          "type": "table",
+          "text": "15,49 EUR",
+          "bbox": [
+            1013.0,
+            1964.0,
+            1153.0,
+            1995.0
+          ],
+          "ocr_confidence": 0.997485876083374,
+          "reading_order": 22,
+          "polygon": [
+            [
+              1013.0,
+              1964.0
+            ],
+            [
+              1153.0,
+              1964.0
+            ],
+            [
+              1153.0,
+              1995.0
+            ],
+            [
+              1013.0,
+              1995.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b23",
+          "type": "table",
+          "text": "1.172,37 EUR",
+          "bbox": [
+            1320.0,
+            1963.0,
+            1499.0,
+            1994.0
+          ],
+          "ocr_confidence": 0.997542142868042,
+          "reading_order": 23,
+          "polygon": [
+            [
+              1320.0,
+              1963.0
+            ],
+            [
+              1499.0,
+              1963.0
+            ],
+            [
+              1499.0,
+              1994.0
+            ],
+            [
+              1320.0,
+              1994.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b24",
+          "type": "text",
+          "text": "Paiement par prélèvement SEPA sur votre compte n° FR7610207001022121350359984",
+          "bbox": [
+            137.0,
+            2005.0,
+            1180.0,
+            2035.0
+          ],
+          "ocr_confidence": 0.9866876006126404,
+          "reading_order": 24,
+          "polygon": [
+            [
+              137.0,
+              2005.0
+            ],
+            [
+              1180.0,
+              2005.0
+            ],
+            [
+              1180.0,
+              2035.0
+            ],
+            [
+              137.0,
+              2035.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b25",
+          "type": "text",
+          "text": "Page: 2/2",
+          "bbox": [
+            1354.0,
+            2036.0,
+            1484.0,
+            2078.0
+          ],
+          "ocr_confidence": 0.9962178468704224,
+          "reading_order": 25,
+          "polygon": [
+            [
+              1354.0,
+              2039.0
+            ],
+            [
+              1484.0,
+              2036.0
+            ],
+            [
+              1484.0,
+              2075.0
+            ],
+            [
+              1354.0,
+              2078.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b26",
+          "type": "text",
+          "text": "MAN Financial Services, division de VOLKSWAGEN BANK GMBH - SARL de droit allemand - Capital social: € 318 279 200 - Siège social : Braunschweig",
+          "bbox": [
+            147.0,
+            2104.0,
+            1317.0,
+            2121.0
+          ],
+          "ocr_confidence": 0.9937728047370911,
+          "reading_order": 26,
+          "polygon": [
+            [
+              147.0,
+              2104.0
+            ],
+            [
+              1317.0,
+              2104.0
+            ],
+            [
+              1317.0,
+              2121.0
+            ],
+            [
+              147.0,
+              2121.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b27",
+          "type": "text",
+          "text": "(Allemagne) RC/HRB Braunschweig : 1819 - NORIAS : D-HNQM-UQ9MO-22 - Succursale France : Bâtiment Ellipse, 15 avenue de la Demi-Lune - 95700",
+          "bbox": [
+            147.0,
+            2120.0,
+            1298.0,
+            2141.0
+          ],
+          "ocr_confidence": 0.9919732213020325,
+          "reading_order": 27,
+          "polygon": [
+            [
+              147.0,
+              2121.0
+            ],
+            [
+              1298.0,
+              2120.0
+            ],
+            [
+              1298.0,
+              2140.0
+            ],
+            [
+              147.0,
+              2141.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b28",
+          "type": "text",
+          "text": "Roissy-en-France RCS Pontoise : 451 618 904 # Siret : 451 618 904 00051 - NORIAS : 08 040 267 (www.orias.fr) Code NAF : 6419 Z # CE TVA : FR 09451618904.",
+          "bbox": [
+            148.0,
+            2142.0,
+            1411.0,
+            2159.0
+          ],
+          "ocr_confidence": 0.9887005090713501,
+          "reading_order": 28,
+          "polygon": [
+            [
+              148.0,
+              2142.0
+            ],
+            [
+              1411.0,
+              2142.0
+            ],
+            [
+              1411.0,
+              2159.0
+            ],
+            [
+              148.0,
+              2159.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b29",
+          "type": "text",
+          "text": "Administration et adresse postale pour MAN Financial Services : 12, avenue du Bois de l#Epine - CP 8005 Courcouronnes - 91008 Evry Cedex.",
+          "bbox": [
+            146.0,
+            2160.0,
+            1213.0,
+            2181.0
+          ],
+          "ocr_confidence": 0.9768888354301453,
+          "reading_order": 29,
+          "polygon": [
+            [
+              146.0,
+              2160.0
+            ],
+            [
+              1213.0,
+              2161.0
+            ],
+            [
+              1213.0,
+              2181.0
+            ],
+            [
+              146.0,
+              2180.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b30",
+          "type": "text",
+          "text": "* Les filiales de Volkswagen Financial Services AG ainsi que sa société soeur Volkswagen Bank GmbH proposent divers services sous l#appellation « Volkswagen",
+          "bbox": [
+            146.0,
+            2195.0,
+            1338.0,
+            2218.0
+          ],
+          "ocr_confidence": 0.9939651489257812,
+          "reading_order": 30,
+          "polygon": [
+            [
+              146.0,
+              2195.0
+            ],
+            [
+              1338.0,
+              2197.0
+            ],
+            [
+              1338.0,
+              2218.0
+            ],
+            [
+              146.0,
+              2216.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b31",
+          "type": "text",
+          "text": "Financial Services » : Des services bancaires (via Volkswagen Bank GmbH) ; de location (via MAN Location et Services SAS) ; d#assurance (via des prestataires",
+          "bbox": [
+            147.0,
+            2217.0,
+            1336.0,
+            2235.0
+          ],
+          "ocr_confidence": 0.9851112961769104,
+          "reading_order": 31,
+          "polygon": [
+            [
+              147.0,
+              2217.0
+            ],
+            [
+              1336.0,
+              2218.0
+            ],
+            [
+              1336.0,
+              2235.0
+            ],
+            [
+              147.0,
+              2234.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p2_b32",
+          "type": "text",
+          "text": "extérieurs) ainsi que de mobilité (MAN Card via carmobility GmbH).",
+          "bbox": [
+            150.0,
+            2239.0,
+            654.0,
+            2253.0
+          ],
+          "ocr_confidence": 0.976626992225647,
+          "reading_order": 32,
+          "polygon": [
+            [
+              150.0,
+              2239.0
+            ],
+            [
+              654.0,
+              2239.0
+            ],
+            [
+              654.0,
+              2253.0
+            ],
+            [
+              150.0,
+              2253.0
+            ]
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "table_id": "p2_t0",
+          "bbox": [
+            138.78314208984375,
+            194.32620239257812,
+            1518.035888671875,
+            278.3456726074219
+          ],
+          "structure_confidence": 0.9683739542961121,
+          "cells": [
+            {
+              "row": 0,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "N° Client",
+              "bbox": [
+                140.56849455833435,
+                195.87964165210724,
+                370.68760681152344,
+                236.43154525756836
+              ],
+              "ocr_confidence": 0.9226574301719666,
+              "source_block_ids": [
+                "p2_b0"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "N° Facture",
+              "bbox": [
+                370.8953399658203,
+                195.89813673496246,
+                600.3350524902344,
+                236.4399871826172
+              ],
+              "ocr_confidence": 0.9743599891662598,
+              "source_block_ids": [
+                "p2_b1"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Date",
+              "bbox": [
+                600.1436767578125,
+                196.02426779270172,
+                830.229248046875,
+                236.42562866210938
+              ],
+              "ocr_confidence": 0.9998914003372192,
+              "source_block_ids": [
+                "p2_b2"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 3,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Date d'échéance",
+              "bbox": [
+                830.2811889648438,
+                195.97560811042786,
+                1060.547119140625,
+                236.41851425170898
+              ],
+              "ocr_confidence": 0.9804781079292297,
+              "source_block_ids": [
+                "p2_b3"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 4,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "V/Ref",
+              "bbox": [
+                1060.6533813476562,
+                195.86555123329163,
+                1289.7737426757812,
+                236.42377090454102
+              ],
+              "ocr_confidence": 0.9998354911804199,
+              "source_block_ids": [
+                "p2_b4"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 5,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "N/Ref",
+              "bbox": [
+                1289.7974243164062,
+                195.86076855659485,
+                1515.8228149414062,
+                236.32880020141602
+              ],
+              "ocr_confidence": 0.9989234209060669,
+              "source_block_ids": [
+                "p2_b5"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "1005496",
+              "bbox": [
+                140.67918848991394,
+                236.40691375732422,
+                370.3766784667969,
+                274.9789047241211
+              ],
+              "ocr_confidence": 0.9999869465827942,
+              "source_block_ids": [
+                "p2_b6"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "2970476549",
+              "bbox": [
+                370.6742858886719,
+                236.42031860351562,
+                600.2477416992188,
+                274.78536224365234
+              ],
+              "ocr_confidence": 0.9999944567680359,
+              "source_block_ids": [
+                "p2_b7"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "01.01.2026",
+              "bbox": [
+                600.0364379882812,
+                236.42866134643555,
+                830.3247680664062,
+                274.7205352783203
+              ],
+              "ocr_confidence": 0.999923825263977,
+              "source_block_ids": [
+                "p2_b8"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 3,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "01.01.2026",
+              "bbox": [
+                830.4701538085938,
+                236.41490173339844,
+                1060.4470825195312,
+                274.77171325683594
+              ],
+              "ocr_confidence": 0.9998751878738403,
+              "source_block_ids": [
+                "p2_b9"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 4,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "BINGO",
+              "bbox": [
+                1060.6190795898438,
+                236.4334373474121,
+                1289.8280639648438,
+                274.91407775878906
+              ],
+              "ocr_confidence": 0.9997079968452454,
+              "source_block_ids": [
+                "p2_b10"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 5,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "1601040444",
+              "bbox": [
+                1289.7488403320312,
+                236.36017227172852,
+                1514.9210815429688,
+                275.18157958984375
+              ],
+              "ocr_confidence": 0.9999912977218628,
+              "source_block_ids": [
+                "p2_b11"
+              ]
+            }
+          ],
+          "html": "<html><body><table><tr><td>N° Client</td><td>N° Facture</td><td>Date</td><td>Date d'échéance</td><td>V/Ref</td><td>N/Ref</td></tr><tr><td>1005496</td><td>2970476549</td><td>01.01.2026</td><td>01.01.2026</td><td>BINGO</td><td>1601040444</td></tr></table></body></html>"
+        },
+        {
+          "table_id": "p2_t1",
+          "bbox": [
+            138.868896484375,
+            1912.064208984375,
+            1519.241455078125,
+            1994.896240234375
+          ],
+          "structure_confidence": 0.9263544082641602,
+          "cells": [
+            {
+              "row": 0,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Total H.T.",
+              "bbox": [
+                140.60925137996674,
+                1913.8739702701569,
+                485.39093017578125,
+                1954.1855964660645
+              ],
+              "ocr_confidence": 0.9989662170410156,
+              "source_block_ids": [
+                "p2_b16"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "T.V.A.",
+              "bbox": [
+                485.33416748046875,
+                1913.9007346630096,
+                830.48095703125,
+                1954.1494750976562
+              ],
+              "ocr_confidence": 0.9998936057090759,
+              "source_block_ids": [
+                "p2_b17"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Exonéré",
+              "bbox": [
+                830.4006958007812,
+                1913.8605672121048,
+                1173.9239501953125,
+                1954.195400238037
+              ],
+              "ocr_confidence": 0.9986791610717773,
+              "source_block_ids": [
+                "p2_b18"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 3,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Total T.T.C.",
+              "bbox": [
+                1173.9932861328125,
+                1913.7229952812195,
+                1517.3094482421875,
+                1954.2167739868164
+              ],
+              "ocr_confidence": 0.9966177344322205,
+              "source_block_ids": [
+                "p2_b19"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "964,07 EUR",
+              "bbox": [
+                141.3179132938385,
+                1954.0986099243164,
+                485.78436279296875,
+                1992.6022338867188
+              ],
+              "ocr_confidence": 0.9984338879585266,
+              "source_block_ids": [
+                "p2_b20"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "192,81 EUR",
+              "bbox": [
+                485.62396240234375,
+                1954.1340255737305,
+                831.1099853515625,
+                1992.511604309082
+              ],
+              "ocr_confidence": 0.9980392456054688,
+              "source_block_ids": [
+                "p2_b21"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "15,49 EUR",
+              "bbox": [
+                830.8899536132812,
+                1954.147590637207,
+                1174.0931396484375,
+                1992.5404663085938
+              ],
+              "ocr_confidence": 0.997485876083374,
+              "source_block_ids": [
+                "p2_b22"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 3,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "1.172,37 EUR",
+              "bbox": [
+                1173.89306640625,
+                1954.219367980957,
+                1516.140380859375,
+                1992.6165008544922
+              ],
+              "ocr_confidence": 0.997542142868042,
+              "source_block_ids": [
+                "p2_b23"
+              ]
+            }
+          ],
+          "html": "<html><body><table><tr><td>Total H.T.</td><td>T.V.A.</td><td>Exonéré</td><td>Total T.T.C.</td></tr><tr><td>964,07 EUR</td><td>192,81 EUR</td><td>15,49 EUR</td><td>1.172,37 EUR</td></tr></table></body></html>"
+        }
+      ]
+    }
+  ],
+  "source_mime_type": "image/png"
+}

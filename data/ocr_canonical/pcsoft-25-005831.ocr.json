@@ -1,0 +1,2341 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "pcsoft-25-005831",
+  "source_file": "pcsoft-25-005831__p001.png",
+  "generated_at": "2026-09-11T09:27:08.022307Z",
+  "ocr_engine": {
+    "name": "PP-StructureV3",
+    "version": "3.7.0"
+  },
+  "page_count": 1,
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 1654,
+      "height": 2339,
+      "orientation": 0,
+      "blocks": [
+        {
+          "block_id": "p1_b0",
+          "type": "header",
+          "text": "PCSOFT",
+          "bbox": [
+            121.0,
+            179.0,
+            406.0,
+            251.0
+          ],
+          "ocr_confidence": 0.9968803524971008,
+          "reading_order": 0,
+          "polygon": [
+            [
+              121.0,
+              181.0
+            ],
+            [
+              405.0,
+              179.0
+            ],
+            [
+              406.0,
+              249.0
+            ],
+            [
+              122.0,
+              251.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b1",
+          "type": "text",
+          "text": "Adresse de livraison [1146380]",
+          "bbox": [
+            115.0,
+            326.0,
+            423.0,
+            350.0
+          ],
+          "ocr_confidence": 0.9994751811027527,
+          "reading_order": 1,
+          "polygon": [
+            [
+              115.0,
+              326.0
+            ],
+            [
+              423.0,
+              326.0
+            ],
+            [
+              423.0,
+              350.0
+            ],
+            [
+              115.0,
+              350.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b2",
+          "type": "text",
+          "text": "Adresse de facturation [1146380]",
+          "bbox": [
+            867.0,
+            322.0,
+            1199.0,
+            350.0
+          ],
+          "ocr_confidence": 0.9910159111022949,
+          "reading_order": 2,
+          "polygon": [
+            [
+              867.0,
+              322.0
+            ],
+            [
+              1199.0,
+              323.0
+            ],
+            [
+              1199.0,
+              350.0
+            ],
+            [
+              867.0,
+              349.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b3",
+          "type": "text",
+          "text": "@'FAQ",
+          "bbox": [
+            116.0,
+            388.0,
+            214.0,
+            422.0
+          ],
+          "ocr_confidence": 0.9947713017463684,
+          "reading_order": 3,
+          "polygon": [
+            [
+              116.0,
+              388.0
+            ],
+            [
+              214.0,
+              388.0
+            ],
+            [
+              214.0,
+              422.0
+            ],
+            [
+              116.0,
+              422.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b4",
+          "type": "header",
+          "text": "@'FAQ",
+          "bbox": [
+            869.0,
+            388.0,
+            965.0,
+            422.0
+          ],
+          "ocr_confidence": 0.997158408164978,
+          "reading_order": 4,
+          "polygon": [
+            [
+              869.0,
+              388.0
+            ],
+            [
+              965.0,
+              388.0
+            ],
+            [
+              965.0,
+              422.0
+            ],
+            [
+              869.0,
+              422.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b5",
+          "type": "text",
+          "text": "M. MOHAMED FOUNOUNOU",
+          "bbox": [
+            117.0,
+            421.0,
+            493.0,
+            448.0
+          ],
+          "ocr_confidence": 0.9956320524215698,
+          "reading_order": 5,
+          "polygon": [
+            [
+              117.0,
+              421.0
+            ],
+            [
+              493.0,
+              421.0
+            ],
+            [
+              493.0,
+              448.0
+            ],
+            [
+              117.0,
+              448.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b6",
+          "type": "header",
+          "text": "M. MOHAMED FOUNOUNOU",
+          "bbox": [
+            869.0,
+            420.0,
+            1245.0,
+            450.0
+          ],
+          "ocr_confidence": 0.9993014335632324,
+          "reading_order": 6,
+          "polygon": [
+            [
+              869.0,
+              420.0
+            ],
+            [
+              1245.0,
+              420.0
+            ],
+            [
+              1245.0,
+              450.0
+            ],
+            [
+              869.0,
+              450.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b7",
+          "type": "text",
+          "text": "16 RUE DU DR CAPPELLE",
+          "bbox": [
+            118.0,
+            452.0,
+            464.0,
+            479.0
+          ],
+          "ocr_confidence": 0.9820255041122437,
+          "reading_order": 7,
+          "polygon": [
+            [
+              118.0,
+              452.0
+            ],
+            [
+              464.0,
+              452.0
+            ],
+            [
+              464.0,
+              479.0
+            ],
+            [
+              118.0,
+              479.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b8",
+          "type": "header",
+          "text": "16 RUE DU DR CAPPELLE",
+          "bbox": [
+            871.0,
+            452.0,
+            1217.0,
+            479.0
+          ],
+          "ocr_confidence": 0.9832544922828674,
+          "reading_order": 8,
+          "polygon": [
+            [
+              871.0,
+              452.0
+            ],
+            [
+              1217.0,
+              452.0
+            ],
+            [
+              1217.0,
+              479.0
+            ],
+            [
+              871.0,
+              479.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b9",
+          "type": "text",
+          "text": "66120 FONT ROMEU",
+          "bbox": [
+            117.0,
+            483.0,
+            392.0,
+            510.0
+          ],
+          "ocr_confidence": 0.9978046417236328,
+          "reading_order": 9,
+          "polygon": [
+            [
+              117.0,
+              483.0
+            ],
+            [
+              392.0,
+              483.0
+            ],
+            [
+              392.0,
+              510.0
+            ],
+            [
+              117.0,
+              510.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b10",
+          "type": "header",
+          "text": "66120 FONT ROMEU",
+          "bbox": [
+            869.0,
+            483.0,
+            1144.0,
+            510.0
+          ],
+          "ocr_confidence": 0.9979532957077026,
+          "reading_order": 10,
+          "polygon": [
+            [
+              869.0,
+              483.0
+            ],
+            [
+              1144.0,
+              483.0
+            ],
+            [
+              1144.0,
+              510.0
+            ],
+            [
+              869.0,
+              510.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b11",
+          "type": "text",
+          "text": "FACTURE",
+          "bbox": [
+            706.0,
+            725.0,
+            952.0,
+            776.0
+          ],
+          "ocr_confidence": 0.9998687505722046,
+          "reading_order": 11,
+          "polygon": [
+            [
+              706.0,
+              725.0
+            ],
+            [
+              952.0,
+              727.0
+            ],
+            [
+              952.0,
+              776.0
+            ],
+            [
+              706.0,
+              774.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b12",
+          "type": "text",
+          "text": "Vos réf. :",
+          "bbox": [
+            39.0,
+            793.0,
+            165.0,
+            824.0
+          ],
+          "ocr_confidence": 0.9827439188957214,
+          "reading_order": 12,
+          "polygon": [
+            [
+              39.0,
+              795.0
+            ],
+            [
+              165.0,
+              793.0
+            ],
+            [
+              165.0,
+              822.0
+            ],
+            [
+              39.0,
+              824.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b13",
+          "type": "text",
+          "text": "N° facture : 25-005831",
+          "bbox": [
+            42.0,
+            830.0,
+            332.0,
+            857.0
+          ],
+          "ocr_confidence": 0.9972095489501953,
+          "reading_order": 13,
+          "polygon": [
+            [
+              42.0,
+              830.0
+            ],
+            [
+              332.0,
+              830.0
+            ],
+            [
+              332.0,
+              857.0
+            ],
+            [
+              42.0,
+              857.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b14",
+          "type": "text",
+          "text": "Date facture : 03 sep. 2025",
+          "bbox": [
+            41.0,
+            865.0,
+            396.0,
+            895.0
+          ],
+          "ocr_confidence": 0.998477578163147,
+          "reading_order": 14,
+          "polygon": [
+            [
+              41.0,
+              865.0
+            ],
+            [
+              396.0,
+              865.0
+            ],
+            [
+              396.0,
+              895.0
+            ],
+            [
+              41.0,
+              895.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b15",
+          "type": "table",
+          "text": "Qté",
+          "bbox": [
+            48.0,
+            905.0,
+            98.0,
+            937.0
+          ],
+          "ocr_confidence": 0.9997377991676331,
+          "reading_order": 15,
+          "polygon": [
+            [
+              48.0,
+              905.0
+            ],
+            [
+              98.0,
+              905.0
+            ],
+            [
+              98.0,
+              937.0
+            ],
+            [
+              48.0,
+              937.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b16",
+          "type": "table",
+          "text": "Code",
+          "bbox": [
+            177.0,
+            906.0,
+            246.0,
+            936.0
+          ],
+          "ocr_confidence": 0.9999674558639526,
+          "reading_order": 16,
+          "polygon": [
+            [
+              177.0,
+              906.0
+            ],
+            [
+              246.0,
+              906.0
+            ],
+            [
+              246.0,
+              936.0
+            ],
+            [
+              177.0,
+              936.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b17",
+          "type": "table",
+          "text": "Libellé",
+          "bbox": [
+            771.0,
+            907.0,
+            852.0,
+            935.0
+          ],
+          "ocr_confidence": 0.9997984170913696,
+          "reading_order": 17,
+          "polygon": [
+            [
+              771.0,
+              907.0
+            ],
+            [
+              852.0,
+              907.0
+            ],
+            [
+              852.0,
+              935.0
+            ],
+            [
+              771.0,
+              935.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b18",
+          "type": "table",
+          "text": "PU HT €",
+          "bbox": [
+            1336.0,
+            905.0,
+            1442.0,
+            936.0
+          ],
+          "ocr_confidence": 0.9935583472251892,
+          "reading_order": 18,
+          "polygon": [
+            [
+              1336.0,
+              905.0
+            ],
+            [
+              1442.0,
+              905.0
+            ],
+            [
+              1442.0,
+              936.0
+            ],
+            [
+              1336.0,
+              936.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b19",
+          "type": "table",
+          "text": "Mnt HT €",
+          "bbox": [
+            1482.0,
+            905.0,
+            1594.0,
+            936.0
+          ],
+          "ocr_confidence": 0.9867588877677917,
+          "reading_order": 19,
+          "polygon": [
+            [
+              1482.0,
+              905.0
+            ],
+            [
+              1594.0,
+              905.0
+            ],
+            [
+              1594.0,
+              936.0
+            ],
+            [
+              1482.0,
+              936.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b20",
+          "type": "table",
+          "text": "1",
+          "bbox": [
+            89.0,
+            942.0,
+            106.0,
+            964.0
+          ],
+          "ocr_confidence": 0.9983291029930115,
+          "reading_order": 20,
+          "polygon": [
+            [
+              89.0,
+              942.0
+            ],
+            [
+              106.0,
+              942.0
+            ],
+            [
+              106.0,
+              964.0
+            ],
+            [
+              89.0,
+              964.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b21",
+          "type": "table",
+          "text": "SAWD-12AS",
+          "bbox": [
+            113.0,
+            940.0,
+            249.0,
+            967.0
+          ],
+          "ocr_confidence": 0.9998381733894348,
+          "reading_order": 21,
+          "polygon": [
+            [
+              113.0,
+              940.0
+            ],
+            [
+              249.0,
+              940.0
+            ],
+            [
+              249.0,
+              967.0
+            ],
+            [
+              113.0,
+              967.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b22",
+          "type": "table",
+          "text": "Abonnement annuel logiciel WINDEV",
+          "bbox": [
+            323.0,
+            943.0,
+            695.0,
+            967.0
+          ],
+          "ocr_confidence": 0.9859997034072876,
+          "reading_order": 22,
+          "polygon": [
+            [
+              323.0,
+              943.0
+            ],
+            [
+              695.0,
+              943.0
+            ],
+            [
+              695.0,
+              967.0
+            ],
+            [
+              323.0,
+              967.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b23",
+          "type": "table",
+          "text": "540,00",
+          "bbox": [
+            1384.0,
+            951.0,
+            1462.0,
+            984.0
+          ],
+          "ocr_confidence": 0.9998604655265808,
+          "reading_order": 23,
+          "polygon": [
+            [
+              1384.0,
+              951.0
+            ],
+            [
+              1462.0,
+              951.0
+            ],
+            [
+              1462.0,
+              984.0
+            ],
+            [
+              1384.0,
+              984.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b24",
+          "type": "table",
+          "text": "540,00",
+          "bbox": [
+            1536.0,
+            951.0,
+            1614.0,
+            983.0
+          ],
+          "ocr_confidence": 0.9998297691345215,
+          "reading_order": 24,
+          "polygon": [
+            [
+              1536.0,
+              951.0
+            ],
+            [
+              1614.0,
+              951.0
+            ],
+            [
+              1614.0,
+              983.0
+            ],
+            [
+              1536.0,
+              983.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b25",
+          "type": "table",
+          "text": "(Offre promotionnelle)",
+          "bbox": [
+            323.0,
+            966.0,
+            545.0,
+            993.0
+          ],
+          "ocr_confidence": 0.99898362159729,
+          "reading_order": 25,
+          "polygon": [
+            [
+              323.0,
+              966.0
+            ],
+            [
+              545.0,
+              966.0
+            ],
+            [
+              545.0,
+              993.0
+            ],
+            [
+              323.0,
+              993.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b26",
+          "type": "table",
+          "text": "1",
+          "bbox": [
+            89.0,
+            998.0,
+            106.0,
+            1021.0
+          ],
+          "ocr_confidence": 0.9990983009338379,
+          "reading_order": 26,
+          "polygon": [
+            [
+              89.0,
+              998.0
+            ],
+            [
+              106.0,
+              998.0
+            ],
+            [
+              106.0,
+              1021.0
+            ],
+            [
+              89.0,
+              1021.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b27",
+          "type": "table",
+          "text": "SNWD-12AS",
+          "bbox": [
+            114.0,
+            997.0,
+            248.0,
+            1021.0
+          ],
+          "ocr_confidence": 0.9997134804725647,
+          "reading_order": 27,
+          "polygon": [
+            [
+              114.0,
+              997.0
+            ],
+            [
+              248.0,
+              997.0
+            ],
+            [
+              248.0,
+              1021.0
+            ],
+            [
+              114.0,
+              1021.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b28",
+          "type": "table",
+          "text": "Frais de souscription logiciel WINDEV",
+          "bbox": [
+            324.0,
+            999.0,
+            701.0,
+            1023.0
+          ],
+          "ocr_confidence": 0.9991434216499329,
+          "reading_order": 28,
+          "polygon": [
+            [
+              324.0,
+              999.0
+            ],
+            [
+              701.0,
+              999.0
+            ],
+            [
+              701.0,
+              1023.0
+            ],
+            [
+              324.0,
+              1023.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b29",
+          "type": "table",
+          "text": "499,00",
+          "bbox": [
+            1383.0,
+            995.0,
+            1462.0,
+            1027.0
+          ],
+          "ocr_confidence": 0.9998178482055664,
+          "reading_order": 29,
+          "polygon": [
+            [
+              1383.0,
+              995.0
+            ],
+            [
+              1462.0,
+              995.0
+            ],
+            [
+              1462.0,
+              1027.0
+            ],
+            [
+              1383.0,
+              1027.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b30",
+          "type": "table",
+          "text": "499,00",
+          "bbox": [
+            1533.0,
+            993.0,
+            1615.0,
+            1029.0
+          ],
+          "ocr_confidence": 0.9983925819396973,
+          "reading_order": 30,
+          "polygon": [
+            [
+              1534.0,
+              993.0
+            ],
+            [
+              1615.0,
+              996.0
+            ],
+            [
+              1613.0,
+              1029.0
+            ],
+            [
+              1533.0,
+              1026.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b31",
+          "type": "table",
+          "text": "1",
+          "bbox": [
+            89.0,
+            1029.0,
+            106.0,
+            1049.0
+          ],
+          "ocr_confidence": 0.9983818531036377,
+          "reading_order": 31,
+          "polygon": [
+            [
+              89.0,
+              1029.0
+            ],
+            [
+              106.0,
+              1029.0
+            ],
+            [
+              106.0,
+              1049.0
+            ],
+            [
+              89.0,
+              1049.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b32",
+          "type": "table",
+          "text": "DISCOUNT OF300",
+          "bbox": [
+            112.0,
+            1025.0,
+            315.0,
+            1052.0
+          ],
+          "ocr_confidence": 0.9951648116111755,
+          "reading_order": 32,
+          "polygon": [
+            [
+              113.0,
+              1025.0
+            ],
+            [
+              315.0,
+              1027.0
+            ],
+            [
+              315.0,
+              1052.0
+            ],
+            [
+              112.0,
+              1050.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b33",
+          "type": "table",
+          "text": "Offre spéciale conversion version 2025, Date limite 30/09/2025",
+          "bbox": [
+            321.0,
+            1028.0,
+            945.0,
+            1056.0
+          ],
+          "ocr_confidence": 0.9963681101799011,
+          "reading_order": 33,
+          "polygon": [
+            [
+              321.0,
+              1028.0
+            ],
+            [
+              945.0,
+              1029.0
+            ],
+            [
+              945.0,
+              1056.0
+            ],
+            [
+              321.0,
+              1055.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b34",
+          "type": "table",
+          "text": "-150,00",
+          "bbox": [
+            1528.0,
+            1027.0,
+            1614.0,
+            1060.0
+          ],
+          "ocr_confidence": 0.9984742403030396,
+          "reading_order": 34,
+          "polygon": [
+            [
+              1528.0,
+              1027.0
+            ],
+            [
+              1614.0,
+              1027.0
+            ],
+            [
+              1614.0,
+              1060.0
+            ],
+            [
+              1528.0,
+              1060.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b35",
+          "type": "table",
+          "text": "N° série",
+          "bbox": [
+            113.0,
+            1059.0,
+            200.0,
+            1084.0
+          ],
+          "ocr_confidence": 0.9490052461624146,
+          "reading_order": 35,
+          "polygon": [
+            [
+              113.0,
+              1059.0
+            ],
+            [
+              200.0,
+              1059.0
+            ],
+            [
+              200.0,
+              1084.0
+            ],
+            [
+              113.0,
+              1084.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b36",
+          "type": "table",
+          "text": "W24F183264",
+          "bbox": [
+            321.0,
+            1060.0,
+            459.0,
+            1084.0
+          ],
+          "ocr_confidence": 0.9997374415397644,
+          "reading_order": 36,
+          "polygon": [
+            [
+              321.0,
+              1060.0
+            ],
+            [
+              459.0,
+              1060.0
+            ],
+            [
+              459.0,
+              1084.0
+            ],
+            [
+              321.0,
+              1084.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b37",
+          "type": "table",
+          "text": "Montant total Hors Taxes",
+          "bbox": [
+            955.0,
+            1707.0,
+            1207.0,
+            1730.0
+          ],
+          "ocr_confidence": 0.9912444949150085,
+          "reading_order": 37,
+          "polygon": [
+            [
+              955.0,
+              1707.0
+            ],
+            [
+              1207.0,
+              1707.0
+            ],
+            [
+              1207.0,
+              1730.0
+            ],
+            [
+              955.0,
+              1730.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b38",
+          "type": "table",
+          "text": "€",
+          "bbox": [
+            1429.0,
+            1706.0,
+            1456.0,
+            1735.0
+          ],
+          "ocr_confidence": 0.9999270439147949,
+          "reading_order": 38,
+          "polygon": [
+            [
+              1429.0,
+              1706.0
+            ],
+            [
+              1456.0,
+              1706.0
+            ],
+            [
+              1456.0,
+              1735.0
+            ],
+            [
+              1429.0,
+              1735.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b39",
+          "type": "table",
+          "text": "889,00",
+          "bbox": [
+            1536.0,
+            1703.0,
+            1614.0,
+            1735.0
+          ],
+          "ocr_confidence": 0.9997737407684326,
+          "reading_order": 39,
+          "polygon": [
+            [
+              1536.0,
+              1703.0
+            ],
+            [
+              1614.0,
+              1703.0
+            ],
+            [
+              1614.0,
+              1735.0
+            ],
+            [
+              1536.0,
+              1735.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b40",
+          "type": "table",
+          "text": "TVA 20 %",
+          "bbox": [
+            953.0,
+            1734.0,
+            1061.0,
+            1764.0
+          ],
+          "ocr_confidence": 0.987866997718811,
+          "reading_order": 40,
+          "polygon": [
+            [
+              954.0,
+              1734.0
+            ],
+            [
+              1061.0,
+              1736.0
+            ],
+            [
+              1060.0,
+              1764.0
+            ],
+            [
+              953.0,
+              1762.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b41",
+          "type": "table",
+          "text": "€",
+          "bbox": [
+            1430.0,
+            1736.0,
+            1457.0,
+            1766.0
+          ],
+          "ocr_confidence": 0.9999423027038574,
+          "reading_order": 41,
+          "polygon": [
+            [
+              1430.0,
+              1736.0
+            ],
+            [
+              1457.0,
+              1736.0
+            ],
+            [
+              1457.0,
+              1766.0
+            ],
+            [
+              1430.0,
+              1766.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b42",
+          "type": "table",
+          "text": "177,80",
+          "bbox": [
+            1536.0,
+            1735.0,
+            1614.0,
+            1767.0
+          ],
+          "ocr_confidence": 0.9998953938484192,
+          "reading_order": 42,
+          "polygon": [
+            [
+              1536.0,
+              1735.0
+            ],
+            [
+              1614.0,
+              1735.0
+            ],
+            [
+              1614.0,
+              1767.0
+            ],
+            [
+              1536.0,
+              1767.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b43",
+          "type": "table",
+          "text": "Montant Toutes Taxes Comprises",
+          "bbox": [
+            954.0,
+            1770.0,
+            1292.0,
+            1794.0
+          ],
+          "ocr_confidence": 0.9820305705070496,
+          "reading_order": 43,
+          "polygon": [
+            [
+              954.0,
+              1770.0
+            ],
+            [
+              1292.0,
+              1770.0
+            ],
+            [
+              1292.0,
+              1794.0
+            ],
+            [
+              954.0,
+              1794.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b44",
+          "type": "table",
+          "text": "€",
+          "bbox": [
+            1428.0,
+            1767.0,
+            1455.0,
+            1796.0
+          ],
+          "ocr_confidence": 0.9999701976776123,
+          "reading_order": 44,
+          "polygon": [
+            [
+              1428.0,
+              1767.0
+            ],
+            [
+              1455.0,
+              1767.0
+            ],
+            [
+              1455.0,
+              1796.0
+            ],
+            [
+              1428.0,
+              1796.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b45",
+          "type": "table",
+          "text": "1 066,80",
+          "bbox": [
+            1519.0,
+            1768.0,
+            1613.0,
+            1796.0
+          ],
+          "ocr_confidence": 0.9994856715202332,
+          "reading_order": 45,
+          "polygon": [
+            [
+              1519.0,
+              1768.0
+            ],
+            [
+              1613.0,
+              1768.0
+            ],
+            [
+              1613.0,
+              1796.0
+            ],
+            [
+              1519.0,
+              1796.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b46",
+          "type": "table",
+          "text": "TVA acquittée sur les débits",
+          "bbox": [
+            957.0,
+            1810.0,
+            1199.0,
+            1831.0
+          ],
+          "ocr_confidence": 0.9993594884872437,
+          "reading_order": 46,
+          "polygon": [
+            [
+              957.0,
+              1810.0
+            ],
+            [
+              1199.0,
+              1810.0
+            ],
+            [
+              1199.0,
+              1831.0
+            ],
+            [
+              957.0,
+              1831.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b47",
+          "type": "table",
+          "text": "Cette facture est acquittée sous réserve d'encaissement.",
+          "bbox": [
+            43.0,
+            1855.0,
+            793.0,
+            1882.0
+          ],
+          "ocr_confidence": 0.9996662139892578,
+          "reading_order": 47,
+          "polygon": [
+            [
+              43.0,
+              1855.0
+            ],
+            [
+              793.0,
+              1855.0
+            ],
+            [
+              793.0,
+              1882.0
+            ],
+            [
+              43.0,
+              1882.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b48",
+          "type": "table",
+          "text": "En cas de retard de paiement, seront exigibles, conformément à l’article L 441-6 du code de commerce, une indemnité calculée sur la base de trois fois le taux de l’intérêt légal en",
+          "bbox": [
+            45.0,
+            1897.0,
+            1580.0,
+            1917.0
+          ],
+          "ocr_confidence": 0.9954466819763184,
+          "reading_order": 48,
+          "polygon": [
+            [
+              45.0,
+              1897.0
+            ],
+            [
+              1580.0,
+              1897.0
+            ],
+            [
+              1580.0,
+              1917.0
+            ],
+            [
+              45.0,
+              1917.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b49",
+          "type": "table",
+          "text": "vigueur ainsi qu'une indemnité forfaitaire pour frais de recouvrement de 40 euros.",
+          "bbox": [
+            44.0,
+            1917.0,
+            748.0,
+            1940.0
+          ],
+          "ocr_confidence": 0.9946191310882568,
+          "reading_order": 49,
+          "polygon": [
+            [
+              44.0,
+              1917.0
+            ],
+            [
+              748.0,
+              1917.0
+            ],
+            [
+              748.0,
+              1940.0
+            ],
+            [
+              44.0,
+              1940.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b50",
+          "type": "table",
+          "text": "Veuillez adresser votre correspondance administrative à l'adresse suivante :",
+          "bbox": [
+            42.0,
+            1959.0,
+            710.0,
+            1979.0
+          ],
+          "ocr_confidence": 0.9881790280342102,
+          "reading_order": 50,
+          "polygon": [
+            [
+              42.0,
+              1959.0
+            ],
+            [
+              710.0,
+              1959.0
+            ],
+            [
+              710.0,
+              1979.0
+            ],
+            [
+              42.0,
+              1979.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b51",
+          "type": "table",
+          "text": "PC SOFT BP 444 08 34197 MONTPELLIER CEDEX 05",
+          "bbox": [
+            721.0,
+            1956.0,
+            1277.0,
+            1979.0
+          ],
+          "ocr_confidence": 0.9991697072982788,
+          "reading_order": 51,
+          "polygon": [
+            [
+              721.0,
+              1956.0
+            ],
+            [
+              1277.0,
+              1956.0
+            ],
+            [
+              1277.0,
+              1979.0
+            ],
+            [
+              721.0,
+              1979.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b52",
+          "type": "table",
+          "text": "Relevé d'identité bancaire : Code Banque : 40978 - Code Guichet : 00046 - N° du compte : 02927085001 Clé RIB : 41 - Domiciliation : PALATINE MONTPELLIER",
+          "bbox": [
+            41.0,
+            1983.0,
+            1440.0,
+            2007.0
+          ],
+          "ocr_confidence": 0.9912341237068176,
+          "reading_order": 52,
+          "polygon": [
+            [
+              41.0,
+              1984.0
+            ],
+            [
+              1440.0,
+              1983.0
+            ],
+            [
+              1440.0,
+              2006.0
+            ],
+            [
+              41.0,
+              2007.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b53",
+          "type": "table",
+          "text": "Code BIC/SWIFT : BSPFFRPPXXX - N° IBAN : FR76 4097 8000 4602 9270 8500 141",
+          "bbox": [
+            42.0,
+            2009.0,
+            788.0,
+            2032.0
+          ],
+          "ocr_confidence": 0.992451012134552,
+          "reading_order": 53,
+          "polygon": [
+            [
+              42.0,
+              2009.0
+            ],
+            [
+              788.0,
+              2009.0
+            ],
+            [
+              788.0,
+              2032.0
+            ],
+            [
+              42.0,
+              2032.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b54",
+          "type": "table",
+          "text": "CLAUSE DE RESERVE DE PROPRIETE",
+          "bbox": [
+            43.0,
+            2045.0,
+            402.0,
+            2065.0
+          ],
+          "ocr_confidence": 0.9998561143875122,
+          "reading_order": 54,
+          "polygon": [
+            [
+              43.0,
+              2045.0
+            ],
+            [
+              402.0,
+              2045.0
+            ],
+            [
+              402.0,
+              2065.0
+            ],
+            [
+              43.0,
+              2065.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b55",
+          "type": "table",
+          "text": "Le transfert de propriété des marchandises livrées (logiciel, manuels, dvd,...) s'effectuera au jour du paiement intégral du prix.",
+          "bbox": [
+            41.0,
+            2066.0,
+            1122.0,
+            2089.0
+          ],
+          "ocr_confidence": 0.9795882105827332,
+          "reading_order": 55,
+          "polygon": [
+            [
+              41.0,
+              2066.0
+            ],
+            [
+              1122.0,
+              2066.0
+            ],
+            [
+              1122.0,
+              2089.0
+            ],
+            [
+              41.0,
+              2089.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b56",
+          "type": "text",
+          "text": "En cas de litige, seuls les tribunaux du siège social de PC SOFT sont compétents.",
+          "bbox": [
+            43.0,
+            2106.0,
+            751.0,
+            2126.0
+          ],
+          "ocr_confidence": 0.9924560189247131,
+          "reading_order": 56,
+          "polygon": [
+            [
+              43.0,
+              2106.0
+            ],
+            [
+              751.0,
+              2106.0
+            ],
+            [
+              751.0,
+              2126.0
+            ],
+            [
+              43.0,
+              2126.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b57",
+          "type": "table",
+          "text": "L'utilisation d'un logiciel PC sOFT n'est permise qu'après acceptation des termes de la licence qui accompagne le logiciel.",
+          "bbox": [
+            42.0,
+            2127.0,
+            1093.0,
+            2147.0
+          ],
+          "ocr_confidence": 0.9857165217399597,
+          "reading_order": 57,
+          "polygon": [
+            [
+              42.0,
+              2127.0
+            ],
+            [
+              1093.0,
+              2127.0
+            ],
+            [
+              1093.0,
+              2147.0
+            ],
+            [
+              42.0,
+              2147.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b58",
+          "type": "text",
+          "text": "Facture conforme à nos Conditions Générales de Vente et aux dispositions de l'Ordonnance du 10 février 2016.",
+          "bbox": [
+            42.0,
+            2147.0,
+            1005.0,
+            2167.0
+          ],
+          "ocr_confidence": 0.9970383048057556,
+          "reading_order": 58,
+          "polygon": [
+            [
+              42.0,
+              2147.0
+            ],
+            [
+              1005.0,
+              2147.0
+            ],
+            [
+              1005.0,
+              2167.0
+            ],
+            [
+              42.0,
+              2167.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b59",
+          "type": "table",
+          "text": "1/ 1",
+          "bbox": [
+            1557.0,
+            2158.0,
+            1613.0,
+            2191.0
+          ],
+          "ocr_confidence": 0.8388274908065796,
+          "reading_order": 59,
+          "polygon": [
+            [
+              1559.0,
+              2158.0
+            ],
+            [
+              1613.0,
+              2161.0
+            ],
+            [
+              1611.0,
+              2191.0
+            ],
+            [
+              1557.0,
+              2188.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b60",
+          "type": "text",
+          "text": "Concernant le montant facturé pour les logiciels, il est rappelé qu'il s'agit d'une concession de licence et non d'une vente.",
+          "bbox": [
+            43.0,
+            2170.0,
+            1083.0,
+            2190.0
+          ],
+          "ocr_confidence": 0.9995828866958618,
+          "reading_order": 60,
+          "polygon": [
+            [
+              43.0,
+              2170.0
+            ],
+            [
+              1083.0,
+              2170.0
+            ],
+            [
+              1083.0,
+              2190.0
+            ],
+            [
+              43.0,
+              2190.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b61",
+          "type": "text",
+          "text": "Siège: 3 rue de Puech Villa BP 444 08 34197 MONTPELLIER Cedex 05 France Tél. 04 67 032 032 Fax 04 67 03 07 87",
+          "bbox": [
+            304.0,
+            2213.0,
+            1355.0,
+            2235.0
+          ],
+          "ocr_confidence": 0.9913529753684998,
+          "reading_order": 61,
+          "polygon": [
+            [
+              304.0,
+              2215.0
+            ],
+            [
+              1355.0,
+              2213.0
+            ],
+            [
+              1355.0,
+              2233.0
+            ],
+            [
+              304.0,
+              2235.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b62",
+          "type": "text",
+          "text": "Agence: 142 avenue des Champs Elysées 75008 PARIS Tél. 01 48 01 48 88 Internet: www.pcsoft.fr",
+          "bbox": [
+            392.0,
+            2236.0,
+            1265.0,
+            2256.0
+          ],
+          "ocr_confidence": 0.9889763593673706,
+          "reading_order": 62,
+          "polygon": [
+            [
+              392.0,
+              2236.0
+            ],
+            [
+              1265.0,
+              2236.0
+            ],
+            [
+              1265.0,
+              2256.0
+            ],
+            [
+              392.0,
+              2256.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b63",
+          "type": "text",
+          "text": "PC SOFT Informatique - SAS au capital de 2 297 548 Euros - RCS 330 318 270 - SIRET 330 318 270 00064 - Code APE 5829B - Numéro de TVA Européen: FR09 330 318 270",
+          "bbox": [
+            58.0,
+            2257.0,
+            1604.0,
+            2277.0
+          ],
+          "ocr_confidence": 0.9830570220947266,
+          "reading_order": 63,
+          "polygon": [
+            [
+              58.0,
+              2257.0
+            ],
+            [
+              1604.0,
+              2257.0
+            ],
+            [
+              1604.0,
+              2277.0
+            ],
+            [
+              58.0,
+              2277.0
+            ]
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "table_id": "p1_t0",
+          "bbox": [
+            34.82659912109375,
+            897.3131713867188,
+            1615.364013671875,
+            2196.290283203125
+          ],
+          "structure_confidence": 0.770561695098877,
+          "cells": [
+            {
+              "row": 0,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Qté",
+              "bbox": [
+                39.41414737701416,
+                900.8821151256561,
+                111.3685073852539,
+                938.9318084716797
+              ],
+              "ocr_confidence": 0.9997377991676331,
+              "source_block_ids": [
+                "p1_b15"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Code",
+              "bbox": [
+                111.73049926757812,
+                900.6168339252472,
+                313.7698669433594,
+                938.7868041992188
+              ],
+              "ocr_confidence": 0.9999674558639526,
+              "source_block_ids": [
+                "p1_b16"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Libellé",
+              "bbox": [
+                313.6656188964844,
+                900.2599742412567,
+                1314.1842651367188,
+                939.0922660827637
+              ],
+              "ocr_confidence": 0.9997984170913696,
+              "source_block_ids": [
+                "p1_b17"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 3,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "PU HT €",
+              "bbox": [
+                1314.3145141601562,
+                900.651312828064,
+                1462.7985229492188,
+                938.8034706115723
+              ],
+              "ocr_confidence": 0.9935583472251892,
+              "source_block_ids": [
+                "p1_b18"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 4,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Mnt HT €",
+              "bbox": [
+                1462.6543579101562,
+                900.5402083396912,
+                1608.7789916992188,
+                938.7537002563477
+              ],
+              "ocr_confidence": 0.9867588877677917,
+              "source_block_ids": [
+                "p1_b19"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 5,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "",
+              "bbox": [
+                39.186034202575684,
+                937.4697341918945,
+                111.69324493408203,
+                1701.6016235351562
+              ],
+              "ocr_confidence": 0.998603085676829,
+              "source_block_ids": [
+                "p1_b20",
+                "p1_b26",
+                "p1_b31"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 4,
+              "text": "",
+              "bbox": [
+                111.89215087890625,
+                938.8164901733398,
+                313.91766357421875,
+                1700.648193359375
+              ],
+              "ocr_confidence": 0.9859304279088974,
+              "source_block_ids": [
+                "p1_b21",
+                "p1_b27",
+                "p1_b32",
+                "p1_b35"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 4,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "",
+              "bbox": [
+                313.049560546875,
+                938.0509719848633,
+                1315.0867309570312,
+                1702.4203491210938
+              ],
+              "ocr_confidence": 0.9960464596748352,
+              "source_block_ids": [
+                "p1_b22",
+                "p1_b25",
+                "p1_b28",
+                "p1_b33",
+                "p1_b36"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 5,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "",
+              "bbox": [
+                1314.1978149414062,
+                938.0916976928711,
+                1462.3085327148438,
+                1702.6077270507812
+              ],
+              "ocr_confidence": 0.9998391568660736,
+              "source_block_ids": [
+                "p1_b23",
+                "p1_b29"
+              ]
+            },
+            {
+              "row": 2,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 4,
+              "text": "1 1 1",
+              "bbox": [
+                1462.4679565429688,
+                938.5505294799805,
+                1610.9290161132812,
+                1703.0507202148438
+              ],
+              "ocr_confidence": 0.9988988637924194,
+              "source_block_ids": [
+                "p1_b24",
+                "p1_b30",
+                "p1_b34"
+              ]
+            },
+            {
+              "row": 2,
+              "column": 4,
+              "row_span": 1,
+              "column_span": 2,
+              "text": "SAWD-12AS SNWD-12AS DISCOUNT OF300 N° série",
+              "bbox": [
+                951.2572631835938,
+                1702.22802734375,
+                1462.2393188476562,
+                1831.0
+              ],
+              "ocr_confidence": 0.9943344422749111,
+              "source_block_ids": [
+                "p1_b37",
+                "p1_b38",
+                "p1_b40",
+                "p1_b41",
+                "p1_b43",
+                "p1_b44",
+                "p1_b46"
+              ]
+            },
+            {
+              "row": 3,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 4,
+              "text": "Montant total Hors Taxes € TVA 20 % € Montant Toutes Taxes Comprises € TVA acquittée sur les débits",
+              "bbox": [
+                1461.0925903320312,
+                1702.1837158203125,
+                1611.2240600585938,
+                1795.5510864257812
+              ],
+              "ocr_confidence": 0.9997182687123617,
+              "source_block_ids": [
+                "p1_b39",
+                "p1_b42",
+                "p1_b45"
+              ]
+            },
+            {
+              "row": 3,
+              "column": 4,
+              "row_span": 1,
+              "column_span": 2,
+              "text": "889,00 177,80 1 066,80",
+              "bbox": [
+                1427.9999389648438,
+                1736.0,
+                1456.9999389648438,
+                1796.0
+              ],
+              "ocr_confidence": 0.9999562501907349,
+              "source_block_ids": [
+                "p1_b41",
+                "p1_b44"
+              ]
+            },
+            {
+              "row": 4,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 4,
+              "text": "Cette facture est acquittée sous réserve d'encaissement. En cas de retard de paiement, seront exigibles, conformément à l’article L 441-6 du code de commerce, une indemnité calculée sur la base de trois fois le taux de l’intérêt légal en vigueur ainsi qu'une indemnité forfaitaire pour frais de recouvrement de 40 euros.",
+              "bbox": [
+                35.36958086490631,
+                1845.1342163085938,
+                1615.1381225585938,
+                1948.3276977539062
+              ],
+              "ocr_confidence": 0.9965773423512777,
+              "source_block_ids": [
+                "p1_b47",
+                "p1_b48",
+                "p1_b49"
+              ]
+            },
+            {
+              "row": 4,
+              "column": 4,
+              "row_span": 1,
+              "column_span": 2,
+              "text": "Veuillez adresser votre correspondance administrative à l'adresse suivante : PC SOFT BP 444 08 34197 MONTPELLIER CEDEX 05 Relevé d'identité bancaire : Code Banque : 40978 - Code Guichet : 00046 - N° du compte : 02927085001 Clé RIB : 41 - Domiciliation : PALATINE MONTPELLIER Code BIC/SWIFT : BSPFFRPPXXX - N° IBAN : FR76 4097 8000 4602 9270 8500 141 CLAUSE DE RESERVE DE PROPRIETE Le transfert de propriété des marchandises livrées (logiciel, manuels, dvd,...) s'effectuera au jour du paiement intégral du prix.",
+              "bbox": [
+                34.82659912109375,
+                1947.3594360351562,
+                1614.6406860351562,
+                2092.1118774414062
+              ],
+              "ocr_confidence": 0.9917463660240173,
+              "source_block_ids": [
+                "p1_b50",
+                "p1_b51",
+                "p1_b52",
+                "p1_b53",
+                "p1_b54",
+                "p1_b55"
+              ]
+            },
+            {
+              "row": 5,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 4,
+              "text": "En cas de litige, seuls les tribunaux du siège social de PC SOFT sont compétents. L'utilisation d'un logiciel PC sOFT n'est permise qu'après acceptation des termes de la licence qui accompagne le logiciel. Facture conforme à nos Conditions Générales de Vente et aux dispositions de l'Ordonnance du 10 février 2016. Concernant le montant facturé pour les logiciels, il est rappelé qu'il s'agit d'une concession de licence et non d'une vente.",
+              "bbox": [
+                42.0,
+                2105.9999389648438,
+                1092.9999389648438,
+                2189.9999389648438
+              ],
+              "ocr_confidence": 0.9936984330415726,
+              "source_block_ids": [
+                "p1_b56",
+                "p1_b57",
+                "p1_b58",
+                "p1_b60"
+              ]
+            },
+            {
+              "row": 5,
+              "column": 4,
+              "row_span": 1,
+              "column_span": 2,
+              "text": "1/ 1",
+              "bbox": [
+                1556.9999389648438,
+                2157.9999389648438,
+                1612.9999389648438,
+                2190.9999389648438
+              ],
+              "ocr_confidence": 0.8388274908065796,
+              "source_block_ids": [
+                "p1_b59"
+              ]
+            }
+          ],
+          "html": "<html><body><table><tbody><tr><td>Qté</td><td>Code</td><td>Libellé</td><td>PU HT €</td><td>Mnt HT €</td><td></td></tr><tr><td colspan=\"4\"></td><td></td><td></td></tr><tr><td colspan=\"4\">1 1 1</td><td colspan=\"2\">SAWD-12AS SNWD-12AS DISCOUNT OF300 N° série</td></tr><tr><td colspan=\"4\">Montant total Hors Taxes € TVA 20 % € Montant Toutes Taxes Comprises € TVA acquittée sur les débits</td><td colspan=\"2\">889,00 177,80 1 066,80</td></tr><tr><td colspan=\"4\">Cette facture est acquittée sous réserve d'encaissement. En cas de retard de paiement, seront exigibles, conformément à l’article L 441-6 du code de commerce, une indemnité calculée sur la base de trois fois le taux de l’intérêt légal en vigueur ainsi qu'une indemnité forfaitaire pour frais de recouvrement de 40 euros.</td><td colspan=\"2\">Veuillez adresser votre correspondance administrative à l'adresse suivante : PC SOFT BP 444 08 34197 MONTPELLIER CEDEX 05 Relevé d'identité bancaire : Code Banque : 40978 - Code Guichet : 00046 - N° du compte : 02927085001 Clé RIB : 41 - Domiciliation : PALATINE MONTPELLIER Code BIC/SWIFT : BSPFFRPPXXX - N° IBAN : FR76 4097 8000 4602 9270 8500 141 CLAUSE DE RESERVE DE PROPRIETE Le transfert de propriété des marchandises livrées (logiciel, manuels, dvd,...) s'effectuera au jour du paiement intégral du prix.</td></tr><tr><td colspan=\"4\">En cas de litige, seuls les tribunaux du siège social de PC SOFT sont compétents. L'utilisation d'un logiciel PC sOFT n'est permise qu'après acceptation des termes de la licence qui accompagne le logiciel. Facture conforme à nos Conditions Générales de Vente et aux dispositions de l'Ordonnance du 10 février 2016. Concernant le montant facturé pour les logiciels, il est rappelé qu'il s'agit d'une concession de licence et non d'une vente.</td><td colspan=\"2\">1/ 1</td></tr></tbody></table></body></html>"
+        }
+      ]
+    }
+  ],
+  "source_mime_type": "image/png"
+}

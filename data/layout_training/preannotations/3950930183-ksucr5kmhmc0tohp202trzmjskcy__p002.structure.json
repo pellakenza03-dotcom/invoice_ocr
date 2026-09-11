@@ -1,0 +1,931 @@
+{
+    "input_path": "/kaggle/working/invoice_ocr/data/layout_training/images/3950930183-ksucr5kmhmc0tohp202trzmjskcy__p002.png",
+    "page_index": null,
+    "page_count": null,
+    "width": 1653,
+    "height": 2339,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": false,
+        "use_chart_recognition": false,
+        "use_region_detection": false,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "TotalEnergies ",
+            "block_bbox": [
+                748,
+                103,
+                938,
+                240
+            ],
+            "block_id": 0,
+            "block_order": null
+        },
+        {
+            "block_label": "text",
+            "block_content": "TotalEnergies Marketing France S.A.S. au capital de 390 553 839 euros 562 avenue du Parc de l'lle - 92000 NANTERRE SIREN 531 680 445 RCS Nanterre N° DE TVA:FR22531680445",
+            "block_bbox": [
+                73,
+                80,
+                564,
+                201
+            ],
+            "block_id": 1,
+            "block_order": 1
+        },
+        {
+            "block_label": "text",
+            "block_content": "TVA acquittée sur les Débits. Aucun escompte n'est pratiqué pour paiement anticipé.Nous attestons sur l'honneur que le travail est réalisé avec des salariés employés régulièrement au regard des articles L143.3 - L143.5 et L620.3 du Code du Travail.",
+            "block_bbox": [
+                52,
+                550,
+                910,
+                624
+            ],
+            "block_id": 2,
+            "block_order": 2
+        },
+        {
+            "block_label": "text",
+            "block_content": "Votre Facture FRANCE - N° F6223990",
+            "block_bbox": [
+                1210,
+                91,
+                1573,
+                168
+            ],
+            "block_id": 3,
+            "block_order": 3
+        },
+        {
+            "block_label": "text",
+            "block_content": "Feuillet 2 /3Original Le 15/01/2026",
+            "block_bbox": [
+                1303,
+                236,
+                1575,
+                335
+            ],
+            "block_id": 4,
+            "block_order": 4
+        },
+        {
+            "block_label": "number",
+            "block_content": "2/3",
+            "block_bbox": [
+                1497,
+                2253,
+                1532,
+                2274
+            ],
+            "block_id": 5,
+            "block_order": null
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": false
+        },
+        "angle": -1
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.9420195817947388,
+                "coordinate": [
+                    52.6431884765625,
+                    550.6776123046875,
+                    910.1031494140625,
+                    624.895751953125
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.9151774644851685,
+                "coordinate": [
+                    1303.945556640625,
+                    236.93179321289062,
+                    1575.4111328125,
+                    335.6479187011719
+                ]
+            },
+            {
+                "cls_id": 3,
+                "label": "number",
+                "score": 0.8822748064994812,
+                "coordinate": [
+                    1497.8199462890625,
+                    2253.10400390625,
+                    1532.2476806640625,
+                    2274.72216796875
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.8203592896461487,
+                "coordinate": [
+                    1210.375732421875,
+                    91.92322540283203,
+                    1573.454833984375,
+                    168.5850830078125
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.7506627440452576,
+                "coordinate": [
+                    73.71514892578125,
+                    80.41783142089844,
+                    564.4579467773438,
+                    201.6155548095703
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.7265416979789734,
+                "coordinate": [
+                    748.826904296875,
+                    103.54639434814453,
+                    938.25048828125,
+                    240.64068603515625
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": false
+        },
+        "dt_polys": [
+            [
+                [
+                    76,
+                    79
+                ],
+                [
+                    402,
+                    80
+                ],
+                [
+                    402,
+                    104
+                ],
+                [
+                    75,
+                    103
+                ]
+            ],
+            [
+                [
+                    1257,
+                    87
+                ],
+                [
+                    1579,
+                    89
+                ],
+                [
+                    1578,
+                    130
+                ],
+                [
+                    1257,
+                    128
+                ]
+            ],
+            [
+                [
+                    77,
+                    106
+                ],
+                [
+                    476,
+                    106
+                ],
+                [
+                    476,
+                    129
+                ],
+                [
+                    77,
+                    129
+                ]
+            ],
+            [
+                [
+                    77,
+                    129
+                ],
+                [
+                    565,
+                    129
+                ],
+                [
+                    565,
+                    152
+                ],
+                [
+                    77,
+                    152
+                ]
+            ],
+            [
+                [
+                    1213,
+                    140
+                ],
+                [
+                    1576,
+                    140
+                ],
+                [
+                    1576,
+                    171
+                ],
+                [
+                    1213,
+                    171
+                ]
+            ],
+            [
+                [
+                    77,
+                    157
+                ],
+                [
+                    431,
+                    157
+                ],
+                [
+                    431,
+                    180
+                ],
+                [
+                    77,
+                    180
+                ]
+            ],
+            [
+                [
+                    78,
+                    184
+                ],
+                [
+                    367,
+                    184
+                ],
+                [
+                    367,
+                    204
+                ],
+                [
+                    78,
+                    204
+                ]
+            ],
+            [
+                [
+                    747,
+                    210
+                ],
+                [
+                    941,
+                    212
+                ],
+                [
+                    940,
+                    244
+                ],
+                [
+                    747,
+                    242
+                ]
+            ],
+            [
+                [
+                    1303,
+                    235
+                ],
+                [
+                    1410,
+                    235
+                ],
+                [
+                    1410,
+                    270
+                ],
+                [
+                    1303,
+                    270
+                ]
+            ],
+            [
+                [
+                    1506,
+                    234
+                ],
+                [
+                    1579,
+                    234
+                ],
+                [
+                    1579,
+                    271
+                ],
+                [
+                    1506,
+                    271
+                ]
+            ],
+            [
+                [
+                    1467,
+                    272
+                ],
+                [
+                    1579,
+                    272
+                ],
+                [
+                    1579,
+                    308
+                ],
+                [
+                    1467,
+                    308
+                ]
+            ],
+            [
+                [
+                    1373,
+                    308
+                ],
+                [
+                    1577,
+                    308
+                ],
+                [
+                    1577,
+                    339
+                ],
+                [
+                    1373,
+                    339
+                ]
+            ],
+            [
+                [
+                    58,
+                    551
+                ],
+                [
+                    913,
+                    551
+                ],
+                [
+                    913,
+                    574
+                ],
+                [
+                    58,
+                    574
+                ]
+            ],
+            [
+                [
+                    58,
+                    578
+                ],
+                [
+                    880,
+                    578
+                ],
+                [
+                    880,
+                    601
+                ],
+                [
+                    58,
+                    601
+                ]
+            ],
+            [
+                [
+                    57,
+                    603
+                ],
+                [
+                    893,
+                    602
+                ],
+                [
+                    893,
+                    626
+                ],
+                [
+                    57,
+                    627
+                ]
+            ],
+            [
+                [
+                    1494,
+                    2251
+                ],
+                [
+                    1540,
+                    2251
+                ],
+                [
+                    1540,
+                    2284
+                ],
+                [
+                    1494,
+                    2284
+                ]
+            ]
+        ],
+        "text_det_params": {
+            "limit_side_len": 736,
+            "limit_type": "min",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+            "TotalEnergies Marketing France",
+            "Votre Facture",
+            "S.A.S. au capital de 390 553 839 euros",
+            "562 avenue du Parc de l'lle - 92000 NANTERRE",
+            "FRANCE - N° F6223990",
+            "SIREN 531 680 445 RCS Nanterre",
+            "N° DE TVA:FR22531680445",
+            "TotalEnergies",
+            "Feuillet",
+            "2 /3",
+            "Original",
+            "Le 15/01/2026",
+            "TVA acquittée sur les Débits. Aucun escompte n'est pratiqué pour paiement anticipé.",
+            "Nous attestons sur l'honneur que le travail est réalisé avec des salariés employés",
+            "régulièrement au regard des articles L143.3 - L143.5 et L620.3 du Code du Travail.",
+            "2/3"
+        ],
+        "rec_scores": [
+            0.9975717067718506,
+            0.9696865081787109,
+            0.9996646046638489,
+            0.9775325655937195,
+            0.9979518055915833,
+            0.9886944890022278,
+            0.9966310262680054,
+            0.9997192621231079,
+            0.9999256134033203,
+            0.893354058265686,
+            0.9998691082000732,
+            0.9999304413795471,
+            0.9976138472557068,
+            0.9927600622177124,
+            0.9778659343719482,
+            0.9999276995658875
+        ],
+        "rec_polys": [
+            [
+                [
+                    76,
+                    79
+                ],
+                [
+                    402,
+                    80
+                ],
+                [
+                    402,
+                    104
+                ],
+                [
+                    75,
+                    103
+                ]
+            ],
+            [
+                [
+                    1257,
+                    87
+                ],
+                [
+                    1579,
+                    89
+                ],
+                [
+                    1578,
+                    130
+                ],
+                [
+                    1257,
+                    128
+                ]
+            ],
+            [
+                [
+                    77,
+                    106
+                ],
+                [
+                    476,
+                    106
+                ],
+                [
+                    476,
+                    129
+                ],
+                [
+                    77,
+                    129
+                ]
+            ],
+            [
+                [
+                    77,
+                    129
+                ],
+                [
+                    565,
+                    129
+                ],
+                [
+                    565,
+                    152
+                ],
+                [
+                    77,
+                    152
+                ]
+            ],
+            [
+                [
+                    1213,
+                    140
+                ],
+                [
+                    1576,
+                    140
+                ],
+                [
+                    1576,
+                    171
+                ],
+                [
+                    1213,
+                    171
+                ]
+            ],
+            [
+                [
+                    77,
+                    157
+                ],
+                [
+                    431,
+                    157
+                ],
+                [
+                    431,
+                    180
+                ],
+                [
+                    77,
+                    180
+                ]
+            ],
+            [
+                [
+                    78,
+                    184
+                ],
+                [
+                    367,
+                    184
+                ],
+                [
+                    367,
+                    204
+                ],
+                [
+                    78,
+                    204
+                ]
+            ],
+            [
+                [
+                    747,
+                    210
+                ],
+                [
+                    941,
+                    212
+                ],
+                [
+                    940,
+                    244
+                ],
+                [
+                    747,
+                    242
+                ]
+            ],
+            [
+                [
+                    1303,
+                    235
+                ],
+                [
+                    1410,
+                    235
+                ],
+                [
+                    1410,
+                    270
+                ],
+                [
+                    1303,
+                    270
+                ]
+            ],
+            [
+                [
+                    1506,
+                    234
+                ],
+                [
+                    1579,
+                    234
+                ],
+                [
+                    1579,
+                    271
+                ],
+                [
+                    1506,
+                    271
+                ]
+            ],
+            [
+                [
+                    1467,
+                    272
+                ],
+                [
+                    1579,
+                    272
+                ],
+                [
+                    1579,
+                    308
+                ],
+                [
+                    1467,
+                    308
+                ]
+            ],
+            [
+                [
+                    1373,
+                    308
+                ],
+                [
+                    1577,
+                    308
+                ],
+                [
+                    1577,
+                    339
+                ],
+                [
+                    1373,
+                    339
+                ]
+            ],
+            [
+                [
+                    58,
+                    551
+                ],
+                [
+                    913,
+                    551
+                ],
+                [
+                    913,
+                    574
+                ],
+                [
+                    58,
+                    574
+                ]
+            ],
+            [
+                [
+                    58,
+                    578
+                ],
+                [
+                    880,
+                    578
+                ],
+                [
+                    880,
+                    601
+                ],
+                [
+                    58,
+                    601
+                ]
+            ],
+            [
+                [
+                    57,
+                    603
+                ],
+                [
+                    893,
+                    602
+                ],
+                [
+                    893,
+                    626
+                ],
+                [
+                    57,
+                    627
+                ]
+            ],
+            [
+                [
+                    1494,
+                    2251
+                ],
+                [
+                    1540,
+                    2251
+                ],
+                [
+                    1540,
+                    2284
+                ],
+                [
+                    1494,
+                    2284
+                ]
+            ]
+        ],
+        "rec_boxes": [
+            [
+                75,
+                79,
+                402,
+                104
+            ],
+            [
+                1257,
+                87,
+                1579,
+                130
+            ],
+            [
+                77,
+                106,
+                476,
+                129
+            ],
+            [
+                77,
+                129,
+                565,
+                152
+            ],
+            [
+                1213,
+                140,
+                1576,
+                171
+            ],
+            [
+                77,
+                157,
+                431,
+                180
+            ],
+            [
+                78,
+                184,
+                367,
+                204
+            ],
+            [
+                747,
+                210,
+                941,
+                244
+            ],
+            [
+                1303,
+                235,
+                1410,
+                270
+            ],
+            [
+                1506,
+                234,
+                1579,
+                271
+            ],
+            [
+                1467,
+                272,
+                1579,
+                308
+            ],
+            [
+                1373,
+                308,
+                1577,
+                339
+            ],
+            [
+                58,
+                551,
+                913,
+                574
+            ],
+            [
+                58,
+                578,
+                880,
+                601
+            ],
+            [
+                57,
+                602,
+                893,
+                627
+            ],
+            [
+                1494,
+                2251,
+                1540,
+                2284
+            ]
+        ]
+    }
+}

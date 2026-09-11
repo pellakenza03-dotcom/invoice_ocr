@@ -1,0 +1,1335 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "21667376328704-h1zq4kqtf1o37a7aaszgpwa4ax3m",
+  "source_file": "21667376328704-h1zq4kqtf1o37a7aaszgpwa4ax3m__p001.png",
+  "generated_at": "2026-09-11T09:21:55.751888Z",
+  "ocr_engine": {
+    "name": "PP-StructureV3",
+    "version": "3.7.0"
+  },
+  "page_count": 1,
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 1653,
+      "height": 2339,
+      "orientation": 0,
+      "blocks": [
+        {
+          "block_id": "p1_b0",
+          "type": "text",
+          "text": "Distri2B",
+          "bbox": [
+            64.0,
+            45.0,
+            570.0,
+            156.0
+          ],
+          "ocr_confidence": 0.9754418134689331,
+          "reading_order": 0,
+          "polygon": [
+            [
+              64.0,
+              48.0
+            ],
+            [
+              570.0,
+              45.0
+            ],
+            [
+              570.0,
+              153.0
+            ],
+            [
+              65.0,
+              156.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b1",
+          "type": "text",
+          "text": "Facture",
+          "bbox": [
+            1374.0,
+            48.0,
+            1572.0,
+            104.0
+          ],
+          "ocr_confidence": 0.9999586939811707,
+          "reading_order": 1,
+          "polygon": [
+            [
+              1375.0,
+              48.0
+            ],
+            [
+              1572.0,
+              51.0
+            ],
+            [
+              1571.0,
+              104.0
+            ],
+            [
+              1374.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b2",
+          "type": "text",
+          "text": "N° : F-ZR26-0111726",
+          "bbox": [
+            1294.0,
+            105.0,
+            1566.0,
+            135.0
+          ],
+          "ocr_confidence": 0.9802013039588928,
+          "reading_order": 2,
+          "polygon": [
+            [
+              1294.0,
+              105.0
+            ],
+            [
+              1566.0,
+              105.0
+            ],
+            [
+              1566.0,
+              135.0
+            ],
+            [
+              1294.0,
+              135.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b3",
+          "type": "text",
+          "text": "Date : 04/04/2026",
+          "bbox": [
+            1340.0,
+            140.0,
+            1565.0,
+            170.0
+          ],
+          "ocr_confidence": 0.9966347813606262,
+          "reading_order": 3,
+          "polygon": [
+            [
+              1340.0,
+              140.0
+            ],
+            [
+              1565.0,
+              140.0
+            ],
+            [
+              1565.0,
+              170.0
+            ],
+            [
+              1340.0,
+              170.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b4",
+          "type": "text",
+          "text": "DISTRI2B SARL",
+          "bbox": [
+            63.0,
+            219.0,
+            276.0,
+            250.0
+          ],
+          "ocr_confidence": 0.9986933469772339,
+          "reading_order": 4,
+          "polygon": [
+            [
+              63.0,
+              219.0
+            ],
+            [
+              276.0,
+              219.0
+            ],
+            [
+              276.0,
+              250.0
+            ],
+            [
+              63.0,
+              250.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b5",
+          "type": "text",
+          "text": "AOD-AUTO",
+          "bbox": [
+            1416.0,
+            214.0,
+            1572.0,
+            245.0
+          ],
+          "ocr_confidence": 0.9996548891067505,
+          "reading_order": 5,
+          "polygon": [
+            [
+              1416.0,
+              214.0
+            ],
+            [
+              1572.0,
+              214.0
+            ],
+            [
+              1572.0,
+              245.0
+            ],
+            [
+              1416.0,
+              245.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b6",
+          "type": "text",
+          "text": "66 Avenue des Champs-Elysées",
+          "bbox": [
+            61.0,
+            251.0,
+            471.0,
+            288.0
+          ],
+          "ocr_confidence": 0.9959883689880371,
+          "reading_order": 6,
+          "polygon": [
+            [
+              61.0,
+              254.0
+            ],
+            [
+              471.0,
+              251.0
+            ],
+            [
+              471.0,
+              285.0
+            ],
+            [
+              61.0,
+              288.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b7",
+          "type": "text",
+          "text": "ZAC DU TUBOEUF, 490 RUE DU TUBOEUF",
+          "bbox": [
+            1006.0,
+            248.0,
+            1572.0,
+            280.0
+          ],
+          "ocr_confidence": 0.9950488805770874,
+          "reading_order": 7,
+          "polygon": [
+            [
+              1006.0,
+              249.0
+            ],
+            [
+              1572.0,
+              248.0
+            ],
+            [
+              1572.0,
+              279.0
+            ],
+            [
+              1006.0,
+              280.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b8",
+          "type": "text",
+          "text": "75008 Paris France",
+          "bbox": [
+            63.0,
+            289.0,
+            309.0,
+            319.0
+          ],
+          "ocr_confidence": 0.9670223593711853,
+          "reading_order": 8,
+          "polygon": [
+            [
+              63.0,
+              289.0
+            ],
+            [
+              309.0,
+              289.0
+            ],
+            [
+              309.0,
+              319.0
+            ],
+            [
+              63.0,
+              319.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b9",
+          "type": "text",
+          "text": "77170 BRIE-COMTE-ROBERT",
+          "bbox": [
+            1182.0,
+            284.0,
+            1572.0,
+            314.0
+          ],
+          "ocr_confidence": 0.9997217059135437,
+          "reading_order": 9,
+          "polygon": [
+            [
+              1182.0,
+              284.0
+            ],
+            [
+              1572.0,
+              284.0
+            ],
+            [
+              1572.0,
+              314.0
+            ],
+            [
+              1182.0,
+              314.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b10",
+          "type": "text",
+          "text": "RCS: 878143502",
+          "bbox": [
+            61.0,
+            322.0,
+            281.0,
+            356.0
+          ],
+          "ocr_confidence": 0.9954224824905396,
+          "reading_order": 10,
+          "polygon": [
+            [
+              61.0,
+              325.0
+            ],
+            [
+              281.0,
+              322.0
+            ],
+            [
+              281.0,
+              353.0
+            ],
+            [
+              62.0,
+              356.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b11",
+          "type": "text",
+          "text": "France",
+          "bbox": [
+            1477.0,
+            318.0,
+            1574.0,
+            350.0
+          ],
+          "ocr_confidence": 0.9999618530273438,
+          "reading_order": 11,
+          "polygon": [
+            [
+              1477.0,
+              318.0
+            ],
+            [
+              1574.0,
+              318.0
+            ],
+            [
+              1574.0,
+              350.0
+            ],
+            [
+              1477.0,
+              350.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b12",
+          "type": "text",
+          "text": "N° TVA: FR49878143502",
+          "bbox": [
+            62.0,
+            356.0,
+            384.0,
+            390.0
+          ],
+          "ocr_confidence": 0.9660122394561768,
+          "reading_order": 12,
+          "polygon": [
+            [
+              62.0,
+              359.0
+            ],
+            [
+              383.0,
+              356.0
+            ],
+            [
+              384.0,
+              387.0
+            ],
+            [
+              62.0,
+              390.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b13",
+          "type": "text",
+          "text": "N° TVA: FR44889416905",
+          "bbox": [
+            1246.0,
+            353.0,
+            1566.0,
+            384.0
+          ],
+          "ocr_confidence": 0.9866936206817627,
+          "reading_order": 13,
+          "polygon": [
+            [
+              1246.0,
+              353.0
+            ],
+            [
+              1566.0,
+              353.0
+            ],
+            [
+              1566.0,
+              384.0
+            ],
+            [
+              1246.0,
+              384.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b14",
+          "type": "text",
+          "text": "RÉFÉRENCE",
+          "bbox": [
+            421.0,
+            426.0,
+            567.0,
+            457.0
+          ],
+          "ocr_confidence": 0.9993430376052856,
+          "reading_order": 14,
+          "polygon": [
+            [
+              421.0,
+              426.0
+            ],
+            [
+              567.0,
+              426.0
+            ],
+            [
+              567.0,
+              457.0
+            ],
+            [
+              421.0,
+              457.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b15",
+          "type": "text",
+          "text": "QUANTITÉ",
+          "bbox": [
+            975.0,
+            419.0,
+            1102.0,
+            459.0
+          ],
+          "ocr_confidence": 0.9969654083251953,
+          "reading_order": 15,
+          "polygon": [
+            [
+              975.0,
+              423.0
+            ],
+            [
+              1101.0,
+              419.0
+            ],
+            [
+              1102.0,
+              455.0
+            ],
+            [
+              976.0,
+              459.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b16",
+          "type": "text",
+          "text": "PRIX NET HT",
+          "bbox": [
+            1174.0,
+            424.0,
+            1324.0,
+            455.0
+          ],
+          "ocr_confidence": 0.985903799533844,
+          "reading_order": 16,
+          "polygon": [
+            [
+              1174.0,
+              424.0
+            ],
+            [
+              1324.0,
+              424.0
+            ],
+            [
+              1324.0,
+              455.0
+            ],
+            [
+              1174.0,
+              455.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b17",
+          "type": "text",
+          "text": "TOTAL NET HT",
+          "bbox": [
+            1376.0,
+            423.0,
+            1546.0,
+            454.0
+          ],
+          "ocr_confidence": 0.9821563363075256,
+          "reading_order": 17,
+          "polygon": [
+            [
+              1376.0,
+              423.0
+            ],
+            [
+              1546.0,
+              423.0
+            ],
+            [
+              1546.0,
+              454.0
+            ],
+            [
+              1376.0,
+              454.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b18",
+          "type": "text",
+          "text": "Commande ZR61489489 du 03/04/2026",
+          "bbox": [
+            71.0,
+            489.0,
+            485.0,
+            518.0
+          ],
+          "ocr_confidence": 0.9751349687576294,
+          "reading_order": 18,
+          "polygon": [
+            [
+              71.0,
+              491.0
+            ],
+            [
+              485.0,
+              489.0
+            ],
+            [
+              485.0,
+              516.0
+            ],
+            [
+              72.0,
+              518.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b19",
+          "type": "text",
+          "text": "Votre commande N° ŽRN44578615",
+          "bbox": [
+            71.0,
+            518.0,
+            440.0,
+            547.0
+          ],
+          "ocr_confidence": 0.9702144861221313,
+          "reading_order": 19,
+          "polygon": [
+            [
+              71.0,
+              520.0
+            ],
+            [
+              440.0,
+              518.0
+            ],
+            [
+              440.0,
+              545.0
+            ],
+            [
+              72.0,
+              547.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b20",
+          "type": "text",
+          "text": "Bon de livraison : 009$432252 Livraison : ZAC DU TUBOEUF, 490 B RUE DU",
+          "bbox": [
+            61.0,
+            571.0,
+            866.0,
+            602.0
+          ],
+          "ocr_confidence": 0.9871682524681091,
+          "reading_order": 20,
+          "polygon": [
+            [
+              61.0,
+              575.0
+            ],
+            [
+              866.0,
+              571.0
+            ],
+            [
+              866.0,
+              598.0
+            ],
+            [
+              61.0,
+              602.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b21",
+          "type": "text",
+          "text": "TUBOEUF - FranCe - BRIE-COMTE-ROBERT - 77170",
+          "bbox": [
+            63.0,
+            601.0,
+            608.0,
+            628.0
+          ],
+          "ocr_confidence": 0.9828722476959229,
+          "reading_order": 21,
+          "polygon": [
+            [
+              63.0,
+              604.0
+            ],
+            [
+              608.0,
+              601.0
+            ],
+            [
+              608.0,
+              625.0
+            ],
+            [
+              63.0,
+              628.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b22",
+          "type": "text",
+          "text": "MANN Filter, Innenraumluft - CUK27009, MANN FILTER",
+          "bbox": [
+            72.0,
+            634.0,
+            637.0,
+            663.0
+          ],
+          "ocr_confidence": 0.997506320476532,
+          "reading_order": 22,
+          "polygon": [
+            [
+              72.0,
+              636.0
+            ],
+            [
+              637.0,
+              634.0
+            ],
+            [
+              637.0,
+              661.0
+            ],
+            [
+              73.0,
+              663.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b23",
+          "type": "text",
+          "text": "4",
+          "bbox": [
+            1038.0,
+            634.0,
+            1056.0,
+            656.0
+          ],
+          "ocr_confidence": 0.9999887943267822,
+          "reading_order": 23,
+          "polygon": [
+            [
+              1038.0,
+              634.0
+            ],
+            [
+              1056.0,
+              634.0
+            ],
+            [
+              1056.0,
+              656.0
+            ],
+            [
+              1038.0,
+              656.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b24",
+          "type": "text",
+          "text": "13,33 €",
+          "bbox": [
+            1216.0,
+            628.0,
+            1301.0,
+            661.0
+          ],
+          "ocr_confidence": 0.9987733960151672,
+          "reading_order": 24,
+          "polygon": [
+            [
+              1216.0,
+              628.0
+            ],
+            [
+              1301.0,
+              628.0
+            ],
+            [
+              1301.0,
+              661.0
+            ],
+            [
+              1216.0,
+              661.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b25",
+          "type": "text",
+          "text": "53,32 €",
+          "bbox": [
+            1427.0,
+            627.0,
+            1513.0,
+            659.0
+          ],
+          "ocr_confidence": 0.984740138053894,
+          "reading_order": 25,
+          "polygon": [
+            [
+              1427.0,
+              627.0
+            ],
+            [
+              1513.0,
+              627.0
+            ],
+            [
+              1513.0,
+              659.0
+            ],
+            [
+              1427.0,
+              659.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b26",
+          "type": "text",
+          "text": "1",
+          "bbox": [
+            1036.0,
+            666.0,
+            1058.0,
+            690.0
+          ],
+          "ocr_confidence": 0.9998225569725037,
+          "reading_order": 26,
+          "polygon": [
+            [
+              1036.0,
+              666.0
+            ],
+            [
+              1058.0,
+              666.0
+            ],
+            [
+              1058.0,
+              690.0
+            ],
+            [
+              1036.0,
+              690.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b27",
+          "type": "text",
+          "text": "2,00 €",
+          "bbox": [
+            1218.0,
+            660.0,
+            1296.0,
+            695.0
+          ],
+          "ocr_confidence": 0.951303243637085,
+          "reading_order": 27,
+          "polygon": [
+            [
+              1218.0,
+              662.0
+            ],
+            [
+              1295.0,
+              660.0
+            ],
+            [
+              1296.0,
+              693.0
+            ],
+            [
+              1219.0,
+              695.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b28",
+          "type": "text",
+          "text": "2,00 €",
+          "bbox": [
+            1428.0,
+            659.0,
+            1506.0,
+            695.0
+          ],
+          "ocr_confidence": 0.9954233765602112,
+          "reading_order": 28,
+          "polygon": [
+            [
+              1428.0,
+              661.0
+            ],
+            [
+              1505.0,
+              659.0
+            ],
+            [
+              1506.0,
+              693.0
+            ],
+            [
+              1429.0,
+              695.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b29",
+          "type": "text",
+          "text": "Frais de traitement",
+          "bbox": [
+            75.0,
+            671.0,
+            265.0,
+            695.0
+          ],
+          "ocr_confidence": 0.9999073147773743,
+          "reading_order": 29,
+          "polygon": [
+            [
+              75.0,
+              671.0
+            ],
+            [
+              265.0,
+              671.0
+            ],
+            [
+              265.0,
+              695.0
+            ],
+            [
+              75.0,
+              695.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b30",
+          "type": "text",
+          "text": "Échéance : 04/04/2026",
+          "bbox": [
+            70.0,
+            2084.0,
+            304.0,
+            2113.0
+          ],
+          "ocr_confidence": 0.9938335418701172,
+          "reading_order": 30,
+          "polygon": [
+            [
+              71.0,
+              2084.0
+            ],
+            [
+              304.0,
+              2086.0
+            ],
+            [
+              304.0,
+              2113.0
+            ],
+            [
+              70.0,
+              2111.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b31",
+          "type": "text",
+          "text": "TOTAL NET HT",
+          "bbox": [
+            736.0,
+            2087.0,
+            902.0,
+            2114.0
+          ],
+          "ocr_confidence": 0.9686554074287415,
+          "reading_order": 31,
+          "polygon": [
+            [
+              736.0,
+              2087.0
+            ],
+            [
+              902.0,
+              2087.0
+            ],
+            [
+              902.0,
+              2114.0
+            ],
+            [
+              736.0,
+              2114.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b32",
+          "type": "text",
+          "text": "TVA",
+          "bbox": [
+            1095.0,
+            2087.0,
+            1147.0,
+            2114.0
+          ],
+          "ocr_confidence": 0.9997751712799072,
+          "reading_order": 32,
+          "polygon": [
+            [
+              1095.0,
+              2087.0
+            ],
+            [
+              1147.0,
+              2087.0
+            ],
+            [
+              1147.0,
+              2114.0
+            ],
+            [
+              1095.0,
+              2114.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b33",
+          "type": "text",
+          "text": "TOTAL TTC",
+          "bbox": [
+            1357.0,
+            2086.0,
+            1489.0,
+            2117.0
+          ],
+          "ocr_confidence": 0.9963312149047852,
+          "reading_order": 33,
+          "polygon": [
+            [
+              1357.0,
+              2086.0
+            ],
+            [
+              1489.0,
+              2086.0
+            ],
+            [
+              1489.0,
+              2117.0
+            ],
+            [
+              1357.0,
+              2117.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b34",
+          "type": "text",
+          "text": "Paiement :",
+          "bbox": [
+            70.0,
+            2126.0,
+            181.0,
+            2151.0
+          ],
+          "ocr_confidence": 0.9660828709602356,
+          "reading_order": 34,
+          "polygon": [
+            [
+              70.0,
+              2126.0
+            ],
+            [
+              181.0,
+              2126.0
+            ],
+            [
+              181.0,
+              2151.0
+            ],
+            [
+              70.0,
+              2151.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b35",
+          "type": "text",
+          "text": "55,32 €",
+          "bbox": [
+            777.0,
+            2126.0,
+            860.0,
+            2155.0
+          ],
+          "ocr_confidence": 0.9971552491188049,
+          "reading_order": 35,
+          "polygon": [
+            [
+              777.0,
+              2126.0
+            ],
+            [
+              860.0,
+              2126.0
+            ],
+            [
+              860.0,
+              2155.0
+            ],
+            [
+              777.0,
+              2155.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b36",
+          "type": "text",
+          "text": "11,06 €",
+          "bbox": [
+            1080.0,
+            2126.0,
+            1162.0,
+            2154.0
+          ],
+          "ocr_confidence": 0.9958370923995972,
+          "reading_order": 36,
+          "polygon": [
+            [
+              1080.0,
+              2126.0
+            ],
+            [
+              1162.0,
+              2126.0
+            ],
+            [
+              1162.0,
+              2154.0
+            ],
+            [
+              1080.0,
+              2154.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b37",
+          "type": "text",
+          "text": "66,38 €",
+          "bbox": [
+            1379.0,
+            2123.0,
+            1466.0,
+            2158.0
+          ],
+          "ocr_confidence": 0.9995204210281372,
+          "reading_order": 37,
+          "polygon": [
+            [
+              1379.0,
+              2126.0
+            ],
+            [
+              1465.0,
+              2123.0
+            ],
+            [
+              1466.0,
+              2155.0
+            ],
+            [
+              1379.0,
+              2158.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b38",
+          "type": "text",
+          "text": "Reserve de propriété : Nous nous résevona la proprété des marthandises jusqu'au paiement compiet du prix par l'acheteur. Notre droil de revandication porte ausai bien sur les marchandises que sur leur prix ai elles ont déjà été revendues. Tout",
+          "bbox": [
+            58.0,
+            2171.0,
+            1572.0,
+            2197.0
+          ],
+          "ocr_confidence": 0.9577339291572571,
+          "reading_order": 38,
+          "polygon": [
+            [
+              58.0,
+              2171.0
+            ],
+            [
+              1572.0,
+              2174.0
+            ],
+            [
+              1572.0,
+              2197.0
+            ],
+            [
+              58.0,
+              2194.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b39",
+          "type": "text",
+          "text": "indent de paiement est pessible de pnalités de retard calculees sur la base de trois fois le taux dinteret legal en vigueur, avec un montant dindemnie foraitaire de 40 euras pour les frais de recouvement encourus. Distri Frans, SA au",
+          "bbox": [
+            58.0,
+            2187.0,
+            1556.0,
+            2214.0
+          ],
+          "ocr_confidence": 0.7455317378044128,
+          "reading_order": 39,
+          "polygon": [
+            [
+              58.0,
+              2187.0
+            ],
+            [
+              1556.0,
+              2190.0
+            ],
+            [
+              1556.0,
+              2214.0
+            ],
+            [
+              58.0,
+              2211.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b40",
+          "type": "text",
+          "text": "capital de 12.000 EUR - RCS Paris 87B143502 - APE 4532Z - SIREN 878 143 502 - TVA Intracommunautaire FR49878143502",
+          "bbox": [
+            60.0,
+            2206.0,
+            849.0,
+            2227.0
+          ],
+          "ocr_confidence": 0.960448145866394,
+          "reading_order": 40,
+          "polygon": [
+            [
+              60.0,
+              2207.0
+            ],
+            [
+              849.0,
+              2206.0
+            ],
+            [
+              849.0,
+              2226.0
+            ],
+            [
+              60.0,
+              2227.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b41",
+          "type": "footer",
+          "text": "Des• 4u",
+          "bbox": [
+            1511.94091796875,
+            2303.876953125,
+            1577.458984375,
+            2316.013671875
+          ],
+          "ocr_confidence": 0.47445061802864075,
+          "reading_order": 41,
+          "polygon": [
+            [
+              1511.0,
+              2303.0
+            ],
+            [
+              1577.0,
+              2303.0
+            ],
+            [
+              1577.0,
+              2316.0
+            ],
+            [
+              1511.0,
+              2316.0
+            ]
+          ]
+        }
+      ],
+      "tables": [],
+      "warnings": [
+        "Ignored suspicious table structure covering 80.8% of the page; all OCR text was preserved.",
+        "Ignored invalid OCR entry at index 20.",
+        "Table result/layout count mismatch: 1 result(s), 0 trusted region(s)."
+      ]
+    }
+  ],
+  "source_mime_type": "image/png",
+  "warnings": [
+    "Page 1: Ignored suspicious table structure covering 80.8% of the page; all OCR text was preserved.",
+    "Page 1: Ignored invalid OCR entry at index 20.",
+    "Page 1: Table result/layout count mismatch: 1 result(s), 0 trusted region(s)."
+  ]
+}

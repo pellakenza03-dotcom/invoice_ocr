@@ -1,0 +1,1427 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "25879640502272-bumtjjfsesxah20o54sp1jumbofq",
+  "source_file": "25879640502272-bumtjjfsesxah20o54sp1jumbofq__p001.png",
+  "generated_at": "2026-09-11T09:24:13.015672Z",
+  "ocr_engine": {
+    "name": "PP-StructureV3",
+    "version": "3.7.0"
+  },
+  "page_count": 1,
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 1660,
+      "height": 2362,
+      "orientation": 0,
+      "blocks": [
+        {
+          "block_id": "p1_b0",
+          "type": "header",
+          "text": "Facture N°2026-06-36",
+          "bbox": [
+            1180.0,
+            109.0,
+            1571.0,
+            148.0
+          ],
+          "ocr_confidence": 0.9954613447189331,
+          "reading_order": 0,
+          "polygon": [
+            [
+              1180.0,
+              111.0
+            ],
+            [
+              1571.0,
+              109.0
+            ],
+            [
+              1571.0,
+              146.0
+            ],
+            [
+              1180.0,
+              148.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b1",
+          "type": "header",
+          "text": "SL",
+          "bbox": [
+            186.0,
+            173.0,
+            241.0,
+            214.0
+          ],
+          "ocr_confidence": 0.9998872876167297,
+          "reading_order": 1,
+          "polygon": [
+            [
+              186.0,
+              173.0
+            ],
+            [
+              241.0,
+              173.0
+            ],
+            [
+              241.0,
+              214.0
+            ],
+            [
+              186.0,
+              214.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b2",
+          "type": "header",
+          "text": "RÉNOVE",
+          "bbox": [
+            182.0,
+            207.0,
+            299.0,
+            242.0
+          ],
+          "ocr_confidence": 0.9988768696784973,
+          "reading_order": 2,
+          "polygon": [
+            [
+              183.0,
+              207.0
+            ],
+            [
+              299.0,
+              210.0
+            ],
+            [
+              299.0,
+              242.0
+            ],
+            [
+              182.0,
+              239.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b3",
+          "type": "header",
+          "text": "ÉNERGIE RENOUVELABLE",
+          "bbox": [
+            113.0,
+            242.0,
+            292.0,
+            259.0
+          ],
+          "ocr_confidence": 0.9974873661994934,
+          "reading_order": 3,
+          "polygon": [
+            [
+              113.0,
+              242.0
+            ],
+            [
+              292.0,
+              242.0
+            ],
+            [
+              292.0,
+              259.0
+            ],
+            [
+              113.0,
+              259.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b4",
+          "type": "text",
+          "text": "SL RENOVE",
+          "bbox": [
+            80.0,
+            353.0,
+            243.0,
+            387.0
+          ],
+          "ocr_confidence": 0.9886325001716614,
+          "reading_order": 4,
+          "polygon": [
+            [
+              80.0,
+              356.0
+            ],
+            [
+              242.0,
+              353.0
+            ],
+            [
+              243.0,
+              384.0
+            ],
+            [
+              80.0,
+              387.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b5",
+          "type": "text",
+          "text": "8 AVENUE ARISTIDE BRIAND",
+          "bbox": [
+            81.0,
+            394.0,
+            458.0,
+            424.0
+          ],
+          "ocr_confidence": 0.9988717436790466,
+          "reading_order": 5,
+          "polygon": [
+            [
+              81.0,
+              394.0
+            ],
+            [
+              458.0,
+              394.0
+            ],
+            [
+              458.0,
+              424.0
+            ],
+            [
+              81.0,
+              424.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b6",
+          "type": "text",
+          "text": "93320 LES PAVILLONS-SOUS-BOIS",
+          "bbox": [
+            82.0,
+            432.0,
+            537.0,
+            462.0
+          ],
+          "ocr_confidence": 0.9935533404350281,
+          "reading_order": 6,
+          "polygon": [
+            [
+              82.0,
+              434.0
+            ],
+            [
+              537.0,
+              432.0
+            ],
+            [
+              537.0,
+              460.0
+            ],
+            [
+              82.0,
+              462.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b7",
+          "type": "text",
+          "text": "Siret : 94078572800012",
+          "bbox": [
+            83.0,
+            470.0,
+            406.0,
+            500.0
+          ],
+          "ocr_confidence": 0.9824678897857666,
+          "reading_order": 7,
+          "polygon": [
+            [
+              83.0,
+              470.0
+            ],
+            [
+              406.0,
+              470.0
+            ],
+            [
+              406.0,
+              500.0
+            ],
+            [
+              83.0,
+              500.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b8",
+          "type": "text",
+          "text": "N° TVA : FR91940785728",
+          "bbox": [
+            83.0,
+            508.0,
+            421.0,
+            539.0
+          ],
+          "ocr_confidence": 0.9511219263076782,
+          "reading_order": 8,
+          "polygon": [
+            [
+              83.0,
+              509.0
+            ],
+            [
+              421.0,
+              508.0
+            ],
+            [
+              421.0,
+              538.0
+            ],
+            [
+              83.0,
+              539.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b9",
+          "type": "text",
+          "text": "Mail : slrenove.idf@gmail.com",
+          "bbox": [
+            83.0,
+            545.0,
+            490.0,
+            581.0
+          ],
+          "ocr_confidence": 0.9961212277412415,
+          "reading_order": 9,
+          "polygon": [
+            [
+              83.0,
+              547.0
+            ],
+            [
+              490.0,
+              545.0
+            ],
+            [
+              490.0,
+              578.0
+            ],
+            [
+              83.0,
+              581.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b10",
+          "type": "text",
+          "text": "AOD-AUTO",
+          "bbox": [
+            1415.0,
+            581.0,
+            1576.0,
+            614.0
+          ],
+          "ocr_confidence": 0.9995222687721252,
+          "reading_order": 10,
+          "polygon": [
+            [
+              1415.0,
+              581.0
+            ],
+            [
+              1576.0,
+              581.0
+            ],
+            [
+              1576.0,
+              614.0
+            ],
+            [
+              1415.0,
+              614.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b11",
+          "type": "text",
+          "text": "490 B RUE DU TUBOEUF ZAC DU TUBOEUF",
+          "bbox": [
+            1005.0,
+            623.0,
+            1574.0,
+            650.0
+          ],
+          "ocr_confidence": 0.9886128306388855,
+          "reading_order": 11,
+          "polygon": [
+            [
+              1005.0,
+              623.0
+            ],
+            [
+              1574.0,
+              623.0
+            ],
+            [
+              1574.0,
+              650.0
+            ],
+            [
+              1005.0,
+              650.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b12",
+          "type": "text",
+          "text": "77170 BRIE COMTE ROBERT",
+          "bbox": [
+            1201.0,
+            660.0,
+            1576.0,
+            690.0
+          ],
+          "ocr_confidence": 0.9998442530632019,
+          "reading_order": 12,
+          "polygon": [
+            [
+              1201.0,
+              660.0
+            ],
+            [
+              1576.0,
+              660.0
+            ],
+            [
+              1576.0,
+              690.0
+            ],
+            [
+              1201.0,
+              690.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b13",
+          "type": "image",
+          "text": "Date de facture",
+          "bbox": [
+            199.0,
+            778.0,
+            396.0,
+            809.0
+          ],
+          "ocr_confidence": 0.999275267124176,
+          "reading_order": 13,
+          "polygon": [
+            [
+              199.0,
+              778.0
+            ],
+            [
+              396.0,
+              778.0
+            ],
+            [
+              396.0,
+              809.0
+            ],
+            [
+              199.0,
+              809.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b14",
+          "type": "image",
+          "text": "23/04/2026",
+          "bbox": [
+            598.0,
+            778.0,
+            740.0,
+            806.0
+          ],
+          "ocr_confidence": 0.9999805688858032,
+          "reading_order": 14,
+          "polygon": [
+            [
+              598.0,
+              778.0
+            ],
+            [
+              740.0,
+              778.0
+            ],
+            [
+              740.0,
+              806.0
+            ],
+            [
+              598.0,
+              806.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b15",
+          "type": "table",
+          "text": "Description",
+          "bbox": [
+            262.0,
+            965.0,
+            410.0,
+            995.0
+          ],
+          "ocr_confidence": 0.9998859167098999,
+          "reading_order": 15,
+          "polygon": [
+            [
+              262.0,
+              965.0
+            ],
+            [
+              410.0,
+              965.0
+            ],
+            [
+              410.0,
+              995.0
+            ],
+            [
+              262.0,
+              995.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b16",
+          "type": "table",
+          "text": "Quantité",
+          "bbox": [
+            653.0,
+            959.0,
+            773.0,
+            999.0
+          ],
+          "ocr_confidence": 0.9995661973953247,
+          "reading_order": 16,
+          "polygon": [
+            [
+              653.0,
+              963.0
+            ],
+            [
+              772.0,
+              959.0
+            ],
+            [
+              773.0,
+              995.0
+            ],
+            [
+              654.0,
+              999.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b17",
+          "type": "table",
+          "text": "Prix unitaire HT",
+          "bbox": [
+            943.0,
+            964.0,
+            1140.0,
+            990.0
+          ],
+          "ocr_confidence": 0.9995225667953491,
+          "reading_order": 17,
+          "polygon": [
+            [
+              943.0,
+              964.0
+            ],
+            [
+              1140.0,
+              964.0
+            ],
+            [
+              1140.0,
+              990.0
+            ],
+            [
+              943.0,
+              990.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b18",
+          "type": "table",
+          "text": "Prix total HT",
+          "bbox": [
+            1325.0,
+            960.0,
+            1487.0,
+            993.0
+          ],
+          "ocr_confidence": 0.9886480569839478,
+          "reading_order": 18,
+          "polygon": [
+            [
+              1325.0,
+              960.0
+            ],
+            [
+              1487.0,
+              960.0
+            ],
+            [
+              1487.0,
+              993.0
+            ],
+            [
+              1325.0,
+              993.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b19",
+          "type": "table",
+          "text": "Recharge clim auto",
+          "bbox": [
+            105.0,
+            1040.0,
+            346.0,
+            1071.0
+          ],
+          "ocr_confidence": 0.9998351335525513,
+          "reading_order": 19,
+          "polygon": [
+            [
+              105.0,
+              1040.0
+            ],
+            [
+              346.0,
+              1040.0
+            ],
+            [
+              346.0,
+              1071.0
+            ],
+            [
+              105.0,
+              1071.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b20",
+          "type": "table",
+          "text": "14",
+          "bbox": [
+            693.0,
+            1056.0,
+            736.0,
+            1088.0
+          ],
+          "ocr_confidence": 0.9999690055847168,
+          "reading_order": 20,
+          "polygon": [
+            [
+              693.0,
+              1056.0
+            ],
+            [
+              736.0,
+              1056.0
+            ],
+            [
+              736.0,
+              1088.0
+            ],
+            [
+              693.0,
+              1088.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b21",
+          "type": "table",
+          "text": "50,00 €",
+          "bbox": [
+            995.0,
+            1055.0,
+            1091.0,
+            1087.0
+          ],
+          "ocr_confidence": 0.9989755749702454,
+          "reading_order": 21,
+          "polygon": [
+            [
+              995.0,
+              1055.0
+            ],
+            [
+              1091.0,
+              1055.0
+            ],
+            [
+              1091.0,
+              1087.0
+            ],
+            [
+              995.0,
+              1087.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b22",
+          "type": "table",
+          "text": "700,00 €",
+          "bbox": [
+            1351.0,
+            1053.0,
+            1464.0,
+            1088.0
+          ],
+          "ocr_confidence": 0.9995788931846619,
+          "reading_order": 22,
+          "polygon": [
+            [
+              1351.0,
+              1053.0
+            ],
+            [
+              1464.0,
+              1056.0
+            ],
+            [
+              1463.0,
+              1088.0
+            ],
+            [
+              1351.0,
+              1086.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b23",
+          "type": "table",
+          "text": "Journalier",
+          "bbox": [
+            101.0,
+            1076.0,
+            228.0,
+            1108.0
+          ],
+          "ocr_confidence": 0.9997472763061523,
+          "reading_order": 23,
+          "polygon": [
+            [
+              101.0,
+              1076.0
+            ],
+            [
+              228.0,
+              1076.0
+            ],
+            [
+              228.0,
+              1108.0
+            ],
+            [
+              101.0,
+              1108.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b24",
+          "type": "table",
+          "text": "Total HT",
+          "bbox": [
+            995.0,
+            1259.0,
+            1103.0,
+            1291.0
+          ],
+          "ocr_confidence": 0.9978792667388916,
+          "reading_order": 24,
+          "polygon": [
+            [
+              995.0,
+              1259.0
+            ],
+            [
+              1103.0,
+              1259.0
+            ],
+            [
+              1103.0,
+              1291.0
+            ],
+            [
+              995.0,
+              1291.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b25",
+          "type": "table",
+          "text": "700,00 €",
+          "bbox": [
+            1448.0,
+            1260.0,
+            1559.0,
+            1292.0
+          ],
+          "ocr_confidence": 0.9998510479927063,
+          "reading_order": 25,
+          "polygon": [
+            [
+              1448.0,
+              1260.0
+            ],
+            [
+              1559.0,
+              1260.0
+            ],
+            [
+              1559.0,
+              1292.0
+            ],
+            [
+              1448.0,
+              1292.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b26",
+          "type": "table",
+          "text": "TVA (20,00 %)",
+          "bbox": [
+            966.0,
+            1335.0,
+            1133.0,
+            1369.0
+          ],
+          "ocr_confidence": 0.9949509501457214,
+          "reading_order": 26,
+          "polygon": [
+            [
+              966.0,
+              1335.0
+            ],
+            [
+              1133.0,
+              1335.0
+            ],
+            [
+              1133.0,
+              1369.0
+            ],
+            [
+              966.0,
+              1369.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b27",
+          "type": "table",
+          "text": "140,00 €",
+          "bbox": [
+            1448.0,
+            1336.0,
+            1560.0,
+            1371.0
+          ],
+          "ocr_confidence": 0.9519044756889343,
+          "reading_order": 27,
+          "polygon": [
+            [
+              1448.0,
+              1336.0
+            ],
+            [
+              1560.0,
+              1336.0
+            ],
+            [
+              1560.0,
+              1371.0
+            ],
+            [
+              1448.0,
+              1371.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b28",
+          "type": "text",
+          "text": "IBAN: FR76 1695 8000 0125 2592 1348 136",
+          "bbox": [
+            87.0,
+            1395.0,
+            657.0,
+            1422.0
+          ],
+          "ocr_confidence": 0.9735875129699707,
+          "reading_order": 28,
+          "polygon": [
+            [
+              87.0,
+              1395.0
+            ],
+            [
+              657.0,
+              1395.0
+            ],
+            [
+              657.0,
+              1422.0
+            ],
+            [
+              87.0,
+              1422.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b29",
+          "type": "table",
+          "text": "Total TTC",
+          "bbox": [
+            986.0,
+            1411.0,
+            1112.0,
+            1443.0
+          ],
+          "ocr_confidence": 0.986649751663208,
+          "reading_order": 29,
+          "polygon": [
+            [
+              986.0,
+              1411.0
+            ],
+            [
+              1112.0,
+              1411.0
+            ],
+            [
+              1112.0,
+              1443.0
+            ],
+            [
+              986.0,
+              1443.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b30",
+          "type": "table",
+          "text": "840,00 €",
+          "bbox": [
+            1447.0,
+            1411.0,
+            1561.0,
+            1446.0
+          ],
+          "ocr_confidence": 0.9998116493225098,
+          "reading_order": 30,
+          "polygon": [
+            [
+              1447.0,
+              1411.0
+            ],
+            [
+              1561.0,
+              1411.0
+            ],
+            [
+              1561.0,
+              1446.0
+            ],
+            [
+              1447.0,
+              1446.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b31",
+          "type": "text",
+          "text": "BIC: QNTOFRP1XXX",
+          "bbox": [
+            86.0,
+            1432.0,
+            348.0,
+            1463.0
+          ],
+          "ocr_confidence": 0.9992231130599976,
+          "reading_order": 31,
+          "polygon": [
+            [
+              86.0,
+              1432.0
+            ],
+            [
+              348.0,
+              1432.0
+            ],
+            [
+              348.0,
+              1463.0
+            ],
+            [
+              86.0,
+              1463.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b32",
+          "type": "text",
+          "text": "En cas de retard, une pénalité au taux annuel de 5 % sera appliquée, à laquelle s'ajoutera une indemnité forfaitaire pour frais de recouvrement",
+          "bbox": [
+            87.0,
+            1552.0,
+            1574.0,
+            1584.0
+          ],
+          "ocr_confidence": 0.9927965998649597,
+          "reading_order": 32,
+          "polygon": [
+            [
+              87.0,
+              1552.0
+            ],
+            [
+              1574.0,
+              1557.0
+            ],
+            [
+              1574.0,
+              1584.0
+            ],
+            [
+              87.0,
+              1579.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b33",
+          "type": "text",
+          "text": "de40€",
+          "bbox": [
+            225.0,
+            1588.0,
+            975.0,
+            1607.0
+          ],
+          "ocr_confidence": 0.7601008415222168,
+          "reading_order": 33,
+          "polygon": [
+            [
+              225.0,
+              1588.0
+            ],
+            [
+              975.0,
+              1588.0
+            ],
+            [
+              975.0,
+              1607.0
+            ],
+            [
+              225.0,
+              1607.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b34",
+          "type": "text",
+          "text": "de 40 €",
+          "bbox": [
+            789.0,
+            1584.0,
+            875.0,
+            1613.0
+          ],
+          "ocr_confidence": 0.9831835627555847,
+          "reading_order": 34,
+          "polygon": [
+            [
+              789.0,
+              1584.0
+            ],
+            [
+              875.0,
+              1584.0
+            ],
+            [
+              875.0,
+              1613.0
+            ],
+            [
+              789.0,
+              1613.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b35",
+          "type": "text",
+          "text": "Uiement 23.06.2026",
+          "bbox": [
+            261.574951171875,
+            1617.51318359375,
+            928.90771484375,
+            1779.630126953125
+          ],
+          "ocr_confidence": 0.7692769765853882,
+          "reading_order": 35,
+          "polygon": [
+            [
+              261.0,
+              1617.0
+            ],
+            [
+              928.0,
+              1617.0
+            ],
+            [
+              928.0,
+              1779.0
+            ],
+            [
+              261.0,
+              1779.0
+            ]
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "table_id": "p1_t0",
+          "bbox": [
+            85.2637939453125,
+            935.5771484375,
+            1571.4130859375,
+            1130.4091796875
+          ],
+          "structure_confidence": 0.7195549011230469,
+          "cells": [
+            {
+              "row": 0,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Description",
+              "bbox": [
+                262.0,
+                965.0,
+                410.0,
+                995.0
+              ],
+              "ocr_confidence": 0.9998859167098999,
+              "source_block_ids": [
+                "p1_b15"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Quantité",
+              "bbox": [
+                653.0,
+                959.0,
+                773.0,
+                999.0
+              ],
+              "ocr_confidence": 0.9995661973953247,
+              "source_block_ids": [
+                "p1_b16"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Prix unitaire HT",
+              "bbox": [
+                943.0,
+                964.0,
+                1140.0,
+                990.0
+              ],
+              "ocr_confidence": 0.9995225667953491,
+              "source_block_ids": [
+                "p1_b17"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 3,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Prix total HT",
+              "bbox": [
+                1325.0,
+                960.0,
+                1487.0,
+                993.0
+              ],
+              "ocr_confidence": 0.9886480569839478,
+              "source_block_ids": [
+                "p1_b18"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 4,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Recharge clim auto",
+              "bbox": [
+                105.0,
+                1040.0,
+                346.0,
+                1071.0
+              ],
+              "ocr_confidence": 0.9998351335525513,
+              "source_block_ids": [
+                "p1_b19"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 5,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "",
+              "bbox": [
+                693.0,
+                1056.0,
+                736.0,
+                1088.0
+              ],
+              "ocr_confidence": 0.9999690055847168,
+              "source_block_ids": [
+                "p1_b20"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 6,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "",
+              "bbox": [
+                995.0,
+                1055.0,
+                1091.0,
+                1087.0
+              ],
+              "ocr_confidence": 0.9989755749702454,
+              "source_block_ids": [
+                "p1_b21"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "14",
+              "bbox": [
+                1351.0,
+                1053.0,
+                1464.0,
+                1088.0
+              ],
+              "ocr_confidence": 0.9995788931846619,
+              "source_block_ids": [
+                "p1_b22"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "50,00 €",
+              "bbox": [
+                101.0,
+                1076.0,
+                228.0,
+                1108.0
+              ],
+              "ocr_confidence": 0.9997472763061523,
+              "source_block_ids": [
+                "p1_b23"
+              ]
+            }
+          ],
+          "html": "<html><body><table><tr><td>Description</td><td>Quantité</td><td>Prix unitaire HT</td><td>Prix total HT</td><td>Recharge clim auto</td><td></td><td></td></tr><tr><td>14</td><td>50,00 €</td><td>700,00 €</td><td>Journalier</td><td></td><td></td><td></td></tr></table></body></html>"
+        },
+        {
+          "table_id": "p1_t1",
+          "bbox": [
+            829.7468872070312,
+            1231.18505859375,
+            1573.525146484375,
+            1475.27392578125
+          ],
+          "structure_confidence": 0.6296778321266174,
+          "cells": [
+            {
+              "row": 0,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Total HT",
+              "bbox": [
+                831.3008768558502,
+                1237.5450401306152,
+                1267.4618530273438,
+                1314.4586486816406
+              ],
+              "ocr_confidence": 0.9978792667388916,
+              "source_block_ids": [
+                "p1_b24"
+              ]
+            },
+            {
+              "row": 0,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "700,00 €",
+              "bbox": [
+                1267.5003051757812,
+                1237.519145488739,
+                1573.47607421875,
+                1314.4378356933594
+              ],
+              "ocr_confidence": 0.9998510479927063,
+              "source_block_ids": [
+                "p1_b25"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "TVA (20,00 %)",
+              "bbox": [
+                831.4895684719086,
+                1314.0494842529297,
+                1266.9529418945312,
+                1391.238525390625
+              ],
+              "ocr_confidence": 0.9949509501457214,
+              "source_block_ids": [
+                "p1_b26"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "140,00 €",
+              "bbox": [
+                1266.9850158691406,
+                1314.3940658569336,
+                1573.5313110351562,
+                1390.9580688476562
+              ],
+              "ocr_confidence": 0.9519044756889343,
+              "source_block_ids": [
+                "p1_b27"
+              ]
+            },
+            {
+              "row": 2,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Total TTC",
+              "bbox": [
+                830.420655965805,
+                1391.145248413086,
+                1267.6593627929688,
+                1467.4695129394531
+              ],
+              "ocr_confidence": 0.986649751663208,
+              "source_block_ids": [
+                "p1_b29"
+              ]
+            },
+            {
+              "row": 2,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "840,00 €",
+              "bbox": [
+                1267.4515686035156,
+                1391.0076599121094,
+                1573.6436767578125,
+                1467.67578125
+              ],
+              "ocr_confidence": 0.9998116493225098,
+              "source_block_ids": [
+                "p1_b30"
+              ]
+            }
+          ],
+          "html": "<html><body><table><tr><td>Total HT</td><td>700,00 €</td></tr><tr><td>TVA (20,00 %)</td><td>140,00 €</td></tr><tr><td>Total TTC</td><td>840,00 €</td></tr></table></body></html>"
+        }
+      ],
+      "warnings": [
+        "Table 1 has 14 HTML cell(s) but 9 valid cell box(es); only matched cells were kept."
+      ]
+    }
+  ],
+  "source_mime_type": "image/png",
+  "warnings": [
+    "Page 1: Table 1 has 14 HTML cell(s) but 9 valid cell box(es); only matched cells were kept."
+  ]
+}

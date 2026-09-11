@@ -1,0 +1,939 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "e496989e-2320-4837-acd5-6e9cb31da03b",
+  "source_file": "e496989e-2320-4837-acd5-6e9cb31da03b__p001.png",
+  "generated_at": "2026-09-11T09:26:51.344129Z",
+  "ocr_engine": {
+    "name": "PP-StructureV3",
+    "version": "3.7.0"
+  },
+  "page_count": 1,
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 1654,
+      "height": 2339,
+      "orientation": 0,
+      "blocks": [
+        {
+          "block_id": "p1_b0",
+          "type": "header",
+          "text": "Page 1 sur 1",
+          "bbox": [
+            146.0,
+            170.0,
+            261.0,
+            197.0
+          ],
+          "ocr_confidence": 0.9644543528556824,
+          "reading_order": 0,
+          "polygon": [
+            [
+              146.0,
+              172.0
+            ],
+            [
+              260.0,
+              170.0
+            ],
+            [
+              261.0,
+              195.0
+            ],
+            [
+              146.0,
+              197.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b1",
+          "type": "header",
+          "text": "Bon de commande U3bwzzGvH 27 janvier 2022",
+          "bbox": [
+            147.0,
+            195.0,
+            573.0,
+            218.0
+          ],
+          "ocr_confidence": 0.9998396635055542,
+          "reading_order": 1,
+          "polygon": [
+            [
+              147.0,
+              195.0
+            ],
+            [
+              573.0,
+              195.0
+            ],
+            [
+              573.0,
+              218.0
+            ],
+            [
+              147.0,
+              218.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b2",
+          "type": "header",
+          "text": "amazon.fr",
+          "bbox": [
+            169.0,
+            217.0,
+            481.0,
+            290.0
+          ],
+          "ocr_confidence": 0.9968628287315369,
+          "reading_order": 2,
+          "polygon": [
+            [
+              169.0,
+              224.0
+            ],
+            [
+              479.0,
+              217.0
+            ],
+            [
+              481.0,
+              283.0
+            ],
+            [
+              170.0,
+              290.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b3",
+          "type": "header",
+          "text": "⑧",
+          "bbox": [
+            476.0,
+            233.0,
+            489.0,
+            246.0
+          ],
+          "ocr_confidence": 0.3208358585834503,
+          "reading_order": 3,
+          "polygon": [
+            [
+              476.0,
+              233.0
+            ],
+            [
+              489.0,
+              233.0
+            ],
+            [
+              489.0,
+              246.0
+            ],
+            [
+              476.0,
+              246.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b4",
+          "type": "header",
+          "text": "U3bwzzGvH/-2 of 2-/premium-next-fr/0",
+          "bbox": [
+            996.0,
+            328.0,
+            1364.0,
+            353.0
+          ],
+          "ocr_confidence": 0.9996626377105713,
+          "reading_order": 4,
+          "polygon": [
+            [
+              996.0,
+              328.0
+            ],
+            [
+              1364.0,
+              329.0
+            ],
+            [
+              1364.0,
+              353.0
+            ],
+            [
+              996.0,
+              352.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b5",
+          "type": "header",
+          "text": "A1",
+          "bbox": [
+            995.0,
+            353.0,
+            1026.0,
+            377.0
+          ],
+          "ocr_confidence": 0.9980512857437134,
+          "reading_order": 5,
+          "polygon": [
+            [
+              995.0,
+              353.0
+            ],
+            [
+              1026.0,
+              353.0
+            ],
+            [
+              1026.0,
+              377.0
+            ],
+            [
+              995.0,
+              377.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b6",
+          "type": "text",
+          "text": "Bon de commande",
+          "bbox": [
+            141.0,
+            577.0,
+            357.0,
+            601.0
+          ],
+          "ocr_confidence": 0.999673068523407,
+          "reading_order": 6,
+          "polygon": [
+            [
+              141.0,
+              577.0
+            ],
+            [
+              357.0,
+              577.0
+            ],
+            [
+              357.0,
+              601.0
+            ],
+            [
+              141.0,
+              601.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b7",
+          "type": "text",
+          "text": "Votre commande du 26 janvier 2022",
+          "bbox": [
+            139.0,
+            604.0,
+            468.0,
+            627.0
+          ],
+          "ocr_confidence": 0.9971643090248108,
+          "reading_order": 7,
+          "polygon": [
+            [
+              139.0,
+              604.0
+            ],
+            [
+              468.0,
+              604.0
+            ],
+            [
+              468.0,
+              627.0
+            ],
+            [
+              139.0,
+              627.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b8",
+          "type": "text",
+          "text": "Numéro de récépissé. U3bwzzGvH",
+          "bbox": [
+            1208.0,
+            604.0,
+            1513.0,
+            626.0
+          ],
+          "ocr_confidence": 0.9973688125610352,
+          "reading_order": 8,
+          "polygon": [
+            [
+              1208.0,
+              604.0
+            ],
+            [
+              1513.0,
+              605.0
+            ],
+            [
+              1513.0,
+              626.0
+            ],
+            [
+              1208.0,
+              625.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b9",
+          "type": "text",
+          "text": "N° 407-1058311-7664329",
+          "bbox": [
+            141.0,
+            629.0,
+            381.0,
+            649.0
+          ],
+          "ocr_confidence": 0.9972912073135376,
+          "reading_order": 9,
+          "polygon": [
+            [
+              141.0,
+              629.0
+            ],
+            [
+              381.0,
+              629.0
+            ],
+            [
+              381.0,
+              649.0
+            ],
+            [
+              141.0,
+              649.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b10",
+          "type": "text",
+          "text": "27 janvier 2022",
+          "bbox": [
+            1371.0,
+            629.0,
+            1513.0,
+            650.0
+          ],
+          "ocr_confidence": 0.9998756647109985,
+          "reading_order": 10,
+          "polygon": [
+            [
+              1371.0,
+              629.0
+            ],
+            [
+              1513.0,
+              629.0
+            ],
+            [
+              1513.0,
+              650.0
+            ],
+            [
+              1371.0,
+              650.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b11",
+          "type": "text",
+          "text": "Qté",
+          "bbox": [
+            139.0,
+            658.0,
+            181.0,
+            686.0
+          ],
+          "ocr_confidence": 0.9996190071105957,
+          "reading_order": 11,
+          "polygon": [
+            [
+              139.0,
+              658.0
+            ],
+            [
+              181.0,
+              658.0
+            ],
+            [
+              181.0,
+              686.0
+            ],
+            [
+              139.0,
+              686.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b12",
+          "type": "text",
+          "text": "Article",
+          "bbox": [
+            209.0,
+            660.0,
+            271.0,
+            682.0
+          ],
+          "ocr_confidence": 0.9999422430992126,
+          "reading_order": 12,
+          "polygon": [
+            [
+              209.0,
+              660.0
+            ],
+            [
+              271.0,
+              660.0
+            ],
+            [
+              271.0,
+              682.0
+            ],
+            [
+              209.0,
+              682.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b13",
+          "type": "text",
+          "text": "Bin",
+          "bbox": [
+            1265.0,
+            659.0,
+            1301.0,
+            683.0
+          ],
+          "ocr_confidence": 0.9999533295631409,
+          "reading_order": 13,
+          "polygon": [
+            [
+              1265.0,
+              659.0
+            ],
+            [
+              1301.0,
+              659.0
+            ],
+            [
+              1301.0,
+              683.0
+            ],
+            [
+              1265.0,
+              683.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b14",
+          "type": "text",
+          "text": "2",
+          "bbox": [
+            138.0,
+            711.0,
+            160.0,
+            735.0
+          ],
+          "ocr_confidence": 0.9998884201049805,
+          "reading_order": 14,
+          "polygon": [
+            [
+              138.0,
+              711.0
+            ],
+            [
+              160.0,
+              711.0
+            ],
+            [
+              160.0,
+              735.0
+            ],
+            [
+              138.0,
+              735.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b15",
+          "type": "text",
+          "text": "Cable Usb TTL 3V3 (Compatible TTL-232R-3V3-WE)",
+          "bbox": [
+            212.0,
+            713.0,
+            683.0,
+            733.0
+          ],
+          "ocr_confidence": 0.9909418225288391,
+          "reading_order": 15,
+          "polygon": [
+            [
+              212.0,
+              713.0
+            ],
+            [
+              683.0,
+              713.0
+            ],
+            [
+              683.0,
+              733.0
+            ],
+            [
+              212.0,
+              733.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b16",
+          "type": "text",
+          "text": "Access0ire. X0004UAL8Z : USBTTL3V3F1.8M: 3760213560063",
+          "bbox": [
+            211.0,
+            737.0,
+            763.0,
+            757.0
+          ],
+          "ocr_confidence": 0.9810753464698792,
+          "reading_order": 16,
+          "polygon": [
+            [
+              211.0,
+              737.0
+            ],
+            [
+              763.0,
+              737.0
+            ],
+            [
+              763.0,
+              757.0
+            ],
+            [
+              211.0,
+              757.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b17",
+          "type": "text",
+          "text": "Cet envoi solde votre commande.",
+          "bbox": [
+            690.0,
+            824.0,
+            965.0,
+            841.0
+          ],
+          "ocr_confidence": 0.9913643002510071,
+          "reading_order": 17,
+          "polygon": [
+            [
+              690.0,
+              824.0
+            ],
+            [
+              965.0,
+              824.0
+            ],
+            [
+              965.0,
+              841.0
+            ],
+            [
+              690.0,
+              841.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b18",
+          "type": "text",
+          "text": "Vous pouvez toujours vérifier l'état de vos commandes ou modifier les détails de votre compte via le lien « Votre Compte » figurant en haut de la page sur notre site.",
+          "bbox": [
+            247.0,
+            845.0,
+            1409.0,
+            862.0
+          ],
+          "ocr_confidence": 0.9911739826202393,
+          "reading_order": 18,
+          "polygon": [
+            [
+              247.0,
+              845.0
+            ],
+            [
+              1409.0,
+              845.0
+            ],
+            [
+              1409.0,
+              862.0
+            ],
+            [
+              247.0,
+              862.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b19",
+          "type": "text",
+          "text": "Vous souhaitez nous retourner un article? MERCI D'UTILISER NOTRE CENTRE DE RETOURS EN LIGNE",
+          "bbox": [
+            414.0,
+            869.0,
+            1240.0,
+            886.0
+          ],
+          "ocr_confidence": 0.9850838780403137,
+          "reading_order": 19,
+          "polygon": [
+            [
+              414.0,
+              869.0
+            ],
+            [
+              1240.0,
+              869.0
+            ],
+            [
+              1240.0,
+              886.0
+            ],
+            [
+              414.0,
+              886.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b20",
+          "type": "text",
+          "text": "Notre Centre de Retour (www.amazon.fr/retours) vous guidera tout au long du processus de retour et vous fournira une étiquette de retour à imprimer. Merci de garder votre numéro",
+          "bbox": [
+            188.0,
+            895.0,
+            1470.0,
+            912.0
+          ],
+          "ocr_confidence": 0.9894593954086304,
+          "reading_order": 20,
+          "polygon": [
+            [
+              188.0,
+              895.0
+            ],
+            [
+              1470.0,
+              895.0
+            ],
+            [
+              1470.0,
+              912.0
+            ],
+            [
+              188.0,
+              912.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b21",
+          "type": "text",
+          "text": "de commande (vous pourrez le trouver à côté du récapitulatif de votre commande ci-dessus). Notre Politique de Retours n'affecte pas votre droit de rétractation prévu par la loi.",
+          "bbox": [
+            207.0,
+            913.0,
+            1450.0,
+            930.0
+          ],
+          "ocr_confidence": 0.9911995530128479,
+          "reading_order": 21,
+          "polygon": [
+            [
+              207.0,
+              913.0
+            ],
+            [
+              1450.0,
+              913.0
+            ],
+            [
+              1450.0,
+              930.0
+            ],
+            [
+              207.0,
+              930.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b22",
+          "type": "text",
+          "text": "Merci de vos achats sur Amazon.fr!",
+          "bbox": [
+            666.0,
+            937.0,
+            986.0,
+            958.0
+          ],
+          "ocr_confidence": 0.9998236298561096,
+          "reading_order": 22,
+          "polygon": [
+            [
+              666.0,
+              938.0
+            ],
+            [
+              986.0,
+              937.0
+            ],
+            [
+              986.0,
+              957.0
+            ],
+            [
+              666.0,
+              958.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b23",
+          "type": "image",
+          "text": "amazon",
+          "bbox": [
+            239.0,
+            1068.0,
+            353.0,
+            1096.0
+          ],
+          "ocr_confidence": 0.9997259974479675,
+          "reading_order": 23,
+          "polygon": [
+            [
+              239.0,
+              1068.0
+            ],
+            [
+              353.0,
+              1068.0
+            ],
+            [
+              353.0,
+              1096.0
+            ],
+            [
+              239.0,
+              1096.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b24",
+          "type": "text",
+          "text": "Application Amazon pour votre smartphone ou votre tablette",
+          "bbox": [
+            382.0,
+            1061.0,
+            1270.0,
+            1091.0
+          ],
+          "ocr_confidence": 0.9984479546546936,
+          "reading_order": 24,
+          "polygon": [
+            [
+              382.0,
+              1061.0
+            ],
+            [
+              1270.0,
+              1061.0
+            ],
+            [
+              1270.0,
+              1091.0
+            ],
+            [
+              382.0,
+              1091.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b25",
+          "type": "text",
+          "text": "Un accès simple, rapide et sécurisé à tous nos articles, au suivi de vos commandes et bien plus encore.",
+          "bbox": [
+            379.0,
+            1098.0,
+            1273.0,
+            1120.0
+          ],
+          "ocr_confidence": 0.9897558093070984,
+          "reading_order": 25,
+          "polygon": [
+            [
+              379.0,
+              1098.0
+            ],
+            [
+              1273.0,
+              1099.0
+            ],
+            [
+              1273.0,
+              1120.0
+            ],
+            [
+              379.0,
+              1119.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b26",
+          "type": "text",
+          "text": "A télécharger gratuitement.",
+          "bbox": [
+            712.0,
+            1124.0,
+            946.0,
+            1145.0
+          ],
+          "ocr_confidence": 0.9994404315948486,
+          "reading_order": 26,
+          "polygon": [
+            [
+              712.0,
+              1124.0
+            ],
+            [
+              946.0,
+              1124.0
+            ],
+            [
+              946.0,
+              1145.0
+            ],
+            [
+              712.0,
+              1145.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b27",
+          "type": "text",
+          "text": "www.amazon.fr/apps",
+          "bbox": [
+            687.0,
+            1166.0,
+            960.0,
+            1197.0
+          ],
+          "ocr_confidence": 0.9904091954231262,
+          "reading_order": 27,
+          "polygon": [
+            [
+              687.0,
+              1166.0
+            ],
+            [
+              960.0,
+              1166.0
+            ],
+            [
+              960.0,
+              1197.0
+            ],
+            [
+              687.0,
+              1197.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b28",
+          "type": "footer",
+          "text": "0/U3bwzzGvH/-2 of 2-//LH-BCN8/premium-next-fr/0/0128-03:30/0127-18:08 Pack Type : A1",
+          "bbox": [
+            141.0,
+            2056.0,
+            984.0,
+            2081.0
+          ],
+          "ocr_confidence": 0.999233067035675,
+          "reading_order": 28,
+          "polygon": [
+            [
+              141.0,
+              2056.0
+            ],
+            [
+              984.0,
+              2057.0
+            ],
+            [
+              984.0,
+              2081.0
+            ],
+            [
+              141.0,
+              2080.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b29",
+          "type": "image",
+          "bbox": [
+            1293.039306640625,
+            1064.331298828125,
+            1421.5068359375,
+            1192.523681640625
+          ],
+          "reading_order": 29
+        }
+      ],
+      "tables": [],
+      "warnings": [
+        "Ignored invalid OCR entry at index 29."
+      ]
+    }
+  ],
+  "source_mime_type": "image/png",
+  "warnings": [
+    "Page 1: Ignored invalid OCR entry at index 29."
+  ]
+}

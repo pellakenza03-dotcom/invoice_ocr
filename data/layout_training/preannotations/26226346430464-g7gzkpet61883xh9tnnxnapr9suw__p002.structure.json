@@ -1,0 +1,626 @@
+{
+    "input_path": "/kaggle/working/invoice_ocr/data/layout_training/images/26226346430464-g7gzkpet61883xh9tnnxnapr9suw__p002.png",
+    "page_index": null,
+    "page_count": null,
+    "width": 1654,
+    "height": 2339,
+    "model_settings": {
+        "use_doc_preprocessor": true,
+        "use_seal_recognition": false,
+        "use_table_recognition": true,
+        "use_formula_recognition": false,
+        "use_chart_recognition": false,
+        "use_region_detection": false,
+        "format_block_content": false,
+        "markdown_ignore_labels": [
+            "number",
+            "footnote",
+            "header",
+            "header_image",
+            "footer",
+            "footer_image",
+            "aside_text"
+        ]
+    },
+    "parsing_res_list": [
+        {
+            "block_label": "header",
+            "block_content": "Total TTC 65,87 €",
+            "block_bbox": [
+                1135,
+                154,
+                1502,
+                180
+            ],
+            "block_id": 0,
+            "block_order": null
+        },
+        {
+            "block_label": "text",
+            "block_content": "Mode de paiement :",
+            "block_bbox": [
+                147,
+                255,
+                441,
+                286
+            ],
+            "block_id": 1,
+            "block_order": 1
+        },
+        {
+            "block_label": "text",
+            "block_content": "Prélèvement SEPA FRXX 1820 6001 00XX XXXX XXX4 489",
+            "block_bbox": [
+                589,
+                255,
+                1500,
+                284
+            ],
+            "block_id": 2,
+            "block_order": 2
+        },
+        {
+            "block_label": "text",
+            "block_content": "SAS Docauto - 23 rue Taitbout - 75009 Paris Siret : 82901607000056N°TVA Intra-communautaire : FR 38 829 016 070RCS : 829 016 070 R.C.S. Paris Tél : 01 87 66 46 44 - Email : pieces@vroomly.com Site internet : www.vroomly.com ",
+            "block_bbox": [
+                507,
+                1994,
+                1141,
+                2218
+            ],
+            "block_id": 3,
+            "block_order": 3
+        }
+    ],
+    "doc_preprocessor_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_orientation_classify": false,
+            "use_doc_unwarping": false
+        },
+        "angle": -1
+    },
+    "layout_det_res": {
+        "input_path": null,
+        "page_index": null,
+        "boxes": [
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.9189198613166809,
+                "coordinate": [
+                    507.9346618652344,
+                    1994.262939453125,
+                    1141.2181396484375,
+                    2218.775146484375
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.6647083163261414,
+                "coordinate": [
+                    147.8143310546875,
+                    255.9830322265625,
+                    441.4273681640625,
+                    286.34619140625
+                ]
+            },
+            {
+                "cls_id": 2,
+                "label": "text",
+                "score": 0.5769063234329224,
+                "coordinate": [
+                    589.1824951171875,
+                    255.05706787109375,
+                    1500.1822509765625,
+                    284.16656494140625
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.5145093202590942,
+                "coordinate": [
+                    1136.15283203125,
+                    154.50729370117188,
+                    1289.749755859375,
+                    181.10610961914062
+                ]
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.4344572424888611,
+                "coordinate": [
+                    1135.470458984375,
+                    154.05877685546875,
+                    1502.162109375,
+                    180.9185791015625
+                ]
+            }
+        ]
+    },
+    "overall_ocr_res": {
+        "input_path": null,
+        "page_index": null,
+        "model_settings": {
+            "use_doc_preprocessor": false,
+            "use_textline_orientation": false
+        },
+        "dt_polys": [
+            [
+                [
+                    1135,
+                    154
+                ],
+                [
+                    1292,
+                    152
+                ],
+                [
+                    1292,
+                    179
+                ],
+                [
+                    1135,
+                    181
+                ]
+            ],
+            [
+                [
+                    1376,
+                    150
+                ],
+                [
+                    1505,
+                    150
+                ],
+                [
+                    1505,
+                    182
+                ],
+                [
+                    1376,
+                    182
+                ]
+            ],
+            [
+                [
+                    150,
+                    255
+                ],
+                [
+                    444,
+                    255
+                ],
+                [
+                    444,
+                    285
+                ],
+                [
+                    150,
+                    285
+                ]
+            ],
+            [
+                [
+                    590,
+                    254
+                ],
+                [
+                    1502,
+                    255
+                ],
+                [
+                    1502,
+                    282
+                ],
+                [
+                    590,
+                    281
+                ]
+            ],
+            [
+                [
+                    552,
+                    1995
+                ],
+                [
+                    1101,
+                    1995
+                ],
+                [
+                    1101,
+                    2022
+                ],
+                [
+                    552,
+                    2022
+                ]
+            ],
+            [
+                [
+                    673,
+                    2035
+                ],
+                [
+                    980,
+                    2035
+                ],
+                [
+                    980,
+                    2062
+                ],
+                [
+                    673,
+                    2062
+                ]
+            ],
+            [
+                [
+                    517,
+                    2074
+                ],
+                [
+                    1135,
+                    2074
+                ],
+                [
+                    1135,
+                    2101
+                ],
+                [
+                    517,
+                    2101
+                ]
+            ],
+            [
+                [
+                    634,
+                    2114
+                ],
+                [
+                    1019,
+                    2114
+                ],
+                [
+                    1019,
+                    2141
+                ],
+                [
+                    634,
+                    2141
+                ]
+            ],
+            [
+                [
+                    507,
+                    2151
+                ],
+                [
+                    1143,
+                    2152
+                ],
+                [
+                    1143,
+                    2182
+                ],
+                [
+                    507,
+                    2181
+                ]
+            ],
+            [
+                [
+                    622,
+                    2192
+                ],
+                [
+                    1029,
+                    2193
+                ],
+                [
+                    1029,
+                    2220
+                ],
+                [
+                    622,
+                    2219
+                ]
+            ]
+        ],
+        "text_det_params": {
+            "limit_side_len": 736,
+            "limit_type": "min",
+            "thresh": 0.3,
+            "max_side_limit": 4000,
+            "box_thresh": 0.6,
+            "unclip_ratio": 1.5
+        },
+        "text_type": "general",
+        "textline_orientation_angles": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+        ],
+        "text_rec_score_thresh": 0.0,
+        "return_word_box": false,
+        "rec_texts": [
+            "Total TTC",
+            "65,87 €",
+            "Mode de paiement :",
+            "Prélèvement SEPA FRXX 1820 6001 00XX XXXX XXX4 489",
+            "SAS Docauto - 23 rue Taitbout - 75009 Paris",
+            "Siret : 82901607000056",
+            "N°TVA Intra-communautaire : FR 38 829 016 070",
+            "RCS : 829 016 070 R.C.S. Paris",
+            "Tél : 01 87 66 46 44 - Email : pieces@vroomly.com",
+            "Site internet : www.vroomly.com"
+        ],
+        "rec_scores": [
+            0.9867960810661316,
+            0.9341790080070496,
+            0.9738881587982178,
+            0.9891812801361084,
+            0.9943953156471252,
+            0.9937401413917542,
+            0.9946313500404358,
+            0.9968370795249939,
+            0.9993503093719482,
+            0.9971602559089661
+        ],
+        "rec_polys": [
+            [
+                [
+                    1135,
+                    154
+                ],
+                [
+                    1292,
+                    152
+                ],
+                [
+                    1292,
+                    179
+                ],
+                [
+                    1135,
+                    181
+                ]
+            ],
+            [
+                [
+                    1376,
+                    150
+                ],
+                [
+                    1505,
+                    150
+                ],
+                [
+                    1505,
+                    182
+                ],
+                [
+                    1376,
+                    182
+                ]
+            ],
+            [
+                [
+                    150,
+                    255
+                ],
+                [
+                    444,
+                    255
+                ],
+                [
+                    444,
+                    285
+                ],
+                [
+                    150,
+                    285
+                ]
+            ],
+            [
+                [
+                    590,
+                    254
+                ],
+                [
+                    1502,
+                    255
+                ],
+                [
+                    1502,
+                    282
+                ],
+                [
+                    590,
+                    281
+                ]
+            ],
+            [
+                [
+                    552,
+                    1995
+                ],
+                [
+                    1101,
+                    1995
+                ],
+                [
+                    1101,
+                    2022
+                ],
+                [
+                    552,
+                    2022
+                ]
+            ],
+            [
+                [
+                    673,
+                    2035
+                ],
+                [
+                    980,
+                    2035
+                ],
+                [
+                    980,
+                    2062
+                ],
+                [
+                    673,
+                    2062
+                ]
+            ],
+            [
+                [
+                    517,
+                    2074
+                ],
+                [
+                    1135,
+                    2074
+                ],
+                [
+                    1135,
+                    2101
+                ],
+                [
+                    517,
+                    2101
+                ]
+            ],
+            [
+                [
+                    634,
+                    2114
+                ],
+                [
+                    1019,
+                    2114
+                ],
+                [
+                    1019,
+                    2141
+                ],
+                [
+                    634,
+                    2141
+                ]
+            ],
+            [
+                [
+                    507,
+                    2151
+                ],
+                [
+                    1143,
+                    2152
+                ],
+                [
+                    1143,
+                    2182
+                ],
+                [
+                    507,
+                    2181
+                ]
+            ],
+            [
+                [
+                    622,
+                    2192
+                ],
+                [
+                    1029,
+                    2193
+                ],
+                [
+                    1029,
+                    2220
+                ],
+                [
+                    622,
+                    2219
+                ]
+            ]
+        ],
+        "rec_boxes": [
+            [
+                1135,
+                152,
+                1292,
+                181
+            ],
+            [
+                1376,
+                150,
+                1505,
+                182
+            ],
+            [
+                150,
+                255,
+                444,
+                285
+            ],
+            [
+                590,
+                254,
+                1502,
+                282
+            ],
+            [
+                552,
+                1995,
+                1101,
+                2022
+            ],
+            [
+                673,
+                2035,
+                980,
+                2062
+            ],
+            [
+                517,
+                2074,
+                1135,
+                2101
+            ],
+            [
+                634,
+                2114,
+                1019,
+                2141
+            ],
+            [
+                507,
+                2151,
+                1143,
+                2182
+            ],
+            [
+                622,
+                2192,
+                1029,
+                2220
+            ]
+        ]
+    }
+}

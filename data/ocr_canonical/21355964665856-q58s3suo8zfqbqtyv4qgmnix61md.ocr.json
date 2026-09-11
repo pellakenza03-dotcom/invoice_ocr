@@ -1,0 +1,2356 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "21355964665856-q58s3suo8zfqbqtyv4qgmnix61md",
+  "source_file": "21355964665856-q58s3suo8zfqbqtyv4qgmnix61md__p001.png",
+  "generated_at": "2026-09-11T09:21:52.080029Z",
+  "ocr_engine": {
+    "name": "PP-StructureV3",
+    "version": "3.7.0"
+  },
+  "page_count": 1,
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 1653,
+      "height": 2339,
+      "orientation": 0,
+      "blocks": [
+        {
+          "block_id": "p1_b0",
+          "type": "header",
+          "text": "CONSEIL NATIONAL DE L'ORDRE",
+          "bbox": [
+            298.0,
+            120.0,
+            651.0,
+            144.0
+          ],
+          "ocr_confidence": 0.9980196356773376,
+          "reading_order": 0,
+          "polygon": [
+            [
+              298.0,
+              120.0
+            ],
+            [
+              651.0,
+              120.0
+            ],
+            [
+              651.0,
+              144.0
+            ],
+            [
+              298.0,
+              144.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b1",
+          "type": "header",
+          "text": "DES PHARMACIENS",
+          "bbox": [
+            366.0,
+            152.0,
+            584.0,
+            176.0
+          ],
+          "ocr_confidence": 0.996305525302887,
+          "reading_order": 1,
+          "polygon": [
+            [
+              366.0,
+              152.0
+            ],
+            [
+              584.0,
+              152.0
+            ],
+            [
+              584.0,
+              176.0
+            ],
+            [
+              366.0,
+              176.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b2",
+          "type": "header",
+          "text": "Ordre nattenal",
+          "bbox": [
+            141.0,
+            185.0,
+            207.0,
+            199.0
+          ],
+          "ocr_confidence": 0.8493768572807312,
+          "reading_order": 2,
+          "polygon": [
+            [
+              141.0,
+              185.0
+            ],
+            [
+              207.0,
+              185.0
+            ],
+            [
+              207.0,
+              199.0
+            ],
+            [
+              141.0,
+              199.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b3",
+          "type": "header",
+          "text": "des oharmacans",
+          "bbox": [
+            136.0,
+            198.0,
+            213.0,
+            210.0
+          ],
+          "ocr_confidence": 0.8548188209533691,
+          "reading_order": 3,
+          "polygon": [
+            [
+              136.0,
+              198.0
+            ],
+            [
+              213.0,
+              198.0
+            ],
+            [
+              213.0,
+              210.0
+            ],
+            [
+              136.0,
+              210.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b4",
+          "type": "text",
+          "text": "Cotisation des sociétés 2025",
+          "bbox": [
+            117.0,
+            271.0,
+            576.0,
+            306.0
+          ],
+          "ocr_confidence": 0.9834986329078674,
+          "reading_order": 4,
+          "polygon": [
+            [
+              117.0,
+              271.0
+            ],
+            [
+              576.0,
+              272.0
+            ],
+            [
+              576.0,
+              306.0
+            ],
+            [
+              117.0,
+              305.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b5",
+          "type": "text",
+          "text": "00S32203/A",
+          "bbox": [
+            1290.0,
+            283.0,
+            1424.0,
+            311.0
+          ],
+          "ocr_confidence": 0.9998393058776855,
+          "reading_order": 5,
+          "polygon": [
+            [
+              1290.0,
+              283.0
+            ],
+            [
+              1424.0,
+              283.0
+            ],
+            [
+              1424.0,
+              311.0
+            ],
+            [
+              1290.0,
+              311.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b6",
+          "type": "text",
+          "text": "SELARL PHARMACIE FROIDEVAUX",
+          "bbox": [
+            945.0,
+            312.0,
+            1428.0,
+            344.0
+          ],
+          "ocr_confidence": 0.9708941578865051,
+          "reading_order": 6,
+          "polygon": [
+            [
+              945.0,
+              312.0
+            ],
+            [
+              1428.0,
+              313.0
+            ],
+            [
+              1427.0,
+              344.0
+            ],
+            [
+              945.0,
+              343.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b7",
+          "type": "text",
+          "text": "Numéro ordinal : 00S32203",
+          "bbox": [
+            117.0,
+            326.0,
+            477.0,
+            355.0
+          ],
+          "ocr_confidence": 0.9793354272842407,
+          "reading_order": 7,
+          "polygon": [
+            [
+              117.0,
+              326.0
+            ],
+            [
+              477.0,
+              327.0
+            ],
+            [
+              477.0,
+              355.0
+            ],
+            [
+              117.0,
+              354.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b8",
+          "type": "text",
+          "text": "CCAL PRAIRIE DE L OLY",
+          "bbox": [
+            945.0,
+            345.0,
+            1287.0,
+            375.0
+          ],
+          "ocr_confidence": 0.9951475262641907,
+          "reading_order": 8,
+          "polygon": [
+            [
+              945.0,
+              345.0
+            ],
+            [
+              1287.0,
+              345.0
+            ],
+            [
+              1287.0,
+              375.0
+            ],
+            [
+              945.0,
+              375.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b9",
+          "type": "text",
+          "text": "N/Réf : 25112399",
+          "bbox": [
+            117.0,
+            359.0,
+            341.0,
+            390.0
+          ],
+          "ocr_confidence": 0.9893329739570618,
+          "reading_order": 9,
+          "polygon": [
+            [
+              117.0,
+              359.0
+            ],
+            [
+              341.0,
+              362.0
+            ],
+            [
+              341.0,
+              390.0
+            ],
+            [
+              117.0,
+              387.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b10",
+          "type": "text",
+          "text": "PL DU SOLEIL",
+          "bbox": [
+            945.0,
+            376.0,
+            1145.0,
+            408.0
+          ],
+          "ocr_confidence": 0.9962677955627441,
+          "reading_order": 10,
+          "polygon": [
+            [
+              945.0,
+              376.0
+            ],
+            [
+              1145.0,
+              376.0
+            ],
+            [
+              1145.0,
+              408.0
+            ],
+            [
+              945.0,
+              408.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b11",
+          "type": "text",
+          "text": "91230 MONTGERON",
+          "bbox": [
+            944.0,
+            406.0,
+            1233.0,
+            440.0
+          ],
+          "ocr_confidence": 0.9718409180641174,
+          "reading_order": 11,
+          "polygon": [
+            [
+              944.0,
+              406.0
+            ],
+            [
+              1233.0,
+              409.0
+            ],
+            [
+              1233.0,
+              440.0
+            ],
+            [
+              944.0,
+              437.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b12",
+          "type": "text",
+          "text": "Paris, le 24 janvier 2025",
+          "bbox": [
+            75.0,
+            577.0,
+            380.0,
+            610.0
+          ],
+          "ocr_confidence": 0.9978457093238831,
+          "reading_order": 12,
+          "polygon": [
+            [
+              76.0,
+              577.0
+            ],
+            [
+              380.0,
+              579.0
+            ],
+            [
+              379.0,
+              610.0
+            ],
+            [
+              75.0,
+              608.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b13",
+          "type": "text",
+          "text": "Chers Confrères,",
+          "bbox": [
+            75.0,
+            638.0,
+            293.0,
+            673.0
+          ],
+          "ocr_confidence": 0.9465751051902771,
+          "reading_order": 13,
+          "polygon": [
+            [
+              76.0,
+              638.0
+            ],
+            [
+              293.0,
+              641.0
+            ],
+            [
+              293.0,
+              673.0
+            ],
+            [
+              75.0,
+              670.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b14",
+          "type": "text",
+          "text": "Le Conseil national, en sa séance du 09décembre 2024, a fixé les montants et les modalités de recouvrement de la",
+          "bbox": [
+            75.0,
+            688.0,
+            1538.0,
+            720.0
+          ],
+          "ocr_confidence": 0.9874767661094666,
+          "reading_order": 14,
+          "polygon": [
+            [
+              76.0,
+              688.0
+            ],
+            [
+              1538.0,
+              693.0
+            ],
+            [
+              1538.0,
+              720.0
+            ],
+            [
+              75.0,
+              715.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b15",
+          "type": "text",
+          "text": "cotisation2025des sociétés.",
+          "bbox": [
+            77.0,
+            721.0,
+            437.0,
+            748.0
+          ],
+          "ocr_confidence": 0.9998046159744263,
+          "reading_order": 15,
+          "polygon": [
+            [
+              77.0,
+              721.0
+            ],
+            [
+              437.0,
+              721.0
+            ],
+            [
+              437.0,
+              748.0
+            ],
+            [
+              77.0,
+              748.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b16",
+          "type": "text",
+          "text": "Les sociétés inscrites au tableau de l'Ordre sont soumises à cotisation, comme les professionnels.",
+          "bbox": [
+            75.0,
+            765.0,
+            1288.0,
+            796.0
+          ],
+          "ocr_confidence": 0.9922759532928467,
+          "reading_order": 16,
+          "polygon": [
+            [
+              76.0,
+              765.0
+            ],
+            [
+              1288.0,
+              768.0
+            ],
+            [
+              1288.0,
+              796.0
+            ],
+            [
+              75.0,
+              793.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b17",
+          "type": "text",
+          "text": "Après règlement devotre cotisation, vous recevrez l'attestation de paiement justifiant également de l'inscriptionà",
+          "bbox": [
+            74.0,
+            811.0,
+            1540.0,
+            844.0
+          ],
+          "ocr_confidence": 0.9828295111656189,
+          "reading_order": 17,
+          "polygon": [
+            [
+              75.0,
+              811.0
+            ],
+            [
+              1540.0,
+              814.0
+            ],
+            [
+              1540.0,
+              844.0
+            ],
+            [
+              74.0,
+              841.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b18",
+          "type": "text",
+          "text": "l'Ordre.",
+          "bbox": [
+            73.0,
+            840.0,
+            179.0,
+            871.0
+          ],
+          "ocr_confidence": 0.9857273101806641,
+          "reading_order": 18,
+          "polygon": [
+            [
+              73.0,
+              840.0
+            ],
+            [
+              179.0,
+              840.0
+            ],
+            [
+              179.0,
+              871.0
+            ],
+            [
+              73.0,
+              871.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b19",
+          "type": "text",
+          "text": "En complément des informations qui figurent au verso de ce document et dans la brochure jointe, vous trouverez dans",
+          "bbox": [
+            74.0,
+            886.0,
+            1539.0,
+            922.0
+          ],
+          "ocr_confidence": 0.9867258667945862,
+          "reading_order": 19,
+          "polygon": [
+            [
+              75.0,
+              886.0
+            ],
+            [
+              1539.0,
+              891.0
+            ],
+            [
+              1539.0,
+              922.0
+            ],
+            [
+              74.0,
+              917.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b20",
+          "type": "text",
+          "text": "l'espace pharmaciens du site internet de l'Ordre des Pharmaciens un article consacré au budget de l'Ordre.",
+          "bbox": [
+            74.0,
+            921.0,
+            1399.0,
+            951.0
+          ],
+          "ocr_confidence": 0.9884504079818726,
+          "reading_order": 20,
+          "polygon": [
+            [
+              75.0,
+              921.0
+            ],
+            [
+              1399.0,
+              924.0
+            ],
+            [
+              1399.0,
+              951.0
+            ],
+            [
+              74.0,
+              948.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b21",
+          "type": "text",
+          "text": "Restantà votre entière disposition, nous vous prions d'agréer, chersConfrères, l'expression de nos sentiments",
+          "bbox": [
+            74.0,
+            965.0,
+            1539.0,
+            1001.0
+          ],
+          "ocr_confidence": 0.9774234294891357,
+          "reading_order": 21,
+          "polygon": [
+            [
+              75.0,
+              965.0
+            ],
+            [
+              1539.0,
+              970.0
+            ],
+            [
+              1539.0,
+              1001.0
+            ],
+            [
+              74.0,
+              996.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b22",
+          "type": "text",
+          "text": "dévoués.",
+          "bbox": [
+            74.0,
+            997.0,
+            194.0,
+            1028.0
+          ],
+          "ocr_confidence": 0.9996013641357422,
+          "reading_order": 22,
+          "polygon": [
+            [
+              74.0,
+              997.0
+            ],
+            [
+              194.0,
+              997.0
+            ],
+            [
+              194.0,
+              1028.0
+            ],
+            [
+              74.0,
+              1028.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b23",
+          "type": "text",
+          "text": "Le Trésorier du Conseil National",
+          "bbox": [
+            980.0,
+            1038.0,
+            1383.0,
+            1070.0
+          ],
+          "ocr_confidence": 0.9990845918655396,
+          "reading_order": 23,
+          "polygon": [
+            [
+              981.0,
+              1038.0
+            ],
+            [
+              1383.0,
+              1040.0
+            ],
+            [
+              1383.0,
+              1070.0
+            ],
+            [
+              980.0,
+              1068.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b24",
+          "type": "text",
+          "text": "Xavier DESMAS",
+          "bbox": [
+            1077.0,
+            1079.0,
+            1284.0,
+            1106.0
+          ],
+          "ocr_confidence": 0.9964101314544678,
+          "reading_order": 24,
+          "polygon": [
+            [
+              1077.0,
+              1079.0
+            ],
+            [
+              1284.0,
+              1079.0
+            ],
+            [
+              1284.0,
+              1106.0
+            ],
+            [
+              1077.0,
+              1106.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b25",
+          "type": "table",
+          "text": "APPEL DE COTISATION 2025 DES SOCIETES",
+          "bbox": [
+            390.0,
+            1271.0,
+            1223.0,
+            1309.0
+          ],
+          "ocr_confidence": 0.988764762878418,
+          "reading_order": 25,
+          "polygon": [
+            [
+              390.0,
+              1271.0
+            ],
+            [
+              1223.0,
+              1272.0
+            ],
+            [
+              1223.0,
+              1309.0
+            ],
+            [
+              390.0,
+              1308.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b26",
+          "type": "text",
+          "text": "14277798 1427279690 pli 8927 - page 17853",
+          "bbox": [
+            3.0,
+            1324.0,
+            37.0,
+            1672.0
+          ],
+          "ocr_confidence": 0.9789357781410217,
+          "reading_order": 26,
+          "polygon": [
+            [
+              9.0,
+              1324.0
+            ],
+            [
+              37.0,
+              1324.0
+            ],
+            [
+              31.0,
+              1672.0
+            ],
+            [
+              3.0,
+              1672.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b27",
+          "type": "table",
+          "text": "Section de rattachement de votre société : A",
+          "bbox": [
+            170.0,
+            1359.0,
+            693.0,
+            1388.0
+          ],
+          "ocr_confidence": 0.9912765622138977,
+          "reading_order": 27,
+          "polygon": [
+            [
+              170.0,
+              1359.0
+            ],
+            [
+              693.0,
+              1360.0
+            ],
+            [
+              693.0,
+              1388.0
+            ],
+            [
+              170.0,
+              1387.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b28",
+          "type": "table",
+          "text": "Montant de la cotisation :",
+          "bbox": [
+            792.0,
+            1361.0,
+            1080.0,
+            1388.0
+          ],
+          "ocr_confidence": 0.9988742470741272,
+          "reading_order": 28,
+          "polygon": [
+            [
+              792.0,
+              1361.0
+            ],
+            [
+              1080.0,
+              1361.0
+            ],
+            [
+              1080.0,
+              1388.0
+            ],
+            [
+              792.0,
+              1388.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b29",
+          "type": "table",
+          "text": "545.00 €",
+          "bbox": [
+            1385.0,
+            1357.0,
+            1504.0,
+            1393.0
+          ],
+          "ocr_confidence": 0.9923684597015381,
+          "reading_order": 29,
+          "polygon": [
+            [
+              1385.0,
+              1357.0
+            ],
+            [
+              1504.0,
+              1357.0
+            ],
+            [
+              1504.0,
+              1393.0
+            ],
+            [
+              1385.0,
+              1393.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b30",
+          "type": "table",
+          "text": "Cotisation à régler au plus tard le 24 février 2025",
+          "bbox": [
+            139.0,
+            1455.0,
+            726.0,
+            1485.0
+          ],
+          "ocr_confidence": 0.9936975240707397,
+          "reading_order": 30,
+          "polygon": [
+            [
+              139.0,
+              1455.0
+            ],
+            [
+              726.0,
+              1455.0
+            ],
+            [
+              726.0,
+              1485.0
+            ],
+            [
+              139.0,
+              1485.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b31",
+          "type": "table",
+          "text": "Total à régler :",
+          "bbox": [
+            791.0,
+            1455.0,
+            1011.0,
+            1492.0
+          ],
+          "ocr_confidence": 0.9849594235420227,
+          "reading_order": 31,
+          "polygon": [
+            [
+              791.0,
+              1455.0
+            ],
+            [
+              1011.0,
+              1457.0
+            ],
+            [
+              1011.0,
+              1492.0
+            ],
+            [
+              791.0,
+              1490.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b32",
+          "type": "table",
+          "text": "545.00 €",
+          "bbox": [
+            1378.0,
+            1456.0,
+            1503.0,
+            1492.0
+          ],
+          "ocr_confidence": 0.9951525330543518,
+          "reading_order": 32,
+          "polygon": [
+            [
+              1378.0,
+              1456.0
+            ],
+            [
+              1503.0,
+              1456.0
+            ],
+            [
+              1503.0,
+              1492.0
+            ],
+            [
+              1378.0,
+              1492.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b33",
+          "type": "image",
+          "text": "ATTENTiON, pour éviter toute erreur de prélèvement :",
+          "bbox": [
+            451.0,
+            1579.0,
+            1308.0,
+            1616.0
+          ],
+          "ocr_confidence": 0.9772545695304871,
+          "reading_order": 33,
+          "polygon": [
+            [
+              451.0,
+              1579.0
+            ],
+            [
+              1308.0,
+              1582.0
+            ],
+            [
+              1308.0,
+              1616.0
+            ],
+            [
+              451.0,
+              1613.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b34",
+          "type": "image",
+          "text": "VÉRIFIEZIMPÉRATIVEMENT SUR LETIP SEPA LES RÉFÉRENCES BANCAIRES DU COMPTE A PRÉLEVER",
+          "bbox": [
+            35.0,
+            1631.0,
+            1599.0,
+            1668.0
+          ],
+          "ocr_confidence": 0.995631754398346,
+          "reading_order": 34,
+          "polygon": [
+            [
+              35.0,
+              1631.0
+            ],
+            [
+              1599.0,
+              1634.0
+            ],
+            [
+              1599.0,
+              1668.0
+            ],
+            [
+              35.0,
+              1665.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b35",
+          "type": "image",
+          "text": "IBAN : FR76 30004 00941 00010132156 38",
+          "bbox": [
+            314.0,
+            1703.0,
+            647.0,
+            1725.0
+          ],
+          "ocr_confidence": 0.9678692817687988,
+          "reading_order": 35,
+          "polygon": [
+            [
+              314.0,
+              1703.0
+            ],
+            [
+              647.0,
+              1705.0
+            ],
+            [
+              647.0,
+              1725.0
+            ],
+            [
+              314.0,
+              1723.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b36",
+          "type": "text",
+          "text": "SELARL PHARMACIE FROIDEVAUX",
+          "bbox": [
+            746.0,
+            1707.0,
+            1029.0,
+            1724.0
+          ],
+          "ocr_confidence": 0.9900248050689697,
+          "reading_order": 36,
+          "polygon": [
+            [
+              746.0,
+              1707.0
+            ],
+            [
+              1029.0,
+              1707.0
+            ],
+            [
+              1029.0,
+              1724.0
+            ],
+            [
+              746.0,
+              1724.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b37",
+          "type": "image",
+          "text": "Montant : 545.00 €",
+          "bbox": [
+            1335.0,
+            1711.0,
+            1577.0,
+            1738.0
+          ],
+          "ocr_confidence": 0.9543072581291199,
+          "reading_order": 37,
+          "polygon": [
+            [
+              1335.0,
+              1711.0
+            ],
+            [
+              1577.0,
+              1711.0
+            ],
+            [
+              1577.0,
+              1738.0
+            ],
+            [
+              1335.0,
+              1738.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b38",
+          "type": "text",
+          "text": "ICS : FR67ZZZ144304",
+          "bbox": [
+            315.0,
+            1726.0,
+            488.0,
+            1743.0
+          ],
+          "ocr_confidence": 0.9892721772193909,
+          "reading_order": 38,
+          "polygon": [
+            [
+              315.0,
+              1726.0
+            ],
+            [
+              488.0,
+              1726.0
+            ],
+            [
+              488.0,
+              1743.0
+            ],
+            [
+              315.0,
+              1743.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b39",
+          "type": "text",
+          "text": "CCAL PRAIRIE DE L OLY PL DU SOLEIL —",
+          "bbox": [
+            750.0,
+            1724.0,
+            1086.0,
+            1743.0
+          ],
+          "ocr_confidence": 0.978531002998352,
+          "reading_order": 39,
+          "polygon": [
+            [
+              750.0,
+              1724.0
+            ],
+            [
+              1086.0,
+              1725.0
+            ],
+            [
+              1086.0,
+              1743.0
+            ],
+            [
+              750.0,
+              1742.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b40",
+          "type": "image",
+          "text": "RUM : TIP52000000001100232203251123999",
+          "bbox": [
+            314.0,
+            1744.0,
+            666.0,
+            1765.0
+          ],
+          "ocr_confidence": 0.9850183725357056,
+          "reading_order": 40,
+          "polygon": [
+            [
+              314.0,
+              1744.0
+            ],
+            [
+              666.0,
+              1745.0
+            ],
+            [
+              666.0,
+              1765.0
+            ],
+            [
+              314.0,
+              1764.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b41",
+          "type": "text",
+          "text": "91230 MONTGERON",
+          "bbox": [
+            744.0,
+            1744.0,
+            909.0,
+            1761.0
+          ],
+          "ocr_confidence": 0.9997318387031555,
+          "reading_order": 41,
+          "polygon": [
+            [
+              744.0,
+              1744.0
+            ],
+            [
+              909.0,
+              1744.0
+            ],
+            [
+              909.0,
+              1761.0
+            ],
+            [
+              744.0,
+              1761.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b42",
+          "type": "image",
+          "text": "Mandat de prélèvement SEPA ponctuel : en signant ce formulaire de mandat, vous autorisez TESSI - CNOP à envoyer",
+          "bbox": [
+            313.0,
+            1802.0,
+            1202.0,
+            1824.0
+          ],
+          "ocr_confidence": 0.9926268458366394,
+          "reading_order": 42,
+          "polygon": [
+            [
+              313.0,
+              1802.0
+            ],
+            [
+              1202.0,
+              1804.0
+            ],
+            [
+              1202.0,
+              1824.0
+            ],
+            [
+              313.0,
+              1822.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b43",
+          "type": "text",
+          "text": "des instructions à votre banque pour débiter votre compte, conformément aux instructions de TEsSi - CNOP, vous",
+          "bbox": [
+            313.0,
+            1819.0,
+            1202.0,
+            1841.0
+          ],
+          "ocr_confidence": 0.9784932732582092,
+          "reading_order": 43,
+          "polygon": [
+            [
+              313.0,
+              1819.0
+            ],
+            [
+              1202.0,
+              1820.0
+            ],
+            [
+              1202.0,
+              1841.0
+            ],
+            [
+              313.0,
+              1840.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b44",
+          "type": "image",
+          "text": "TIPS€PA",
+          "bbox": [
+            1298.0,
+            1813.0,
+            1440.0,
+            1851.0
+          ],
+          "ocr_confidence": 0.9789032340049744,
+          "reading_order": 44,
+          "polygon": [
+            [
+              1298.0,
+              1813.0
+            ],
+            [
+              1440.0,
+              1813.0
+            ],
+            [
+              1440.0,
+              1851.0
+            ],
+            [
+              1298.0,
+              1851.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b45",
+          "type": "text",
+          "text": "A DETACHER,",
+          "bbox": [
+            53.0,
+            1845.0,
+            209.0,
+            1875.0
+          ],
+          "ocr_confidence": 0.9988544583320618,
+          "reading_order": 45,
+          "polygon": [
+            [
+              53.0,
+              1845.0
+            ],
+            [
+              209.0,
+              1847.0
+            ],
+            [
+              208.0,
+              1875.0
+            ],
+            [
+              53.0,
+              1872.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b46",
+          "type": "text",
+          "text": "bénéficiez du droit d'être remboursé par votre banque selon les conditions décrites dans la convention que vous avez",
+          "bbox": [
+            313.0,
+            1837.0,
+            1202.0,
+            1859.0
+          ],
+          "ocr_confidence": 0.9885419011116028,
+          "reading_order": 46,
+          "polygon": [
+            [
+              313.0,
+              1837.0
+            ],
+            [
+              1202.0,
+              1839.0
+            ],
+            [
+              1202.0,
+              1859.0
+            ],
+            [
+              313.0,
+              1857.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b47",
+          "type": "text",
+          "text": "passée avec elle. Une demande de remboursement doit être présentée dans les 8 semaines suivant la date de débit de",
+          "bbox": [
+            313.0,
+            1855.0,
+            1202.0,
+            1876.0
+          ],
+          "ocr_confidence": 0.9777898788452148,
+          "reading_order": 47,
+          "polygon": [
+            [
+              313.0,
+              1855.0
+            ],
+            [
+              1202.0,
+              1856.0
+            ],
+            [
+              1202.0,
+              1876.0
+            ],
+            [
+              313.0,
+              1875.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b48",
+          "type": "text",
+          "text": "DATER,",
+          "bbox": [
+            87.0,
+            1874.0,
+            173.0,
+            1899.0
+          ],
+          "ocr_confidence": 0.9969744682312012,
+          "reading_order": 48,
+          "polygon": [
+            [
+              87.0,
+              1874.0
+            ],
+            [
+              173.0,
+              1874.0
+            ],
+            [
+              173.0,
+              1899.0
+            ],
+            [
+              87.0,
+              1899.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b49",
+          "type": "image",
+          "text": "votre compte pour un prélèvement autorisé. Vos droits concernant le présent mandat sont expliqués dans un document",
+          "bbox": [
+            313.0,
+            1872.0,
+            1203.0,
+            1894.0
+          ],
+          "ocr_confidence": 0.9947394728660583,
+          "reading_order": 49,
+          "polygon": [
+            [
+              313.0,
+              1872.0
+            ],
+            [
+              1203.0,
+              1874.0
+            ],
+            [
+              1203.0,
+              1894.0
+            ],
+            [
+              313.0,
+              1892.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b50",
+          "type": "text",
+          "text": "que vous pouvez obtenir auprès de votre banque",
+          "bbox": [
+            313.0,
+            1890.0,
+            681.0,
+            1911.0
+          ],
+          "ocr_confidence": 0.9974254369735718,
+          "reading_order": 50,
+          "polygon": [
+            [
+              313.0,
+              1890.0
+            ],
+            [
+              681.0,
+              1891.0
+            ],
+            [
+              681.0,
+              1911.0
+            ],
+            [
+              313.0,
+              1910.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b51",
+          "type": "text",
+          "text": "SIGNER ET",
+          "bbox": [
+            72.0,
+            1901.0,
+            196.0,
+            1925.0
+          ],
+          "ocr_confidence": 0.9997828602790833,
+          "reading_order": 51,
+          "polygon": [
+            [
+              72.0,
+              1901.0
+            ],
+            [
+              196.0,
+              1901.0
+            ],
+            [
+              196.0,
+              1925.0
+            ],
+            [
+              72.0,
+              1925.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b52",
+          "type": "text",
+          "text": "Le présent document a valeur de mandat de prélèvement SEPA ponctuel. Votre signature vaut autorisation pour",
+          "bbox": [
+            313.0,
+            1907.0,
+            1202.0,
+            1929.0
+          ],
+          "ocr_confidence": 0.9932379126548767,
+          "reading_order": 52,
+          "polygon": [
+            [
+              313.0,
+              1907.0
+            ],
+            [
+              1202.0,
+              1908.0
+            ],
+            [
+              1202.0,
+              1929.0
+            ],
+            [
+              313.0,
+              1928.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b53",
+          "type": "text",
+          "text": "INSERER",
+          "bbox": [
+            80.0,
+            1929.0,
+            182.0,
+            1951.0
+          ],
+          "ocr_confidence": 0.9998629689216614,
+          "reading_order": 53,
+          "polygon": [
+            [
+              80.0,
+              1929.0
+            ],
+            [
+              182.0,
+              1929.0
+            ],
+            [
+              182.0,
+              1951.0
+            ],
+            [
+              80.0,
+              1951.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b54",
+          "type": "image",
+          "text": "débiter, à réception, votre compte pour le montant indiqué.",
+          "bbox": [
+            313.0,
+            1924.0,
+            785.0,
+            1948.0
+          ],
+          "ocr_confidence": 0.985840380191803,
+          "reading_order": 54,
+          "polygon": [
+            [
+              313.0,
+              1924.0
+            ],
+            [
+              785.0,
+              1926.0
+            ],
+            [
+              785.0,
+              1948.0
+            ],
+            [
+              313.0,
+              1945.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b55",
+          "type": "text",
+          "text": "DANS",
+          "bbox": [
+            98.0,
+            1956.0,
+            163.0,
+            1978.0
+          ],
+          "ocr_confidence": 0.9998568296432495,
+          "reading_order": 55,
+          "polygon": [
+            [
+              98.0,
+              1956.0
+            ],
+            [
+              163.0,
+              1956.0
+            ],
+            [
+              163.0,
+              1978.0
+            ],
+            [
+              98.0,
+              1978.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b56",
+          "type": "image",
+          "text": "Date et Lieu",
+          "bbox": [
+            364.0,
+            1958.0,
+            461.0,
+            1983.0
+          ],
+          "ocr_confidence": 0.9998361468315125,
+          "reading_order": 56,
+          "polygon": [
+            [
+              365.0,
+              1958.0
+            ],
+            [
+              461.0,
+              1961.0
+            ],
+            [
+              461.0,
+              1983.0
+            ],
+            [
+              364.0,
+              1980.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b57",
+          "type": "image",
+          "text": "Signature",
+          "bbox": [
+            678.0,
+            1960.0,
+            758.0,
+            1985.0
+          ],
+          "ocr_confidence": 0.9997325539588928,
+          "reading_order": 57,
+          "polygon": [
+            [
+              678.0,
+              1960.0
+            ],
+            [
+              758.0,
+              1960.0
+            ],
+            [
+              758.0,
+              1985.0
+            ],
+            [
+              678.0,
+              1985.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b58",
+          "type": "text",
+          "text": "L'ENVELOPPE",
+          "bbox": [
+            54.0,
+            1982.0,
+            209.0,
+            2006.0
+          ],
+          "ocr_confidence": 0.9993165731430054,
+          "reading_order": 58,
+          "polygon": [
+            [
+              54.0,
+              1982.0
+            ],
+            [
+              209.0,
+              1982.0
+            ],
+            [
+              209.0,
+              2006.0
+            ],
+            [
+              54.0,
+              2006.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b59",
+          "type": "text",
+          "text": "TESSI - CNOP",
+          "bbox": [
+            1020.0,
+            1985.0,
+            1190.0,
+            2009.0
+          ],
+          "ocr_confidence": 0.9833729267120361,
+          "reading_order": 59,
+          "polygon": [
+            [
+              1020.0,
+              1985.0
+            ],
+            [
+              1190.0,
+              1985.0
+            ],
+            [
+              1190.0,
+              2009.0
+            ],
+            [
+              1020.0,
+              2009.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b60",
+          "type": "text",
+          "text": "RETOUR",
+          "bbox": [
+            81.0,
+            2009.0,
+            180.0,
+            2033.0
+          ],
+          "ocr_confidence": 0.9998378753662109,
+          "reading_order": 60,
+          "polygon": [
+            [
+              81.0,
+              2009.0
+            ],
+            [
+              180.0,
+              2009.0
+            ],
+            [
+              180.0,
+              2033.0
+            ],
+            [
+              81.0,
+              2033.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b61",
+          "type": "text",
+          "text": "TSA 71289",
+          "bbox": [
+            1018.0,
+            2014.0,
+            1150.0,
+            2041.0
+          ],
+          "ocr_confidence": 0.9961482286453247,
+          "reading_order": 61,
+          "polygon": [
+            [
+              1018.0,
+              2014.0
+            ],
+            [
+              1150.0,
+              2014.0
+            ],
+            [
+              1150.0,
+              2041.0
+            ],
+            [
+              1018.0,
+              2041.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b62",
+          "type": "text",
+          "text": "JOINTE",
+          "bbox": [
+            88.0,
+            2035.0,
+            173.0,
+            2059.0
+          ],
+          "ocr_confidence": 0.9998772144317627,
+          "reading_order": 62,
+          "polygon": [
+            [
+              88.0,
+              2035.0
+            ],
+            [
+              173.0,
+              2035.0
+            ],
+            [
+              173.0,
+              2059.0
+            ],
+            [
+              88.0,
+              2059.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b63",
+          "type": "image",
+          "text": "92894 Nanterre Cedex 9",
+          "bbox": [
+            1018.0,
+            2043.0,
+            1307.0,
+            2073.0
+          ],
+          "ocr_confidence": 0.9873135089874268,
+          "reading_order": 63,
+          "polygon": [
+            [
+              1018.0,
+              2043.0
+            ],
+            [
+              1307.0,
+              2046.0
+            ],
+            [
+              1307.0,
+              2073.0
+            ],
+            [
+              1018.0,
+              2070.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b64",
+          "type": "text",
+          "text": "+",
+          "bbox": [
+            126.0,
+            2069.0,
+            137.0,
+            2079.0
+          ],
+          "ocr_confidence": 0.9977980852127075,
+          "reading_order": 64,
+          "polygon": [
+            [
+              126.0,
+              2069.0
+            ],
+            [
+              137.0,
+              2069.0
+            ],
+            [
+              137.0,
+              2079.0
+            ],
+            [
+              126.0,
+              2079.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b65",
+          "type": "text",
+          "text": "RIB",
+          "bbox": [
+            109.0,
+            2088.0,
+            152.0,
+            2112.0
+          ],
+          "ocr_confidence": 0.999547004699707,
+          "reading_order": 65,
+          "polygon": [
+            [
+              109.0,
+              2088.0
+            ],
+            [
+              152.0,
+              2088.0
+            ],
+            [
+              152.0,
+              2112.0
+            ],
+            [
+              109.0,
+              2112.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b66",
+          "type": "text",
+          "text": "NE RIEN INSCRIRE SOUS CE TRAIT — NE PAS PLIER",
+          "bbox": [
+            288.0,
+            2103.0,
+            719.0,
+            2123.0
+          ],
+          "ocr_confidence": 0.9849883913993835,
+          "reading_order": 66,
+          "polygon": [
+            [
+              288.0,
+              2103.0
+            ],
+            [
+              719.0,
+              2103.0
+            ],
+            [
+              719.0,
+              2123.0
+            ],
+            [
+              288.0,
+              2123.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b67",
+          "type": "text",
+          "text": "SI BESOIN",
+          "bbox": [
+            73.0,
+            2115.0,
+            189.0,
+            2139.0
+          ],
+          "ocr_confidence": 0.9903531670570374,
+          "reading_order": 67,
+          "polygon": [
+            [
+              73.0,
+              2115.0
+            ],
+            [
+              189.0,
+              2115.0
+            ],
+            [
+              189.0,
+              2139.0
+            ],
+            [
+              73.0,
+              2139.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b68",
+          "type": "text",
+          "text": "000002322037 SELARL PHARMACIE F 30004009410001013215638",
+          "bbox": [
+            429.0,
+            2179.0,
+            1532.0,
+            2211.0
+          ],
+          "ocr_confidence": 0.9977458119392395,
+          "reading_order": 68,
+          "polygon": [
+            [
+              429.0,
+              2179.0
+            ],
+            [
+              1532.0,
+              2181.0
+            ],
+            [
+              1532.0,
+              2211.0
+            ],
+            [
+              429.0,
+              2209.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b69",
+          "type": "text",
+          "text": "505400520000004280 360000110023220325112399936161",
+          "bbox": [
+            350.0,
+            2236.0,
+            1331.0,
+            2271.0
+          ],
+          "ocr_confidence": 0.9977596998214722,
+          "reading_order": 69,
+          "polygon": [
+            [
+              350.0,
+              2236.0
+            ],
+            [
+              1331.0,
+              2240.0
+            ],
+            [
+              1331.0,
+              2271.0
+            ],
+            [
+              350.0,
+              2267.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b70",
+          "type": "text",
+          "text": "54500",
+          "bbox": [
+            1448.0,
+            2237.0,
+            1557.0,
+            2273.0
+          ],
+          "ocr_confidence": 0.9998520016670227,
+          "reading_order": 70,
+          "polygon": [
+            [
+              1448.0,
+              2237.0
+            ],
+            [
+              1557.0,
+              2237.0
+            ],
+            [
+              1557.0,
+              2273.0
+            ],
+            [
+              1448.0,
+              2273.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b71",
+          "type": "header",
+          "text": "e",
+          "bbox": [
+            1497.14794921875,
+            48.00966262817383,
+            1565.88720703125,
+            116.27583312988281
+          ],
+          "ocr_confidence": 0.20307505130767822,
+          "reading_order": 71,
+          "polygon": [
+            [
+              1497.0,
+              48.0
+            ],
+            [
+              1565.0,
+              48.0
+            ],
+            [
+              1565.0,
+              116.0
+            ],
+            [
+              1497.0,
+              116.0
+            ]
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "table_id": "p1_t0",
+          "bbox": [
+            75.0611572265625,
+            1248.84814453125,
+            1535.6865234375,
+            1527.66552734375
+          ],
+          "structure_confidence": 0.6126057505607605,
+          "cells": [
+            {
+              "row": 0,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 2,
+              "text": "APPEL DE COTISATION 2025 DES SOCIETES",
+              "bbox": [
+                80.07414817810059,
+                1250.1455643177032,
+                1531.5517578125,
+                1331.4017333984375
+              ],
+              "ocr_confidence": 0.988764762878418,
+              "source_block_ids": [
+                "p1_b25"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Section de rattachement de votre société : A",
+              "bbox": [
+                76.56317043304443,
+                1327.9347076416016,
+                785.3495483398438,
+                1433.0105285644531
+              ],
+              "ocr_confidence": 0.9912765622138977,
+              "source_block_ids": [
+                "p1_b27"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Montant de la cotisation : 545.00 €",
+              "bbox": [
+                785.5850219726562,
+                1329.8767776489258,
+                1534.2188720703125,
+                1434.7190246582031
+              ],
+              "ocr_confidence": 0.9956213533878326,
+              "source_block_ids": [
+                "p1_b28",
+                "p1_b29"
+              ]
+            },
+            {
+              "row": 2,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Cotisation à régler au plus tard le 24 février 2025",
+              "bbox": [
+                76.04895281791687,
+                1431.6871185302734,
+                785.0778198242188,
+                1526.0793151855469
+              ],
+              "ocr_confidence": 0.9936975240707397,
+              "source_block_ids": [
+                "p1_b30"
+              ]
+            },
+            {
+              "row": 2,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Total à régler : 545.00 €",
+              "bbox": [
+                785.10205078125,
+                1433.4936065673828,
+                1534.456298828125,
+                1526.9027404785156
+              ],
+              "ocr_confidence": 0.9900559782981873,
+              "source_block_ids": [
+                "p1_b31",
+                "p1_b32"
+              ]
+            }
+          ],
+          "html": "<html><body><table><tr><td colspan=\"2\">APPEL DE COTISATION 2025 DES SOCIETES</td></tr><tr><td>Section de rattachement de votre société : A</td><td>Montant de la cotisation : 545.00 €</td></tr><tr><td>Cotisation à régler au plus tard le 24 février 2025</td><td>Total à régler : 545.00 €</td></tr></table></body></html>"
+        }
+      ]
+    }
+  ],
+  "source_mime_type": "image/png"
+}

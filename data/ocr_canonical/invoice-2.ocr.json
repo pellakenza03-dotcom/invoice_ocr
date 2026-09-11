@@ -1,0 +1,1603 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "invoice-2",
+  "source_file": "invoice-2",
+  "generated_at": "2026-09-11T09:26:54.388682Z",
+  "ocr_engine": {
+    "name": "PP-StructureV3",
+    "version": "3.7.0"
+  },
+  "page_count": 2,
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 1654,
+      "height": 2339,
+      "orientation": 0,
+      "blocks": [
+        {
+          "block_id": "p1_b0",
+          "type": "table",
+          "text": "TOPTON",
+          "bbox": [
+            149.0,
+            212.0,
+            293.0,
+            247.0
+          ],
+          "ocr_confidence": 0.9998274445533752,
+          "reading_order": 0,
+          "polygon": [
+            [
+              149.0,
+              212.0
+            ],
+            [
+              293.0,
+              212.0
+            ],
+            [
+              293.0,
+              247.0
+            ],
+            [
+              149.0,
+              247.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b1",
+          "type": "table",
+          "text": "TOPTON TECHNOLOGY CO., LIMITED",
+          "bbox": [
+            395.0,
+            210.0,
+            1202.0,
+            251.0
+          ],
+          "ocr_confidence": 0.97174072265625,
+          "reading_order": 1,
+          "polygon": [
+            [
+              395.0,
+              210.0
+            ],
+            [
+              1202.0,
+              210.0
+            ],
+            [
+              1202.0,
+              251.0
+            ],
+            [
+              395.0,
+              251.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b2",
+          "type": "table",
+          "text": "Address: 6th Floor, Building 15, Jewelry Culture Industrial Park, Changping Town, Dongguan City,",
+          "bbox": [
+            150.0,
+            281.0,
+            1481.0,
+            321.0
+          ],
+          "ocr_confidence": 0.9886184334754944,
+          "reading_order": 2,
+          "polygon": [
+            [
+              150.0,
+              281.0
+            ],
+            [
+              1481.0,
+              284.0
+            ],
+            [
+              1481.0,
+              321.0
+            ],
+            [
+              150.0,
+              318.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b3",
+          "type": "table",
+          "text": "Guangdong Province, China 523570",
+          "bbox": [
+            570.0,
+            322.0,
+            1067.0,
+            356.0
+          ],
+          "ocr_confidence": 0.9993358850479126,
+          "reading_order": 3,
+          "polygon": [
+            [
+              570.0,
+              322.0
+            ],
+            [
+              1067.0,
+              322.0
+            ],
+            [
+              1067.0,
+              356.0
+            ],
+            [
+              570.0,
+              356.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b4",
+          "type": "table",
+          "text": "COMMERCIAL INVOICE",
+          "bbox": [
+            644.0,
+            393.0,
+            990.0,
+            423.0
+          ],
+          "ocr_confidence": 0.991502046585083,
+          "reading_order": 4,
+          "polygon": [
+            [
+              644.0,
+              393.0
+            ],
+            [
+              990.0,
+              393.0
+            ],
+            [
+              990.0,
+              423.0
+            ],
+            [
+              644.0,
+              423.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b5",
+          "type": "table",
+          "text": "Recipient:",
+          "bbox": [
+            100.0,
+            467.0,
+            244.0,
+            505.0
+          ],
+          "ocr_confidence": 0.9998728036880493,
+          "reading_order": 5,
+          "polygon": [
+            [
+              101.0,
+              467.0
+            ],
+            [
+              244.0,
+              470.0
+            ],
+            [
+              243.0,
+              505.0
+            ],
+            [
+              100.0,
+              502.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b6",
+          "type": "table",
+          "text": "FOUNOUNOU LARA",
+          "bbox": [
+            309.0,
+            472.0,
+            601.0,
+            499.0
+          ],
+          "ocr_confidence": 0.9992944002151489,
+          "reading_order": 6,
+          "polygon": [
+            [
+              309.0,
+              472.0
+            ],
+            [
+              601.0,
+              472.0
+            ],
+            [
+              601.0,
+              499.0
+            ],
+            [
+              309.0,
+              499.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b7",
+          "type": "table",
+          "text": "Order Num:",
+          "bbox": [
+            808.0,
+            467.0,
+            973.0,
+            502.0
+          ],
+          "ocr_confidence": 0.9998118281364441,
+          "reading_order": 7,
+          "polygon": [
+            [
+              808.0,
+              467.0
+            ],
+            [
+              973.0,
+              470.0
+            ],
+            [
+              973.0,
+              502.0
+            ],
+            [
+              808.0,
+              500.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b8",
+          "type": "table",
+          "text": "3021307170531754",
+          "bbox": [
+            1158.0,
+            471.0,
+            1431.0,
+            501.0
+          ],
+          "ocr_confidence": 0.9999921321868896,
+          "reading_order": 8,
+          "polygon": [
+            [
+              1158.0,
+              471.0
+            ],
+            [
+              1431.0,
+              471.0
+            ],
+            [
+              1431.0,
+              501.0
+            ],
+            [
+              1158.0,
+              501.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b9",
+          "type": "table",
+          "text": "Tel:",
+          "bbox": [
+            97.0,
+            544.0,
+            163.0,
+            587.0
+          ],
+          "ocr_confidence": 0.9997739195823669,
+          "reading_order": 9,
+          "polygon": [
+            [
+              99.0,
+              544.0
+            ],
+            [
+              163.0,
+              547.0
+            ],
+            [
+              162.0,
+              587.0
+            ],
+            [
+              97.0,
+              584.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b10",
+          "type": "table",
+          "text": "33 0628250356",
+          "bbox": [
+            309.0,
+            551.0,
+            524.0,
+            579.0
+          ],
+          "ocr_confidence": 0.9985873699188232,
+          "reading_order": 10,
+          "polygon": [
+            [
+              309.0,
+              551.0
+            ],
+            [
+              524.0,
+              551.0
+            ],
+            [
+              524.0,
+              579.0
+            ],
+            [
+              309.0,
+              579.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b11",
+          "type": "table",
+          "text": "Date:",
+          "bbox": [
+            805.0,
+            546.0,
+            890.0,
+            586.0
+          ],
+          "ocr_confidence": 0.9994366765022278,
+          "reading_order": 11,
+          "polygon": [
+            [
+              806.0,
+              546.0
+            ],
+            [
+              890.0,
+              549.0
+            ],
+            [
+              889.0,
+              586.0
+            ],
+            [
+              805.0,
+              583.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b12",
+          "type": "table",
+          "text": "30-Jan-2024",
+          "bbox": [
+            1206.0,
+            549.0,
+            1383.0,
+            583.0
+          ],
+          "ocr_confidence": 0.9999635219573975,
+          "reading_order": 12,
+          "polygon": [
+            [
+              1206.0,
+              549.0
+            ],
+            [
+              1383.0,
+              549.0
+            ],
+            [
+              1383.0,
+              583.0
+            ],
+            [
+              1206.0,
+              583.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b13",
+          "type": "table",
+          "text": "Address:",
+          "bbox": [
+            101.0,
+            633.0,
+            229.0,
+            667.0
+          ],
+          "ocr_confidence": 0.9999521970748901,
+          "reading_order": 13,
+          "polygon": [
+            [
+              102.0,
+              633.0
+            ],
+            [
+              229.0,
+              635.0
+            ],
+            [
+              228.0,
+              667.0
+            ],
+            [
+              101.0,
+              665.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b14",
+          "type": "table",
+          "text": "31 AVENUE VICTOR DALBIEZ , Perpignan, Pyrenees-Orientales, France, 66000",
+          "bbox": [
+            307.0,
+            634.0,
+            1415.0,
+            667.0
+          ],
+          "ocr_confidence": 0.9953755140304565,
+          "reading_order": 14,
+          "polygon": [
+            [
+              307.0,
+              634.0
+            ],
+            [
+              1415.0,
+              634.0
+            ],
+            [
+              1415.0,
+              667.0
+            ],
+            [
+              307.0,
+              667.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b15",
+          "type": "table",
+          "text": "Origin:",
+          "bbox": [
+            101.0,
+            715.0,
+            200.0,
+            752.0
+          ],
+          "ocr_confidence": 0.9993589520454407,
+          "reading_order": 15,
+          "polygon": [
+            [
+              101.0,
+              715.0
+            ],
+            [
+              200.0,
+              715.0
+            ],
+            [
+              200.0,
+              752.0
+            ],
+            [
+              101.0,
+              752.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b16",
+          "type": "table",
+          "text": "China",
+          "bbox": [
+            307.0,
+            715.0,
+            395.0,
+            750.0
+          ],
+          "ocr_confidence": 0.9998918771743774,
+          "reading_order": 16,
+          "polygon": [
+            [
+              308.0,
+              715.0
+            ],
+            [
+              395.0,
+              717.0
+            ],
+            [
+              394.0,
+              750.0
+            ],
+            [
+              307.0,
+              748.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b17",
+          "type": "table",
+          "text": "Currency:",
+          "bbox": [
+            804.0,
+            712.0,
+            948.0,
+            757.0
+          ],
+          "ocr_confidence": 0.9997622966766357,
+          "reading_order": 17,
+          "polygon": [
+            [
+              805.0,
+              712.0
+            ],
+            [
+              948.0,
+              715.0
+            ],
+            [
+              947.0,
+              757.0
+            ],
+            [
+              804.0,
+              754.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b18",
+          "type": "table",
+          "text": "€",
+          "bbox": [
+            1278.0,
+            715.0,
+            1309.0,
+            751.0
+          ],
+          "ocr_confidence": 0.9999651908874512,
+          "reading_order": 18,
+          "polygon": [
+            [
+              1278.0,
+              715.0
+            ],
+            [
+              1309.0,
+              715.0
+            ],
+            [
+              1309.0,
+              751.0
+            ],
+            [
+              1278.0,
+              751.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b19",
+          "type": "table",
+          "text": "Item No.",
+          "bbox": [
+            100.0,
+            796.0,
+            225.0,
+            831.0
+          ],
+          "ocr_confidence": 0.9845969676971436,
+          "reading_order": 19,
+          "polygon": [
+            [
+              100.0,
+              796.0
+            ],
+            [
+              225.0,
+              796.0
+            ],
+            [
+              225.0,
+              831.0
+            ],
+            [
+              100.0,
+              831.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b20",
+          "type": "table",
+          "text": "Product Description",
+          "bbox": [
+            308.0,
+            799.0,
+            578.0,
+            829.0
+          ],
+          "ocr_confidence": 0.9999200701713562,
+          "reading_order": 20,
+          "polygon": [
+            [
+              308.0,
+              799.0
+            ],
+            [
+              578.0,
+              799.0
+            ],
+            [
+              578.0,
+              829.0
+            ],
+            [
+              308.0,
+              829.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b21",
+          "type": "table",
+          "text": "QTY 4",
+          "bbox": [
+            876.0,
+            794.0,
+            986.0,
+            833.0
+          ],
+          "ocr_confidence": 0.8823701739311218,
+          "reading_order": 21,
+          "polygon": [
+            [
+              876.0,
+              794.0
+            ],
+            [
+              986.0,
+              794.0
+            ],
+            [
+              986.0,
+              833.0
+            ],
+            [
+              876.0,
+              833.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b22",
+          "type": "table",
+          "text": "Amount",
+          "bbox": [
+            1238.0,
+            798.0,
+            1352.0,
+            830.0
+          ],
+          "ocr_confidence": 0.9999761581420898,
+          "reading_order": 22,
+          "polygon": [
+            [
+              1238.0,
+              798.0
+            ],
+            [
+              1352.0,
+              798.0
+            ],
+            [
+              1352.0,
+              830.0
+            ],
+            [
+              1238.0,
+              830.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b23",
+          "type": "table",
+          "text": "1",
+          "bbox": [
+            102.0,
+            878.0,
+            126.0,
+            911.0
+          ],
+          "ocr_confidence": 0.9998456239700317,
+          "reading_order": 23,
+          "polygon": [
+            [
+              102.0,
+              878.0
+            ],
+            [
+              126.0,
+              878.0
+            ],
+            [
+              126.0,
+              911.0
+            ],
+            [
+              102.0,
+              911.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b24",
+          "type": "table",
+          "text": "Ryzen 9 6900HX Mini PC",
+          "bbox": [
+            310.0,
+            880.0,
+            666.0,
+            911.0
+          ],
+          "ocr_confidence": 0.9844001531600952,
+          "reading_order": 24,
+          "polygon": [
+            [
+              310.0,
+              880.0
+            ],
+            [
+              666.0,
+              880.0
+            ],
+            [
+              666.0,
+              911.0
+            ],
+            [
+              310.0,
+              911.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b25",
+          "type": "table",
+          "text": "2",
+          "bbox": [
+            916.0,
+            877.0,
+            946.0,
+            913.0
+          ],
+          "ocr_confidence": 0.9999758005142212,
+          "reading_order": 25,
+          "polygon": [
+            [
+              916.0,
+              877.0
+            ],
+            [
+              946.0,
+              877.0
+            ],
+            [
+              946.0,
+              913.0
+            ],
+            [
+              916.0,
+              913.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b26",
+          "type": "table",
+          "text": "€ 1.646,57",
+          "bbox": [
+            1217.0,
+            878.0,
+            1370.0,
+            913.0
+          ],
+          "ocr_confidence": 0.9958764314651489,
+          "reading_order": 26,
+          "polygon": [
+            [
+              1217.0,
+              878.0
+            ],
+            [
+              1370.0,
+              878.0
+            ],
+            [
+              1370.0,
+              913.0
+            ],
+            [
+              1217.0,
+              913.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b27",
+          "type": "table",
+          "text": "2",
+          "bbox": [
+            99.0,
+            957.0,
+            128.0,
+            994.0
+          ],
+          "ocr_confidence": 0.9997163414955139,
+          "reading_order": 27,
+          "polygon": [
+            [
+              99.0,
+              957.0
+            ],
+            [
+              128.0,
+              957.0
+            ],
+            [
+              128.0,
+              994.0
+            ],
+            [
+              99.0,
+              994.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b28",
+          "type": "table",
+          "text": "Tax Number",
+          "bbox": [
+            307.0,
+            958.0,
+            483.0,
+            992.0
+          ],
+          "ocr_confidence": 0.9997445940971375,
+          "reading_order": 28,
+          "polygon": [
+            [
+              307.0,
+              958.0
+            ],
+            [
+              483.0,
+              960.0
+            ],
+            [
+              483.0,
+              992.0
+            ],
+            [
+              307.0,
+              990.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b29",
+          "type": "table",
+          "text": "481746865",
+          "bbox": [
+            1090.0,
+            959.0,
+            1249.0,
+            993.0
+          ],
+          "ocr_confidence": 0.9999953508377075,
+          "reading_order": 29,
+          "polygon": [
+            [
+              1090.0,
+              959.0
+            ],
+            [
+              1249.0,
+              959.0
+            ],
+            [
+              1249.0,
+              993.0
+            ],
+            [
+              1090.0,
+              993.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b30",
+          "type": "table",
+          "text": "3",
+          "bbox": [
+            99.0,
+            1037.0,
+            128.0,
+            1074.0
+          ],
+          "ocr_confidence": 0.9990628361701965,
+          "reading_order": 30,
+          "polygon": [
+            [
+              99.0,
+              1037.0
+            ],
+            [
+              128.0,
+              1037.0
+            ],
+            [
+              128.0,
+              1074.0
+            ],
+            [
+              99.0,
+              1074.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b31",
+          "type": "table",
+          "text": "Material",
+          "bbox": [
+            306.0,
+            1038.0,
+            423.0,
+            1073.0
+          ],
+          "ocr_confidence": 0.9998855590820312,
+          "reading_order": 31,
+          "polygon": [
+            [
+              306.0,
+              1038.0
+            ],
+            [
+              423.0,
+              1038.0
+            ],
+            [
+              423.0,
+              1073.0
+            ],
+            [
+              306.0,
+              1073.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b32",
+          "type": "table",
+          "text": "Brushed Aluminum Alloy",
+          "bbox": [
+            1001.0,
+            1038.0,
+            1338.0,
+            1075.0
+          ],
+          "ocr_confidence": 0.9958799481391907,
+          "reading_order": 32,
+          "polygon": [
+            [
+              1001.0,
+              1038.0
+            ],
+            [
+              1338.0,
+              1041.0
+            ],
+            [
+              1338.0,
+              1075.0
+            ],
+            [
+              1001.0,
+              1072.0
+            ]
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "table_id": "p1_t0",
+          "bbox": [
+            89.1695556640625,
+            201.1181640625,
+            1532.6295166015625,
+            1097.2264404296875
+          ],
+          "structure_confidence": 0.9221909642219543,
+          "cells": [
+            {
+              "row": 0,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 4,
+              "text": "TOPTON TOPTON TECHNOLOGY CO., LIMITED",
+              "bbox": [
+                93.71279239654541,
+                201.1181640625,
+                1527.8326416015625,
+                280.59142303466797
+              ],
+              "ocr_confidence": 0.9857840836048126,
+              "source_block_ids": [
+                "p1_b0",
+                "p1_b1"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 4,
+              "text": "Address: 6th Floor, Building 15, Jewelry Culture Industrial Park, Changping Town, Dongguan City, Guangdong Province, China 523570",
+              "bbox": [
+                98.30268955230713,
+                280.6183166503906,
+                1525.047607421875,
+                369.28602600097656
+              ],
+              "ocr_confidence": 0.9939771592617035,
+              "source_block_ids": [
+                "p1_b2",
+                "p1_b3"
+              ]
+            },
+            {
+              "row": 2,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 4,
+              "text": "COMMERCIAL INVOICE",
+              "bbox": [
+                96.54383850097656,
+                369.2233428955078,
+                1525.353759765625,
+                444.1502380371094
+              ],
+              "ocr_confidence": 0.991502046585083,
+              "source_block_ids": [
+                "p1_b4"
+              ]
+            },
+            {
+              "row": 3,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Recipient:",
+              "bbox": [
+                98.33225536346436,
+                444.503662109375,
+                305.051025390625,
+                525.3653259277344
+              ],
+              "ocr_confidence": 0.9998728036880493,
+              "source_block_ids": [
+                "p1_b5"
+              ]
+            },
+            {
+              "row": 3,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "FOUNOUNOU LARA",
+              "bbox": [
+                304.75511169433594,
+                444.47059631347656,
+                803.7789916992188,
+                525.4627380371094
+              ],
+              "ocr_confidence": 0.9992944002151489,
+              "source_block_ids": [
+                "p1_b6"
+              ]
+            },
+            {
+              "row": 3,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Order Num:",
+              "bbox": [
+                803.5720825195312,
+                444.4518280029297,
+                1053.7453002929688,
+                525.4985961914062
+              ],
+              "ocr_confidence": 0.9998118281364441,
+              "source_block_ids": [
+                "p1_b7"
+              ]
+            },
+            {
+              "row": 3,
+              "column": 3,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "3021307170531754",
+              "bbox": [
+                1053.3488159179688,
+                444.2716064453125,
+                1525.6915283203125,
+                525.2643737792969
+              ],
+              "ocr_confidence": 0.9999921321868896,
+              "source_block_ids": [
+                "p1_b8"
+              ]
+            },
+            {
+              "row": 4,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Tel:",
+              "bbox": [
+                98.49855518341064,
+                525.433349609375,
+                304.8883361816406,
+                606.3365173339844
+              ],
+              "ocr_confidence": 0.9997739195823669,
+              "source_block_ids": [
+                "p1_b9"
+              ]
+            },
+            {
+              "row": 4,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "33 0628250356",
+              "bbox": [
+                304.6760559082031,
+                525.4537963867188,
+                803.8224487304688,
+                606.3374328613281
+              ],
+              "ocr_confidence": 0.9985873699188232,
+              "source_block_ids": [
+                "p1_b10"
+              ]
+            },
+            {
+              "row": 4,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Date:",
+              "bbox": [
+                803.668212890625,
+                525.5343627929688,
+                1053.7606201171875,
+                606.2544860839844
+              ],
+              "ocr_confidence": 0.9994366765022278,
+              "source_block_ids": [
+                "p1_b11"
+              ]
+            },
+            {
+              "row": 4,
+              "column": 3,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "30-Jan-2024",
+              "bbox": [
+                1053.5354614257812,
+                525.3215637207031,
+                1525.5401611328125,
+                606.0878295898438
+              ],
+              "ocr_confidence": 0.9999635219573975,
+              "source_block_ids": [
+                "p1_b12"
+              ]
+            },
+            {
+              "row": 5,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Address:",
+              "bbox": [
+                98.36370277404785,
+                606.2619018554688,
+                304.9093017578125,
+                692.3853149414062
+              ],
+              "ocr_confidence": 0.9999521970748901,
+              "source_block_ids": [
+                "p1_b13"
+              ]
+            },
+            {
+              "row": 5,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 3,
+              "text": "31 AVENUE VICTOR DALBIEZ , Perpignan, Pyrenees-Orientales, France, 66000",
+              "bbox": [
+                304.05474853515625,
+                605.913330078125,
+                1525.6673583984375,
+                692.2260131835938
+              ],
+              "ocr_confidence": 0.9953755140304565,
+              "source_block_ids": [
+                "p1_b14"
+              ]
+            },
+            {
+              "row": 6,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Origin:",
+              "bbox": [
+                98.35611248016357,
+                692.3393859863281,
+                304.9646911621094,
+                773.0160522460938
+              ],
+              "ocr_confidence": 0.9993589520454407,
+              "source_block_ids": [
+                "p1_b15"
+              ]
+            },
+            {
+              "row": 6,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "China",
+              "bbox": [
+                304.7536163330078,
+                692.281982421875,
+                803.576904296875,
+                773.1832885742188
+              ],
+              "ocr_confidence": 0.9998918771743774,
+              "source_block_ids": [
+                "p1_b16"
+              ]
+            },
+            {
+              "row": 6,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Currency:",
+              "bbox": [
+                803.6986694335938,
+                692.4303588867188,
+                1053.7431030273438,
+                773.0966796875
+              ],
+              "ocr_confidence": 0.9997622966766357,
+              "source_block_ids": [
+                "p1_b17"
+              ]
+            },
+            {
+              "row": 6,
+              "column": 3,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "€",
+              "bbox": [
+                1053.4656372070312,
+                692.1523132324219,
+                1525.7940673828125,
+                773.005126953125
+              ],
+              "ocr_confidence": 0.9999651908874512,
+              "source_block_ids": [
+                "p1_b18"
+              ]
+            },
+            {
+              "row": 7,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Item No.",
+              "bbox": [
+                98.68624877929688,
+                773.0680541992188,
+                304.9563903808594,
+                854.0038452148438
+              ],
+              "ocr_confidence": 0.9845969676971436,
+              "source_block_ids": [
+                "p1_b19"
+              ]
+            },
+            {
+              "row": 7,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Product Description",
+              "bbox": [
+                304.7925109863281,
+                773.1278076171875,
+                803.7412109375,
+                853.9906005859375
+              ],
+              "ocr_confidence": 0.9999200701713562,
+              "source_block_ids": [
+                "p1_b20"
+              ]
+            },
+            {
+              "row": 7,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "QTY 4",
+              "bbox": [
+                803.8447265625,
+                773.1372680664062,
+                1053.6502685546875,
+                853.9277954101562
+              ],
+              "ocr_confidence": 0.8823701739311218,
+              "source_block_ids": [
+                "p1_b21"
+              ]
+            },
+            {
+              "row": 7,
+              "column": 3,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Amount",
+              "bbox": [
+                1053.4296264648438,
+                772.8802490234375,
+                1526.03369140625,
+                853.9378051757812
+              ],
+              "ocr_confidence": 0.9999761581420898,
+              "source_block_ids": [
+                "p1_b22"
+              ]
+            },
+            {
+              "row": 8,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "1",
+              "bbox": [
+                98.42307090759277,
+                853.8925170898438,
+                304.93463134765625,
+                934.3585205078125
+              ],
+              "ocr_confidence": 0.9998456239700317,
+              "source_block_ids": [
+                "p1_b23"
+              ]
+            },
+            {
+              "row": 8,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Ryzen 9 6900HX Mini PC",
+              "bbox": [
+                304.71824645996094,
+                853.7677612304688,
+                803.7109375,
+                934.3950805664062
+              ],
+              "ocr_confidence": 0.9844001531600952,
+              "source_block_ids": [
+                "p1_b24"
+              ]
+            },
+            {
+              "row": 8,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "2",
+              "bbox": [
+                803.8069458007812,
+                853.8665771484375,
+                1053.6168823242188,
+                934.2274169921875
+              ],
+              "ocr_confidence": 0.9999758005142212,
+              "source_block_ids": [
+                "p1_b25"
+              ]
+            },
+            {
+              "row": 8,
+              "column": 3,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "€ 1.646,57",
+              "bbox": [
+                1053.3209228515625,
+                853.8175659179688,
+                1526.316650390625,
+                934.297607421875
+              ],
+              "ocr_confidence": 0.9958764314651489,
+              "source_block_ids": [
+                "p1_b26"
+              ]
+            },
+            {
+              "row": 9,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "2",
+              "bbox": [
+                98.47265529632568,
+                934.502685546875,
+                304.90599060058594,
+                1015.259765625
+              ],
+              "ocr_confidence": 0.9997163414955139,
+              "source_block_ids": [
+                "p1_b27"
+              ]
+            },
+            {
+              "row": 9,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Tax Number",
+              "bbox": [
+                304.7393035888672,
+                934.3248291015625,
+                803.662353515625,
+                1015.1039428710938
+              ],
+              "ocr_confidence": 0.9997445940971375,
+              "source_block_ids": [
+                "p1_b28"
+              ]
+            },
+            {
+              "row": 9,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 2,
+              "text": "481746865",
+              "bbox": [
+                803.4329833984375,
+                934.2841796875,
+                1526.3536376953125,
+                1015.0869140625
+              ],
+              "ocr_confidence": 0.9999953508377075,
+              "source_block_ids": [
+                "p1_b29"
+              ]
+            },
+            {
+              "row": 10,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "3",
+              "bbox": [
+                98.21305751800537,
+                1015.4550170898438,
+                304.95570373535156,
+                1092.6300048828125
+              ],
+              "ocr_confidence": 0.9990628361701965,
+              "source_block_ids": [
+                "p1_b30"
+              ]
+            },
+            {
+              "row": 10,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Material",
+              "bbox": [
+                304.6055908203125,
+                1015.0543212890625,
+                803.7266235351562,
+                1092.98095703125
+              ],
+              "ocr_confidence": 0.9998855590820312,
+              "source_block_ids": [
+                "p1_b31"
+              ]
+            },
+            {
+              "row": 10,
+              "column": 2,
+              "row_span": 1,
+              "column_span": 2,
+              "text": "Brushed Aluminum Alloy",
+              "bbox": [
+                803.1716918945312,
+                1014.908447265625,
+                1526.7938232421875,
+                1092.9420166015625
+              ],
+              "ocr_confidence": 0.9958799481391907,
+              "source_block_ids": [
+                "p1_b32"
+              ]
+            }
+          ],
+          "html": "<html><body><table><tbody><tr><td colspan=\"4\">TOPTON TOPTON TECHNOLOGY CO., LIMITED</td></tr><tr><td colspan=\"4\">Address: 6th Floor, Building 15, Jewelry Culture Industrial Park, Changping Town, Dongguan City, Guangdong Province, China 523570</td></tr><tr><td colspan=\"4\">COMMERCIAL INVOICE</td></tr><tr><td>Recipient:</td><td>FOUNOUNOU LARA</td><td>Order Num:</td><td>3021307170531754</td></tr><tr><td>Tel:</td><td>33 0628250356</td><td>Date:</td><td>30-Jan-2024</td></tr><tr><td>Address:</td><td colspan=\"3\">31 AVENUE VICTOR DALBIEZ , Perpignan, Pyrenees-Orientales, France, 66000</td></tr><tr><td>Origin:</td><td>China</td><td>Currency:</td><td>€</td></tr><tr><td>Item No.</td><td>Product Description</td><td>QTY 4</td><td>Amount</td></tr><tr><td>1</td><td>Ryzen 9 6900HX Mini PC</td><td>2</td><td>€ 1.646,57</td></tr><tr><td>2</td><td>Tax Number</td><td colspan=\"2\">481746865</td></tr><tr><td>3</td><td>Material</td><td colspan=\"2\">Brushed Aluminum Alloy</td></tr></tbody></table></body></html>"
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "width": 1654,
+      "height": 2339,
+      "orientation": 0,
+      "blocks": [],
+      "tables": [],
+      "warnings": [
+        "No usable OCR text was found on this page."
+      ]
+    }
+  ],
+  "source_mime_type": "image/png",
+  "warnings": [
+    "Page 2: No usable OCR text was found on this page."
+  ]
+}

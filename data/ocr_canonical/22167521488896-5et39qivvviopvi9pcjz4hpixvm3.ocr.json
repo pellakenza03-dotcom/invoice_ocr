@@ -1,0 +1,1547 @@
+{
+  "schema_version": "1.0.0",
+  "document_id": "22167521488896-5et39qivvviopvi9pcjz4hpixvm3",
+  "source_file": "22167521488896-5et39qivvviopvi9pcjz4hpixvm3__p001.png",
+  "generated_at": "2026-09-11T09:22:04.323406Z",
+  "ocr_engine": {
+    "name": "PP-StructureV3",
+    "version": "3.7.0"
+  },
+  "page_count": 1,
+  "pages": [
+    {
+      "page_number": 1,
+      "width": 1654,
+      "height": 2339,
+      "orientation": 0,
+      "blocks": [
+        {
+          "block_id": "p1_b0",
+          "type": "header",
+          "text": "ALPHACONTACT",
+          "bbox": [
+            140.0,
+            92.0,
+            628.0,
+            185.0
+          ],
+          "ocr_confidence": 0.9992308020591736,
+          "reading_order": 0,
+          "polygon": [
+            [
+              140.0,
+              92.0
+            ],
+            [
+              628.0,
+              92.0
+            ],
+            [
+              628.0,
+              185.0
+            ],
+            [
+              140.0,
+              185.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b1",
+          "type": "header",
+          "text": "FACTURE",
+          "bbox": [
+            1269.0,
+            87.0,
+            1513.0,
+            135.0
+          ],
+          "ocr_confidence": 0.999875545501709,
+          "reading_order": 1,
+          "polygon": [
+            [
+              1270.0,
+              87.0
+            ],
+            [
+              1513.0,
+              89.0
+            ],
+            [
+              1513.0,
+              135.0
+            ],
+            [
+              1269.0,
+              133.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b2",
+          "type": "header",
+          "text": "Paris, le 25/05/2026",
+          "bbox": [
+            1286.0,
+            158.0,
+            1514.0,
+            185.0
+          ],
+          "ocr_confidence": 0.9991041421890259,
+          "reading_order": 2,
+          "polygon": [
+            [
+              1286.0,
+              158.0
+            ],
+            [
+              1514.0,
+              158.0
+            ],
+            [
+              1514.0,
+              185.0
+            ],
+            [
+              1286.0,
+              185.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b3",
+          "type": "header",
+          "text": "PUBLICITÉ • RETAIL • DIGITAL • IDENTITÉ · ÉDITION",
+          "bbox": [
+            141.0,
+            190.0,
+            609.0,
+            230.0
+          ],
+          "ocr_confidence": 0.9276243448257446,
+          "reading_order": 3,
+          "polygon": [
+            [
+              141.0,
+              190.0
+            ],
+            [
+              609.0,
+              190.0
+            ],
+            [
+              609.0,
+              230.0
+            ],
+            [
+              141.0,
+              230.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b4",
+          "type": "text",
+          "text": "CODE FACTURE G20 : 34083",
+          "bbox": [
+            140.0,
+            409.0,
+            487.0,
+            433.0
+          ],
+          "ocr_confidence": 0.9864578247070312,
+          "reading_order": 4,
+          "polygon": [
+            [
+              140.0,
+              409.0
+            ],
+            [
+              487.0,
+              409.0
+            ],
+            [
+              487.0,
+              433.0
+            ],
+            [
+              140.0,
+              433.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b5",
+          "type": "text",
+          "text": "G20",
+          "bbox": [
+            1104.0,
+            406.0,
+            1162.0,
+            437.0
+          ],
+          "ocr_confidence": 0.9999502301216125,
+          "reading_order": 5,
+          "polygon": [
+            [
+              1104.0,
+              406.0
+            ],
+            [
+              1162.0,
+              406.0
+            ],
+            [
+              1162.0,
+              437.0
+            ],
+            [
+              1104.0,
+              437.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b6",
+          "type": "text",
+          "text": "SAS BAYA DISTRI (anciennement SA",
+          "bbox": [
+            1105.0,
+            454.0,
+            1652.0,
+            486.0
+          ],
+          "ocr_confidence": 0.9895033836364746,
+          "reading_order": 6,
+          "polygon": [
+            [
+              1105.0,
+              454.0
+            ],
+            [
+              1652.0,
+              455.0
+            ],
+            [
+              1652.0,
+              486.0
+            ],
+            [
+              1105.0,
+              485.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b7",
+          "type": "text",
+          "text": "297 AV DU GENERAL DE",
+          "bbox": [
+            1107.0,
+            500.0,
+            1405.0,
+            524.0
+          ],
+          "ocr_confidence": 0.9783007502555847,
+          "reading_order": 7,
+          "polygon": [
+            [
+              1107.0,
+              500.0
+            ],
+            [
+              1405.0,
+              500.0
+            ],
+            [
+              1405.0,
+              524.0
+            ],
+            [
+              1107.0,
+              524.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b8",
+          "type": "text",
+          "text": "GAULLE",
+          "bbox": [
+            1107.0,
+            535.0,
+            1211.0,
+            559.0
+          ],
+          "ocr_confidence": 0.9998403191566467,
+          "reading_order": 8,
+          "polygon": [
+            [
+              1107.0,
+              535.0
+            ],
+            [
+              1211.0,
+              535.0
+            ],
+            [
+              1211.0,
+              559.0
+            ],
+            [
+              1107.0,
+              559.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b9",
+          "type": "text",
+          "text": "94000 CRETEIL",
+          "bbox": [
+            1107.0,
+            571.0,
+            1294.0,
+            595.0
+          ],
+          "ocr_confidence": 0.9792488813400269,
+          "reading_order": 9,
+          "polygon": [
+            [
+              1107.0,
+              571.0
+            ],
+            [
+              1294.0,
+              571.0
+            ],
+            [
+              1294.0,
+              595.0
+            ],
+            [
+              1107.0,
+              595.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b10",
+          "type": "text",
+          "text": "OPÉRATION N°09 - DU 22 AVRIL AU 3 MAI 2026",
+          "bbox": [
+            140.0,
+            675.0,
+            834.0,
+            704.0
+          ],
+          "ocr_confidence": 0.992922306060791,
+          "reading_order": 10,
+          "polygon": [
+            [
+              140.0,
+              675.0
+            ],
+            [
+              834.0,
+              676.0
+            ],
+            [
+              834.0,
+              704.0
+            ],
+            [
+              140.0,
+              703.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b11",
+          "type": "table",
+          "text": "Désignation",
+          "bbox": [
+            162.0,
+            791.0,
+            308.0,
+            818.0
+          ],
+          "ocr_confidence": 0.9999449253082275,
+          "reading_order": 11,
+          "polygon": [
+            [
+              162.0,
+              791.0
+            ],
+            [
+              308.0,
+              791.0
+            ],
+            [
+              308.0,
+              818.0
+            ],
+            [
+              162.0,
+              818.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b12",
+          "type": "table",
+          "text": "Montant HT",
+          "bbox": [
+            1353.0,
+            794.0,
+            1490.0,
+            815.0
+          ],
+          "ocr_confidence": 0.9999184608459473,
+          "reading_order": 12,
+          "polygon": [
+            [
+              1353.0,
+              794.0
+            ],
+            [
+              1490.0,
+              794.0
+            ],
+            [
+              1490.0,
+              815.0
+            ],
+            [
+              1353.0,
+              815.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b13",
+          "type": "table",
+          "text": "Production",
+          "bbox": [
+            163.0,
+            868.0,
+            286.0,
+            892.0
+          ],
+          "ocr_confidence": 0.9999688267707825,
+          "reading_order": 13,
+          "polygon": [
+            [
+              163.0,
+              868.0
+            ],
+            [
+              286.0,
+              868.0
+            ],
+            [
+              286.0,
+              892.0
+            ],
+            [
+              163.0,
+              892.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b14",
+          "type": "table",
+          "text": "302,16 €",
+          "bbox": [
+            1389.0,
+            868.0,
+            1492.0,
+            893.0
+          ],
+          "ocr_confidence": 0.9991449117660522,
+          "reading_order": 14,
+          "polygon": [
+            [
+              1389.0,
+              868.0
+            ],
+            [
+              1492.0,
+              868.0
+            ],
+            [
+              1492.0,
+              893.0
+            ],
+            [
+              1389.0,
+              893.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b15",
+          "type": "table",
+          "text": "Photo & Ambiances, Repiquage adresse, Prépresse, Impression, Livraison de 3 100 exemplaires",
+          "bbox": [
+            183.0,
+            903.0,
+            1021.0,
+            923.0
+          ],
+          "ocr_confidence": 0.9905150532722473,
+          "reading_order": 15,
+          "polygon": [
+            [
+              183.0,
+              903.0
+            ],
+            [
+              1021.0,
+              903.0
+            ],
+            [
+              1021.0,
+              923.0
+            ],
+            [
+              183.0,
+              923.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b16",
+          "type": "table",
+          "text": "Affiches",
+          "bbox": [
+            162.0,
+            972.0,
+            257.0,
+            996.0
+          ],
+          "ocr_confidence": 0.9999682903289795,
+          "reading_order": 16,
+          "polygon": [
+            [
+              162.0,
+              972.0
+            ],
+            [
+              257.0,
+              972.0
+            ],
+            [
+              257.0,
+              996.0
+            ],
+            [
+              162.0,
+              996.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b17",
+          "type": "table",
+          "text": "16,67 €",
+          "bbox": [
+            1401.0,
+            970.0,
+            1492.0,
+            997.0
+          ],
+          "ocr_confidence": 0.9981056451797485,
+          "reading_order": 17,
+          "polygon": [
+            [
+              1401.0,
+              972.0
+            ],
+            [
+              1492.0,
+              970.0
+            ],
+            [
+              1492.0,
+              995.0
+            ],
+            [
+              1402.0,
+              997.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b18",
+          "type": "table",
+          "text": "12 modèles. format 48 x 68 cm. Prépresse. Impression",
+          "bbox": [
+            184.0,
+            1008.0,
+            657.0,
+            1025.0
+          ],
+          "ocr_confidence": 0.9827668070793152,
+          "reading_order": 18,
+          "polygon": [
+            [
+              184.0,
+              1008.0
+            ],
+            [
+              657.0,
+              1008.0
+            ],
+            [
+              657.0,
+              1025.0
+            ],
+            [
+              184.0,
+              1025.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b19",
+          "type": "table",
+          "text": "Stop-Rayons",
+          "bbox": [
+            164.0,
+            1077.0,
+            311.0,
+            1101.0
+          ],
+          "ocr_confidence": 0.9999644756317139,
+          "reading_order": 19,
+          "polygon": [
+            [
+              164.0,
+              1077.0
+            ],
+            [
+              311.0,
+              1077.0
+            ],
+            [
+              311.0,
+              1101.0
+            ],
+            [
+              164.0,
+              1101.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b20",
+          "type": "table",
+          "text": "14,59 €",
+          "bbox": [
+            1402.0,
+            1074.0,
+            1491.0,
+            1099.0
+          ],
+          "ocr_confidence": 0.9542557001113892,
+          "reading_order": 20,
+          "polygon": [
+            [
+              1402.0,
+              1074.0
+            ],
+            [
+              1491.0,
+              1074.0
+            ],
+            [
+              1491.0,
+              1099.0
+            ],
+            [
+              1402.0,
+              1099.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b21",
+          "type": "table",
+          "text": "Format 77 × 140 mm",
+          "bbox": [
+            184.0,
+            1111.0,
+            364.0,
+            1128.0
+          ],
+          "ocr_confidence": 0.9597029089927673,
+          "reading_order": 21,
+          "polygon": [
+            [
+              184.0,
+              1111.0
+            ],
+            [
+              364.0,
+              1111.0
+            ],
+            [
+              364.0,
+              1128.0
+            ],
+            [
+              184.0,
+              1128.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b22",
+          "type": "table",
+          "text": "Logistique",
+          "bbox": [
+            161.0,
+            1177.0,
+            281.0,
+            1208.0
+          ],
+          "ocr_confidence": 0.9999296069145203,
+          "reading_order": 22,
+          "polygon": [
+            [
+              161.0,
+              1177.0
+            ],
+            [
+              281.0,
+              1180.0
+            ],
+            [
+              281.0,
+              1208.0
+            ],
+            [
+              161.0,
+              1205.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b23",
+          "type": "table",
+          "text": "8,91 €",
+          "bbox": [
+            1414.0,
+            1179.0,
+            1494.0,
+            1208.0
+          ],
+          "ocr_confidence": 0.9979141354560852,
+          "reading_order": 23,
+          "polygon": [
+            [
+              1414.0,
+              1179.0
+            ],
+            [
+              1494.0,
+              1179.0
+            ],
+            [
+              1494.0,
+              1208.0
+            ],
+            [
+              1414.0,
+              1208.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b24",
+          "type": "table",
+          "text": "Annonces presse",
+          "bbox": [
+            162.0,
+            1256.0,
+            359.0,
+            1281.0
+          ],
+          "ocr_confidence": 0.9747372269630432,
+          "reading_order": 24,
+          "polygon": [
+            [
+              162.0,
+              1256.0
+            ],
+            [
+              359.0,
+              1258.0
+            ],
+            [
+              359.0,
+              1281.0
+            ],
+            [
+              162.0,
+              1279.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b25",
+          "type": "table",
+          "text": "2,77 €",
+          "bbox": [
+            1413.0,
+            1252.0,
+            1495.0,
+            1284.0
+          ],
+          "ocr_confidence": 0.9986706376075745,
+          "reading_order": 25,
+          "polygon": [
+            [
+              1413.0,
+              1252.0
+            ],
+            [
+              1495.0,
+              1252.0
+            ],
+            [
+              1495.0,
+              1284.0
+            ],
+            [
+              1413.0,
+              1284.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b26",
+          "type": "table",
+          "text": "Prépresse",
+          "bbox": [
+            182.0,
+            1286.0,
+            276.0,
+            1311.0
+          ],
+          "ocr_confidence": 0.9995899200439453,
+          "reading_order": 26,
+          "polygon": [
+            [
+              182.0,
+              1286.0
+            ],
+            [
+              276.0,
+              1289.0
+            ],
+            [
+              275.0,
+              1311.0
+            ],
+            [
+              182.0,
+              1309.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b27",
+          "type": "table",
+          "text": "Site Web",
+          "bbox": [
+            163.0,
+            1359.0,
+            268.0,
+            1384.0
+          ],
+          "ocr_confidence": 0.9998210668563843,
+          "reading_order": 27,
+          "polygon": [
+            [
+              163.0,
+              1359.0
+            ],
+            [
+              268.0,
+              1359.0
+            ],
+            [
+              268.0,
+              1384.0
+            ],
+            [
+              163.0,
+              1384.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b28",
+          "type": "table",
+          "text": "0,31 €",
+          "bbox": [
+            1414.0,
+            1358.0,
+            1493.0,
+            1386.0
+          ],
+          "ocr_confidence": 0.9997331500053406,
+          "reading_order": 28,
+          "polygon": [
+            [
+              1414.0,
+              1358.0
+            ],
+            [
+              1493.0,
+              1358.0
+            ],
+            [
+              1493.0,
+              1386.0
+            ],
+            [
+              1414.0,
+              1386.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b29",
+          "type": "table",
+          "text": "Hébergement et gestion du site",
+          "bbox": [
+            184.0,
+            1395.0,
+            453.0,
+            1412.0
+          ],
+          "ocr_confidence": 0.9919226765632629,
+          "reading_order": 29,
+          "polygon": [
+            [
+              184.0,
+              1395.0
+            ],
+            [
+              453.0,
+              1395.0
+            ],
+            [
+              453.0,
+              1412.0
+            ],
+            [
+              184.0,
+              1412.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b30",
+          "type": "table",
+          "text": "Totaux",
+          "bbox": [
+            1004.0,
+            1529.0,
+            1091.0,
+            1553.0
+          ],
+          "ocr_confidence": 0.9999229907989502,
+          "reading_order": 30,
+          "polygon": [
+            [
+              1004.0,
+              1529.0
+            ],
+            [
+              1091.0,
+              1529.0
+            ],
+            [
+              1091.0,
+              1553.0
+            ],
+            [
+              1004.0,
+              1553.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b31",
+          "type": "table",
+          "text": "TOTAL HT",
+          "bbox": [
+            1005.0,
+            1611.0,
+            1130.0,
+            1632.0
+          ],
+          "ocr_confidence": 0.9932034015655518,
+          "reading_order": 31,
+          "polygon": [
+            [
+              1005.0,
+              1611.0
+            ],
+            [
+              1130.0,
+              1611.0
+            ],
+            [
+              1130.0,
+              1632.0
+            ],
+            [
+              1005.0,
+              1632.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b32",
+          "type": "table",
+          "text": "345,41 €",
+          "bbox": [
+            1382.0,
+            1608.0,
+            1485.0,
+            1636.0
+          ],
+          "ocr_confidence": 0.999796450138092,
+          "reading_order": 32,
+          "polygon": [
+            [
+              1382.0,
+              1608.0
+            ],
+            [
+              1485.0,
+              1608.0
+            ],
+            [
+              1485.0,
+              1636.0
+            ],
+            [
+              1382.0,
+              1636.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b33",
+          "type": "table",
+          "text": "TVA",
+          "bbox": [
+            1002.0,
+            1652.0,
+            1062.0,
+            1681.0
+          ],
+          "ocr_confidence": 0.9997971653938293,
+          "reading_order": 33,
+          "polygon": [
+            [
+              1002.0,
+              1652.0
+            ],
+            [
+              1062.0,
+              1652.0
+            ],
+            [
+              1062.0,
+              1681.0
+            ],
+            [
+              1002.0,
+              1681.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b34",
+          "type": "table",
+          "text": "69,08 €",
+          "bbox": [
+            1395.0,
+            1653.0,
+            1485.0,
+            1682.0
+          ],
+          "ocr_confidence": 0.9998769164085388,
+          "reading_order": 34,
+          "polygon": [
+            [
+              1395.0,
+              1653.0
+            ],
+            [
+              1485.0,
+              1653.0
+            ],
+            [
+              1485.0,
+              1682.0
+            ],
+            [
+              1395.0,
+              1682.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b35",
+          "type": "table",
+          "text": "TOTAL TTC",
+          "bbox": [
+            1003.0,
+            1698.0,
+            1146.0,
+            1725.0
+          ],
+          "ocr_confidence": 0.9787777662277222,
+          "reading_order": 35,
+          "polygon": [
+            [
+              1003.0,
+              1698.0
+            ],
+            [
+              1146.0,
+              1698.0
+            ],
+            [
+              1146.0,
+              1725.0
+            ],
+            [
+              1003.0,
+              1725.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b36",
+          "type": "table",
+          "text": "414,50 €",
+          "bbox": [
+            1381.0,
+            1698.0,
+            1484.0,
+            1726.0
+          ],
+          "ocr_confidence": 0.9998846054077148,
+          "reading_order": 36,
+          "polygon": [
+            [
+              1381.0,
+              1698.0
+            ],
+            [
+              1484.0,
+              1698.0
+            ],
+            [
+              1484.0,
+              1726.0
+            ],
+            [
+              1381.0,
+              1726.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b37",
+          "type": "footer",
+          "text": "90, RUE DU MOULIN VERT 75014 PARIS - TEL. 01 86 22 33 10",
+          "bbox": [
+            562.0,
+            2159.0,
+            1091.0,
+            2182.0
+          ],
+          "ocr_confidence": 0.9754518866539001,
+          "reading_order": 37,
+          "polygon": [
+            [
+              562.0,
+              2159.0
+            ],
+            [
+              1091.0,
+              2159.0
+            ],
+            [
+              1091.0,
+              2182.0
+            ],
+            [
+              562.0,
+              2182.0
+            ]
+          ]
+        },
+        {
+          "block_id": "p1_b38",
+          "type": "footer",
+          "text": "S.A.S. AU CAPITAL DE 80 000 € - R.C.S. VERSAILLES 312 148 109",
+          "bbox": [
+            565.0,
+            2198.0,
+            1088.0,
+            2215.0
+          ],
+          "ocr_confidence": 0.9978809952735901,
+          "reading_order": 38,
+          "polygon": [
+            [
+              565.0,
+              2198.0
+            ],
+            [
+              1088.0,
+              2198.0
+            ],
+            [
+              1088.0,
+              2215.0
+            ],
+            [
+              565.0,
+              2215.0
+            ]
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "table_id": "p1_t0",
+          "bbox": [
+            140.300537109375,
+            738.7820434570312,
+            1510.92236328125,
+            1438.227294921875
+          ],
+          "structure_confidence": 0.9743607640266418,
+          "cells": [
+            {
+              "row": 0,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 2,
+              "text": "",
+              "bbox": [
+                144.2910180091858,
+                763.8152904510498,
+                1132.5040283203125,
+                843.4997863769531
+              ],
+              "ocr_confidence": 0.9999449253082275,
+              "source_block_ids": [
+                "p1_b11"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Désignation",
+              "bbox": [
+                1132.8079833984375,
+                764.1130924224854,
+                1506.29345703125,
+                843.286376953125
+              ],
+              "ocr_confidence": 0.9999184608459473,
+              "source_block_ids": [
+                "p1_b12"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Montant HT",
+              "bbox": [
+                143.7084264755249,
+                843.3762664794922,
+                1132.3674926757812,
+                947.2180938720703
+              ],
+              "ocr_confidence": 0.9952419400215149,
+              "source_block_ids": [
+                "p1_b13",
+                "p1_b15"
+              ]
+            },
+            {
+              "row": 2,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Production Photo & Ambiances, Repiquage adresse, Prépresse, Impression, Livraison de 3 100 exemplaires",
+              "bbox": [
+                1132.5411987304688,
+                843.2569198608398,
+                1505.6939697265625,
+                946.8620300292969
+              ],
+              "ocr_confidence": 0.9991449117660522,
+              "source_block_ids": [
+                "p1_b14"
+              ]
+            },
+            {
+              "row": 2,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "302,16 €",
+              "bbox": [
+                143.60521030426025,
+                947.0268402099609,
+                1132.4901733398438,
+                1050.934326171875
+              ],
+              "ocr_confidence": 0.9913675487041473,
+              "source_block_ids": [
+                "p1_b16",
+                "p1_b18"
+              ]
+            },
+            {
+              "row": 3,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Affiches 12 modèles. format 48 x 68 cm. Prépresse. Impression",
+              "bbox": [
+                1132.2640991210938,
+                946.8961334228516,
+                1506.2918701171875,
+                1050.72900390625
+              ],
+              "ocr_confidence": 0.9981056451797485,
+              "source_block_ids": [
+                "p1_b17"
+              ]
+            },
+            {
+              "row": 3,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "16,67 €",
+              "bbox": [
+                143.77889752388,
+                1050.674560546875,
+                1132.3082275390625,
+                1154.8411865234375
+              ],
+              "ocr_confidence": 0.9798336923122406,
+              "source_block_ids": [
+                "p1_b19",
+                "p1_b21"
+              ]
+            },
+            {
+              "row": 4,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Stop-Rayons Format 77 × 140 mm",
+              "bbox": [
+                1132.3447875976562,
+                1050.6955261230469,
+                1505.7852783203125,
+                1154.5510864257812
+              ],
+              "ocr_confidence": 0.9542557001113892,
+              "source_block_ids": [
+                "p1_b20"
+              ]
+            },
+            {
+              "row": 4,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "14,59 €",
+              "bbox": [
+                144.13603043556213,
+                1154.6031494140625,
+                1132.1993408203125,
+                1229.8845825195312
+              ],
+              "ocr_confidence": 0.9999296069145203,
+              "source_block_ids": [
+                "p1_b22"
+              ]
+            },
+            {
+              "row": 5,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Logistique",
+              "bbox": [
+                1132.4650268554688,
+                1154.5142822265625,
+                1505.3612060546875,
+                1229.6436767578125
+              ],
+              "ocr_confidence": 0.9979141354560852,
+              "source_block_ids": [
+                "p1_b23"
+              ]
+            },
+            {
+              "row": 5,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "8,91 €",
+              "bbox": [
+                144.24439096450806,
+                1229.5852966308594,
+                1131.891357421875,
+                1333.7269287109375
+              ],
+              "ocr_confidence": 0.9871635735034943,
+              "source_block_ids": [
+                "p1_b24",
+                "p1_b26"
+              ]
+            },
+            {
+              "row": 6,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Annonces presse Prépresse",
+              "bbox": [
+                1132.2166748046875,
+                1229.5160827636719,
+                1505.60498046875,
+                1333.5504150390625
+              ],
+              "ocr_confidence": 0.9986706376075745,
+              "source_block_ids": [
+                "p1_b25"
+              ]
+            },
+            {
+              "row": 6,
+              "column": 1,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "2,77 €",
+              "bbox": [
+                142.70341610908508,
+                1333.4888916015625,
+                1131.5459594726562,
+                1432.84326171875
+              ],
+              "ocr_confidence": 0.9958718717098236,
+              "source_block_ids": [
+                "p1_b27",
+                "p1_b29"
+              ]
+            },
+            {
+              "row": 7,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Site Web Hébergement et gestion du site",
+              "bbox": [
+                1132.064697265625,
+                1333.4210815429688,
+                1505.72021484375,
+                1432.70849609375
+              ],
+              "ocr_confidence": 0.9997331500053406,
+              "source_block_ids": [
+                "p1_b28"
+              ]
+            }
+          ],
+          "html": "<html><body><table><tr><td colspan=\"2\"></td></tr><tr><td>Désignation</td><td>Montant HT</td></tr><tr><td>Production Photo & Ambiances, Repiquage adresse, Prépresse, Impression, Livraison de 3 100 exemplaires</td><td>302,16 €</td></tr><tr><td>Affiches 12 modèles. format 48 x 68 cm. Prépresse. Impression</td><td>16,67 €</td></tr><tr><td>Stop-Rayons Format 77 × 140 mm</td><td>14,59 €</td></tr><tr><td>Logistique</td><td>8,91 €</td></tr><tr><td>Annonces presse Prépresse</td><td>2,77 €</td></tr><tr><td>Site Web Hébergement et gestion du site</td><td>0,31 €</td></tr></tbody></table></body></html>"
+        },
+        {
+          "table_id": "p1_t1",
+          "bbox": [
+            974.3855590820312,
+            1499.0928955078125,
+            1511.744384765625,
+            1768.3121337890625
+          ],
+          "structure_confidence": 0.8221895098686218,
+          "cells": [
+            {
+              "row": 0,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "Totaux TOTAL HT TVA TOTAL TTC",
+              "bbox": [
+                977.1410853862762,
+                1529.0,
+                1269.1929321289062,
+                1725.0
+              ],
+              "ocr_confidence": 0.9929253309965134,
+              "source_block_ids": [
+                "p1_b30",
+                "p1_b31",
+                "p1_b33",
+                "p1_b35"
+              ]
+            },
+            {
+              "row": 1,
+              "column": 0,
+              "row_span": 1,
+              "column_span": 1,
+              "text": "345,41 € 69,08 € 414,50 €",
+              "bbox": [
+                1381.0,
+                1608.0,
+                1485.0,
+                1726.0
+              ],
+              "ocr_confidence": 0.9998526573181152,
+              "source_block_ids": [
+                "p1_b32",
+                "p1_b34",
+                "p1_b36"
+              ]
+            }
+          ],
+          "html": "<html><body><table><tr><td>Totaux TOTAL HT TVA TOTAL TTC</td></tr><tr><td>345,41 € 69,08 € 414,50 €</td></tr></tbody></table></body></html>"
+        }
+      ],
+      "warnings": [
+        "Table 1 has 15 HTML cell(s) but 14 valid cell box(es); only matched cells were kept."
+      ]
+    }
+  ],
+  "source_mime_type": "image/png",
+  "warnings": [
+    "Page 1: Table 1 has 15 HTML cell(s) but 14 valid cell box(es); only matched cells were kept."
+  ]
+}
